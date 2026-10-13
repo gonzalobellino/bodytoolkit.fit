@@ -1,0 +1,988 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2025-12-22",
+  "metadata": {
+    "source": "Corrective exercise triage framework. Content based on public-domain and peer-reviewed assessments and rehabilitation literature (e.g. Cook FMS, Kendall, McGill, Kibler, Silfverskiöld, Thomas test variants, PNF Knott-Voss). Scope consistent with corrective exercise practice.",
+    "description": "Clinical cases for progressive triage - identification of signs and decision",
+    "levels": {
+      "training": "Guided - Category indicators are shown on signs",
+      "practice": "Practice - Only some indicators are visible",
+      "evaluation": "Evaluation - No hints, as in real life"
+    },
+    "signCategories": {
+      "green": "Favorable signs - indicate you can train",
+      "yellow": "Caution signs - suggest referral",
+      "red": "Red flags - urgent referral required"
+    }
+  },
+  "cases": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "region": "lumbar",
+      "title": "Postural low back pain in office worker",
+      "patient": {
+        "profile": "Female, 34 years old, office worker"
+      },
+      "scenario": "34-year-old female client presents with low back pain for 3 weeks that worsens at the end of the workday. She works 8 hours seated at a computer. Started running 2 months ago (3x/week). No specific trauma remembered.",
+      "signs": [
+        {
+          "text": "Pain 4/10 at rest, 6/10 after prolonged sitting",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No radiation to lower limbs",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Full lumbar mobility",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Strength preserved (5/5 bilaterally)",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Normal reflexes",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Marked lumbar hyperlordosis",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Positive Thomas test bilaterally",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Pain worsens with prolonged activity",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "This case shows a classic MECHANICAL low back pain pattern associated with postural dysfunction. Key findings: no radiation (rules out radiculopathy), full mobility, normal strength and reflexes (no neurologic deficit), and an identifiable postural pattern. NO red flags.",
+      "keyPoints": [
+        "Mechanical pain related to position/activity",
+        "No neurologic signs",
+        "Identifiable and correctable postural pattern"
+      ],
+      "approach": [
+        "Psoas and rectus femoris stretching",
+        "Core activation (dead bug, bird dog)",
+        "Postural correction in sitting"
+      ],
+      "tags": [
+        "postural",
+        "mechanical",
+        "sedentary"
+      ]
+    },
+    {
+      "id": 2,
+      "difficulty": "moderate",
+      "region": "lumbar",
+      "title": "Low back pain with leg radiation",
+      "patient": {
+        "profile": "Male, 52 years old, bus driver"
+      },
+      "scenario": "52-year-old male client presents with low back pain radiating to the glute and posterior right thigh for 6 weeks. Started after lifting a heavy suitcase. Improves somewhat with anti-inflammatories. History of similar episodes 5 and 8 years ago.",
+      "signs": [
+        {
+          "text": "Radiation follows L5-S1 dermatome",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Occasional paresthesia on lateral foot",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Plantarflexion strength decreased (4/5)",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Right Achilles reflex decreased",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Positive straight leg raise at 45 deg right",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Antalgic posture with lateral shift",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Normal sphincter control",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No saddle anesthesia",
+          "category": "green",
+          "key": true
+        }
+      ],
+      "correctAnswer": "refer",
+      "reasoning": "Findings suggest lumbar RADICULOPATHY (L5-S1). The presence of OBJECTIVE NEUROLOGIC DEFICIT (strength 4/5 and decreased reflex) requires referral. IMPORTANT: absence of cauda equina signs (sphincter control OK) means it is not urgent.",
+      "keyPoints": [
+        "Objective neurologic deficit requires medical evaluation",
+        "Clear radicular pattern (L5-S1 dermatome)",
+        "NO cauda equina signs = not urgent"
+      ],
+      "approach": [
+        "After medical evaluation: progressive neural mobilization",
+        "Avoid loaded lumbar flexion initially"
+      ],
+      "tags": [
+        "radiculopathy",
+        "neurologic",
+        "hernia"
+      ]
+    },
+    {
+      "id": 3,
+      "difficulty": "hard",
+      "region": "lumbar",
+      "title": "Night low back pain in smoker",
+      "patient": {
+        "profile": "Male, 67 years old, retired"
+      },
+      "scenario": "67-year-old male client with progressive low back pain for 2 months that does not improve with rest or changing positions. Pain is constant, even at night, waking him at 3-4am. Smoker of 40 pack-years. History of prostate cancer treated 4 years ago.",
+      "signs": [
+        {
+          "text": "Night pain that wakes the patient",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Unintentional weight loss (8 kg in 2 months)",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "History of prior cancer",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Constant, non-mechanical pain",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Age >50 with new, progressive pain",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Significant smoking history (40 pack-years)",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Pain with vertebral percussion",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "No improvement with rest or position changes",
+          "category": "red",
+          "key": true
+        }
+      ],
+      "correctAnswer": "urgent",
+      "reasoning": "MULTIPLE RED FLAGS for MALIGNANT PATHOLOGY: constant night pain, unintentional weight loss, cancer history (prostate commonly metastasizes to bone), non-mechanical pain. URGENT referral to rule out metastasis.",
+      "keyPoints": [
+        "Non-mechanical night pain = major red flag",
+        "Weight loss + cancer history = suspicion of malignancy",
+        "Multiple red flags = URGENT referral"
+      ],
+      "approach": [
+        "DO NOT START EXERCISE",
+        "Urgent referral to oncology"
+      ],
+      "tags": [
+        "oncology",
+        "red-flag",
+        "metastasis",
+        "urgent"
+      ]
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "region": "shoulder",
+      "title": "Impingement in a crossfitter",
+      "patient": {
+        "profile": "Female, 28 years old, programmer and crossfitter"
+      },
+      "scenario": "28-year-old female client with anterior right shoulder pain for 3 weeks, especially during overhead exercises. Trains CrossFit 5x/week. Pain started gradually without direct trauma. No significant night pain.",
+      "signs": [
+        {
+          "text": "Positive Hawkins-Kennedy",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Painful arc between 60-120 deg",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "External rotator strength 4+/5",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No joint instability",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Limited scapular mobility",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Bilateral scapular protraction",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "No significant night pain",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Gradual onset without trauma",
+          "category": "green",
+          "key": true
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "Findings are consistent with mild SUBACROMIAL IMPINGEMENT associated with scapulothoracic dysfunction. Positive Hawkins-Kennedy and typical painful arc. ABSENCE of red flags: no trauma, no night pain, no instability, near-normal strength.",
+      "keyPoints": [
+        "Functional impingement from scapular dysfunction",
+        "No signs of tear",
+        "No red flags - manageable with correctives"
+      ],
+      "approach": [
+        "Scapular stability work",
+        "Rotator cuff strengthening",
+        "Temporarily reduce overhead volume"
+      ],
+      "tags": [
+        "impingement",
+        "scapular",
+        "overhead"
+      ]
+    },
+    {
+      "id": 5,
+      "difficulty": "moderate",
+      "region": "knee",
+      "title": "Mechanical knee locking",
+      "patient": {
+        "profile": "Male, 45 years old, construction worker"
+      },
+      "scenario": "45-year-old male client with right knee pain for 4 weeks. Stands 10h/day at work. No clear trauma. Reports episodes where the knee \"locks\" in flexion and must be manually moved to unlock. Intermittent swelling.",
+      "signs": [
+        {
+          "text": "Intermittent mechanical locking",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Positive McMurray test",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Mild joint effusion",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Medial joint line tenderness",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Stable ligaments (Lachman, drawer negative)",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Limited end-range knee flexion",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Visible quadriceps atrophy",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Gait with slight limp",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "refer",
+      "reasoning": "Findings suggest a MENISCAL LESION: mechanical locking is pathognomonic, positive McMurray, joint line pain, effusion. Requires MRI to confirm and determine treatment.",
+      "keyPoints": [
+        "Mechanical locking = likely meniscal fragment",
+        "McMurray + joint line pain = high suspicion",
+        "Stable ligaments are good but do not rule out meniscus"
+      ],
+      "approach": [
+        "After diagnosis: quadriceps strengthening",
+        "Load management and proprioceptive work"
+      ],
+      "tags": [
+        "meniscus",
+        "locking",
+        "knee"
+      ]
+    },
+    {
+      "id": 6,
+      "difficulty": "hard",
+      "region": "lumbar",
+      "title": "Cauda equina syndrome",
+      "patient": {
+        "profile": "Female, 38 years old, amateur runner"
+      },
+      "scenario": "38-year-old female client with severe low back pain of sudden onset 2 days ago during deadlift. Pain 9/10 that does not improve. Since yesterday, difficulty urinating (needs to strain) and numbness in the perineal area.",
+      "signs": [
+        {
+          "text": "Saddle anesthesia/hypoesthesia",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Urinary retention / difficulty urinating",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Severe pain (9/10) unrelenting",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Very positive straight leg raise bilaterally",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Bilateral dorsiflexion weakness",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Sudden onset during effort",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Unable to remain upright",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Bilateral pain (not unilateral)",
+          "category": "yellow",
+          "key": true
+        }
+      ],
+      "correctAnswer": "urgent",
+      "reasoning": "NEUROSURGICAL EMERGENCY: CAUDA EQUINA SYNDROME. Triad present: saddle anesthesia, bladder dysfunction, bilateral motor deficit. Urgent surgical decompression in <24-48h. CALL EMERGENCY SERVICES.",
+      "keyPoints": [
+        "Cauda triad: perineal anesthesia + bladder dysfunction + motor deficit",
+        "Surgical emergency - every hour counts",
+        "Do not wait - call emergency services immediately"
+      ],
+      "approach": [
+        "DO NOTHING ELSE - CALL EMERGENCY SERVICES",
+        "Urgent referral to neurosurgery"
+      ],
+      "tags": [
+        "cauda-equina",
+        "emergency",
+        "red-flag",
+        "urgent"
+      ]
+    },
+    {
+      "id": 7,
+      "difficulty": "easy",
+      "region": "cervical",
+      "title": "Postural neck tension",
+      "patient": {
+        "profile": "Male, 22 years old, university student"
+      },
+      "scenario": "22-year-old male client with neck pain and stiffness for 1 week, worse on the right side. Spent many hours studying on a laptop with poor posture. Pain improves with heat and movement. No prior trauma.",
+      "signs": [
+        {
+          "text": "Limited cervical ROM to right rotation",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Trigger points in upper trapezius",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Marked forward head posture",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No radiation to arms",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Normal strength and reflexes in upper limbs",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No signs of myelopathy",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Pain improves with movement",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Increased thoracic kyphosis",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "TYPICAL picture of postural cervical muscle tension. Trigger points, clear postural pattern (FHP + kyphosis), improves with movement, and NO neurologic signs. Ideal CES case.",
+      "keyPoints": [
+        "Mechanical pain: improves with movement = benign",
+        "No radiation or neurologic signs",
+        "Clear and correctable postural pattern"
+      ],
+      "approach": [
+        "Chin tucks for deep neck flexors",
+        "Upper trap stretching",
+        "Thoracic mobility",
+        "Workstation ergonomics"
+      ],
+      "tags": [
+        "cervical",
+        "postural",
+        "muscle-tension"
+      ]
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "region": "elbow",
+      "title": "Classic lateral epicondylitis",
+      "patient": {
+        "profile": "Female, 48 years old, accountant"
+      },
+      "scenario": "48-year-old female client with right elbow and forearm pain for 6 weeks. Began with intensive mouse use during accounting close. Pain with gripping. No trauma.",
+      "signs": [
+        {
+          "text": "Positive Cozen test",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Positive Mill test",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Tenderness over lateral epicondyle",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Full elbow ROM",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No neurologic signs",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Pain reproduced with grip",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Gradual overuse onset",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No prior trauma",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "Classic LATERAL EPICONDYLITIS (tennis elbow). Specific tests positive (Cozen, Mill), typical location, overuse pattern, no neurologic signs. Tendinopathy that responds well to eccentric exercise.",
+      "keyPoints": [
+        "Specific tests positive = clear diagnosis",
+        "Tendinopathy responds well to exercise",
+        "Full ROM and no neurologic signs"
+      ],
+      "approach": [
+        "Eccentric exercises (Tyler twist, Flexbar)",
+        "Mouse ergonomics modification",
+        "Extensor stretching"
+      ],
+      "tags": [
+        "epicondylitis",
+        "tendinopathy",
+        "eccentric"
+      ]
+    },
+    {
+      "id": 9,
+      "difficulty": "hard",
+      "region": "thoracic",
+      "title": "Myelopathy in immunosuppressed",
+      "patient": {
+        "profile": "Male, 71 years old, retired with COPD"
+      },
+      "scenario": "71-year-old male client with constant mid-back pain and progressive leg weakness over the last 3 weeks. Walking is increasingly difficult. Uses chronic inhaled and oral steroids for severe COPD. Intermittent low-grade fever (37.5-38 C).",
+      "signs": [
+        {
+          "text": "Progressive bilateral lower limb weakness (3+/5)",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Hyperreflexia in lower limbs",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Bilateral positive Babinski",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Low-grade fever (37.5-38 C)",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Thoracic spine percussion pain",
+          "category": "red",
+          "key": true
+        },
+        {
+          "text": "Chronic steroid use (immunosuppression)",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Unsteady gait with wide base",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Progressive symptoms (worsening)",
+          "category": "red",
+          "key": true
+        }
+      ],
+      "correctAnswer": "urgent",
+      "reasoning": "SUSPECTED SPINAL INFECTION with MYELOPATHY. Fever + vertebral pain + UPPER MOTOR NEURON SIGNS (hyperreflexia, Babinski) indicate spinal cord compression. Immunosuppression increases risk. Urgent MRI.",
+      "keyPoints": [
+        "Fever + spinal pain + immunosuppression = infection until proven otherwise",
+        "Babinski/hyperreflexia = cord compression",
+        "Rapid progression = higher urgency"
+      ],
+      "approach": [
+        "DO NOT START EXERCISE",
+        "URGENT referral to hospital",
+        "Urgent thoracic spine MRI"
+      ],
+      "tags": [
+        "infection",
+        "myelopathy",
+        "red-flag",
+        "urgent"
+      ]
+    },
+    {
+      "id": 10,
+      "difficulty": "easy",
+      "region": "ankle",
+      "title": "Chronic ankle instability",
+      "patient": {
+        "profile": "Female, 40 years old, yoga teacher"
+      },
+      "scenario": "40-year-old female client reports left ankle instability with recurrent sprains (3 in the last year). First severe sprain was 3 years ago. Currently no pain. The ankle \"gives way\" on uneven surfaces.",
+      "signs": [
+        {
+          "text": "No current pain or swelling",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Slightly positive anterior drawer",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Proprioceptive deficit on balance test",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Weak peroneals and evertors",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Full ROM without pain",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Delayed peroneal activation",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "History of prior sprains",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Functional instability (sensation)",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "CHRONIC ANKLE INSTABILITY post-sprain. No acute injury; problem is proprioceptive deficit and weakness. Neuromuscular training has excellent evidence and is the treatment of choice.",
+      "keyPoints": [
+        "No acute injury = safe to train",
+        "Functional instability responds very well to exercise",
+        "Proprioceptive deficit and weakness = clear targets"
+      ],
+      "approach": [
+        "Progressive proprioceptive training",
+        "Peroneal strengthening (theraband)",
+        "Progressive plyometrics and agility"
+      ],
+      "tags": [
+        "ankle",
+        "instability",
+        "proprioception"
+      ]
+    },
+    {
+      "id": 11,
+      "difficulty": "moderate",
+      "region": "shoulder",
+      "title": "Suspected rotator cuff tear",
+      "patient": {
+        "profile": "Male, 55 years old, painter"
+      },
+      "scenario": "55-year-old male client with right shoulder pain for 3 months after a fall on an outstretched arm. Significant night pain that wakes him. Progressive difficulty lifting the arm and combing hair. Works painting ceilings.",
+      "signs": [
+        {
+          "text": "Positive drop arm test",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Positive empty can test with weakness",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Lag sign in external rotation",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Significant night pain",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "External rotation strength 3/5",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Visible supraspinatus fossa atrophy",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Traumatic onset (fall)",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Progressive functional limitation",
+          "category": "yellow",
+          "key": false
+        }
+      ],
+      "correctAnswer": "refer",
+      "reasoning": "Multiple signs suggest ROTATOR CUFF TEAR: positive drop arm and lag sign (specific), significant weakness, visible atrophy, trauma + age >50. Imaging required to decide treatment.",
+      "keyPoints": [
+        "Drop arm + lag sign = high specificity for tear",
+        "Weakness + atrophy = likely tear",
+        "Imaging needed to decide treatment"
+      ],
+      "approach": [
+        "Depends on tear size on imaging",
+        "Small tear: may be conservative",
+        "Large tear: likely surgery"
+      ],
+      "tags": [
+        "rotator-cuff",
+        "tear",
+        "shoulder"
+      ]
+    },
+    {
+      "id": 12,
+      "difficulty": "moderate",
+      "region": "lumbar",
+      "title": "Inflammatory low back pain",
+      "patient": {
+        "profile": "Female, 26 years old, law student"
+      },
+      "scenario": "26-year-old female client with low back and bilateral glute pain for 8 months. Morning stiffness lasting >1 hour and improves with activity. Wakes at 4-5am due to pain. Improves significantly with ibuprofen. Brother has psoriasis.",
+      "signs": [
+        {
+          "text": "Morning stiffness >60 minutes",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Pain improves with exercise",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Night pain (second half of night)",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Good response to NSAIDs",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Age <40 with chronic pain",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Family history of autoimmune disease",
+          "category": "yellow",
+          "key": true
+        },
+        {
+          "text": "Bilateral glute pain",
+          "category": "yellow",
+          "key": false
+        },
+        {
+          "text": "Insidious onset",
+          "category": "yellow",
+          "key": false
+        }
+      ],
+      "correctAnswer": "refer",
+      "reasoning": "Profile of INFLAMMATORY LOW BACK PAIN. Meets criteria: prolonged morning stiffness, improves with exercise and NSAIDs, night pain, family history of autoimmunity. Possible SPONDYLOARTHROPATHY. Requires rheumatologic evaluation.",
+      "keyPoints": [
+        "Inflammatory pain != mechanical pain (improves with movement)",
+        "Prolonged morning stiffness is key",
+        "Family history of autoimmunity is relevant"
+      ],
+      "approach": [
+        "After rheumatology diagnosis: exercise is ESSENTIAL",
+        "Spinal mobility and aerobic exercise",
+        "Confirm diagnosis first"
+      ],
+      "tags": [
+        "inflammatory",
+        "spondyloarthropathy",
+        "rheumatology"
+      ]
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "region": "ankle",
+      "title": "Plantar fasciitis in recreational runner",
+      "patient": {
+        "profile": "Male, 29 years old, recreational runner"
+      },
+      "scenario": "29-year-old runner reports heel pain for 6 weeks. Pain is worst with the first steps in the morning and after long periods of sitting. He recently increased weekly mileage and started hill training. No trauma reported.",
+      "signs": [
+        {
+          "text": "Heel pain with first steps in the morning",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Pain decreases after warm-up",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Tenderness at the medial calcaneal tubercle",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No swelling, redness, or heat",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No numbness or tingling",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Limited ankle dorsiflexion",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Recent increase in running volume",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "No acute trauma",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "Presentation is consistent with mechanical plantar fasciitis: morning start-up pain, load-related symptoms, and no red flags. Safe to train with load management and corrective focus.",
+      "keyPoints": [
+        "Classic start-up heel pain pattern",
+        "No neurological or inflammatory red flags",
+        "Likely overload from training increase"
+      ],
+      "approach": [
+        "Reduce running volume and avoid hills temporarily",
+        "Calf and plantar fascia mobility",
+        "Foot intrinsic strengthening",
+        "Gradual return to impact"
+      ],
+      "tags": [
+        "plantar-fasciitis",
+        "foot",
+        "running"
+      ]
+    },
+    {
+      "id": 14,
+      "difficulty": "easy",
+      "region": "knee",
+      "title": "Patellofemoral pain in gym member",
+      "patient": {
+        "profile": "Female, 22 years old, recreational athlete"
+      },
+      "scenario": "22-year-old female reports anterior knee pain for 2 months, worse with stairs, squats, and long sitting. She recently added more plyometrics to her training. No trauma or swelling reported.",
+      "signs": [
+        {
+          "text": "Anterior knee pain with stairs and squats",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No locking or giving way",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "No swelling or effusion",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Dynamic knee valgus on single-leg squat",
+          "category": "green",
+          "key": true
+        },
+        {
+          "text": "Hip abduction weakness noted",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Symptoms improved with activity modification",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "Recent training volume increase",
+          "category": "green",
+          "key": false
+        },
+        {
+          "text": "No history of acute trauma",
+          "category": "green",
+          "key": false
+        }
+      ],
+      "correctAnswer": "train",
+      "reasoning": "Pattern aligns with mechanical patellofemoral pain. No instability, swelling, or trauma. Safe to train with technique work and load adjustment.",
+      "keyPoints": [
+        "Anterior knee pain with load",
+        "No red flags or instability",
+        "Movement quality and load management are central"
+      ],
+      "approach": [
+        "Reduce plyometrics temporarily",
+        "Hip and glute strengthening",
+        "Improve squat and landing mechanics",
+        "Gradual return to full training"
+      ],
+      "tags": [
+        "patellofemoral",
+        "knee",
+        "running"
+      ]
+    }
+  ]
+}

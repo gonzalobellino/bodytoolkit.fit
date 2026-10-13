@@ -1,0 +1,2412 @@
+[
+  {
+    "name": "Knee Valgus",
+    "category": "Dynamic Patterns - Lower Limb",
+    "images": [],
+    "videos": [],
+    "overview": "Knee valgus (medial knee collapse) is one of the most prevalent and clinically significant dysfunctional movement patterns. It is characterized by medial drift of the knee during functional movements such as squatting, landing, or cutting. It is especially common in young women (2-8x higher) due to anatomical (increased Q-angle, narrower femoral notch), hormonal, and neuromuscular factors. It is also very common in beginners of both sexes and in athletes with poor motor control.",
+    "biomechanical_mechanism": "Dynamic valgus results from a combination of: (1) femoral internal rotation and adduction (glute med/max weakness or inhibition), (2) tibial internal rotation, (3) excessive foot pronation, and (4) possible medial arch collapse. The primary driver is inadequate eccentric control of femoral adduction/internal rotation during loading, creating a valgus moment at the knee and increasing stress on the ACL (up to 3x), medial meniscus, and patellofemoral cartilage.",
+    "common_compensations": [
+      "Compensatory tibial external rotation to keep the foot forward",
+      "Increased hip flexion to reduce valgus moment",
+      "Lateral trunk shift over the stance leg",
+      "Excess foot pronation with medial arch collapse",
+      "Quadriceps dominance over glutes and hamstrings"
+    ],
+    "differential_diagnosis": [
+      "ACL injury (compromised passive stability)",
+      "Patellofemoral pain syndrome",
+      "Patellar or quadriceps tendinopathy",
+      "IT band friction syndrome",
+      "Rotational knee instability"
+    ],
+    "practical_solution": "Level-based protocol: Beginners focus on isolated glute activation and proprioceptive awareness (4-6 weeks). Intermediates integrate bilateral and unilateral strength work (4-6 weeks). Advanced/athletes use controlled plyometrics and sport-specific drills (4-8 weeks). Frequency: 3-4x per week.",
+    "clinical_rationale": "Knee valgus is a major risk factor for ACL injury, especially in female athletes (up to 8x higher). Early correction is critical. Most cases respond very well to neuromuscular training. The key is proper progression: activation → strength → motor control → functional integration. Do not skip phases.",
+    "progression": [
+      "Level 1: Activation in stable positions (supine, quadruped)",
+      "Level 2: Bilateral closed-chain strengthening",
+      "Level 3: Unilateral control exercises",
+      "Level 4: Plyometrics and sport-specific movement"
+    ],
+    "regression": [
+      "Reduce squat range of motion",
+      "Use external feedback (band around knees, mirror)",
+      "Return to bilateral work if unilateral control breaks down",
+      "Slow the movement tempo"
+    ],
+    "red_flags": [
+      "True knee instability (giving way)",
+      "Recurrent joint effusion without clear cause",
+      "Mechanical locking",
+      "Severe pain with load (>7/10)",
+      "Recent acute trauma"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__overpronation",
+      "p__lateral_pelvic_tilt"
+    ],
+    "id": "p__knee_valgus",
+    "exercise_ids": [
+      "e__clamshell",
+      "e__monster_walk",
+      "e__lateral_step_band",
+      "e__step_down",
+      "e__single_leg_hip_thrust",
+      "e__glute_bridge",
+      "e__tfl_it_band_smr",
+      "e__adductor_smr",
+      "e__side_lying_hip_abduction",
+      "e__single_leg_balance",
+      "e__goblet_squat",
+      "e__overhead_squat"
+    ],
+    "assessment_ids": [
+      "a__overhead_squat_assessment",
+      "a__single_leg_squat_assessment",
+      "a__drop_jump_landing_assessment",
+      "a__hip_abduction_strength_assessment",
+      "a__trendelenburg_assessment"
+    ],
+    "evidence": {
+      "level": "strong",
+      "summary": "Hip-focused strengthening and neuromuscular training are supported for reducing dynamic knee valgus risk factors and improving control.",
+      "sources": [
+        {
+          "title": "Anteromedial versus posterolateral hip musculature strengthening with dose-controlled in women with patellofemoral pain: A randomized controlled trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33689989/",
+          "type": "RCT",
+          "doi": "10.1016/j.ptsp.2021.02.016",
+          "doi_url": "https://doi.org/10.1016/j.ptsp.2021.02.016"
+        },
+        {
+          "title": "Dynamic Knee Valgus in Single-Leg Movement Tasks. Potentially Modifiable Factors and Exercise Training Options. A Literature Review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33172101/",
+          "type": "literature review",
+          "doi": "10.3390/ijerph17218208",
+          "doi_url": "https://doi.org/10.3390/ijerph17218208"
+        },
+        {
+          "title": "The relationship of hip strength and dynamic knee valgus during single leg squat in physically active females.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39593440/",
+          "type": "observational",
+          "doi": "10.1016/j.jbmt.2024.07.045",
+          "doi_url": "https://doi.org/10.1016/j.jbmt.2024.07.045"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rounded Shoulders",
+    "category": "Postural Patterns - Scapular Girdle",
+    "images": [],
+    "videos": [],
+    "overview": "Rounded shoulders is a postural pattern characterized by scapular protraction and internal rotation, often accompanied by thoracic kyphosis. It is common in people with prolonged sitting or heavy pushing volume and contributes to shoulder dysfunction, impingement, and neck tension.",
+    "biomechanical_mechanism": "Shortened pectoralis minor/major, overactive upper trapezius and levator scapulae, and weak mid/lower trapezius and serratus anterior. This leads to anterior tilt and downward rotation of the scapula, narrowing the subacromial space and altering glenohumeral mechanics.",
+    "common_compensations": [
+      "Forward head posture",
+      "Thoracic kyphosis",
+      "Scapular winging",
+      "Limited overhead ROM"
+    ],
+    "differential_diagnosis": [
+      "Shoulder impingement",
+      "Rotator cuff tendinopathy",
+      "Cervical radiculopathy",
+      "Thoracic outlet syndrome"
+    ],
+    "practical_solution": "Emphasize soft tissue release and stretching first, then scapular stabilization and thoracic mobility. Avoid excessive pressing volume until posture improves.",
+    "clinical_rationale": "Rounded shoulders reduce subacromial space and increase the risk of impingement and cuff overload. Correcting the scapular position improves overhead mechanics and reduces neck/shoulder strain.",
+    "progression": [
+      "Level 1: SMR + stretching",
+      "Level 2: Scapular activation",
+      "Level 3: Integrated pulling patterns",
+      "Level 4: Overhead integration"
+    ],
+    "regression": [
+      "Reduce ROM or load",
+      "Use supported positions",
+      "Focus on slow, controlled movement"
+    ],
+    "red_flags": [
+      "Severe shoulder pain at rest",
+      "Neurological symptoms (numbness, radiating pain)",
+      "Recent trauma or dislocation"
+    ],
+    "related_patterns": [
+      "p__forward_head_posture",
+      "p__thoracic_kyphosis",
+      "p__scapular_dyskinesis"
+    ],
+    "id": "p__rounded_shoulders",
+    "exercise_ids": [
+      "e__pec_ball_roll",
+      "e__chest_opener",
+      "e__wall_elbow_walk_band",
+      "e__y_raise_swiss_ball",
+      "e__scapular_squeeze",
+      "e__ytw_series",
+      "e__face_pull",
+      "e__external_rotation_band",
+      "e__thoracic_extension_foam_roller",
+      "e__pec_minor_smr",
+      "e__wall_angels",
+      "e__doorway_pec_stretch",
+      "e__banded_pull_apart",
+      "e__posterior_shoulder_ball"
+    ],
+    "assessment_ids": [
+      "a__shoulder_press_assessment",
+      "a__postural_assessment_side_view_assessment",
+      "a__pectoralis_major_muscle_length_kendall_based",
+      "a__pectoralis_minor_length_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Postural exercise effects are variable; improvements are reported but evidence is heterogeneous across programs.",
+      "sources": [
+        {
+          "title": "Decreasing thoracic hyperkyphosis - Which treatments are most effective? A systematic literature review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34375856/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.msksp.2021.102438",
+          "doi_url": "https://doi.org/10.1016/j.msksp.2021.102438"
+        },
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Scapular Dyskinesis",
+    "category": "Dynamic Patterns - Scapular Girdle",
+    "images": [],
+    "videos": [],
+    "overview": "Scapular dyskinesis refers to altered scapular motion or positioning during arm movement. It is often associated with shoulder pain, impingement, and reduced overhead performance.",
+    "biomechanical_mechanism": "Imbalance between scapular stabilizers (serratus anterior, lower trapezius) and overactive upper trapezius or pectoralis minor. Poor thoracic mobility can further reduce upward rotation and posterior tilt.",
+    "common_compensations": [
+      "Winging during elevation",
+      "Early upper trap dominance",
+      "Limited overhead reach"
+    ],
+    "differential_diagnosis": [
+      "Rotator cuff tendinopathy",
+      "Impingement syndrome",
+      "Cervical involvement"
+    ],
+    "practical_solution": "Improve thoracic mobility and scapular stabilization before heavy overhead work. Reinforce upward rotation and posterior tilt patterns.",
+    "clinical_rationale": "Scapular control is essential for shoulder mechanics. Dysfunction increases impingement risk and reduces force transfer.",
+    "progression": [
+      "Level 1: Low-load activation",
+      "Level 2: Isometrics and controlled ROM",
+      "Level 3: Loaded retraction/protraction",
+      "Level 4: Overhead integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Focus on slow tempo"
+    ],
+    "red_flags": [
+      "Severe shoulder pain",
+      "Loss of strength after trauma",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__rounded_shoulders"
+    ],
+    "id": "p__scapular_dyskinesis",
+    "exercise_ids": [
+      "e__wall_elbow_walk_band",
+      "e__y_raise_swiss_ball",
+      "e__serratus_push_up",
+      "e__scapular_squeeze",
+      "e__ytw_series",
+      "e__face_pull",
+      "e__wall_slide",
+      "e__external_rotation_band",
+      "e__thoracic_extension_foam_roller",
+      "e__bear_position",
+      "e__posterior_shoulder_ball",
+      "e__plank_roll"
+    ],
+    "assessment_ids": [
+      "a__scapular_dyskinesis_assessment",
+      "a__scapular_assistance_assessment",
+      "a__lateral_scapular_slide_assessment"
+    ],
+    "evidence": {
+      "level": "strong",
+      "summary": "Scapular stabilization programs improve pain and function in subacromial pain/impingement, supporting targeted scapular training.",
+      "sources": [
+        {
+          "title": "Effect of scapular stabilization exercises on subacromial pain (impingement) syndrome: a systematic review and meta-analysis of randomized controlled trials.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38497039/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.3389/fneur.2024.1357763",
+          "doi_url": "https://doi.org/10.3389/fneur.2024.1357763"
+        },
+        {
+          "title": "Scapular stabilization exercise on pain and functional recovery in people with shoulder impingement syndrome: a systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39983700/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1080/00913847.2025.2470115",
+          "doi_url": "https://doi.org/10.1080/00913847.2025.2470115"
+        },
+        {
+          "title": "Effect of scapular stabilization exercise program in patients with subacromial impingement syndrome: a systematic review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32724778/",
+          "type": "systematic review",
+          "doi": "10.12965/jer.2040256.128",
+          "doi_url": "https://doi.org/10.12965/jer.2040256.128"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Forward Head Posture",
+    "category": "Cervical - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Forward head posture is an anterior displacement of the head relative to the line of gravity. It is common in desk workers and contributes to neck pain, headaches, and upper crossed syndrome.",
+    "biomechanical_mechanism": "Shortened suboccipitals, SCM, and levator scapulae with weak deep neck flexors. This increases cervical extensor tone and compressive load on the lower cervical spine.",
+    "common_compensations": [
+      "Upper cervical extension",
+      "Rounded shoulders",
+      "Thoracic kyphosis"
+    ],
+    "differential_diagnosis": [
+      "Cervicogenic headache",
+      "Disc pathology",
+      "Cervical radiculopathy"
+    ],
+    "practical_solution": "Reduce prolonged forward-head positions, build deep neck flexor endurance, and improve thoracic posture.",
+    "clinical_rationale": "FHP increases compressive load on the cervical spine and drives upper crossed syndrome. Corrective work reduces symptoms and improves alignment.",
+    "progression": [
+      "Level 1: Supine activation",
+      "Level 2: Seated activation",
+      "Level 3: Standing control",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce hold time",
+      "Use manual cueing",
+      "Perform in supported positions"
+    ],
+    "red_flags": [
+      "Severe or progressive neurological symptoms",
+      "Recent trauma",
+      "Night pain"
+    ],
+    "related_patterns": [
+      "p__rounded_shoulders",
+      "p__upper_crossed_syndrome",
+      "p__thoracic_kyphosis"
+    ],
+    "id": "p__forward_head_posture",
+    "exercise_ids": [
+      "e__chin_tuck",
+      "e__dnf_activation",
+      "e__suboccipital_release",
+      "e__cervical_rotation",
+      "e__cervical_sidebend",
+      "e__thoracic_extension_foam_roller",
+      "e__upper_trap_levator_stretch"
+    ],
+    "assessment_ids": [
+      "a__wall_test_fhp_assessment",
+      "a__ccft_assessment",
+      "a__chin_tuck_test_assessment",
+      "a__postural_assessment_side_view_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Exercise-based programs for forward head posture show improvements in craniovertebral angle and neck symptoms, with moderate overall evidence quality.",
+      "sources": [
+        {
+          "title": "Impact of physical exercise (strength and stretching) on repairing craniovertebral and reducing neck pain: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39483836/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.4103/jcvjs.jcvjs_107_24",
+          "doi_url": "https://doi.org/10.4103/jcvjs.jcvjs_107_24"
+        },
+        {
+          "title": "The Effects of Rehabilitation Programs Incorporating Breathing Interventions on Chronic Neck Pain Among Patients with Forward Head Posture: A Systematic Review and Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41007191/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.3390/bioengineering12090947",
+          "doi_url": "https://doi.org/10.3390/bioengineering12090947"
+        },
+        {
+          "title": "Exercise therapy to improve cervical proprioception in individuals with asymptomatic forward head posture: A systematic review of randomized controlled trials.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40966220/",
+          "type": "systematic review",
+          "doi": "10.1371/journal.pone.0330665",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0330665"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cervical Rotation Restriction",
+    "category": "Cervical - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted cervical rotation limits head turning and can contribute to compensatory thoracic rotation and headaches.",
+    "biomechanical_mechanism": "Joint restrictions at C1-C2, soft tissue tightness (SCM, scalenes), and thoracic stiffness are common contributors.",
+    "common_compensations": [
+      "Excess thoracic rotation",
+      "Shoulder elevation",
+      "Forward head posture"
+    ],
+    "differential_diagnosis": [
+      "Cervical facet dysfunction",
+      "Disc pathology",
+      "Vestibular issues"
+    ],
+    "practical_solution": "Restore upper cervical mobility while improving thoracic rotation to reduce compensatory patterns.",
+    "clinical_rationale": "Loss of cervical rotation often shifts movement to the thoracic spine, increasing strain. Restoring rotation improves function and reduces symptoms.",
+    "progression": [
+      "Level 1: Low-load AROM",
+      "Level 2: Assisted ROM",
+      "Level 3: End-range control",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce range",
+      "Perform in supine",
+      "Reduce speed"
+    ],
+    "red_flags": [
+      "Dizziness, drop attacks",
+      "Neurological symptoms",
+      "Recent trauma"
+    ],
+    "related_patterns": [
+      "p__forward_head_posture",
+      "p__upper_crossed_syndrome"
+    ],
+    "id": "p__cervical_rotation_restriction",
+    "exercise_ids": [
+      "e__cervical_rotation",
+      "e__tspine_rotation",
+      "e__chin_tuck",
+      "e__suboccipital_release",
+      "e__cat_cow",
+      "e__thread_the_needle",
+      "e__upper_trap_levator_smr"
+    ],
+    "assessment_ids": [
+      "a__cervical_rotation_assessment",
+      "a__flexion_rotation_assessment",
+      "a__thoracic_rotation_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Cervical rotation and mobility improvements with exercise and manual therapy are supported by systematic reviews; applicability to restriction patterns is limited.",
+      "sources": [
+        {
+          "title": "Effectiveness of Neural Mobilization Techniques in the Management of Musculoskeletal Neck Disorders with Nerve-Related Symptoms: A Systematic Review and Meta-Analysis with a Mapping Report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34633462/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1093/pm/pnab300",
+          "doi_url": "https://doi.org/10.1093/pm/pnab300"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Upper Crossed Syndrome",
+    "category": "Cervical/Thoracic - Global Pattern",
+    "images": [],
+    "videos": [],
+    "overview": "Upper crossed syndrome (Janda) is characterized by tight pectorals and superficial neck flexors with weak deep neck flexors and scapular stabilizers. It commonly presents with forward head posture and rounded shoulders.",
+    "biomechanical_mechanism": "Muscle imbalance drives scapular protraction and cervical extension. Thoracic kyphosis often reinforces the pattern.",
+    "common_compensations": [
+      "Forward head posture",
+      "Rounded shoulders",
+      "Thoracic kyphosis"
+    ],
+    "differential_diagnosis": [
+      "Cervical disc pathology",
+      "Thoracic outlet syndrome",
+      "Shoulder impingement"
+    ],
+    "practical_solution": "Address soft tissue restrictions first, then restore deep cervical and scapular control, and improve thoracic extension.",
+    "clinical_rationale": "This pattern increases neck and shoulder load and decreases overhead mechanics. Corrective work improves posture and reduces pain.",
+    "progression": [
+      "Level 1: SMR + stretching",
+      "Level 2: Activation",
+      "Level 3: Strength and control",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Shorten ROM"
+    ],
+    "red_flags": [
+      "Severe or progressive neurological symptoms",
+      "Recent trauma"
+    ],
+    "related_patterns": [
+      "p__forward_head_posture",
+      "p__rounded_shoulders",
+      "p__thoracic_kyphosis"
+    ],
+    "id": "p__upper_crossed_syndrome",
+    "exercise_ids": [
+      "e__chin_tuck",
+      "e__pec_ball_roll",
+      "e__tspine_foam_roll",
+      "e__scapular_squeeze",
+      "e__cervical_rotation",
+      "e__cervical_sidebend",
+      "e__ytw_series",
+      "e__face_pull",
+      "e__wall_slide",
+      "e__thoracic_extension_foam_roller",
+      "e__pec_minor_smr",
+      "e__wall_angels",
+      "e__doorway_pec_stretch"
+    ],
+    "assessment_ids": [
+      "a__ccft_assessment",
+      "a__postural_assessment",
+      "a__pectoralis_major_muscle_length_kendall_based",
+      "a__pectoralis_minor_length_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Evidence for posture correction is mixed; benefits depend on exercise selection and adherence.",
+      "sources": [
+        {
+          "title": "Decreasing thoracic hyperkyphosis - Which treatments are most effective? A systematic literature review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34375856/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.msksp.2021.102438",
+          "doi_url": "https://doi.org/10.1016/j.msksp.2021.102438"
+        },
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thoracic Kyphosis",
+    "category": "Thoracic - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Excessive thoracic kyphosis is a postural pattern characterized by increased thoracic curvature, often accompanied by rounded shoulders and forward head posture.",
+    "biomechanical_mechanism": "Thoracic flexion stiffness, weak thoracic extensors, and tight anterior shoulder structures. Prolonged sitting and poor posture are common contributors.",
+    "common_compensations": [
+      "Forward head posture",
+      "Rounded shoulders",
+      "Reduced overhead ROM"
+    ],
+    "differential_diagnosis": [
+      "Scheuermann's disease",
+      "Osteoporotic compression fractures",
+      "Scoliosis"
+    ],
+    "practical_solution": "Prioritize thoracic mobility and extension endurance while reducing prolonged flexed posture.",
+    "clinical_rationale": "Excess kyphosis impairs shoulder mechanics and increases cervical load. Improving thoracic extension reduces secondary compensations.",
+    "progression": [
+      "Level 1: Mobility drills",
+      "Level 2: Isometric extension",
+      "Level 3: Strength endurance",
+      "Level 4: Overhead integration"
+    ],
+    "regression": [
+      "Reduce ROM",
+      "Use supported positions",
+      "Shorten hold times"
+    ],
+    "red_flags": [
+      "Severe pain or deformity",
+      "Neurological symptoms",
+      "History of fracture"
+    ],
+    "related_patterns": [
+      "p__rounded_shoulders",
+      "p__forward_head_posture",
+      "p__upper_crossed_syndrome"
+    ],
+    "id": "p__thoracic_kyphosis",
+    "exercise_ids": [
+      "e__tspine_foam_roll",
+      "e__tspine_rotation",
+      "e__wall_angels",
+      "e__ytw_series",
+      "e__wall_slide",
+      "e__thoracic_extension_foam_roller",
+      "e__cat_cow",
+      "e__thread_the_needle",
+      "e__open_book",
+      "e__overhead_squat"
+    ],
+    "assessment_ids": [
+      "a__thoracic_flexicurve_assessment",
+      "a__thoracic_rotation_assessment",
+      "a__postural_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Exercise programs can reduce thoracic kyphosis angles, but effect size varies by protocol and population.",
+      "sources": [
+        {
+          "title": "Decreasing thoracic hyperkyphosis - Which treatments are most effective? A systematic literature review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34375856/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.msksp.2021.102438",
+          "doi_url": "https://doi.org/10.1016/j.msksp.2021.102438"
+        },
+        {
+          "title": "Effects of exercise programs on kyphosis and lordosis angle: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31034509/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1371/journal.pone.0216180",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0216180"
+        },
+        {
+          "title": "The impact of exercise on spinal posture in adolescents: a systematic review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41259572/",
+          "type": "systematic review",
+          "doi": "10.1590/1984-0462/2025/43/2025013",
+          "doi_url": "https://doi.org/10.1590/1984-0462/2025/43/2025013"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Thoracic Rotation Restriction",
+    "category": "Thoracic - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted thoracic rotation limits shoulder mechanics and can increase compensatory motion in the lumbar spine and cervical region.",
+    "biomechanical_mechanism": "Joint stiffness at the thoracic segments and soft tissue restrictions in the rib cage and paraspinals.",
+    "common_compensations": [
+      "Lumbar rotation compensation",
+      "Cervical rotation compensation",
+      "Shoulder asymmetry"
+    ],
+    "differential_diagnosis": [
+      "Rib dysfunction",
+      "Thoracic facet restriction",
+      "Scoliosis"
+    ],
+    "practical_solution": "Restore thoracic rotation to reduce compensatory lumbar motion and improve shoulder mechanics.",
+    "clinical_rationale": "Limited thoracic rotation shifts motion to the lumbar spine, increasing injury risk. Improving thoracic mobility supports more efficient movement.",
+    "progression": [
+      "Level 1: Low-load mobility",
+      "Level 2: Controlled rotation",
+      "Level 3: Integration with reaching",
+      "Level 4: Sport-specific rotation"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use supported positions",
+      "Slow the movement"
+    ],
+    "red_flags": [
+      "Severe thoracic pain",
+      "Neurological symptoms",
+      "History of fracture"
+    ],
+    "related_patterns": [
+      "p__thoracic_kyphosis",
+      "p__upper_crossed_syndrome"
+    ],
+    "id": "p__thoracic_rotation_restriction",
+    "exercise_ids": [
+      "e__tspine_rotation",
+      "e__cat_cow",
+      "e__thread_the_needle",
+      "e__open_book",
+      "e__quadruped_rock_back",
+      "e__sphinx_reach",
+      "e__tspine_foam_roll"
+    ],
+    "assessment_ids": [
+      "a__thoracic_rotation_assessment",
+      "a__quadruped_rotation_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Thoracic rotation and mobility can be improved with exercise and manual therapy; evidence is limited to specific populations and protocols.",
+      "sources": [
+        {
+          "title": "Comparative Analysis of Thoracic Rotation Exercises: Range of Motion Improvement in Standing and Quadruped Variants",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38902213/",
+          "type": "comparative study",
+          "doi": "10.18926/AMO/67200",
+          "doi_url": "https://doi.org/10.18926/AMO/67200"
+        },
+        {
+          "title": "A Single-Center Study Comparing the Effects of Thoracic Spine Manipulation vs Mobility Exercises in 26 Office Workers with Chronic Neck Pain: A Randomized Controlled Clinical Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35799408/",
+          "type": "RCT",
+          "doi": "10.12659/MSM.937316",
+          "doi_url": "https://doi.org/10.12659/MSM.937316"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Limited Shoulder Flexion",
+    "category": "Shoulder - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Limited shoulder flexion restricts overhead reach and often contributes to compensatory lumbar extension and rib flare.",
+    "biomechanical_mechanism": "Tight lats, teres major, pecs, and posterior capsule, with thoracic stiffness and poor scapular upward rotation.",
+    "common_compensations": [
+      "Lumbar extension",
+      "Rib flare",
+      "Scapular winging"
+    ],
+    "differential_diagnosis": [
+      "Adhesive capsulitis",
+      "Rotator cuff pathology",
+      "Impingement"
+    ],
+    "practical_solution": "Improve thoracic mobility and soft tissue length of lats/pecs before loading overhead patterns.",
+    "clinical_rationale": "Overhead restriction often leads to lumbar compensation and shoulder irritation. Addressing mobility and scapular control reduces risk.",
+    "progression": [
+      "Level 1: Mobility and stretching",
+      "Level 2: Scapular control",
+      "Level 3: Loaded overhead patterns",
+      "Level 4: Sport-specific overhead"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use supine drills",
+      "Decrease load"
+    ],
+    "red_flags": [
+      "Severe pain or night pain",
+      "Traumatic injury",
+      "Loss of strength"
+    ],
+    "related_patterns": [
+      "p__rounded_shoulders",
+      "p__scapular_dyskinesis"
+    ],
+    "id": "p__limited_shoulder_flexion",
+    "exercise_ids": [
+      "e__lat_smr",
+      "e__wall_elbow_walk_band",
+      "e__tspine_foam_roll",
+      "e__ytw_series",
+      "e__wall_slide",
+      "e__shoulder_press",
+      "e__thoracic_extension_foam_roller",
+      "e__pec_minor_smr",
+      "e__overhead_squat",
+      "e__wall_angels"
+    ],
+    "assessment_ids": [
+      "a__shoulder_press_assessment",
+      "a__overhead_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for improving shoulder flexion and overhead mobility with exercise is indirect; outcomes depend on addressing thoracic and scapular factors.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Shoulder GIRD",
+    "category": "Shoulder - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Glenohumeral internal rotation deficit (GIRD) is a loss of internal rotation commonly seen in overhead athletes.",
+    "biomechanical_mechanism": "Posterior capsule tightness, rotator cuff stiffness, and bony adaptation can reduce IR and increase impingement or labral stress.",
+    "common_compensations": [
+      "Scapular dyskinesis",
+      "Excess external rotation",
+      "Altered throwing mechanics"
+    ],
+    "differential_diagnosis": [
+      "SLAP lesion",
+      "Posterior capsule contracture",
+      "Impingement"
+    ],
+    "practical_solution": "Restore IR and total arc while maintaining scapular control. Use caution with aggressive stretching in acute pain.",
+    "clinical_rationale": "GIRD increases risk of labral injury and impingement. Addressing posterior capsule and cuff stiffness improves mechanics.",
+    "progression": [
+      "Level 1: Low-load IR mobility",
+      "Level 2: Posterior capsule soft tissue",
+      "Level 3: Rotator cuff strengthening",
+      "Level 4: Throwing integration"
+    ],
+    "regression": [
+      "Reduce ROM",
+      "Avoid painful end ranges",
+      "Use gentle mobilizations"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Instability",
+      "Acute trauma"
+    ],
+    "related_patterns": [
+      "p__scapular_dyskinesis"
+    ],
+    "id": "p__shoulder_gird",
+    "exercise_ids": [
+      "e__sleeper_stretch",
+      "e__posterior_shoulder_ball",
+      "e__thoracic_extension_foam_roller",
+      "e__doorway_pec_stretch",
+      "e__shoulder_ir_90_stretch",
+      "e__cross_body_stretch"
+    ],
+    "assessment_ids": [
+      "a__shoulder_ir_90_assessment",
+      "a__sleeper_stretch_test_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Stretching interventions can improve shoulder ROM in overhead athletes with GIRD; evidence supports ROM gains but varies by protocol.",
+      "sources": [
+        {
+          "title": "Role of stretching interventions in enhancing the shoulder range of motion in overhead athletes with glenohumeral internal rotation deficit: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40843660/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1002/pmrj.13453",
+          "doi_url": "https://doi.org/10.1002/pmrj.13453"
+        },
+        {
+          "title": "Glenohumeral Internal Rotation Deficit and Risk of Upper Extremity Injury in Overhead Athletes: Systematic Review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38897400/",
+          "type": "systematic review",
+          "doi": "10.1016/j.apmr.2024.05.027",
+          "doi_url": "https://doi.org/10.1016/j.apmr.2024.05.027"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lumbar Hyperlordosis",
+    "category": "Lumbar - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Lumbar hyperlordosis is an excessive inward curve of the lumbar spine, commonly associated with anterior pelvic tilt and lower crossed syndrome.",
+    "biomechanical_mechanism": "Tight hip flexors and lumbar extensors with weak abdominals and glutes. This increases anterior pelvic tilt and lumbar extension bias.",
+    "common_compensations": [
+      "Anterior pelvic tilt",
+      "Rib flare",
+      "Gluteal inhibition"
+    ],
+    "differential_diagnosis": [
+      "Spondylolysis",
+      "Facet irritation",
+      "Disc pathology"
+    ],
+    "practical_solution": "Reduce anterior pelvic tilt by lengthening hip flexors and strengthening core/glutes.",
+    "clinical_rationale": "Excess lordosis increases lumbar compression and can contribute to pain. Correcting pelvic position reduces stress.",
+    "progression": [
+      "Level 1: Mobility and activation",
+      "Level 2: Core stability",
+      "Level 3: Integrated patterns",
+      "Level 4: Loaded movement"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Shorten hold times"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Neurological symptoms",
+      "History of fracture"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__lower_crossed_syndrome"
+    ],
+    "id": "p__lumbar_hyperlordosis",
+    "exercise_ids": [
+      "e__hip_flexor_stretch",
+      "e__glute_bridge",
+      "e__dead_bug",
+      "e__plank",
+      "e__side_plank",
+      "e__posterior_pelvic_tilt_drill",
+      "e__cat_cow",
+      "e__goblet_squat",
+      "e__90_90_breathing"
+    ],
+    "assessment_ids": [
+      "a__pelvic_tilt_visual_assessment",
+      "a__postural_assessment",
+      "a__overhead_squat_assessment",
+      "a__lumbar_lordosis_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Exercise interventions show mixed effects on lumbopelvic posture and lordosis; outcomes vary by program and population.",
+      "sources": [
+        {
+          "title": "Effects of exercise programs on kyphosis and lordosis angle: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31034509/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1371/journal.pone.0216180",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0216180"
+        },
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Anterior Pelvic Tilt",
+    "category": "Lumbar/Pelvis - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Anterior pelvic tilt is an anterior rotation of the pelvis that increases lumbar lordosis and is commonly associated with lower crossed syndrome.",
+    "biomechanical_mechanism": "Shortened hip flexors and lumbar extensors with weak abdominals and glutes. This shifts the pelvis forward and increases lumbar extension.",
+    "common_compensations": [
+      "Lumbar hyperlordosis",
+      "Gluteal inhibition",
+      "Rib flare"
+    ],
+    "differential_diagnosis": [
+      "Hip flexor contracture",
+      "Lumbar facet irritation",
+      "SI joint irritation"
+    ],
+    "practical_solution": "Address hip flexor tightness and improve posterior pelvic control with glute/core strengthening.",
+    "clinical_rationale": "APT increases lumbar load and impairs hip extension mechanics. Correcting pelvic position reduces stress and improves movement.",
+    "progression": [
+      "Level 1: Mobility and activation",
+      "Level 2: Core control",
+      "Level 3: Integrated hip hinge",
+      "Level 4: Loaded strength"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Shorten ROM"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Neurological symptoms",
+      "History of trauma"
+    ],
+    "related_patterns": [
+      "p__lumbar_hyperlordosis",
+      "p__lower_crossed_syndrome",
+      "p__hip_flexor_tightness"
+    ],
+    "id": "p__anterior_pelvic_tilt",
+    "exercise_ids": [
+      "e__hip_flexor_stretch",
+      "e__glute_bridge",
+      "e__dead_bug",
+      "e__posterior_pelvic_tilt_drill",
+      "e__plank",
+      "e__side_plank",
+      "e__goblet_squat",
+      "e__hamstring_smr",
+      "e__hip_flexor_contract_relax",
+      "e__squat_to_box"
+    ],
+    "assessment_ids": [
+      "a__pelvic_tilt_visual_assessment",
+      "a__overhead_squat_assessment",
+      "a__modified_thomas_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Exercise interventions show mixed effects on lumbopelvic posture and lordosis; outcomes vary by program and population.",
+      "sources": [
+        {
+          "title": "Effects of exercise programs on kyphosis and lordosis angle: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31034509/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1371/journal.pone.0216180",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0216180"
+        },
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Posterior Pelvic Tilt",
+    "category": "Lumbar/Pelvis - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Posterior pelvic tilt is a posterior rotation of the pelvis that reduces lumbar lordosis and can limit hip extension.",
+    "biomechanical_mechanism": "Shortened hamstrings and glutes with weak hip flexors and lumbar extensors can bias the pelvis posteriorly.",
+    "common_compensations": [
+      "Reduced lumbar lordosis",
+      "Limited hip extension",
+      "Flat-back posture"
+    ],
+    "differential_diagnosis": [
+      "Hamstring tightness",
+      "Lumbar hypolordosis",
+      "Spondylolisthesis"
+    ],
+    "practical_solution": "Improve hamstring extensibility and restore neutral pelvic control with balanced strengthening.",
+    "clinical_rationale": "Posterior tilt reduces lumbar mobility and can increase disc stress. Restoring neutral alignment improves function.",
+    "progression": [
+      "Level 1: Mobility and awareness",
+      "Level 2: Core and hip activation",
+      "Level 3: Hinge patterns",
+      "Level 4: Loaded integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Shorten ROM"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__lumbar_hyperlordosis",
+      "p__hamstring_dominance"
+    ],
+    "id": "p__posterior_pelvic_tilt",
+    "exercise_ids": [
+      "e__active_hamstring_stretch",
+      "e__hip_flexor_strength",
+      "e__cat_cow",
+      "e__bird_dog",
+      "e__hip_flexor_stretch",
+      "e__hip_hinge_rdl",
+      "e__single_leg_hip_thrust"
+    ],
+    "assessment_ids": [
+      "a__postural_assessment",
+      "a__pelvic_tilt_visual_assessment",
+      "a__active_slr_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Exercise interventions show mixed effects on lumbopelvic posture and lordosis; outcomes vary by program and population.",
+      "sources": [
+        {
+          "title": "Effects of exercise programs on kyphosis and lordosis angle: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31034509/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1371/journal.pone.0216180",
+          "doi_url": "https://doi.org/10.1371/journal.pone.0216180"
+        },
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lateral Pelvic Tilt (Hip Drop)",
+    "category": "Lumbar/Pelvis - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Lateral pelvic tilt (hip drop) is a frontal-plane pelvic deviation often seen during single-leg stance or gait, typically due to hip abductor weakness.",
+    "biomechanical_mechanism": "Weak gluteus medius and lateral core stability allow the pelvis to drop on the contralateral side, increasing valgus stress at the knee.",
+    "common_compensations": [
+      "Trendelenburg gait",
+      "Lateral trunk lean",
+      "Knee valgus"
+    ],
+    "differential_diagnosis": [
+      "Hip abductor tendinopathy",
+      "L5 radiculopathy",
+      "Hip joint pathology"
+    ],
+    "practical_solution": "Progress from isolated activation to single-leg control drills and gait integration.",
+    "clinical_rationale": "Hip drop increases knee valgus and lumbar strain. Restoring lateral hip control reduces compensations.",
+    "progression": [
+      "Level 1: Side-lying activation",
+      "Level 2: Lateral band walks",
+      "Level 3: Single-leg control",
+      "Level 4: Gait and plyometric integration"
+    ],
+    "regression": [
+      "Use support",
+      "Reduce load",
+      "Shorten hold times"
+    ],
+    "red_flags": [
+      "Severe hip pain",
+      "Neurological symptoms",
+      "Acute trauma"
+    ],
+    "related_patterns": [
+      "p__knee_valgus",
+      "p__gluteal_amnesia"
+    ],
+    "id": "p__lateral_pelvic_tilt",
+    "exercise_ids": [
+      "e__hip_hitch",
+      "e__side_lying_hip_abduction",
+      "e__lateral_step_band",
+      "e__modified_side_plank_band",
+      "e__side_plank",
+      "e__clamshell",
+      "e__monster_walk",
+      "e__single_leg_balance",
+      "e__single_leg_hip_thrust"
+    ],
+    "assessment_ids": [
+      "a__trendelenburg_assessment",
+      "a__single_leg_squat_assessment",
+      "a__hip_abduction_strength_assessment"
+    ],
+    "evidence": {
+      "level": "strong",
+      "summary": "Systematic reviews and meta-analyses (level 1) show that hip hitch and pelvic drop exercises generate high gluteus medius activity across segments. Gluteus medius strengthening and progressive loading exercises (side-lying abduction, lateral step, single-leg bridge, resisted side-step) improve pain, function, and single-leg control; frontal plane pelvic control is linked to abductor activation and knee loading.",
+      "sources": [
+        {
+          "title": "A systematic review and meta-analysis of common therapeutic exercises that generate highest muscle activity in the gluteus medius and gluteus minimus segments.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33344003/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.26603/ijspt20200856",
+          "doi_url": "https://doi.org/10.26603/ijspt20200856"
+        },
+        {
+          "title": "A systematic review of rehabilitation exercises to progressively load the gluteus medius.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27632888/",
+          "type": "systematic review",
+          "doi": "10.1123/jsr.2016-0088",
+          "doi_url": "https://doi.org/10.1123/jsr.2016-0088"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hip Flexor Tightness",
+    "category": "Pelvis/Hip - Dynamic",
+    "images": [],
+    "videos": [],
+    "overview": "Hip flexor tightness limits hip extension and contributes to anterior pelvic tilt and lumbar hyperlordosis.",
+    "biomechanical_mechanism": "Shortened iliopsoas and rectus femoris increase anterior pelvic tilt and reduce gluteal activation during hip extension.",
+    "common_compensations": [
+      "Lumbar extension bias",
+      "Anterior pelvic tilt",
+      "Reduced stride length"
+    ],
+    "differential_diagnosis": [
+      "Femoroacetabular impingement",
+      "Lumbar facet irritation",
+      "Hip joint pathology"
+    ],
+    "practical_solution": "Lengthen hip flexors and reinforce posterior pelvic control with glute/core activation.",
+    "clinical_rationale": "Tight hip flexors inhibit glutes and increase lumbar stress. Restoring length improves hip extension and gait mechanics.",
+    "progression": [
+      "Level 1: Mobility",
+      "Level 2: Activation",
+      "Level 3: Integrated hip hinge",
+      "Level 4: Loaded patterns"
+    ],
+    "regression": [
+      "Reduce ROM",
+      "Use supported positions",
+      "Decrease load"
+    ],
+    "red_flags": [
+      "Groin pain",
+      "Night pain",
+      "Trauma history"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__lumbar_hyperlordosis"
+    ],
+    "id": "p__hip_flexor_tightness",
+    "exercise_ids": [
+      "e__hip_flexor_stretch",
+      "e__glute_bridge",
+      "e__posterior_pelvic_tilt_drill",
+      "e__dead_bug",
+      "e__hip_flexor_strength",
+      "e__hip_thrust",
+      "e__quadruped_rock_back",
+      "e__hip_flexor_contract_relax"
+    ],
+    "assessment_ids": [
+      "a__modified_thomas_assessment",
+      "a__overhead_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Systematic reviews link sedentary behavior and hip flexor length to lumbopelvic posture; stretching and exercise may improve hip flexor length and related outcomes.",
+      "sources": [
+        {
+          "title": "Associations of sedentary behavior and physical activity with musculoskeletal and postural outcomes: systematic review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33671271/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.3390/ijerph18041936",
+          "doi_url": "https://doi.org/10.3390/ijerph18041936"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Gluteal Amnesia",
+    "category": "Hip - Motor Pattern",
+    "images": [],
+    "videos": [],
+    "overview": "Gluteal amnesia is the inhibition of gluteal activation, leading to compensatory hamstring and lumbar extensor dominance.",
+    "biomechanical_mechanism": "Prolonged sitting and poor motor control reduce glute recruitment, shifting hip extension to hamstrings and lumbar extensors.",
+    "common_compensations": [
+      "Hamstring dominance",
+      "Lumbar extension during hip extension",
+      "Knee valgus"
+    ],
+    "differential_diagnosis": [
+      "Lumbar pathology",
+      "Hip joint pathology",
+      "Hamstring strain"
+    ],
+    "practical_solution": "Re-establish glute recruitment before loading patterns. Emphasize quality of activation.",
+    "clinical_rationale": "Glute inhibition shifts load to the lumbar spine and hamstrings, increasing injury risk. Restoring glute activation improves mechanics.",
+    "progression": [
+      "Level 1: Supine activation",
+      "Level 2: Bridging",
+      "Level 3: Single-leg activation",
+      "Level 4: Loaded hinge"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use tactile cues",
+      "Limit range"
+    ],
+    "red_flags": [
+      "Severe lumbar pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__hamstring_dominance",
+      "p__lateral_pelvic_tilt"
+    ],
+    "id": "p__gluteal_amnesia",
+    "exercise_ids": [
+      "e__glute_bridge",
+      "e__single_leg_hip_thrust",
+      "e__clamshell",
+      "e__bird_dog",
+      "e__monster_walk",
+      "e__hip_thrust"
+    ],
+    "assessment_ids": [
+      "a__prone_hip_extension_assessment",
+      "a__single_leg_squat_assessment",
+      "a__trendelenburg_assessment"
+    ],
+    "evidence": {
+      "level": "strong",
+      "summary": "Systematic reviews and meta-analyses show which exercises generate highest gluteus medius and gluteus maximus activity; progressive loading of gluteal exercises improves pain, function, and single-leg control, supporting re-education of glute-dominated hip extension.",
+      "sources": [
+        {
+          "title": "A systematic review and meta-analysis of common therapeutic exercises that generate highest muscle activity in the gluteus medius and gluteus minimus segments.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33344003/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.26603/ijspt20200856",
+          "doi_url": "https://doi.org/10.26603/ijspt20200856"
+        },
+        {
+          "title": "A systematic review of rehabilitation exercises to progressively load the gluteus medius.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27632888/",
+          "type": "systematic review",
+          "doi": "10.1123/jsr.2016-0088",
+          "doi_url": "https://doi.org/10.1123/jsr.2016-0088"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Limited Ankle Dorsiflexion",
+    "category": "Ankle - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Limited ankle dorsiflexion restricts squatting and landing mechanics and often contributes to compensatory pronation and knee valgus.",
+    "biomechanical_mechanism": "Short gastrocnemius/soleus, talocrural joint restrictions, and capsular stiffness reduce dorsiflexion.",
+    "common_compensations": [
+      "Heel lift during squat",
+      "Excess pronation",
+      "Knee valgus"
+    ],
+    "differential_diagnosis": [
+      "Achilles tendinopathy",
+      "Anterior ankle impingement",
+      "Previous ankle sprain"
+    ],
+    "practical_solution": "Restore dorsiflexion with mobility and tissue work before advancing squat and plyometrics.",
+    "clinical_rationale": "Limited dorsiflexion is linked to knee valgus and foot overpronation. Improving mobility reduces downstream compensations.",
+    "progression": [
+      "Level 1: Mobility drills",
+      "Level 2: Stretching",
+      "Level 3: Loaded dorsiflexion",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use assisted mobilizations",
+      "Decrease load"
+    ],
+    "red_flags": [
+      "Severe ankle pain",
+      "History of fracture",
+      "Inflammation or swelling"
+    ],
+    "related_patterns": [
+      "p__overpronation",
+      "p__knee_valgus"
+    ],
+    "id": "p__limited_ankle_dorsiflexion",
+    "exercise_ids": [
+      "e__wall_ankle_mob",
+      "e__gastroc_soleus_stretch",
+      "e__calf_ball_roll",
+      "e__ankle_dorsiflexion_mob",
+      "e__calf_stretch",
+      "e__eccentric_calf_raises",
+      "e__tibialis_strengthening",
+      "e__ankle_cars",
+      "e__plantar_fascia_roll"
+    ],
+    "assessment_ids": [
+      "a__knee_to_wall_assessment",
+      "a__gastrosoleus_differentiation_assessment",
+      "a__overhead_squat_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Joint mobilization and mobilization-with-movement improve ankle dorsiflexion ROM in clinical populations, indicating moderate support for mobility-focused interventions.",
+      "sources": [
+        {
+          "title": "Effect of Joint Mobilization in Individuals with Chronic Ankle Instability: A Systematic Review and Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36135424/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.3390/jfmk7030066",
+          "doi_url": "https://doi.org/10.3390/jfmk7030066"
+        },
+        {
+          "title": "Mobilization with movement is effective for improving ankle range of motion and walking ability in individuals after stroke: A systematic review with meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39329248/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1002/pmrj.13259",
+          "doi_url": "https://doi.org/10.1002/pmrj.13259"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Overpronation",
+    "category": "Foot/Ankle - Dynamic",
+    "images": [],
+    "videos": [],
+    "overview": "Overpronation is excessive foot pronation that collapses the medial arch and alters lower-limb alignment.",
+    "biomechanical_mechanism": "Weak intrinsic foot muscles, rearfoot eversion, and tibial internal rotation contribute to arch collapse and dynamic valgus.",
+    "common_compensations": [
+      "Knee valgus",
+      "Tibial internal rotation",
+      "Plantar fasciitis risk"
+    ],
+    "differential_diagnosis": [
+      "Posterior tibial tendinopathy",
+      "Plantar fasciitis",
+      "Flat foot deformity"
+    ],
+    "practical_solution": "Rebuild arch control with intrinsic foot strengthening and reduce excessive pronation during gait.",
+    "clinical_rationale": "Overpronation contributes to knee valgus and plantar stress. Improving foot control reduces downstream issues.",
+    "progression": [
+      "Level 1: Seated activation",
+      "Level 2: Standing control",
+      "Level 3: Balance integration",
+      "Level 4: Gait integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use seated drills",
+      "Shorten duration"
+    ],
+    "red_flags": [
+      "Severe foot pain",
+      "Swelling or redness",
+      "Recent trauma"
+    ],
+    "related_patterns": [
+      "p__knee_valgus"
+    ],
+    "id": "p__overpronation",
+    "exercise_ids": [
+      "e__short_foot",
+      "e__toe_yoga",
+      "e__single_leg_balance",
+      "e__calf_stretch",
+      "e__single_leg_heel_raise",
+      "e__eccentric_calf_raises",
+      "e__tibialis_strengthening",
+      "e__gastroc_soleus_stretch",
+      "e__ankle_cars",
+      "e__posterior_tibialis_activation"
+    ],
+    "assessment_ids": [
+      "a__navicular_drop_assessment",
+      "a__single_leg_squat_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Intrinsic foot muscle strengthening shows improvements in arch function and foot mechanics in multiple reviews.",
+      "sources": [
+        {
+          "title": "The effects of foot core exercises and minimalist footwear on foot muscle sizes, foot strength, and biomechanics: A systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39709752/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.clinbiomech.2024.106417",
+          "doi_url": "https://doi.org/10.1016/j.clinbiomech.2024.106417"
+        },
+        {
+          "title": "Effects of intrinsic foot muscle strengthening on the medial longitudinal arch mobility and function: A systematic review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37949605/",
+          "type": "systematic review",
+          "doi": "10.1016/j.jbmt.2023.05.010",
+          "doi_url": "https://doi.org/10.1016/j.jbmt.2023.05.010"
+        },
+        {
+          "title": "The effects of short foot exercises to treat flat foot deformity: A systematic review.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35871320/",
+          "type": "systematic review",
+          "doi": "10.3233/BMR-210374",
+          "doi_url": "https://doi.org/10.3233/BMR-210374"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Rotator Cuff Weakness",
+    "category": "Shoulder - Strength",
+    "images": [],
+    "videos": [],
+    "overview": "Rotator cuff weakness reduces shoulder stability and increases the risk of impingement and labral overload.",
+    "biomechanical_mechanism": "Weak external rotators and poor scapular control allow humeral head migration and altered joint mechanics.",
+    "common_compensations": [
+      "Scapular hiking",
+      "Anterior humeral glide",
+      "Limited overhead control"
+    ],
+    "differential_diagnosis": [
+      "Rotator cuff tear",
+      "Impingement",
+      "Cervical referral"
+    ],
+    "practical_solution": "Build rotator cuff endurance and scapular control before heavy overhead loading.",
+    "clinical_rationale": "Rotator cuff weakness increases joint stress and risk of impingement. Targeted strengthening improves stability.",
+    "progression": [
+      "Level 1: Isometrics",
+      "Level 2: Light resistance",
+      "Level 3: Integrated movement",
+      "Level 4: Overhead loading"
+    ],
+    "regression": [
+      "Reduce resistance",
+      "Use supported positions",
+      "Shorten ROM"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Loss of strength",
+      "History of tear"
+    ],
+    "related_patterns": [
+      "p__scapular_dyskinesis"
+    ],
+    "id": "p__rotator_cuff_weakness",
+    "exercise_ids": [
+      "e__external_rotation_band",
+      "e__scapular_squeeze",
+      "e__ytw_series",
+      "e__face_pull",
+      "e__serratus_push_up",
+      "e__banded_pull_apart"
+    ],
+    "assessment_ids": [
+      "a__empty_can_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Exercise therapy is consistently supported for rotator cuff-related shoulder pain, indicating benefit from strengthening.",
+      "sources": [
+        {
+          "title": "Effects of seven types of exercise in the treatment of rotator cuff-related shoulder pain (RCRSP): a systematic review and Bayesian network meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41276811/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s13018-025-06514-4",
+          "doi_url": "https://doi.org/10.1186/s13018-025-06514-4"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Hip External Rotation Restriction",
+    "category": "Hip - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Limited hip external rotation reduces squat depth and can cause compensations in the lumbar spine and knees.",
+    "biomechanical_mechanism": "Posterior capsule tightness and deep rotator stiffness limit ER range.",
+    "common_compensations": [
+      "Lumbar flexion",
+      "Knee valgus",
+      "Foot pronation"
+    ],
+    "differential_diagnosis": [
+      "Femoroacetabular impingement",
+      "Hip joint pathology",
+      "Labral involvement"
+    ],
+    "practical_solution": "Restore ER range and control before heavy squatting and rotational tasks.",
+    "clinical_rationale": "Restricted hip ER shifts stress to the lumbar spine and knee. Improving hip mobility restores lower-limb mechanics.",
+    "progression": [
+      "Level 1: Mobility drills",
+      "Level 2: End-range control",
+      "Level 3: Integrated patterns",
+      "Level 4: Loaded rotation"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use supported positions",
+      "Decrease load"
+    ],
+    "red_flags": [
+      "Groin pain",
+      "Mechanical catching",
+      "Trauma"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__squat_compensation"
+    ],
+    "id": "p__hip_external_rotation_restriction",
+    "exercise_ids": [
+      "e__piriformis_stretch",
+      "e__hip_cars",
+      "e__goblet_squat",
+      "e__clamshell",
+      "e__90_90_hip_stretch",
+      "e__glute_piriformis_smr"
+    ],
+    "assessment_ids": [
+      "a__hip_er_90_assessment",
+      "a__goblet_squat_assessment",
+      "a__overhead_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for improving hip external rotation restriction with exercise and stretching is limited; clinical practice is guided by biomechanics and case reports.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Hamstring Dominance",
+    "category": "Hip - Motor Pattern",
+    "images": [],
+    "videos": [],
+    "overview": "Hamstring dominance is a hip extension pattern where hamstrings initiate and dominate over the glutes.",
+    "biomechanical_mechanism": "Glute inhibition shifts motor output to hamstrings and lumbar extensors, increasing posterior chain strain.",
+    "common_compensations": [
+      "Lumbar extension",
+      "Knee flexion bias",
+      "Glute under-recruitment"
+    ],
+    "differential_diagnosis": [
+      "Hamstring strain",
+      "Lumbar pathology",
+      "Glute weakness"
+    ],
+    "practical_solution": "Restore glute priority in hip extension before high-load hamstring work.",
+    "clinical_rationale": "Hamstring dominance increases injury risk and alters hip mechanics. Correcting glute activation improves performance and resilience.",
+    "progression": [
+      "Level 1: Glute activation",
+      "Level 2: Bridge patterns",
+      "Level 3: Single-leg control",
+      "Level 4: Loaded hinge"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Limit ROM"
+    ],
+    "red_flags": [
+      "Acute hamstring pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__gluteal_amnesia",
+      "p__posterior_pelvic_tilt"
+    ],
+    "id": "p__hamstring_dominance",
+    "exercise_ids": [
+      "e__glute_bridge",
+      "e__hip_hinge_drill",
+      "e__single_leg_hip_thrust",
+      "e__dead_bug",
+      "e__clamshell",
+      "e__hip_thrust",
+      "e__squat_to_box"
+    ],
+    "assessment_ids": [
+      "a__prone_hip_extension_assessment",
+      "a__single_leg_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Glute-focused activation and strengthening are commonly used to address hamstring dominance; evidence is indirect and based on gluteal and motor control literature.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Squat Compensation",
+    "category": "Lower Limb - Movement",
+    "images": [],
+    "videos": [],
+    "overview": "Common squat compensations include heel lift, forward trunk lean, and knee valgus.",
+    "biomechanical_mechanism": "Ankle dorsiflexion limits, hip mobility restrictions, and poor core control contribute to compensation patterns.",
+    "common_compensations": [
+      "Heels lifting",
+      "Excess forward torso lean",
+      "Knee valgus"
+    ],
+    "differential_diagnosis": [
+      "Ankle restrictions",
+      "Hip mobility deficits",
+      "Core stability issues"
+    ],
+    "practical_solution": "Identify the limiting segment and correct it before increasing load or depth.",
+    "clinical_rationale": "Compensatory squat patterns increase injury risk. Addressing mobility and control improves mechanics.",
+    "progression": [
+      "Level 1: Mobility",
+      "Level 2: Pattern re-education",
+      "Level 3: Loaded squat",
+      "Level 4: Dynamic integration"
+    ],
+    "regression": [
+      "Reduce depth",
+      "Use support",
+      "Slow tempo"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Instability",
+      "Recent trauma"
+    ],
+    "related_patterns": [
+      "p__limited_ankle_dorsiflexion",
+      "p__hip_external_rotation_restriction",
+      "p__knee_valgus"
+    ],
+    "id": "p__squat_compensation",
+    "exercise_ids": [
+      "e__goblet_squat",
+      "e__wall_ankle_mob",
+      "e__hip_cars",
+      "e__dead_bug",
+      "e__glute_bridge",
+      "e__hip_flexor_stretch",
+      "e__ankle_dorsiflexion_mob",
+      "e__calf_stretch",
+      "e__goblet_squat_hold",
+      "e__overhead_squat"
+    ],
+    "assessment_ids": [
+      "a__overhead_squat_assessment",
+      "a__goblet_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for correcting squat compensations with exercise is indirect; protocols are derived from mobility, strength, and motor control studies.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Goblet Squat Pattern",
+    "category": "Movement Screen",
+    "images": [],
+    "videos": [],
+    "overview": "Goblet squat is used to observe squat mechanics with an anterior load.",
+    "biomechanical_mechanism": "Anterior load encourages a more upright torso and can reveal ankle or hip restrictions.",
+    "common_compensations": [
+      "Knee valgus",
+      "Heels lifting",
+      "Butt wink"
+    ],
+    "differential_diagnosis": [
+      "Ankle restriction",
+      "Hip restriction",
+      "Core instability"
+    ],
+    "practical_solution": "Use the goblet squat to reinforce better mechanics before back squat progression.",
+    "clinical_rationale": "Anterior load helps reduce forward lean and improves squat quality.",
+    "progression": [
+      "Level 1: Light load",
+      "Level 2: Moderate load",
+      "Level 3: Tempo squat",
+      "Level 4: Dynamic squat"
+    ],
+    "regression": [
+      "Reduce depth",
+      "Use support",
+      "Slow tempo"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Instability"
+    ],
+    "related_patterns": [
+      "p__squat_compensation",
+      "p__knee_valgus"
+    ],
+    "id": "p__goblet_squat_pattern",
+    "exercise_ids": [
+      "e__goblet_squat",
+      "e__dead_bug",
+      "e__hip_flexor_stretch",
+      "e__ankle_dorsiflexion_mob",
+      "e__calf_stretch",
+      "e__goblet_squat_hold"
+    ],
+    "assessment_ids": [
+      "a__goblet_squat_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Goblet squat is used as an assessment and training tool; evidence for its effect on squat mechanics is limited and mostly indirect.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Cervical Sidebending Restriction",
+    "category": "Cervical - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Limited cervical sidebending is often linked to tight scalenes, upper trapezius, or levator scapulae.",
+    "biomechanical_mechanism": "Soft tissue tightness and joint restriction reduce sidebending range.",
+    "common_compensations": [
+      "Shoulder elevation",
+      "Trunk side shift"
+    ],
+    "differential_diagnosis": [
+      "Facet restriction",
+      "Cervical radiculopathy"
+    ],
+    "practical_solution": "Restore sidebending mobility and reduce soft tissue tension.",
+    "clinical_rationale": "Limited sidebending increases cervical strain and can alter head posture.",
+    "progression": [
+      "Level 1: Low-load ROM",
+      "Level 2: End-range control",
+      "Level 3: Functional integration"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use supine position",
+      "Slow tempo"
+    ],
+    "red_flags": [
+      "Neurological symptoms",
+      "Severe pain",
+      "Trauma"
+    ],
+    "related_patterns": [
+      "p__forward_head_posture"
+    ],
+    "id": "p__cervical_sidebending_restriction",
+    "exercise_ids": [
+      "e__upper_trap_levator_stretch",
+      "e__cervical_sidebend",
+      "e__suboccipital_release",
+      "e__chin_tuck",
+      "e__dnf_activation"
+    ],
+    "assessment_ids": [
+      "a__cervical_sidebend_rom_assessment",
+      "a__postural_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for improving cervical sidebending with exercise and manual therapy is limited; clinical approach is based on mobility and soft tissue principles.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Loss of Lumbar Extension",
+    "category": "Lumbar - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Loss of lumbar extension reduces the ability to maintain neutral spine during hip hinge and overhead tasks.",
+    "biomechanical_mechanism": "Lumbar stiffness, hip flexor tightness, and thoracic limitations can limit lumbar extension.",
+    "common_compensations": [
+      "Hip hinge breakdown",
+      "Thoracic extension compensation",
+      "Forward trunk lean"
+    ],
+    "differential_diagnosis": [
+      "Lumbar disc pathology",
+      "Facet restriction"
+    ],
+    "practical_solution": "Restore extension tolerance and reinforce neutral spine in hinge patterns.",
+    "clinical_rationale": "Limited lumbar extension shifts stress to hips and thoracic spine. Restoring extension improves posture and function.",
+    "progression": [
+      "Level 1: Low-load press-ups",
+      "Level 2: Controlled hinge",
+      "Level 3: Loaded hinge",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce range",
+      "Use supported positions",
+      "Limit load"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__lumbar_hyperlordosis",
+      "p__hip_flexor_tightness"
+    ],
+    "id": "p__loss_of_lumbar_extension",
+    "exercise_ids": [
+      "e__prone_press_up",
+      "e__hip_hinge_drill",
+      "e__sphinx_reach",
+      "e__cat_cow",
+      "e__thoracic_extension_foam_roller"
+    ],
+    "assessment_ids": [
+      "a__lumbar_lordosis_assessment",
+      "a__sldl_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for modifying lumbar posture with exercise is limited and variable.",
+      "sources": [
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Lower Crossed Syndrome",
+    "category": "Lumbar/Pelvis - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Lower crossed syndrome is characterized by tight hip flexors and lumbar extensors with weak abdominals and glutes, often resulting in anterior pelvic tilt.",
+    "biomechanical_mechanism": "Muscle imbalance creates an anterior pelvic tilt and increased lumbar lordosis, reducing hip extension efficiency.",
+    "common_compensations": [
+      "Lumbar hyperlordosis",
+      "Gluteal inhibition",
+      "Rib flare"
+    ],
+    "differential_diagnosis": [
+      "Hip flexor contracture",
+      "Lumbar facet irritation"
+    ],
+    "practical_solution": "Address tight hip flexors and reinforce glute/core activation to restore pelvic alignment.",
+    "clinical_rationale": "Lower crossed syndrome increases lumbar stress and impairs hip mechanics. Corrective work improves alignment and function.",
+    "progression": [
+      "Level 1: Mobility",
+      "Level 2: Activation",
+      "Level 3: Integrated patterns",
+      "Level 4: Loaded movement"
+    ],
+    "regression": [
+      "Reduce load",
+      "Use supported positions",
+      "Limit ROM"
+    ],
+    "red_flags": [
+      "Severe pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__lumbar_hyperlordosis"
+    ],
+    "id": "p__lower_crossed_syndrome",
+    "exercise_ids": [
+      "e__hip_flexor_stretch",
+      "e__glute_bridge",
+      "e__dead_bug",
+      "e__posterior_pelvic_tilt_drill",
+      "e__hip_flexor_strength",
+      "e__90_90_breathing",
+      "e__pallof_press",
+      "e__side_plank",
+      "e__hip_flexor_contract_relax",
+      "e__hip_hinge_rdl"
+    ],
+    "assessment_ids": [
+      "a__pelvic_tilt_visual_assessment",
+      "a__prone_hip_extension_assessment",
+      "a__overhead_squat_assessment"
+    ],
+    "evidence": {
+      "level": "mixed",
+      "summary": "Posture and lumbopelvic alignment changes with exercise are inconsistent across studies.",
+      "sources": [
+        {
+          "title": "Effects of Stretching or Strengthening Exercise on Spinal and Lumbopelvic Posture: A Systematic Review with Meta-Analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38834878/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1186/s40798-024-00733-5",
+          "doi_url": "https://doi.org/10.1186/s40798-024-00733-5"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__limited_wrist_extension",
+    "name": "Limited Wrist Extension",
+    "category": "Elbow/Wrist - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted wrist extension often limits push and grip tasks and can be associated with forearm flexor tightness or tendon irritation.",
+    "biomechanical_mechanism": "Flexor muscle tightness and tendon sensitization reduce available wrist extension and load tolerance.",
+    "common_compensations": [
+      "Excessive elbow motion during reaching",
+      "Forearm pronation compensation"
+    ],
+    "differential_diagnosis": [
+      "Carpal joint restriction",
+      "Flexor tendinopathy"
+    ],
+    "practical_solution": "Restore wrist extension mobility and build tolerance with graded loading.",
+    "clinical_rationale": "Improving mobility and load tolerance can reduce symptoms during gripping and weight-bearing tasks.",
+    "progression": [
+      "Mobility and soft tissue work",
+      "Pain-free isometrics",
+      "Eccentric/concentric loading"
+    ],
+    "regression": [
+      "Reduce range",
+      "Lower load"
+    ],
+    "red_flags": [
+      "Acute swelling",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__pain_with_grip"
+    ],
+    "exercise_ids": [
+      "e__forearm_flexor_stretch",
+      "e__forearm_flexor_smr",
+      "e__forearm_pronation_supination_arom"
+    ],
+    "assessment_ids": [
+      "a__wrist_extension_rom_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence supports exercise-based interventions for lateral elbow tendinopathy; ROM improvements are typically secondary outcomes.",
+      "sources": [
+        {
+          "title": "Comparison of Interventions for Lateral Elbow Tendinopathy: A Systematic Review and Network Meta-Analysis for Patient-Rated Tennis Elbow Evaluation Pain Outcome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38678448/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.jhsa.2024.03.007",
+          "doi_url": "https://doi.org/10.1016/j.jhsa.2024.03.007"
+        },
+        {
+          "title": "A systematic review and meta-analysis of clinical trials on physical interventions for lateral epicondylalgia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15976161/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsm.2004.016170",
+          "doi_url": "https://doi.org/10.1136/bjsm.2004.016170"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__limited_wrist_flexion",
+    "name": "Limited Wrist Flexion",
+    "category": "Elbow/Wrist - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted wrist flexion can impair gripping and load transfer, often linked to forearm extensor stiffness or tendon sensitivity.",
+    "biomechanical_mechanism": "Extensor tightness and sensitized tissues reduce wrist flexion and load tolerance.",
+    "common_compensations": [
+      "Elbow flexion substitution",
+      "Shoulder movement to compensate"
+    ],
+    "differential_diagnosis": [
+      "Carpal joint restriction",
+      "Extensor tendinopathy"
+    ],
+    "practical_solution": "Restore wrist flexion mobility and gradually increase tendon load tolerance.",
+    "clinical_rationale": "Mobility plus graded loading helps restore functional range and strength.",
+    "progression": [
+      "Mobility and soft tissue work",
+      "Pain-free isometrics",
+      "Eccentric/concentric loading"
+    ],
+    "regression": [
+      "Reduce range",
+      "Lower load"
+    ],
+    "red_flags": [
+      "Acute swelling",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__pain_with_grip"
+    ],
+    "exercise_ids": [
+      "e__forearm_extensor_stretch",
+      "e__forearm_extensor_smr",
+      "e__forearm_pronation_supination_arom"
+    ],
+    "assessment_ids": [
+      "a__wrist_flexion_rom_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Evidence for exercise-based lateral elbow tendinopathy management is moderate; direct effects on flexion ROM are limited.",
+      "sources": [
+        {
+          "title": "Comparison of Interventions for Lateral Elbow Tendinopathy: A Systematic Review and Network Meta-Analysis for Patient-Rated Tennis Elbow Evaluation Pain Outcome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38678448/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.jhsa.2024.03.007",
+          "doi_url": "https://doi.org/10.1016/j.jhsa.2024.03.007"
+        },
+        {
+          "title": "A systematic review and meta-analysis of clinical trials on physical interventions for lateral epicondylalgia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15976161/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsm.2004.016170",
+          "doi_url": "https://doi.org/10.1136/bjsm.2004.016170"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__limited_forearm_pronation",
+    "name": "Limited Forearm Pronation",
+    "category": "Elbow/Wrist - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted pronation can affect gripping and functional hand positioning.",
+    "biomechanical_mechanism": "Supinator tightness and joint stiffness reduce pronation range.",
+    "common_compensations": [
+      "Shoulder internal rotation to substitute pronation"
+    ],
+    "differential_diagnosis": [
+      "Proximal radioulnar joint restriction",
+      "Radial head issues"
+    ],
+    "practical_solution": "Restore pronation mobility and integrate controlled rotation.",
+    "clinical_rationale": "Restoring forearm rotation improves functional reach and grip alignment.",
+    "progression": [
+      "AROM mobility",
+      "Gentle stretching",
+      "Light resistance rotation"
+    ],
+    "regression": [
+      "Smaller ranges",
+      "Lower load"
+    ],
+    "red_flags": [
+      "Sharp joint pain",
+      "Loss of sensation"
+    ],
+    "related_patterns": [
+      "p__pain_with_grip"
+    ],
+    "exercise_ids": [
+      "e__forearm_pronation_supination_arom",
+      "e__forearm_pronation_stretch"
+    ],
+    "assessment_ids": [
+      "a__forearm_pronation_rom_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Exercise-based interventions for lateral elbow tendinopathy show symptom improvement; direct pronation ROM evidence is limited.",
+      "sources": [
+        {
+          "title": "Comparison of Interventions for Lateral Elbow Tendinopathy: A Systematic Review and Network Meta-Analysis for Patient-Rated Tennis Elbow Evaluation Pain Outcome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38678448/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.jhsa.2024.03.007",
+          "doi_url": "https://doi.org/10.1016/j.jhsa.2024.03.007"
+        },
+        {
+          "title": "A systematic review and meta-analysis of clinical trials on physical interventions for lateral epicondylalgia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15976161/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsm.2004.016170",
+          "doi_url": "https://doi.org/10.1136/bjsm.2004.016170"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__limited_forearm_supination",
+    "name": "Limited Forearm Supination",
+    "category": "Elbow/Wrist - Mobility",
+    "images": [],
+    "videos": [],
+    "overview": "Restricted supination can limit carrying and functional hand use.",
+    "biomechanical_mechanism": "Pronator tightness and joint stiffness reduce supination range.",
+    "common_compensations": [
+      "Shoulder external rotation substitution"
+    ],
+    "differential_diagnosis": [
+      "Proximal radioulnar joint restriction",
+      "Radial head issues"
+    ],
+    "practical_solution": "Restore supination mobility with controlled stretching and AROM.",
+    "clinical_rationale": "Improved forearm rotation supports functional gripping and carrying tasks.",
+    "progression": [
+      "AROM mobility",
+      "Gentle stretching",
+      "Light resistance rotation"
+    ],
+    "regression": [
+      "Smaller ranges",
+      "Lower load"
+    ],
+    "red_flags": [
+      "Sharp joint pain",
+      "Loss of sensation"
+    ],
+    "related_patterns": [
+      "p__pain_with_grip"
+    ],
+    "exercise_ids": [
+      "e__forearm_pronation_supination_arom",
+      "e__forearm_supination_stretch"
+    ],
+    "assessment_ids": [
+      "a__forearm_supination_rom_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Intervention evidence for lateral elbow tendinopathy supports graded loading; supination ROM evidence is limited and indirect.",
+      "sources": [
+        {
+          "title": "Comparison of Interventions for Lateral Elbow Tendinopathy: A Systematic Review and Network Meta-Analysis for Patient-Rated Tennis Elbow Evaluation Pain Outcome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38678448/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.jhsa.2024.03.007",
+          "doi_url": "https://doi.org/10.1016/j.jhsa.2024.03.007"
+        },
+        {
+          "title": "A systematic review and meta-analysis of clinical trials on physical interventions for lateral epicondylalgia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15976161/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsm.2004.016170",
+          "doi_url": "https://doi.org/10.1136/bjsm.2004.016170"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__pain_with_grip",
+    "name": "Pain With Grip",
+    "category": "Elbow/Wrist - Dynamic",
+    "images": [],
+    "videos": [],
+    "overview": "Pain during gripping tasks often reflects tendon overload in the forearm musculature.",
+    "biomechanical_mechanism": "Tendon sensitization and load intolerance reduce grip strength and provoke pain.",
+    "common_compensations": [
+      "Avoided or weak grip",
+      "Reduced wrist extension strength"
+    ],
+    "differential_diagnosis": [
+      "Radial tunnel syndrome",
+      "Cervical radiculopathy"
+    ],
+    "practical_solution": "Use graded loading and isometrics to restore grip tolerance.",
+    "clinical_rationale": "Progressive loading is a primary strategy for tendinopathy rehabilitation.",
+    "progression": [
+      "Isometrics",
+      "Eccentrics",
+      "Concentric strength",
+      "Task-specific grip"
+    ],
+    "regression": [
+      "Reduce load",
+      "Shorter holds"
+    ],
+    "red_flags": [
+      "Night pain",
+      "Neurological symptoms"
+    ],
+    "related_patterns": [
+      "p__limited_wrist_extension",
+      "p__limited_wrist_flexion"
+    ],
+    "exercise_ids": [
+      "e__wrist_extensor_isometric",
+      "e__wrist_extensor_eccentric",
+      "e__wrist_flexor_isometric",
+      "e__wrist_flexor_eccentric"
+    ],
+    "assessment_ids": [
+      "a__pain_free_grip_test_assessment",
+      "a__cozen_test_assessment",
+      "a__mill_test_assessment",
+      "a__maudsley_test_assessment",
+      "a__resisted_wrist_flexion_pronation_assessment",
+      "a__medial_epicondyle_tenderness_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Systematic reviews of lateral elbow tendinopathy interventions support exercise-based loading for pain and function outcomes.",
+      "sources": [
+        {
+          "title": "Comparison of Interventions for Lateral Elbow Tendinopathy: A Systematic Review and Network Meta-Analysis for Patient-Rated Tennis Elbow Evaluation Pain Outcome.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38678448/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1016/j.jhsa.2024.03.007",
+          "doi_url": "https://doi.org/10.1016/j.jhsa.2024.03.007"
+        },
+        {
+          "title": "A systematic review and meta-analysis of clinical trials on physical interventions for lateral epicondylalgia.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15976161/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsm.2004.016170",
+          "doi_url": "https://doi.org/10.1136/bjsm.2004.016170"
+        }
+      ]
+    }
+  },
+  {
+    "id": "p__elbow_valgus_control",
+    "name": "Elbow Valgus Control Deficit",
+    "category": "Elbow/Wrist - Dynamic",
+    "images": [],
+    "videos": [],
+    "overview": "Dynamic valgus at the elbow during load or throwing can increase medial elbow stress.",
+    "biomechanical_mechanism": "Inadequate proximal control and forearm strength reduce valgus stability under load.",
+    "common_compensations": [
+      "Medial elbow pain during load",
+      "Reduced throwing endurance"
+    ],
+    "differential_diagnosis": [
+      "UCL sprain",
+      "Medial epicondylalgia"
+    ],
+    "practical_solution": "Build forearm strength and integrate control under load.",
+    "clinical_rationale": "Upper extremity injury prevention programs emphasize strength and control to reduce overload risk.",
+    "progression": [
+      "Isometrics and basic strengthening",
+      "Eccentric and concentric loading",
+      "Sport-specific integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Avoid painful ranges"
+    ],
+    "red_flags": [
+      "Sharp medial elbow pain",
+      "Instability"
+    ],
+    "related_patterns": [
+      "p__pain_with_grip"
+    ],
+    "exercise_ids": [
+      "e__wrist_flexor_isometric",
+      "e__wrist_flexor_eccentric",
+      "e__wrist_extensor_isometric",
+      "e__wrist_extensor_eccentric",
+      "e__forearm_pronation_supination_arom"
+    ],
+    "assessment_ids": [
+      "a__elbow_valgus_stress_test_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "Upper extremity injury prevention evidence supports strength/control interventions, but direct valgus-control outcomes are limited.",
+      "sources": [
+        {
+          "title": "Prevention strategies and modifiable risk factors for upper extremity injury: a systematic review and meta-analysis for the Female, woman and/or girl Athlete Injury pRevention (FAIR) consensus.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41135970/",
+          "type": "systematic review/meta-analysis",
+          "doi": "10.1136/bjsports-2025-109907",
+          "doi_url": "https://doi.org/10.1136/bjsports-2025-109907"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Poor Lumbopelvic Control",
+    "category": "Lumbar/Pelvis - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Poor lumbopelvic control refers to insufficient ability to maintain a neutral, stacked trunk–pelvis relationship during movement (especially hinge, squat, lunge, gait, and overhead tasks). It typically presents as excessive lumbar extension/flexion, pelvic tilt drift (APT/PPT swings), rib flare, and loss of bracing under load or fatigue. In app semantics, this pattern is best treated as a motor-control / load-management issue rather than a single muscle 'weakness'.",
+    "biomechanical_mechanism": "The key mechanism is failure to regulate trunk stiffness and pelvic orientation relative to the femur during dynamic tasks. Common drivers include: (1) poor anticipatory bracing, (2) low endurance of trunk stabilizers (global + local), (3) limited hip hinge strategy leading to compensatory lumbar motion, (4) breathing strategy biased toward rib flare (loss of abdominal wall zone-of-apposition), and (5) insufficient eccentric control during deceleration phases.",
+    "common_compensations": [
+      "Rib flare with lumbar extension during arm elevation or hinging",
+      "Anterior pelvic tilt drift under load/fatigue",
+      "Posterior pelvic tuck ('butt wink') in deeper squat ranges",
+      "Knee strategy dominance (forward knees) because hinge is unavailable",
+      "Overuse of spinal motion instead of hip motion (lumbar flex/extend to 'reach' range)"
+    ],
+    "differential_diagnosis": [
+      "True lumbar mobility restriction (hip hinge fails even with dowel feedback)",
+      "Hip flexion limitation (FADIR symptoms, impingement pattern) driving lumbar compensation",
+      "Acute lumbar discogenic pain with flexion intolerance",
+      "Sacroiliac joint irritation (pain provocation with load transfer)",
+      "Neurologic deficits (progressive weakness, dermatomal changes)"
+    ],
+    "practical_solution": "Phase-based protocol (typical 6–10 weeks):\n1) Skill: stack + brace + hinge patterning (2–4 weeks)\n2) Capacity: trunk endurance + hip hinge strength (2–4 weeks)\n3) Integration: unilateral control + anti-rotation + loaded carries (2–4 weeks)\nFrequency: 3–5x/week for skill micro-doses; 2–3x/week for strength/capacity blocks.",
+    "clinical_rationale": "Improving lumbopelvic control is a high-leverage target because it reduces repeated spinal shear/extension–flexion cycling and improves transfer of force through the hips. In corrective-exercise semantics, this pattern should be tied to tasks where 'neutral under motion' matters (hinge, squat, gait, overhead), and corrected via feedback + graded exposure rather than chasing isolated 'activation' only.",
+    "progression": [
+      "Breathing + stack drills (supine / 90-90)",
+      "Hinge patterning with dowel/bench reference",
+      "Anti-extension/anti-rotation core (dead bug, pallof, side plank variants)",
+      "Loaded hinge (RDL pattern) + carries",
+      "Single-leg hinge control (SL RDL patterning) and sport integration"
+    ],
+    "regression": [
+      "Reduce range of motion (hinge to wall / box)",
+      "External feedback (dowel, wall, mirror)",
+      "Decrease load and tempo (slow eccentrics)",
+      "Return to bilateral before unilateral",
+      "Shorter sets to avoid fatigue-driven form loss"
+    ],
+    "red_flags": [
+      "Progressive neurologic symptoms (weakness, saddle anesthesia)",
+      "Unremitting night pain or systemic symptoms",
+      "Recent major trauma",
+      "Severe pain with minimal load (>7/10) that does not settle with rest",
+      "Loss of bowel/bladder control"
+    ],
+    "related_patterns": [
+      "p__anterior_pelvic_tilt",
+      "p__lower_crossed_syndrome",
+      "p__hamstring_dominance",
+      "p__thoracic_kyphosis"
+    ],
+    "id": "p__poor_lumbopelvic_control",
+    "exercise_ids": [
+      "e__dead_bug",
+      "e__bird_dog",
+      "e__pallof_press",
+      "e__side_plank",
+      "e__glute_bridge",
+      "e__squat_to_box",
+      "e__ball_wall_push_hip_hinge"
+    ],
+    "assessment_ids": [
+      "a__overhead_squat_assessment",
+      "a__sldl_assessment",
+      "a__lumbar_lordosis_assessment",
+      "a__single_leg_squat_assessment"
+    ],
+    "evidence": {
+      "level": "moderate",
+      "summary": "Motor-control and trunk endurance interventions are commonly supported for improving movement quality and load tolerance, but the construct 'lumbopelvic control' is broad; effects depend on task specificity, cueing, and progression.",
+      "sources": []
+    }
+  },
+  {
+    "name": "Anterior Chain Dominance",
+    "category": "Cervical/Thoracic - Global Pattern",
+    "images": [],
+    "videos": [],
+    "overview": "Anterior chain dominance describes a biased movement strategy where the anterior tissues and anteriorly oriented motor patterns (hip flexors, quads, pecs/upper traps, lumbar extensors via rib flare) disproportionately drive posture and movement. It commonly presents as rib flare, increased lumbar extension tendency, forward head/rounded shoulder stack, quad-dominant squatting, and difficulty recruiting posterior chain strategies (glutes/hamstrings/scapular retractors) under load.",
+    "biomechanical_mechanism": "Mechanism is a coordination bias: the system seeks stability by extending/arching and pulling from the front, often paired with limited posterior chain contribution and/or limited hip hinge strategy. Contributing factors may include prolonged sitting, high-volume anterior training, breathing strategy with poor abdominal wall engagement, and persistent APT tendency. This pattern overlaps with (but is not identical to) upper/lower crossed syndromes; it is intentionally broader and should be used when the dominant theme is 'front-side takeover' across regions.",
+    "common_compensations": [
+      "Rib flare and lumbar extension during overhead motion",
+      "Quad dominance in squats/lunges (early knee travel, reduced hip contribution)",
+      "Hip hinge substituted by lumbar extension",
+      "Upper trap/pec dominance with reduced scapular posterior tilt/retraction",
+      "Neck extension / chin poke as a stacking strategy"
+    ],
+    "differential_diagnosis": [
+      "True hip flexion restriction (FADIR positive) driving lumbar extension strategy",
+      "Thoracic extension restriction leading to lumbar substitution",
+      "Shoulder flexion limitation from capsular tightness vs motor strategy",
+      "Acute low back pain with extension intolerance",
+      "Structural scoliosis or fixed deformity"
+    ],
+    "practical_solution": "Intervention focus: restore posterior chain options + improve stack.\n1) Stack & breathing drills to reduce rib flare\n2) Hip hinge re-education (posterior chain entry)\n3) Posterior chain strengthening (glute/hamstring, upper back)\n4) Integrate into compound patterns (hinge/squat/press) with constraints\nFrequency: 2–4x/week depending on training status; prioritize low-fatigue skill exposure early.",
+    "clinical_rationale": "Using this as a 'global strategy' pattern helps the app avoid over-fragmenting into many regional labels when the consistent theme is an anteriorly biased motor solution. The goal is not to demonize the anterior chain, but to restore balanced options and reduce compensatory extension/rib flare strategies that can increase irritability in some users.",
+    "progression": [
+      "Breathing/stack drills + posterior pelvic awareness",
+      "Hinge constraints (wall hinge, dowel hinge)",
+      "Posterior chain strength (glute bridge, RDL patterns, rows)",
+      "Anti-extension core integration",
+      "Full patterns with load + tempo control"
+    ],
+    "regression": [
+      "Reduce overhead range and load",
+      "Use external constraints (wall, bench, dowel)",
+      "Shorten lever arms (bent-knee variants)",
+      "Decrease ROM until stack is maintained",
+      "Lower fatigue (fewer reps, longer rest)"
+    ],
+    "red_flags": [
+      "Significant pain provocation with extension that escalates over sessions",
+      "Unexplained weight loss / fever or systemic red flags",
+      "Progressive neurologic symptoms",
+      "Severe shoulder pain with overhead motion (suspected acute injury)"
+    ],
+    "related_patterns": [
+      "p__upper_crossed_syndrome",
+      "p__lower_crossed_syndrome",
+      "p__anterior_pelvic_tilt",
+      "p__forward_head_posture",
+      "p__thoracic_kyphosis"
+    ],
+    "id": "p__anterior_chain_dominance",
+    "exercise_ids": [
+      "e__hip_flexor_contract_relax",
+      "e__glute_bridge",
+      "e__dead_bug",
+      "e__pallof_press",
+      "e__squat_to_box",
+      "e__ball_wall_push_hip_hinge"
+    ],
+    "assessment_ids": [
+      "a__overhead_squat_assessment",
+      "a__lumbar_lordosis_assessment",
+      "a__push_up_assessment"
+    ],
+    "evidence": {
+      "level": "limited",
+      "summary": "The label 'anterior chain dominance' is primarily a coaching construct used to describe global strategy bias. Evidence is indirect and depends on how the construct is operationalized. Use it as an organizing pattern, not as a diagnosis.",
+      "sources": []
+    }
+  }
+]

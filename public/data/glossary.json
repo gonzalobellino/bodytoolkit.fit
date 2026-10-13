@@ -1,0 +1,1112 @@
+{
+  "DNF": {
+    "term": "Deep Neck Flexors",
+    "definition": "Deep cervical flexors (longus colli and longus capitis). Local stabilizers of the cervical spine responsible for cervical retraction and segmental control. Weakness is associated with forward head posture and chronic neck pain.",
+    "bodyParts": [
+      "cervical",
+      "neck"
+    ],
+    "related": [
+      "FHP",
+      "Chin Tuck",
+      "CCFT"
+    ]
+  },
+  "FHP": {
+    "term": "Forward Head Posture",
+    "definition": "Anterior translation of the head relative to the line of gravity. For each inch (~2.5 cm) forward, about 10 lb of extra load is placed on cervical structures.",
+    "bodyParts": [
+      "cervical",
+      "neck"
+    ],
+    "related": [
+      "DNF",
+      "UCS",
+      "Kyphosis"
+    ]
+  },
+  "APT": {
+    "term": "Anterior Pelvic Tilt",
+    "definition": "Anterior rotation of the pelvis where the ASIS drops and the PSIS rises, resulting in increased lumbar lordosis.",
+    "bodyParts": [
+      "pelvis",
+      "lumbar",
+      "hip"
+    ],
+    "related": [
+      "PPT",
+      "Lower Crossed Syndrome",
+      "Hip Flexors"
+    ]
+  },
+  "PPT": {
+    "term": "Posterior Pelvic Tilt",
+    "definition": "Posterior rotation of the pelvis where the PSIS drops and the ASIS rises, reducing lumbar lordosis.",
+    "bodyParts": [
+      "pelvis",
+      "lumbar",
+      "hip"
+    ],
+    "related": [
+      "APT",
+      "Hamstrings"
+    ]
+  },
+  "ASIS": {
+    "term": "Anterior Superior Iliac Spine",
+    "definition": "Bony landmark on the anterior pelvis used as a reference for assessing pelvic tilt.",
+    "bodyParts": [
+      "pelvis",
+      "hip"
+    ],
+    "related": [
+      "PSIS",
+      "APT",
+      "PPT"
+    ]
+  },
+  "PSIS": {
+    "term": "Posterior Superior Iliac Spine",
+    "definition": "Bony landmark on the posterior pelvis (often called the dimples of Venus).",
+    "bodyParts": [
+      "pelvis",
+      "hip"
+    ],
+    "related": [
+      "ASIS",
+      "APT",
+      "PPT"
+    ]
+  },
+  "LCA": {
+    "term": "Anterior Cruciate Ligament",
+    "definition": "Intra-articular knee ligament that prevents anterior translation of the tibia on the femur. Dynamic knee valgus substantially increases injury risk.",
+    "bodyParts": [
+      "knee"
+    ],
+    "related": [
+      "ACL",
+      "Knee Valgus"
+    ]
+  },
+  "ACL": {
+    "term": "ACL",
+    "definition": "Abbreviation for the anterior cruciate ligament. See LCA.",
+    "bodyParts": [
+      "knee"
+    ],
+    "related": [
+      "LCA",
+      "Knee Valgus"
+    ]
+  },
+  "TFL": {
+    "term": "Tensor Fasciae Latae",
+    "definition": "Hip flexor, abductor, and internal rotator. When overactive, it contributes to IT band tension and lateral knee pain.",
+    "bodyParts": [
+      "hip",
+      "thigh"
+    ],
+    "related": [
+      "IT Band",
+      "Gluteus Medius",
+      "Hip Flexors"
+    ]
+  },
+  "IT Band": {
+    "term": "Iliotibial Band",
+    "definition": "Thick fascial band running from the iliac crest to the lateral tibia. Excess tension is associated with lateral knee pain.",
+    "bodyParts": [
+      "hip",
+      "thigh",
+      "knee"
+    ],
+    "related": [
+      "TFL",
+      "Gluteus Maximus"
+    ]
+  },
+  "ROM": {
+    "term": "Range of Motion",
+    "definition": "The amount of movement available at a joint, either active (AROM) or passive (PROM).",
+    "bodyParts": [],
+    "related": [
+      "AROM",
+      "PROM",
+      "Mobility"
+    ]
+  },
+  "AROM": {
+    "term": "Active Range of Motion",
+    "definition": "Movement produced by voluntary muscle contraction without external assistance.",
+    "bodyParts": [],
+    "related": [
+      "ROM",
+      "PROM"
+    ]
+  },
+  "PROM": {
+    "term": "Passive Range of Motion",
+    "definition": "Movement produced by an external force without active muscular contribution.",
+    "bodyParts": [],
+    "related": [
+      "ROM",
+      "AROM"
+    ]
+  },
+  "SMR": {
+    "term": "Self-Myofascial Release",
+    "definition": "Self-massage technique using a foam roller, ball, or similar tools to reduce soft-tissue tension.",
+    "bodyParts": [],
+    "related": [
+      "Foam Roller",
+      "Trigger Point"
+    ]
+  },
+  "PNF": {
+    "term": "Proprioceptive Neuromuscular Facilitation",
+    "definition": "Stretching methods that use neuromuscular reflexes to improve flexibility.",
+    "bodyParts": [],
+    "related": [
+      "Stretching",
+      "Hold-Relax"
+    ]
+  },
+  "MWM": {
+    "term": "Mobilization With Movement",
+    "definition": "Mulligan technique combining sustained joint glide with active movement.",
+    "bodyParts": [],
+    "related": [
+      "Mobilization",
+      "Joint"
+    ]
+  },
+  "CCFT": {
+    "term": "Craniocervical Flexion Test",
+    "definition": "Assessment of deep cervical flexor function using pressure biofeedback (20-30 mmHg).",
+    "bodyParts": [
+      "cervical",
+      "neck"
+    ],
+    "related": [
+      "DNF",
+      "FHP"
+    ]
+  },
+  "WBLT": {
+    "term": "Weight-Bearing Lunge Test",
+    "definition": "Weight-bearing lunge assessment for ankle dorsiflexion. Toe-to-wall distance under 10 cm suggests a meaningful restriction.",
+    "bodyParts": [
+      "ankle",
+      "foot"
+    ],
+    "related": [
+      "Ankle Dorsiflexion",
+      "Ankle"
+    ]
+  },
+  "GH": {
+    "term": "Glenohumeral Joint",
+    "definition": "Primary shoulder joint between the glenoid fossa and the head of the humerus.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "Rotator Cuff",
+      "Scapula"
+    ]
+  },
+  "SCM": {
+    "term": "Sternocleidomastoid",
+    "definition": "Superficial cervical muscle that flexes, sidebends, and rotates the head. Overactivity is associated with forward head posture.",
+    "bodyParts": [
+      "cervical",
+      "neck"
+    ],
+    "related": [
+      "FHP",
+      "DNF"
+    ]
+  },
+  "TVA": {
+    "term": "Transversus Abdominis",
+    "definition": "Deepest abdominal muscle and a primary local stabilizer of the core.",
+    "bodyParts": [
+      "core",
+      "abdomen",
+      "lumbar"
+    ],
+    "related": [
+      "Core",
+      "Drawing-In"
+    ]
+  },
+  "ADL": {
+    "term": "Activities of Daily Living",
+    "definition": "Basic functional tasks such as walking, dressing, sitting, and standing up.",
+    "bodyParts": [],
+    "related": [
+      "Functional",
+      "Rehabilitation"
+    ]
+  },
+  "UCS": {
+    "term": "Upper Crossed Syndrome",
+    "definition": "Janda pattern with tight pectorals and superficial neck flexors paired with weak deep neck flexors and scapular stabilizers.",
+    "bodyParts": [
+      "cervical",
+      "shoulder",
+      "thoracic"
+    ],
+    "related": [
+      "FHP",
+      "Rounded Shoulders",
+      "Janda"
+    ]
+  },
+  "LCS": {
+    "term": "Lower Crossed Syndrome",
+    "definition": "Janda pattern with tight hip flexors and lumbar extensors paired with weak abdominals and glutes, often resulting in anterior pelvic tilt.",
+    "bodyParts": [
+      "lumbar",
+      "hip",
+      "pelvis"
+    ],
+    "related": [
+      "APT",
+      "Glutes",
+      "Hip Flexors"
+    ]
+  },
+  "Hip Flexors": {
+    "term": "Hip Flexors",
+    "definition": "Group of muscles that flex the hip: iliopsoas (primary), rectus femoris, TFL, and sartorius. Shortening contributes to anterior pelvic tilt.",
+    "bodyParts": [
+      "hip",
+      "thigh"
+    ],
+    "related": [
+      "Iliopsoas",
+      "APT",
+      "TFL"
+    ]
+  },
+  "Iliopsoas": {
+    "term": "Iliopsoas",
+    "definition": "Primary hip flexor composed of the iliacus and psoas major. Originates on the lumbar spine and inserts on the lesser trochanter.",
+    "bodyParts": [
+      "hip",
+      "lumbar"
+    ],
+    "related": [
+      "Hip Flexors",
+      "APT"
+    ]
+  },
+  "Gluteus Medius": {
+    "term": "Gluteus Medius",
+    "definition": "Primary hip abductor and frontal-plane stabilizer. Weakness contributes to a Trendelenburg sign and knee valgus.",
+    "bodyParts": [
+      "hip",
+      "glutes"
+    ],
+    "related": [
+      "Trendelenburg",
+      "Knee Valgus"
+    ]
+  },
+  "Gluteus Maximus": {
+    "term": "Gluteus Maximus",
+    "definition": "Primary hip extensor and external rotator. Inhibition is associated with low back pain and compensatory patterns.",
+    "bodyParts": [
+      "hip",
+      "glutes"
+    ],
+    "related": [
+      "Hip Hinge",
+      "APT"
+    ]
+  },
+  "Rotator Cuff": {
+    "term": "Rotator Cuff",
+    "definition": "Group of four muscles (SITS) that stabilize the humeral head in the glenoid and control shoulder rotation.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "SITS",
+      "Impingement",
+      "GH"
+    ]
+  },
+  "SITS": {
+    "term": "Supraspinatus, Infraspinatus, Teres Minor, Subscapularis",
+    "definition": "Acronym for the four rotator cuff muscles.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "Rotator Cuff"
+    ]
+  },
+  "Serratus Anterior": {
+    "term": "Serratus Anterior",
+    "definition": "Primary scapular protractor and upward rotator. Weakness can lead to scapular winging.",
+    "bodyParts": [
+      "shoulder",
+      "scapula"
+    ],
+    "related": [
+      "Winging",
+      "Scapular Dyskinesis"
+    ]
+  },
+  "Trapezius": {
+    "term": "Trapezius",
+    "definition": "Muscle with three portions: upper (elevates), middle (retracts), and lower (depresses the scapula). Imbalance often shows as an overactive upper trap.",
+    "bodyParts": [
+      "shoulder",
+      "scapula",
+      "cervical"
+    ],
+    "related": [
+      "Scapula",
+      "UCS"
+    ]
+  },
+  "Hamstrings": {
+    "term": "Hamstrings",
+    "definition": "Posterior thigh group: biceps femoris, semitendinosus, and semimembranosus. Shortness contributes to posterior pelvic tilt.",
+    "bodyParts": [
+      "thigh",
+      "knee",
+      "hip"
+    ],
+    "related": [
+      "PPT",
+      "Knee"
+    ]
+  },
+  "Dorsiflexion": {
+    "term": "Ankle Dorsiflexion",
+    "definition": "Ankle motion that brings the top of the foot toward the shin. Typical values: >10 deg with knee extended and >15 deg with knee flexed.",
+    "bodyParts": [
+      "ankle",
+      "foot"
+    ],
+    "related": [
+      "WBLT",
+      "Squat"
+    ]
+  },
+  "Pronation": {
+    "term": "Foot Pronation",
+    "definition": "Triplanar foot motion combining eversion, abduction, and dorsiflexion. Moderate pronation is normal; excessive pronation can cause problems.",
+    "bodyParts": [
+      "foot",
+      "ankle"
+    ],
+    "related": [
+      "Overpronation",
+      "Foot Arch"
+    ]
+  },
+  "Supination": {
+    "term": "Foot Supination",
+    "definition": "Triplanar motion opposite to pronation: inversion, adduction, and plantar flexion. Important for propulsion.",
+    "bodyParts": [
+      "foot",
+      "ankle"
+    ],
+    "related": [
+      "Foot Pronation"
+    ]
+  },
+  "Core": {
+    "term": "Core Musculature",
+    "definition": "Central musculature: TVA, multifidus, diaphragm, and pelvic floor (local) plus obliques, rectus abdominis, and erectors (global).",
+    "bodyParts": [
+      "core",
+      "abdomen",
+      "lumbar"
+    ],
+    "related": [
+      "TVA",
+      "Stabilization"
+    ]
+  },
+  "Kyphosis": {
+    "term": "Kyphosis",
+    "definition": "Posterior convex curve of the spine. Typical thoracic kyphosis is 20-40 deg; hyperkyphosis is over 40 deg and is often associated with upper crossed syndrome.",
+    "bodyParts": [
+      "thoracic",
+      "spine"
+    ],
+    "related": [
+      "UCS",
+      "Posture"
+    ]
+  },
+  "Lordosis": {
+    "term": "Lordosis",
+    "definition": "Posterior concave curve of the spine. Normal in the cervical and lumbar regions. Hyperlordosis often aligns with anterior pelvic tilt; hypolordosis aligns with posterior pelvic tilt.",
+    "bodyParts": [
+      "lumbar",
+      "cervical",
+      "spine"
+    ],
+    "related": [
+      "APT",
+      "PPT"
+    ]
+  },
+  "Cervical Hypolordosis": {
+    "term": "Cervical Hypolordosis (Rectification)",
+    "definition": "Reduction or loss of the normal cervical lordotic curve (straightened cervical spine). Often described as cervical rectification and may be associated with altered posture and loading.",
+    "bodyParts": [
+      "cervical",
+      "spine"
+    ],
+    "related": [
+      "Lordosis",
+      "FHP",
+      "Posture"
+    ]
+  },
+  "Foam Roller": {
+    "term": "Foam Roller",
+    "definition": "Tool for SMR. Apply moderate pressure (6-7/10) for 30-90 seconds per muscle group.",
+    "bodyParts": [],
+    "related": [
+      "SMR"
+    ]
+  },
+  "Trigger Point": {
+    "term": "Trigger Point",
+    "definition": "Hyperirritable nodule within a taut muscle band. It can refer pain at a distance. Address with ischemic pressure or SMR.",
+    "bodyParts": [],
+    "related": [
+      "SMR",
+      "Release"
+    ]
+  },
+  "Q-Angle": {
+    "term": "Quadriceps Angle",
+    "definition": "Angle between the ASIS-to-patella line and the patella-to-tibia line. Typical values: 12-15 deg for men and 15-20 deg for women. A larger angle increases valgus risk.",
+    "bodyParts": [
+      "knee",
+      "hip"
+    ],
+    "related": [
+      "Knee Valgus"
+    ]
+  },
+  "Impingement": {
+    "term": "Impingement Syndrome",
+    "definition": "Subacromial impingement. May be primary (structural) or secondary to scapular dysfunction and posture.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "Rotator Cuff",
+      "Scapular Dyskinesis"
+    ]
+  },
+  "Trendelenburg": {
+    "term": "Trendelenburg Sign",
+    "definition": "Contralateral pelvic drop during single-leg stance, indicating hip abductor weakness (gluteus medius).",
+    "bodyParts": [
+      "hip",
+      "pelvis"
+    ],
+    "related": [
+      "Gluteus Medius",
+      "Hip Drop"
+    ]
+  },
+  "Winging": {
+    "term": "Scapular Winging",
+    "definition": "Prominent medial border of the scapula. Indicates weakness of the serratus anterior or trapezius.",
+    "bodyParts": [
+      "scapula",
+      "shoulder"
+    ],
+    "related": [
+      "Serratus Anterior",
+      "Scapular Dyskinesis"
+    ]
+  },
+  "ZOA": {
+    "term": "Zone of Apposition",
+    "definition": "Zone where the diaphragm apposes the rib cage. Key for efficient breathing and core stability.",
+    "bodyParts": [
+      "core",
+      "thoracic"
+    ],
+    "related": [
+      "Diaphragm",
+      "Breathing"
+    ]
+  },
+  "Red Flag": {
+    "term": "Red Flag",
+    "definition": "Signs that suggest serious pathology: night pain, neurological loss, trauma, or systemic symptoms.",
+    "bodyParts": [],
+    "related": [
+      "Referral"
+    ]
+  },
+  "ER": {
+    "term": "External Rotation",
+    "definition": "Rotation away from the midline of the body.",
+    "bodyParts": [
+      "shoulder",
+      "hip"
+    ],
+    "related": [
+      "IR"
+    ]
+  },
+  "IR": {
+    "term": "Internal Rotation",
+    "definition": "Rotation toward the midline of the body.",
+    "bodyParts": [
+      "shoulder",
+      "hip"
+    ],
+    "related": [
+      "ER"
+    ]
+  },
+  "GIRD": {
+    "term": "Glenohumeral Internal Rotation Deficit",
+    "definition": "Loss of shoulder internal rotation common in overhead athletes. A side-to-side difference over 20 deg or a total rotation arc under 180 deg is considered significant and increases labral injury risk.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "Sleeper Stretch",
+      "Rotator Cuff",
+      "ER",
+      "IR"
+    ]
+  },
+  "FABER": {
+    "term": "Flexion Abduction External Rotation Test",
+    "definition": "Patrick/FABER test for hip and sacroiliac joint pathology. A figure-4 position with passive knee drop.",
+    "bodyParts": [
+      "hip",
+      "pelvis"
+    ],
+    "related": [
+      "SI Joint",
+      "FAI"
+    ]
+  },
+  "FAI": {
+    "term": "Femoroacetabular Impingement",
+    "definition": "Abnormal contact between the femoral head and acetabulum. Can be CAM, PINCER, or mixed. Commonly causes groin pain with deep hip flexion.",
+    "bodyParts": [
+      "hip"
+    ],
+    "related": [
+      "FABER",
+      "Labrum"
+    ]
+  },
+  "SI Joint": {
+    "term": "Sacroiliac Joint",
+    "definition": "Joint between the sacrum and ilium. A common source of low back and gluteal pain; dysfunction can create apparent pelvic asymmetry.",
+    "bodyParts": [
+      "pelvis",
+      "lumbar"
+    ],
+    "related": [
+      "FABER",
+      "ASIS",
+      "PSIS"
+    ]
+  },
+  "Ober Test": {
+    "term": "Ober Test",
+    "definition": "Assesses TFL and IT band tightness. In side-lying, the leg failing to drop to horizontal suggests a positive test.",
+    "bodyParts": [
+      "hip",
+      "thigh"
+    ],
+    "related": [
+      "TFL",
+      "IT Band"
+    ]
+  },
+  "Y-Balance": {
+    "term": "Y-Balance Test",
+    "definition": "Dynamic balance test in three directions (anterior, posteromedial, posterolateral). Asymmetry over 4 cm suggests elevated injury risk.",
+    "bodyParts": [
+      "ankle",
+      "knee",
+      "hip"
+    ],
+    "related": [
+      "Balance",
+      "Proprioception"
+    ]
+  },
+  "Beighton": {
+    "term": "Beighton Hypermobility Score",
+    "definition": "Scoring system (0-9) for generalized joint hypermobility. A score of 4 or higher suggests significant laxity; prioritize stability over mobility.",
+    "bodyParts": [],
+    "related": [
+      "Hypermobility",
+      "EDS"
+    ]
+  },
+  "Hip Hinge": {
+    "term": "Hip Hinge",
+    "definition": "Fundamental movement pattern where hip flexion occurs while the spine stays neutral. Foundation for deadlifts, kettlebell swings, and functional lifting.",
+    "bodyParts": [
+      "hip",
+      "lumbar"
+    ],
+    "related": [
+      "RDL",
+      "Glutes",
+      "Hamstrings"
+    ]
+  },
+  "RDL": {
+    "term": "Romanian Deadlift",
+    "definition": "Hip hinge exercise emphasizing the eccentric phase. A primary drill for developing glute and hamstring strength.",
+    "bodyParts": [
+      "hip",
+      "thigh"
+    ],
+    "related": [
+      "Hip Hinge",
+      "Glutes",
+      "Hamstrings"
+    ]
+  },
+  "CARS": {
+    "term": "Controlled Articular Rotations",
+    "definition": "FRC method for maintaining and improving active joint ROM using slow, controlled circular motions.",
+    "bodyParts": [],
+    "related": [
+      "FRC",
+      "Mobility",
+      "ROM"
+    ]
+  },
+  "FRC": {
+    "term": "Functional Range Conditioning",
+    "definition": "Mobility system developed by Dr. Andreo Spina that emphasizes active joint control through CARs, PAILs/RAILs, and related techniques.",
+    "bodyParts": [],
+    "related": [
+      "CARS",
+      "Mobility"
+    ]
+  },
+  "PRI": {
+    "term": "Postural Restoration Institute",
+    "definition": "Assessment and treatment system that recognizes natural asymmetries and uses breathing and positional exercises to restore balance. Known for 90-90 breathing.",
+    "bodyParts": [],
+    "related": [
+      "ZOA",
+      "Breathing",
+      "90-90"
+    ]
+  },
+  "VMO": {
+    "term": "Vastus Medialis Oblique",
+    "definition": "Medial portion of the quadriceps crucial for patellar stability in the last 30 deg of knee extension. Weakness is linked to patellofemoral pain.",
+    "bodyParts": [
+      "knee",
+      "thigh"
+    ],
+    "related": [
+      "Quadriceps",
+      "TKE"
+    ]
+  },
+  "TKE": {
+    "term": "Terminal Knee Extension",
+    "definition": "Exercise used to strengthen the VMO in the last degrees of knee extension. Common in knee and patellofemoral rehab.",
+    "bodyParts": [
+      "knee"
+    ],
+    "related": [
+      "VMO",
+      "Quadriceps"
+    ]
+  },
+  "Butt Wink": {
+    "term": "Butt Wink",
+    "definition": "Posterior pelvic tilt at the bottom of a squat. It may indicate limited hip mobility, tight hamstrings, or motor control deficits. Small amounts are not always problematic.",
+    "bodyParts": [
+      "pelvis",
+      "lumbar",
+      "hip"
+    ],
+    "related": [
+      "PPT",
+      "Squat"
+    ]
+  },
+  "Piriforme": {
+    "term": "Piriformis",
+    "definition": "Deep external rotator of the hip. It can irritate the sciatic nerve, producing gluteal pain with radiating symptoms.",
+    "bodyParts": [
+      "hip",
+      "glutes"
+    ],
+    "related": [
+      "External Rotators",
+      "Sciatica"
+    ]
+  },
+  "Labrum": {
+    "term": "Labrum (Hip/Shoulder)",
+    "definition": "Fibrocartilaginous ring that deepens the joint socket. Hip: acetabular labrum. Shoulder: glenoid labrum. Tears can cause pain, clicking, and instability.",
+    "bodyParts": [
+      "hip",
+      "shoulder"
+    ],
+    "related": [
+      "FAI",
+      "SLAP"
+    ]
+  },
+  "SLAP": {
+    "term": "Superior Labrum Anterior to Posterior",
+    "definition": "Superior labral tear from anterior to posterior. Common in overhead athletes. Causes pain with overhead activity and a sense of instability.",
+    "bodyParts": [
+      "shoulder"
+    ],
+    "related": [
+      "Labrum",
+      "Rotator Cuff"
+    ]
+  },
+  "Diaphragm": {
+    "term": "Diaphragm",
+    "definition": "Primary muscle of breathing. Separates thoracic and abdominal cavities. Optimal function supports core stability and posture; ZOA influences efficiency.",
+    "bodyParts": [
+      "core",
+      "thoracic"
+    ],
+    "related": [
+      "ZOA",
+      "Breathing",
+      "Core"
+    ]
+  },
+  "Proprioception": {
+    "term": "Proprioception",
+    "definition": "Sense of body position and movement from receptors in muscles, tendons, and joints. Essential for balance and motor control.",
+    "bodyParts": [],
+    "related": [
+      "Balance",
+      "Motor Control"
+    ]
+  },
+  "Reciprocal Inhibition": {
+    "term": "Reciprocal Inhibition",
+    "definition": "Neuromuscular principle where activation of a muscle causes reflex inhibition of its antagonist. Basis for many active stretches and PNF methods.",
+    "bodyParts": [],
+    "related": [
+      "PNF",
+      "Stretching"
+    ]
+  },
+  "Synergistic Dominance": {
+    "term": "Synergistic Dominance",
+    "definition": "When secondary synergists become dominant over the prime mover. Example: hamstrings and erectors dominating over glutes during hip extension.",
+    "bodyParts": [],
+    "related": [
+      "Gluteal Amnesia",
+      "Motor Pattern"
+    ]
+  },
+  "Upward Rotation": {
+    "term": "Upward Rotation (Scapular)",
+    "definition": "Scapular motion where the inferior angle rotates laterally and upward. Essential for full overhead arm elevation.",
+    "bodyParts": [
+      "shoulder",
+      "scapula"
+    ],
+    "related": [
+      "Serratus Anterior",
+      "Trapezius",
+      "Scapular Dyskinesis"
+    ]
+  },
+  "Posterior Tilt": {
+    "term": "Posterior Tilt (Scapular)",
+    "definition": "Scapular posterior tilt where the superior border tips backward. Required during arm elevation to maintain subacromial space.",
+    "bodyParts": [
+      "shoulder",
+      "scapula"
+    ],
+    "related": [
+      "Upward Rotation",
+      "Impingement"
+    ]
+  },
+  "Plantar Fascia": {
+    "term": "Plantar Fascia",
+    "definition": "Thick band of connective tissue supporting the medial longitudinal arch of the foot, spanning from the calcaneus to the toes.",
+    "bodyParts": [
+      "foot",
+      "ankle"
+    ],
+    "related": [
+      "Plantar Fasciitis",
+      "Windlass Mechanism"
+    ]
+  },
+  "Plantar Fasciitis": {
+    "term": "Plantar Fasciitis",
+    "definition": "Overuse-related pain and degeneration of the plantar fascia, typically presenting with heel pain worse on first steps in the morning.",
+    "bodyParts": [
+      "foot",
+      "ankle"
+    ],
+    "related": [
+      "Plantar Fascia",
+      "Windlass Mechanism",
+      "Heel Pain"
+    ]
+  },
+  "Windlass Mechanism": {
+    "term": "Windlass Mechanism",
+    "definition": "Arch-stiffening mechanism where toe extension tensions the plantar fascia, raising the medial arch during push-off.",
+    "bodyParts": [
+      "foot"
+    ],
+    "related": [
+      "Plantar Fascia",
+      "Toe Extension"
+    ]
+  },
+  "Patellofemoral Pain": {
+    "term": "Patellofemoral Pain",
+    "definition": "Anterior knee pain associated with the patella and femur, often aggravated by stairs, squats, and prolonged sitting.",
+    "bodyParts": [
+      "knee"
+    ],
+    "related": [
+      "Patella Tracking",
+      "Q-Angle",
+      "Knee Valgus"
+    ]
+  },
+  "Patella Tracking": {
+    "term": "Patella Tracking",
+    "definition": "The path of the patella as the knee flexes and extends. Maltracking can increase anterior knee pain.",
+    "bodyParts": [
+      "knee"
+    ],
+    "related": [
+      "Patellofemoral Pain",
+      "Q-Angle"
+    ]
+  },
+  "Epicondyle": {
+    "term": "Epicondyle",
+    "definition": "Bony prominence on the distal humerus where forearm tendons attach (medial and lateral epicondyles).",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Epicondylalgia",
+      "Epitrocleitis"
+    ]
+  },
+  "Epicondylalgia": {
+    "term": "Epicondylalgia",
+    "definition": "Tendinopathy-related pain at the epicondyle, commonly lateral (tennis elbow) or medial (golfer's elbow).",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Lateral Epicondylalgia",
+      "Medial Epicondylalgia"
+    ]
+  },
+  "Epitrocleitis": {
+    "term": "Epitrocleitis",
+    "definition": "Another name for medial epicondylalgia (golfer's elbow), involving the flexor-pronator tendon origin.",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Epicondylalgia",
+      "Medial Epicondylalgia"
+    ]
+  },
+  "Pronation": {
+    "term": "Pronation",
+    "definition": "Rotation of the forearm so the palm faces down; in the foot, a combined motion of eversion, abduction, and dorsiflexion.",
+    "bodyParts": [
+      "forearm",
+      "foot"
+    ],
+    "related": [
+      "Supination",
+      "Overpronation"
+    ]
+  },
+  "Supination": {
+    "term": "Supination",
+    "definition": "Rotation of the forearm so the palm faces up; in the foot, a combined motion of inversion, adduction, and plantarflexion.",
+    "bodyParts": [
+      "forearm",
+      "foot"
+    ],
+    "related": [
+      "Pronation",
+      "Overpronation"
+    ]
+  },
+  "Heel Pain": {
+    "term": "Heel Pain",
+    "definition": "Pain localized to the heel, commonly associated with plantar fascia overload or calcaneal stress.",
+    "bodyParts": [
+      "foot"
+    ],
+    "related": [
+      "Plantar Fasciitis",
+      "Plantar Fascia"
+    ]
+  },
+  "Toe Extension": {
+    "term": "Toe Extension",
+    "definition": "Extension of the toes, which increases tension in the plantar fascia via the windlass mechanism.",
+    "bodyParts": [
+      "foot"
+    ],
+    "related": [
+      "Windlass Mechanism",
+      "Plantar Fascia"
+    ]
+  },
+  "Lateral Epicondylalgia": {
+    "term": "Lateral Epicondylalgia",
+    "definition": "Overuse-related pain at the lateral epicondyle, often called tennis elbow.",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Epicondylalgia",
+      "Epicondyle"
+    ]
+  },
+  "Medial Epicondylalgia": {
+    "term": "Medial Epicondylalgia",
+    "definition": "Overuse-related pain at the medial epicondyle, often called golfer's elbow or epitrocleitis.",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Epicondylalgia",
+      "Epicondyle",
+      "Epitrocleitis"
+    ]
+  },
+  "Wrist Extension": {
+    "term": "Wrist Extension",
+    "definition": "Motion of bringing the back of the hand toward the forearm. Limited extension can affect push and grip tasks.",
+    "bodyParts": [
+      "wrist",
+      "forearm"
+    ],
+    "related": [
+      "Wrist Flexion",
+      "Forearm Extensors"
+    ]
+  },
+  "Wrist Flexion": {
+    "term": "Wrist Flexion",
+    "definition": "Motion of bending the palm toward the forearm. Limited flexion can affect gripping and load transfer.",
+    "bodyParts": [
+      "wrist",
+      "forearm"
+    ],
+    "related": [
+      "Wrist Extension",
+      "Forearm Flexors"
+    ]
+  },
+  "Forearm Extensors": {
+    "term": "Forearm Extensors",
+    "definition": "Muscle group on the posterior forearm responsible for wrist and finger extension.",
+    "bodyParts": [
+      "forearm",
+      "wrist"
+    ],
+    "related": [
+      "Wrist Extension",
+      "Lateral Epicondylalgia"
+    ]
+  },
+  "Forearm Flexors": {
+    "term": "Forearm Flexors",
+    "definition": "Muscle group on the anterior forearm responsible for wrist and finger flexion and pronation.",
+    "bodyParts": [
+      "forearm",
+      "wrist"
+    ],
+    "related": [
+      "Wrist Flexion",
+      "Medial Epicondylalgia"
+    ]
+  },
+  "Forearm Rotation": {
+    "term": "Forearm Rotation",
+    "definition": "Rotation of the forearm between pronation and supination, important for functional hand positioning.",
+    "bodyParts": [
+      "forearm",
+      "elbow"
+    ],
+    "related": [
+      "Pronation",
+      "Supination"
+    ]
+  },
+  "Grip Strength": {
+    "term": "Grip Strength",
+    "definition": "Force generated by the hand and forearm during gripping tasks. Often reduced in epicondylalgia.",
+    "bodyParts": [
+      "hand",
+      "forearm"
+    ],
+    "related": [
+      "Pain With Grip",
+      "Epicondylalgia"
+    ]
+  },
+  "Pain With Grip": {
+    "term": "Pain With Grip",
+    "definition": "Pain provoked by gripping or carrying, commonly linked to forearm tendon overload.",
+    "bodyParts": [
+      "hand",
+      "forearm",
+      "elbow"
+    ],
+    "related": [
+      "Grip Strength",
+      "Epicondylalgia"
+    ]
+  },
+  "Elbow Valgus": {
+    "term": "Elbow Valgus",
+    "definition": "Medial angulation of the forearm relative to the humerus. Excessive valgus increases medial elbow stress.",
+    "bodyParts": [
+      "elbow"
+    ],
+    "related": [
+      "Medial Epicondylalgia",
+      "Epicondyle"
+    ]
+  }
+}

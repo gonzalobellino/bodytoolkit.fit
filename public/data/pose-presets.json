@@ -1,0 +1,105 @@
+{
+  "defaults": {
+    "video": "default",
+    "gait": "default",
+    "symmetry": "default",
+    "movementComparison": "default"
+  },
+  "movementDefaults": {
+    "overhead_squat": "default",
+    "single_leg_squat": "default",
+    "forward_bend": "default",
+    "shoulder_flexion": "default",
+    "hip_hinge": "default",
+    "p__knee_valgus": "default",
+    "p__rounded_shoulders": "default",
+    "p__scapular_dyskinesis": "default",
+    "p__forward_head_posture": "default",
+    "p__cervical_rotation_restriction": "default",
+    "p__upper_crossed_syndrome": "default",
+    "p__thoracic_kyphosis": "default",
+    "p__thoracic_rotation_restriction": "default",
+    "p__limited_shoulder_flexion": "default",
+    "p__shoulder_gird": "default",
+    "p__lumbar_hyperlordosis": "default",
+    "p__anterior_pelvic_tilt": "default",
+    "p__posterior_pelvic_tilt": "default",
+    "p__lateral_pelvic_tilt": "default",
+    "p__hip_flexor_tightness": "default",
+    "p__gluteal_amnesia": "default",
+    "p__limited_ankle_dorsiflexion": "default",
+    "p__overpronation": "default",
+    "p__rotator_cuff_weakness": "default",
+    "p__hip_external_rotation_restriction": "default",
+    "p__hamstring_dominance": "default",
+    "p__squat_compensation": "default",
+    "p__goblet_squat_pattern": "default",
+    "p__cervical_sidebending_restriction": "default",
+    "p__loss_of_lumbar_extension": "default",
+    "p__lower_crossed_syndrome": "default",
+    "p__limited_wrist_extension": "default",
+    "p__limited_wrist_flexion": "default",
+    "p__limited_forearm_pronation": "default",
+    "p__limited_forearm_supination": "default",
+    "p__pain_with_grip": "default",
+    "p__elbow_valgus_control": "default"
+  },
+  "presets": [
+    {
+      "id": "default",
+      "label": "Default",
+      "modelType": "movenet",
+      "params": {
+        "scoreThreshold": 0.3,
+        "minPoseScore": 0.1,
+        "enableSmoothing": true,
+        "blazeposeModelType": "full",
+        "smoothingAlpha": 0.6,
+        "maxJumpRatio": 0.15,
+        "maxOutOfBoundsRatio": 0.2
+      }
+    },
+    {
+      "id": "golf",
+      "label": "Golf Swing",
+      "modelType": "blazepose",
+      "params": {
+        "scoreThreshold": 0.4,
+        "minPoseScore": 0.1,
+        "enableSmoothing": true,
+        "blazeposeModelType": "full",
+        "smoothingAlpha": 0.7,
+        "maxJumpRatio": 0.1,
+        "maxOutOfBoundsRatio": 0.15
+      }
+    },
+    {
+      "id": "swim",
+      "label": "Swimming",
+      "modelType": "blazepose",
+      "params": {
+        "scoreThreshold": 0.15,
+        "minPoseScore": 0.1,
+        "enableSmoothing": true,
+        "blazeposeModelType": "full",
+        "smoothingAlpha": 0.5,
+        "maxJumpRatio": 0.2,
+        "maxOutOfBoundsRatio": 0.3
+      }
+    },
+    {
+      "id": "jiu-jitsu",
+      "label": "Jiu-Jitsu",
+      "modelType": "blazepose",
+      "params": {
+        "scoreThreshold": 0.2,
+        "minPoseScore": 0.1,
+        "enableSmoothing": true,
+        "blazeposeModelType": "full",
+        "smoothingAlpha": 0.4,
+        "maxJumpRatio": 0.25,
+        "maxOutOfBoundsRatio": 0.3
+      }
+    }
+  ]
+}

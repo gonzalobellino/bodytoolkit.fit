@@ -1,0 +1,48 @@
+[
+  {
+    "id": "movement_pattern_recognition",
+    "title": "Movement Pattern Recognition",
+    "questionCount": 5,
+    "difficulty": "Intermediate",
+    "timeEstimate": "8 min",
+    "knowledgeBase": "patterns.json",
+    "questionTypes": ["identify", "compensation", "biomechanical_mechanism"]
+  },
+  {
+    "id": "assessment_protocols",
+    "title": "Assessment Protocols",
+    "questionCount": 4,
+    "difficulty": "Beginner",
+    "timeEstimate": "6 min",
+    "knowledgeBase": "assessments.json",
+    "questionTypes": ["identify", "views", "protocol"]
+  },
+  {
+    "id": "exercise_selection",
+    "title": "Exercise Selection",
+    "questionCount": 6,
+    "difficulty": "Intermediate",
+    "timeEstimate": "10 min",
+    "knowledgeBase": "patterns.json",
+    "questionTypes": ["corrective", "progression", "compensation"]
+  },
+  {
+    "id": "biomechanics",
+    "title": "Biomechanics Fundamentals",
+    "questionCount": 5,
+    "difficulty": "Advanced",
+    "timeEstimate": "8 min",
+    "knowledgeBase": "patterns.json",
+    "questionTypes": ["biomechanical_mechanism", "identify", "trueFalse"]
+  },
+  {
+    "id": "muscle_anatomy",
+    "title": "Muscle Anatomy & Origins/Insertions",
+    "questionCount": 10,
+    "difficulty": "Intermediate",
+    "timeEstimate": "12 min",
+    "knowledgeBase": "muscleCharts.json",
+    "questionTypes": ["origin_insertion", "muscle_identification", "region_selection"]
+  }
+]
+

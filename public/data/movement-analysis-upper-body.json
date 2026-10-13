@@ -1,0 +1,81 @@
+{
+  "name": { "en": "Upper Body Multi-Joint Movement Analysis", "es": "Upper Body Multi-Joint Movement Analysis" },
+  "type": "form",
+  "domain": "Upper Body",
+  "description": { "en": "Movement pattern assessment for multi-joint upper body exercises", "es": "Movement pattern assessment for multi-joint upper body exercises" },
+  "sections": [
+    {
+      "title": { "en": "Client Information", "es": "Client Information" },
+      "questions": [
+        { "id": "ubmjma_client", "type": "text", "label": { "en": "Client name", "es": "Client name" } },
+        { "id": "ubmjma_date", "type": "date", "label": { "en": "Date", "es": "Date" }, "default": "today" }
+      ]
+    },
+    {
+      "title": { "en": "Critical Movement Events", "es": "Critical Movement Events" },
+      "questions": [
+        { "id": "ubmjma_event1", "type": "yes_no", "label": { "en": "Critical event #1: Maintenance of posture - Was this event met?", "es": "Critical event #1: Maintenance of posture - Was this event met?" } },
+        { "id": "ubmjma_event2", "type": "yes_no", "label": { "en": "Critical event #2 - Was this event met?", "es": "Critical event #2 - Was this event met?" } },
+        { "id": "ubmjma_event3", "type": "yes_no", "label": { "en": "Critical event #3 - Was this event met?", "es": "Critical event #3 - Was this event met?" } },
+        { "id": "ubmjma_event4", "type": "yes_no", "label": { "en": "Critical event #4 - Was this event met?", "es": "Critical event #4 - Was this event met?" } }
+      ]
+    },
+    {
+      "title": { "en": "Sagittal", "es": "Sagittal" },
+      "questions": [
+        {
+          "id": "ubmjma_observed_sagittal",
+          "type": "multi_select",
+          "label": { "en": "Sagittal plane observations", "es": "Sagittal plane observations" },
+          "options": [
+            { "value": "excessive_forward_head", "label": { "en": "Excessive forward head posture", "es": "Excessive forward head posture" } },
+            { "value": "thoracic_kyphosis", "label": { "en": "Thoracic kyphosis", "es": "Thoracic kyphosis" } },
+            { "value": "inadequate_shoulder_flexion", "label": { "en": "Inadequate shoulder flexion", "es": "Inadequate shoulder flexion" } },
+            { "value": "lumbar_hyperextension", "label": { "en": "Lumbar hyperextension", "es": "Lumbar hyperextension" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Frontal", "es": "Frontal" },
+      "questions": [
+        {
+          "id": "ubmjma_observed_frontal",
+          "type": "multi_select",
+          "label": { "en": "Frontal plane observations", "es": "Frontal plane observations" },
+          "options": [
+            { "value": "shoulder_elevation", "label": { "en": "Shoulder elevation", "es": "Shoulder elevation" } },
+            { "value": "asymmetric_shoulder_height", "label": { "en": "Asymmetric shoulder height", "es": "Asymmetric shoulder height" } },
+            { "value": "lateral_trunk_lean", "label": { "en": "Lateral trunk lean", "es": "Lateral trunk lean" } },
+            { "value": "scapular_winging", "label": { "en": "Scapular winging", "es": "Scapular winging" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Transverse", "es": "Transverse" },
+      "questions": [
+        {
+          "id": "ubmjma_observed_transverse",
+          "type": "multi_select",
+          "label": { "en": "Transverse plane observations", "es": "Transverse plane observations" },
+          "options": [
+            { "value": "shoulder_internal_rotation", "label": { "en": "Shoulder internal rotation", "es": "Shoulder internal rotation" } },
+            { "value": "scapular_protraction", "label": { "en": "Scapular protraction", "es": "Scapular protraction" } },
+            { "value": "trunk_rotation", "label": { "en": "Trunk rotation", "es": "Trunk rotation" } },
+            { "value": "asymmetric_movement", "label": { "en": "Asymmetric movement", "es": "Asymmetric movement" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Additional Notes", "es": "Additional Notes" },
+      "questions": [
+        { "id": "ubmjma_notes", "type": "textarea", "label": { "en": "Additional notes and observations", "es": "Additional notes and observations" } }
+      ]
+    }
+  ]
+}

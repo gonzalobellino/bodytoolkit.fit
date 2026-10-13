@@ -1,0 +1,36 @@
+{
+  "name": { "en": "Upper Extremity Functional Index", "es": "Índice funcional del miembro superior" },
+  "abbreviation": "UEFI",
+  "type": "scale",
+  "maxScore": 80,
+  "minScore": 0,
+  "questions": [
+    { "en": "Any of your usual work, housework or school activities", "es": "Cualquiera de tus actividades habituales de trabajo, hogar o estudios" },
+    { "en": "Your usual hobbies, recreational or sporting activities", "es": "Tus hobbies, actividades recreativas o deportivas habituales" },
+    { "en": "Lifting a bag of groceries to waist level", "es": "Levantar una bolsa de la compra hasta la cintura" },
+    { "en": "Lifting a bag of groceries above your head", "es": "Levantar una bolsa de la compra por encima de la cabeza" },
+    { "en": "Grooming your hair", "es": "Peinarte" },
+    { "en": "Pushing up on your hands (e.g., from bathtub or chair)", "es": "Empujar con las manos (p. ej. desde la bañera o la silla)" },
+    { "en": "Preparing food (e.g., peeling, cutting)", "es": "Preparar comida (pelar, cortar)" },
+    { "en": "Driving", "es": "Conducir" },
+    { "en": "Vacuuming, sweeping or raking", "es": "Pasar la aspiradora, barrer o rastrillar" },
+    { "en": "Dressing", "es": "Vestirte" },
+    { "en": "Doing up buttons", "es": "Abrochar botones" },
+    { "en": "Using tools or appliances", "es": "Usar herramientas o electrodomésticos" },
+    { "en": "Opening doors", "es": "Abrir puertas" },
+    { "en": "Cleaning", "es": "Limpiar" },
+    { "en": "Tying or lacing shoes", "es": "Atar o atar cordones de zapatos" },
+    { "en": "Sleeping", "es": "Dormir" },
+    { "en": "Laundering clothes (e.g., washing, ironing, folding)", "es": "Lavar la ropa (lavar, planchar, doblar)" },
+    { "en": "Opening a jar", "es": "Abrir un bote" },
+    { "en": "Throwing a ball", "es": "Lanzar una pelota" },
+    { "en": "Carrying a small suitcase with your affected limb", "es": "Llevar una maleta pequeña con el miembro afectado" }
+  ],
+  "options": [
+    { "value": 0, "label": { "en": "Extreme difficulty or unable to perform activity", "es": "Dificultad extrema o incapaz de realizar la actividad" } },
+    { "value": 1, "label": { "en": "Quite a bit of difficulty", "es": "Bastante dificultad" } },
+    { "value": 2, "label": { "en": "Moderate difficulty", "es": "Dificultad moderada" } },
+    { "value": 3, "label": { "en": "A little bit of difficulty", "es": "Un poco de dificultad" } },
+    { "value": 4, "label": { "en": "No difficulty", "es": "Sin dificultad" } }
+  ]
+}

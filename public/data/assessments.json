@@ -1,0 +1,2295 @@
+[
+  {
+    "id": "a__overhead_squat_assessment",
+    "name": "Overhead Squat Assessment",
+    "category": "Movement Screen",
+    "description": "Global assessment of mobility and stability during an overhead squat.",
+    "views": [
+      "frontal",
+      "lateral",
+      "posterior"
+    ],
+    "key_observations": [
+      "Depth (femur at least parallel)",
+      "Knee alignment over feet",
+      "Torso posture (ideally vertical)",
+      "Heels stay on the floor",
+      "Arms next to ears"
+    ],
+    "positive_indicators": {
+      "frontal": "Medial knee collapse (valgus)",
+      "lateral": "Excessive torso lean, increased lumbar arch",
+      "posterior": "Pelvic rotation or asymmetry"
+    },
+    "reference": "Cook G, Burton L, Hoogenboom BJ, Voight M. Functional movement screening: the use of fundamental movements as an assessment of function - part 1. Int J Sports Phys Ther. 2014;9(3):396-409. PMID: 24944860.",
+    "execution": [
+      "Stand with feet shoulder-width apart",
+      "Raise arms overhead with elbows extended",
+      "Perform 5-10 controlled squats",
+      "Observe from frontal, lateral, and posterior views",
+      "Note deviations during descent and ascent"
+    ],
+    "purpose": "Screen for global mobility and stability during an overhead squat.",
+    "protocol": [
+      "Observe from: frontal, lateral, posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__single_leg_squat_assessment",
+    "name": "Single Leg Squat Test",
+    "category": "Movement Screen",
+    "description": "Single-leg squat assessment for dynamic knee and hip control.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Valgus angle >10 deg indicates a significant deficit",
+      "Pelvic drop (Trendelenburg)",
+      "Trunk control"
+    ],
+    "positive_indicators": {
+      "frontal": "Dynamic valgus with contralateral hip drop"
+    },
+    "reference": "Kay Crossley",
+    "execution": [
+      "Stand on one leg with the other leg forward",
+      "Perform a controlled squat to a comfortable depth",
+      "Keep the knee tracking over the foot",
+      "Observe pelvis and trunk stability",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Single Leg Squat findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__drop_jump_landing_assessment",
+    "name": "Drop Jump Landing Test",
+    "category": "Movement Screen",
+    "description": "Landing assessment to observe dynamic knee valgus and control.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Valgus control on landing",
+      "Bilateral symmetry",
+      "Impact absorption"
+    ],
+    "positive_indicators": {
+      "frontal": "Knee collapse or asymmetry"
+    },
+    "reference": "Timothy Hewett et al.",
+    "execution": [
+      "Stand on a box at a standardized height",
+      "Step off and land with both feet",
+      "Immediately perform a controlled vertical jump",
+      "Observe landing mechanics on the second landing",
+      "Repeat for multiple trials"
+    ],
+    "purpose": "Screen for Drop Jump Landing findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__trendelenburg_assessment",
+    "name": "Trendelenburg Test",
+    "category": "Hip Stability",
+    "description": "Test for gluteus medius function during single-leg stance.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Contralateral pelvic drop",
+      "Trunk compensation"
+    ],
+    "positive_indicators": {
+      "posterior": "Pelvic drop >2 cm on the non-stance side"
+    },
+    "reference": "Friedrich Trendelenburg",
+    "execution": [
+      "Stand on one leg with hands on hips",
+      "Hold for 10-30 seconds",
+      "Observe pelvic drop or trunk shift",
+      "Repeat on the other side",
+      "Compare stability"
+    ],
+    "purpose": "Screen for Trendelenburg findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__thomas_test_assessment",
+    "name": "Thomas Test",
+    "category": "Flexibility",
+    "description": "Assesses hip flexor length (psoas, rectus femoris, TFL).",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Thigh should reach horizontal",
+      "Knee flexion at least 80 deg",
+      "Differentiate rectus femoris vs psoas"
+    ],
+    "positive_indicators": {
+      "lateral": "Thigh elevated (short psoas), knee extended (short rectus femoris)"
+    },
+    "reference": "Hugh Owen Thomas",
+    "execution": [
+      "Lie supine on a table with the pelvis neutral",
+      "Pull one knee to the chest",
+      "Keep the other leg relaxed on the table",
+      "Observe hip extension and knee position",
+      "Repeat on the other side"
+    ],
+    "purpose": "Screen for Thomas findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__modified_thomas_assessment",
+    "name": "Modified Thomas Test",
+    "category": "Flexibility",
+    "description": "Modified version to differentiate specific restrictions.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Differentiate rectus femoris vs psoas",
+      "Assess TFL (thigh abduction)"
+    ],
+    "positive_indicators": {
+      "lateral": "Knee extension suggests rectus femoris tightness, abduction suggests TFL tightness"
+    },
+    "reference": "Thomas (1878); modified version: Kendall FP et al. Muscles: Testing and Function with Posture and Pain. Validity requires pelvic control: Vigotsky AD et al. PeerJ. 2016;4:e2325. Magee DJ. Orthopedic Physical Assessment.",
+    "execution": [
+      "Lie supine at the edge of a table",
+      "Pull one knee to the chest to flatten the lumbar spine",
+      "Allow the test leg to hang relaxed",
+      "Observe thigh position and knee flexion angle",
+      "Repeat on the other side"
+    ],
+    "purpose": "Screen for Modified Thomas findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__hip_abduction_strength_assessment",
+    "name": "Hip Abduction Strength Test",
+    "category": "Strength",
+    "description": "Assessment of hip abduction strength (gluteus medius).",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "<20% bodyweight indicates significant weakness",
+      "Compare bilaterally"
+    ],
+    "positive_indicators": {
+      "lateral": "Unable to hold position, trunk compensation"
+    },
+    "reference": "Florence Kendall",
+    "assessment_type": "clinical",
+    "execution": [
+      "Lie on the side with the test leg on top",
+      "Keep the pelvis stacked and knee straight",
+      "Abduct the top leg against manual resistance",
+      "Hold 3-5 seconds while resisting",
+      "Compare left vs right"
+    ],
+    "purpose": "Screen for Hip Abduction Strength findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__pectoralis_major_muscle_length_kendall_based",
+    "name": "Pectoralis Major Length Test (Kendall-based)",
+    "category": "Flexibility",
+    "description": "Screens pectoralis major length via passive horizontal abduction/extension with compensation control.",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Arm cannot approach the support surface (table/floor) during passive horizontal abduction/extension without obvious resistance.",
+      "Early compensations appear (shoulder rolls forward/anteriorizes, humerus internally rotates, shoulder elevates/shrugs).",
+      "Clear left-right asymmetry in passive end-range or compensatory pattern."
+    ],
+    "positive_indicators": {
+      "supine": "With the client supine and the examiner passively moving the arm toward horizontal abduction/extension, the arm remains elevated and/or compensations occur (anterior shoulder roll, humeral internal rotation, shoulder elevation) before reaching the expected end-range, especially when asymmetrical side-to-side."
+    },
+    "reference": "Kendall & McCreary - Muscles: Testing and Function with Posture and Pain (muscle length testing principles; pectoralis major shortness assessed via limitation of shoulder horizontal abduction/extension with compensation control).",
+    "assessment_type": "clinical",
+    "execution": [
+      "Position client supine in hook-lying (knees bent, feet flat) to reduce lumbar compensation; arms relaxed by the sides.",
+      "Select the test side. Bring the shoulder to approximately 90 deg abduction with the elbow extended and forearm supinated (palm up).",
+      "Passively move the arm slowly toward horizontal abduction/extension (bringing the arm toward the surface behind the frontal plane) without forcing end-range.",
+      "Observe for end-range limitation and compensations: anterior shoulder roll/anteriorization, humeral internal rotation, or shoulder elevation/shrugging.",
+      "Repeat on the other side and compare symmetry; record the key observations and whether positive indicators were present."
+    ],
+    "purpose": "Screen for passive anterior shoulder restriction patterns consistent with pectoralis major stiffness/shortness within classical muscle length testing.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__pectoralis_minor_length_assessment",
+    "name": "Pectoralis Minor Length Test",
+    "category": "Flexibility",
+    "description": "Assesses pectoralis minor length via acromion-to-table distance.",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Posterior acromion should rest close to the table",
+      "Compare sides and note scapular anterior tilt"
+    ],
+    "positive_indicators": {
+      "supine": "Acromion remains elevated off the table or marked asymmetry"
+    },
+    "reference": "Weber C et al. 2016; Harrington SE et al. 2020; Kendall & McCreary - Muscles: Testing and Function with Posture and Pain.",
+    "assessment_type": "clinical",
+    "execution": [
+      "Lie supine with arms relaxed at the sides",
+      "Measure acromion-to-table distance at rest",
+      "Optional: apply gentle posterior pressure over the coracoid to assess passive length change",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Pectoralis Minor length findings.",
+    "protocol": [
+      "Observe from: superior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__lat_length_assessment",
+    "name": "Lat Length Test",
+    "category": "Flexibility",
+    "description": "Assesses latissimus dorsi length.",
+    "views": [
+      "supine",
+      "lateral"
+    ],
+    "key_observations": [
+      "Inability to reach overhead",
+      "Compensatory lumbar arch"
+    ],
+    "positive_indicators": {
+      "supine": "Arms do not reach the surface, back arches"
+    },
+    "reference": "Florence Kendall",
+    "execution": [
+      "Lie supine with knees bent and low back neutral",
+      "Raise both arms overhead toward the floor",
+      "Keep ribs down and avoid lumbar extension",
+      "Observe whether the arms reach the floor",
+      "Compare sides if tested separately"
+    ],
+    "purpose": "Screen for Lat Length findings.",
+    "protocol": [
+      "Observe from: supine, lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__scapular_dyskinesis_assessment",
+    "name": "Scapular Dyskinesis Test",
+    "category": "Movement Screen",
+    "description": "Observe scapular motion and position during arm elevation.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Type I: inferior angle prominence",
+      "Type II: medial border prominence",
+      "Type III: superior border elevation"
+    ],
+    "positive_indicators": {
+      "posterior": "Winging, asymmetry, lack of upward rotation"
+    },
+    "reference": "Ben Kibler",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand with light weights in each hand",
+      "Perform repeated shoulder flexion and abduction",
+      "Observe scapular winging or asymmetry",
+      "View from posterior and lateral angles",
+      "Compare left vs right"
+    ],
+    "purpose": "Screen for Scapular Dyskinesis findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__scapular_assistance_assessment",
+    "name": "Scapular Assistance Test (SAT)",
+    "category": "Special Test",
+    "description": "Manual assistance into upward rotation; improvement suggests dyskinesis.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Pain improvement with assistance indicates a positive test",
+      "Suggests a scapular component"
+    ],
+    "positive_indicators": {
+      "lateral": "Pain reduction or ROM gain with assistance"
+    },
+    "reference": "Ben Kibler",
+    "assessment_type": "clinical",
+    "execution": [
+      "Have the client elevate the arm in the scapular plane",
+      "Manually assist scapular upward rotation and posterior tilt",
+      "Repeat the arm elevation with assistance",
+      "Note changes in pain or range",
+      "Compare to the unassisted movement"
+    ],
+    "purpose": "Screen for Scapular Assistance findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__lateral_scapular_slide_assessment",
+    "name": "Lateral Scapular Slide Test",
+    "category": "Symmetry",
+    "description": "Measure bilateral scapular position symmetry.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Measure distance from scapular spine to spine",
+      "Difference >1.5 cm is significant"
+    ],
+    "positive_indicators": {
+      "posterior": "Asymmetry >1.5 cm"
+    },
+    "reference": "Ben Kibler",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand relaxed with arms at the sides",
+      "Measure scapular position relative to the spine",
+      "Repeat with hands on hips (45 deg abduction)",
+      "Repeat with arms abducted to 90 deg",
+      "Compare left vs right distances"
+    ],
+    "purpose": "Screen for Lateral Scapular Slide findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__wall_test_fhp_assessment",
+    "name": "Wall Test (FHP)",
+    "category": "Posture",
+    "description": "Assesses forward head posture against a wall.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Occiput-to-wall distance",
+      ">5 cm indicates significant FHP"
+    ],
+    "positive_indicators": {
+      "lateral": "Unable to touch wall with the occiput without forcing"
+    },
+    "reference": "Florence Kendall",
+    "execution": [
+      "Stand with heels, hips, and upper back against a wall",
+      "Keep the chin level and eyes forward",
+      "Check if the occiput touches the wall",
+      "Measure the occiput-to-wall distance",
+      "Document the distance"
+    ],
+    "purpose": "Screen for Wall findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__chin_tuck_test_assessment",
+    "name": "Chin Tuck Test",
+    "category": "Mobility",
+    "description": "Assesses activation of deep cervical flexors.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Ability to perform cervical retraction",
+      "Compensation with cervical flexion"
+    ],
+    "positive_indicators": {
+      "lateral": "Unable to retract, flexion compensation"
+    },
+    "reference": "Gwendolen Jull (DNF assessment)",
+    "execution": [
+      "Sit or stand tall with the head in neutral",
+      "Glide the chin straight back to make a double chin",
+      "Keep eyes level and avoid head tilt",
+      "Hold for 3-5 seconds",
+      "Repeat for multiple reps and note control"
+    ],
+    "purpose": "Screen for Chin Tuck findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__ccft_assessment",
+    "name": "Craniocervical Flexion Test (CCFT)",
+    "category": "Strength",
+    "description": "Assesses endurance of deep cervical flexors with biofeedback.",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Progressive pressure from 22-30 mmHg",
+      "Hold 10 seconds at each level"
+    ],
+    "positive_indicators": {
+      "supine": "Unable to hold pressure, SCM compensation"
+    },
+    "reference": "Gwendolen Jull et al.",
+    "execution": [
+      "Lie supine with knees bent and head supported",
+      "Gently nod the chin as if saying \"yes\" without lifting the head",
+      "Maintain the nod while lifting the head slightly",
+      "Hold for the prescribed time or pressure target",
+      "Monitor for loss of chin tuck or compensations"
+    ],
+    "purpose": "Screen for Craniocervical Flexion findings.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__cervical_rotation_assessment",
+    "name": "Cervical Rotation ROM",
+    "category": "Mobility",
+    "description": "Assesses active and passive cervical rotation.",
+    "views": [
+      "superior"
+    ],
+    "key_observations": [
+      "Normal near 80 deg each side",
+      "Compare active vs passive"
+    ],
+    "positive_indicators": {
+      "superior": "Asymmetry or restriction <70 deg"
+    },
+    "reference": "Williams MA et al. Reliability and validity of cervical ROM measurement methods. J Manipulative Physiol Ther. 2010;33(2):138-155. CROM and inclinometer show good reliability.",
+    "assessment_type": "clinical",
+    "execution": [
+      "Sit or stand tall with shoulders relaxed",
+      "Slightly tuck the chin",
+      "Rotate the head to one side as far as comfortable",
+      "Avoid shoulder elevation or trunk rotation",
+      "Repeat on the other side and compare"
+    ],
+    "purpose": "Screen for Cervical Rotation ROM findings.",
+    "protocol": [
+      "Observe from: superior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__flexion_rotation_assessment",
+    "name": "Flexion-Rotation Test",
+    "category": "Mobility",
+    "description": "Specific for C1-C2 dysfunction.",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Normal >44 deg rotation in flexion",
+      "Asymmetry indicates restriction"
+    ],
+    "positive_indicators": {
+      "supine": "Unilateral restriction <44 deg"
+    },
+    "reference": "Toby Hall et al.",
+    "execution": [
+      "Lie supine with knees bent",
+      "Passively flex the cervical spine",
+      "Maintain full flexion and rotate the head left and right",
+      "Observe end range and symptom reproduction",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Flexion-Rotation findings.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__thoracic_rotation_assessment",
+    "name": "Seated Thoracic Rotation Test",
+    "category": "Mobility",
+    "description": "Assesses thoracic rotation in seated position.",
+    "views": [
+      "superior"
+    ],
+    "key_observations": [
+      "Normal 45-50 deg each side",
+      "Seated to lock the lumbar spine"
+    ],
+    "positive_indicators": {
+      "superior": "Restriction <45 deg or asymmetry"
+    },
+    "reference": "Joint Range of Motion and Muscle Length Testing",
+    "execution": [
+      "Sit upright with arms crossed over the chest",
+      "Keep the pelvis stable and rotate the torso",
+      "Rotate left and right to end range",
+      "Measure or estimate the rotation angle",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Seated Thoracic Rotation findings.",
+    "protocol": [
+      "Observe from: superior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__quadruped_rotation_assessment",
+    "name": "Quadruped Thoracic Rotation",
+    "category": "Mobility",
+    "description": "Assesses thoracic rotation in quadruped.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Hand behind head, rotate",
+      "Compare both sides"
+    ],
+    "positive_indicators": {
+      "frontal": "Asymmetry, lumbar compensation"
+    },
+    "reference": "Shirley Sahrmann",
+    "execution": [
+      "Assume a quadruped position with spine neutral",
+      "Place one hand behind the head",
+      "Rotate the thorax toward the ceiling",
+      "Keep hips level and lumbar stable",
+      "Compare left vs right rotation"
+    ],
+    "purpose": "Screen for Quadruped Thoracic Rotation findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__thoracic_flexicurve_assessment",
+    "name": "Thoracic Kyphosis Measurement",
+    "category": "Posture",
+    "description": "Measure thoracic kyphosis using a flexicurve or inclinometer.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Normal 20-40 deg (Cobb angle)",
+      ">40 deg indicates hyperkyphosis"
+    ],
+    "positive_indicators": {
+      "lateral": "Increased kyphosis with a prominent apex"
+    },
+    "reference": "Gail Greendale",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand relaxed with arms at sides",
+      "Mold the flexicurve along the thoracic spine",
+      "Trace the curve on paper or measure directly",
+      "Calculate or estimate the kyphosis angle",
+      "Document the value"
+    ],
+    "purpose": "Screen for Thoracic Kyphosis Measurement findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__shoulder_ir_90_assessment",
+    "name": "Shoulder Internal Rotation at 90 deg Abduction",
+    "category": "Mobility",
+    "description": "Assesses glenohumeral internal rotation (GIRD).",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Normal >70 deg",
+      "Compare bilaterally",
+      "Total arc (ER + IR) >180 deg"
+    ],
+    "positive_indicators": {
+      "supine": "Loss >15 deg compared to contralateral side indicates GIRD"
+    },
+    "reference": "Joint Range of Motion and Muscle Length Testing",
+    "assessment_type": "clinical",
+    "execution": [
+      "Lie supine with shoulder abducted to 90 deg",
+      "Flex the elbow to 90 deg and stabilize the scapula",
+      "Rotate the forearm toward the table into internal rotation",
+      "Stop before the shoulder lifts",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Shoulder Internal Rotation at 90 deg Abduction findings.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__sleeper_stretch_test_assessment",
+    "name": "Sleeper Stretch Tolerance",
+    "category": "Flexibility",
+    "description": "Assesses posterior capsule tolerance and restriction.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Pain suggests capsular restriction",
+      "Compare bilaterally"
+    ],
+    "positive_indicators": {
+      "lateral": "Pain or restriction compared to the other side"
+    },
+    "reference": "Kevin Wilk",
+    "assessment_type": "clinical",
+    "execution": [
+      "Lie on the side of the test shoulder",
+      "Set the shoulder and elbow at 90 deg",
+      "Stabilize the scapula against the surface",
+      "Gently internally rotate the arm",
+      "Note end range and tolerance"
+    ],
+    "purpose": "Screen for Sleeper Stretch Tolerance findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__neer_test_assessment",
+    "name": "Neer Impingement Test",
+    "category": "Special Test",
+    "description": "Assesses subacromial impingement.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Passive flexion with the scapula stabilized",
+      "Pain indicates a positive test"
+    ],
+    "positive_indicators": {
+      "frontal": "Pain at end-range flexion"
+    },
+    "reference": "Charles Neer",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand with the arm internally rotated (thumb down)",
+      "Passively flex the arm overhead in the scapular plane",
+      "Stabilize the scapula to limit upward rotation",
+      "Note pain near end range",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Neer Impingement findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__hawkins_kennedy_assessment",
+    "name": "Hawkins-Kennedy Test",
+    "category": "Special Test",
+    "description": "Assesses subacromial impingement.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Shoulder flexion 90 deg with forced internal rotation",
+      "Pain indicates a positive test"
+    ],
+    "positive_indicators": {
+      "frontal": "Pain with internal rotation"
+    },
+    "reference": "David J. Magee",
+    "assessment_type": "clinical",
+    "execution": [
+      "Elevate the arm to 90 deg of shoulder flexion",
+      "Flex the elbow to 90 deg",
+      "Stabilize the shoulder and internally rotate the arm",
+      "Observe pain or apprehension",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Hawkins-Kennedy findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__empty_can_assessment",
+    "name": "Empty Can (Jobe) Test",
+    "category": "Special Test",
+    "description": "Assesses supraspinatus integrity.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Arms at 90 deg abduction, 30 deg horizontal, thumbs down",
+      "Weakness or pain indicates a positive test"
+    ],
+    "positive_indicators": {
+      "frontal": "Pain and/or resisted weakness"
+    },
+    "reference": "Frank Jobe",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand with arms elevated in the scapular plane to 90 deg",
+      "Internally rotate so thumbs point down",
+      "Apply downward pressure at the distal forearm",
+      "Ask the client to resist the pressure",
+      "Note pain or weakness compared to the other side"
+    ],
+    "purpose": "Screen for Empty Can findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__painful_arc_assessment",
+    "name": "Painful Arc Test",
+    "category": "Special Test",
+    "description": "Pain between 60-120 deg of abduction suggests impingement.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Pain in the mid-range of abduction",
+      "Subacromial structures are compressed"
+    ],
+    "positive_indicators": {
+      "frontal": "Pain between 60-120 deg"
+    },
+    "reference": "David J. Magee",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand with arms relaxed at sides",
+      "Slowly abduct the arm through the full range",
+      "Note the range where pain appears or resolves",
+      "Repeat on the opposite side",
+      "Document the painful arc range"
+    ],
+    "purpose": "Screen for Painful Arc findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__lumbar_lordosis_assessment",
+    "name": "Lumbar Lordosis Assessment",
+    "category": "Posture",
+    "description": "Measurement of lumbar lordosis.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Flexicurve or inclinometer",
+      "Normal 40-60 deg"
+    ],
+    "positive_indicators": {
+      "lateral": "Hyperlordosis (>60 deg) or hypolordosis (<40 deg)"
+    },
+    "reference": "Florence Kendall",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand relaxed in neutral stance",
+      "Identify lumbar landmarks (L1 and S1)",
+      "Measure curvature with an inclinometer or visual estimate",
+      "Note excessive lordosis or flattening",
+      "Document angle or observation"
+    ],
+    "purpose": "Screen for Lumbar Lordosis findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__pelvic_tilt_visual_assessment",
+    "name": "Pelvic Tilt Visual Assessment",
+    "category": "Posture",
+    "description": "Visual assessment of pelvic tilt and posture.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "ASIS lower than PSIS indicates APT",
+      "ASIS higher than PSIS indicates PPT"
+    ],
+    "positive_indicators": {
+      "lateral": "Deviation from neutral (ASIS 0-10 deg lower than PSIS)"
+    },
+    "reference": "Florence Kendall",
+    "execution": [
+      "Stand in a relaxed neutral stance",
+      "View from the side at pelvis level",
+      "Compare ASIS and PSIS alignment",
+      "Note anterior or posterior tilt",
+      "Document findings"
+    ],
+    "purpose": "Screen for Pelvic Tilt Visual findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__prone_hip_extension_assessment",
+    "name": "Prone Hip Extension Test",
+    "category": "Movement Screen",
+    "description": "Assessment of gluteal activation and hip extension pattern.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Normal order: glute -> hamstring -> erector",
+      "Altered order suggests gluteal amnesia"
+    ],
+    "positive_indicators": {
+      "posterior": "Hamstring or erector activates before the glute"
+    },
+    "reference": "Florence Kendall",
+    "execution": [
+      "Lie prone with legs straight",
+      "Activate glute and lift one leg slightly",
+      "Keep the pelvis level and avoid lumbar extension",
+      "Observe timing of glute vs hamstring activation",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Prone Hip Extension findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__mcgill_endurance_assessment",
+    "name": "McGill Core Endurance Tests",
+    "category": "Strength",
+    "description": "McGill core endurance tests for trunk stability.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Flexor endurance (isometric sit-up)",
+      "Extensor endurance (Biering-Sorensen)",
+      "Side bridge (side plank)"
+    ],
+    "positive_indicators": {
+      "lateral": "Asymmetry or abnormal ratios"
+    },
+    "reference": "Stuart McGill",
+    "execution": [
+      "Perform the trunk flexor endurance test (modified curl-up hold)",
+      "Perform the trunk extensor endurance test (Sorensen hold)",
+      "Perform right and left side bridge holds",
+      "Record time to fatigue for each test",
+      "Compare ratios and side-to-side differences"
+    ],
+    "purpose": "Screen for McGill Core Endurance Tests findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__prone_instability_assessment",
+    "name": "Prone Instability Test",
+    "category": "Special Test",
+    "description": "Assesses lumbar instability.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Pain that improves with extensor activation",
+      "Suggests segmental instability"
+    ],
+    "positive_indicators": {
+      "posterior": "Pain reduction with muscle contraction"
+    },
+    "reference": "David J. Magee",
+    "execution": [
+      "Lie prone with the trunk on a table and feet on the floor",
+      "Apply posterior-to-anterior pressure to the lumbar spine",
+      "Have the client lift the legs off the floor",
+      "Reapply pressure to the lumbar spine",
+      "Compare symptoms between positions"
+    ],
+    "purpose": "Screen for Prone Instability findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__active_slr_assessment",
+    "name": "Active Straight Leg Raise (ASLR)",
+    "category": "Movement Screen",
+    "description": "Assesses lumbopelvic stability and hamstring length.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Ability to raise the leg without compensation",
+      "Pelvic rotation suggests stability deficit"
+    ],
+    "positive_indicators": {
+      "lateral": "Pelvic rotation or difficulty lifting"
+    },
+    "reference": "Functional Movement Screen (Gray Cook)",
+    "assessment_type": "clinical",
+    "execution": [
+      "Lie supine with both legs straight and arms at sides",
+      "Keep the non-test leg flat and toes up",
+      "Raise the test leg with the knee straight as high as possible",
+      "Stop before the pelvis tilts or the other leg lifts",
+      "Compare left vs right range"
+    ],
+    "purpose": "Screen for Active Straight Leg Raise findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__slump_test_assessment",
+    "name": "Slump Test",
+    "category": "Special Test",
+    "description": "Assesses neural tension.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Symptom reproduction with neural tension",
+      "Relief with cervical extension confirms"
+    ],
+    "positive_indicators": {
+      "lateral": "Reproduction of radicular pain"
+    },
+    "reference": "David J. Magee",
+    "assessment_type": "clinical",
+    "execution": [
+      "Sit upright on the edge of a table",
+      "Slump the spine and flex the neck",
+      "Extend the knee and dorsiflex the ankle",
+      "Observe symptom reproduction or relief with head position",
+      "Repeat on the other side"
+    ],
+    "purpose": "Screen for Slump findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__ely_test_assessment",
+    "name": "Ely Test (Rectus Femoris)",
+    "category": "Flexibility",
+    "description": "Specific for rectus femoris length.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Prone, passive knee flexion",
+      "Pelvic rise indicates a positive test"
+    ],
+    "positive_indicators": {
+      "lateral": "Pelvis lifts with knee flexion"
+    },
+    "reference": "David J. Magee",
+    "execution": [
+      "Lie prone with legs straight",
+      "Stabilize the pelvis to prevent anterior tilt",
+      "Flex the test knee, bringing the heel toward the glute",
+      "Observe hip lift or pelvic rotation",
+      "Compare left vs right"
+    ],
+    "purpose": "Screen for Ely findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__knee_to_wall_assessment",
+    "name": "Knee-to-Wall (Weight-Bearing Lunge) Test",
+    "category": "Mobility",
+    "description": "Weight-bearing lunge test for ankle dorsiflexion.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Toe-to-wall distance with the knee touching",
+      "<10 cm indicates meaningful restriction"
+    ],
+    "positive_indicators": {
+      "lateral": "<10 cm or bilateral asymmetry"
+    },
+    "reference": "Kim Bennell et al.",
+    "execution": [
+      "Face a wall in a split stance",
+      "Keep the test heel on the floor",
+      "Drive the knee toward the wall without heel lift",
+      "Measure the maximum distance or knee-to-wall gap",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Knee-to-Wall findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__gastrosoleus_differentiation_assessment",
+    "name": "Gastrocnemius vs Soleus Differentiation",
+    "category": "Flexibility",
+    "description": "Differentiates gastrocnemius vs soleus restriction.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Knee extended = gastrocnemius",
+      "Knee flexed = soleus"
+    ],
+    "positive_indicators": {
+      "lateral": "Restriction with knee extended (gastroc) or flexed (soleus)"
+    },
+    "reference": "Silfverskiöld test. DiGiovanni CW et al. Foot Ankle Int. 2014;35(8):838-844. DOI: 10.1177/1071100714535202.",
+    "assessment_type": "clinical",
+    "execution": [
+      "Measure ankle dorsiflexion with the knee straight",
+      "Repeat the measurement with the knee bent",
+      "Compare straight vs bent knee values",
+      "Note which condition is more limited",
+      "Compare left vs right"
+    ],
+    "purpose": "Screen for Gastrocnemius vs Soleus Differentiation findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__navicular_drop_assessment",
+    "name": "Navicular Drop Test",
+    "category": "Posture",
+    "description": "Assesses foot pronation.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Measure navicular height seated vs standing",
+      ">10 mm indicates excessive pronation"
+    ],
+    "positive_indicators": {
+      "medial": "Drop >10 mm"
+    },
+    "reference": "David Brody",
+    "execution": [
+      "Find and mark the navicular tuberosity",
+      "Measure navicular height in seated neutral foot",
+      "Stand and measure navicular height again",
+      "Calculate the drop between seated and standing",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Navicular Drop findings.",
+    "protocol": [
+      "Observe from: medial.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__single_leg_heel_raise_test_assessment",
+    "name": "Single Leg Heel Raise Test",
+    "category": "Strength",
+    "description": "Assesses gastrocnemius-soleus strength and endurance.",
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Normal >25 repetitions",
+      "Pain or weakness suggests pathology"
+    ],
+    "positive_indicators": {
+      "posterior": "<25 reps, pain, or compensatory pronation"
+    },
+    "reference": "Hylton Menz",
+    "assessment_type": "clinical",
+    "execution": [
+      "Stand on one leg near support",
+      "Rise onto the ball of the foot with full plantarflexion",
+      "Lower under control and repeat to fatigue",
+      "Count total reps or time",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Single Leg Heel Raise findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__windlass_test_assessment",
+    "name": "Windlass Test",
+    "category": "Special Test",
+    "description": "Specific for plantar fasciitis.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Passive hallux extension",
+      "Pain reproduction indicates a positive test"
+    ],
+    "positive_indicators": {
+      "medial": "Pain in the plantar fascia with great toe extension"
+    },
+    "reference": "John Hicks",
+    "assessment_type": "clinical",
+    "execution": [
+      "Sit or stand with the foot relaxed",
+      "Extend the big toe passively",
+      "Observe arch formation and symptoms",
+      "Note pain at the medial heel or arch",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Windlass findings.",
+    "protocol": [
+      "Observe from: medial.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__hip_er_90_assessment",
+    "name": "Hip External Rotation at 90 deg Flexion",
+    "category": "Mobility",
+    "description": "Assesses hip external rotation.",
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Normal 40-60 deg",
+      "Restriction suggests posterior capsule or piriformis"
+    ],
+    "positive_indicators": {
+      "supine": "Restriction <40 deg or asymmetry"
+    },
+    "reference": "Joint Range of Motion and Muscle Length Testing",
+    "execution": [
+      "Lie supine with hip and knee at 90 deg",
+      "Stabilize the pelvis",
+      "Move the lower leg inward to create hip external rotation",
+      "Stop at end range without pelvic tilt",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Hip External Rotation at 90 deg Flexion findings.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__push_up_assessment",
+    "name": "Push-Up Assessment",
+    "category": "Movement Screen",
+    "description": "Assesses scapular and core control during a push-up.",
+    "views": [
+      "lateral",
+      "superior"
+    ],
+    "key_observations": [
+      "Maintain a plank position",
+      "Scapular motion (winging)",
+      "Elbows 20-45 deg from the torso",
+      "Chest close to the floor"
+    ],
+    "positive_indicators": {
+      "lateral": "Loss of plank position, hips sagging",
+      "superior": "Scapular winging"
+    },
+    "reference": "American College of Sports Medicine",
+    "execution": [
+      "Start in a plank position with hands under shoulders",
+      "Perform controlled push-ups to a consistent depth",
+      "Observe trunk alignment and scapular control",
+      "Note compensations such as sagging or winging",
+      "Repeat 3-5 reps"
+    ],
+    "purpose": "Screen for trunk and scapular control during a push-up.",
+    "protocol": [
+      "Observe from: lateral, superior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__goblet_squat_assessment",
+    "name": "Goblet Squat Assessment",
+    "category": "Movement Screen",
+    "description": "Squat assessment with anterior load to observe movement compensations.",
+    "views": [
+      "frontal",
+      "lateral"
+    ],
+    "key_observations": [
+      "Depth",
+      "Knee alignment",
+      "Torso vertical",
+      "Heels on the floor"
+    ],
+    "positive_indicators": {
+      "frontal": "Valgus or asymmetry",
+      "lateral": "Excessive lean, butt wink"
+    },
+    "reference": "Gray Cook (Functional Movement Screen)",
+    "execution": [
+      "Hold a light kettlebell or dumbbell at the chest",
+      "Stand with feet shoulder-width apart",
+      "Squat to depth with a controlled tempo",
+      "Observe knee tracking, trunk angle, and foot stability",
+      "Repeat 3-5 reps"
+    ],
+    "purpose": "Screen for squat mechanics with an anterior load.",
+    "protocol": [
+      "Observe from: frontal, lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__sldl_assessment",
+    "name": "Single Leg Deadlift Assessment",
+    "category": "Movement Screen",
+    "description": "Single-leg deadlift assessment for hip hinge control.",
+    "views": [
+      "lateral",
+      "posterior"
+    ],
+    "key_observations": [
+      "Neutral spine",
+      "Minimal pelvic rotation",
+      "Compare both sides"
+    ],
+    "positive_indicators": {
+      "lateral": "Loss of neutral spine",
+      "posterior": "Pelvic rotation or hip drop"
+    },
+    "reference": "Gray Cook",
+    "execution": [
+      "Stand on one leg with a soft knee",
+      "Hinge at the hip as the free leg reaches back",
+      "Keep the spine neutral and hips square",
+      "Return to standing with control",
+      "Compare sides"
+    ],
+    "purpose": "Screen for single-leg hinge control and balance.",
+    "protocol": [
+      "Observe from: lateral, posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__shoulder_press_assessment",
+    "name": "Shoulder Press Assessment",
+    "category": "Movement Screen",
+    "description": "Shoulder press assessment to observe thoracic and shoulder mobility.",
+    "views": [
+      "lateral",
+      "frontal"
+    ],
+    "key_observations": [
+      "Lockout with arms by the ears",
+      "Lumbar compensation",
+      "Bilateral symmetry"
+    ],
+    "positive_indicators": {
+      "lateral": "Excessive lumbar arch, arms forward of the ears",
+      "frontal": "Asymmetry"
+    },
+    "reference": "Gray Cook",
+    "execution": [
+      "Stand with a light load or dowel",
+      "Press overhead in a controlled manner",
+      "Maintain rib position and neutral spine",
+      "Observe scapular control and shoulder symmetry",
+      "Repeat 3-5 reps"
+    ],
+    "purpose": "Screen for overhead pressing mechanics and shoulder control.",
+    "protocol": [
+      "Observe from: lateral, frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__cervical_sidebend_rom_assessment",
+    "name": "Cervical Sidebending ROM",
+    "category": "ROM",
+    "description": "Assessment of cervical sidebending range of motion.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Sidebending range to both sides",
+      "Compensation with shoulder elevation",
+      "Pain or stiffness at end range"
+    ],
+    "positive_indicators": {
+      "frontal": "Marked asymmetry or pain during sidebending"
+    },
+    "reference": "Joint Range of Motion and Muscle Length Testing",
+    "assessment_type": "clinical",
+    "execution": [
+      "Sit tall with shoulders relaxed",
+      "Keep the nose and chin facing forward",
+      "Side-bend the head toward the shoulder",
+      "Avoid rotation or shoulder hiking",
+      "Repeat on the other side"
+    ],
+    "purpose": "Screen for Cervical Sidebending ROM findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__lumbar_flexion_rom_assessment",
+    "name": "Lumbar Flexion ROM",
+    "category": "ROM",
+    "description": "Assessment of lumbar flexion range of motion.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Lumbar flexion range without compensation",
+      "Excessive hip contribution",
+      "Pain or stiffness at end range"
+    ],
+    "positive_indicators": {
+      "lateral": "Restricted lumbar flexion or marked hip compensation"
+    },
+    "reference": "Joint Range of Motion and Muscle Length Testing",
+    "execution": [
+      "Stand with feet hip-width apart",
+      "Slowly bend forward to touch the floor",
+      "Keep knees straight without bouncing",
+      "Measure reach or spine angle",
+      "Compare to normative values"
+    ],
+    "purpose": "Screen for Lumbar Flexion ROM findings.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__ober_test_assessment",
+    "name": "Ober Test",
+    "target": "Assess TFL and IT band tightness",
+    "images": [],
+    "videos": [],
+    "description": "Classic test to evaluate tensor fasciae latae and iliotibial band tension. Positive if the leg fails to drop to horizontal.",
+    "execution": [
+      "Lie on the side with the test leg on top",
+      "Stabilize the pelvis to prevent tilt",
+      "Extend and abduct the test hip",
+      "Allow the leg to adduct toward the table",
+      "Observe if the thigh drops past midline"
+    ],
+    "cues": [
+      "Stabilize the pelvis firmly",
+      "Do not allow pelvic rotation",
+      "Release gradually"
+    ],
+    "interpretation": [
+      "Negative: leg drops to horizontal or below",
+      "Positive: leg remains abducted (short TFL/IT band)"
+    ],
+    "source": "Clinical",
+    "reference": "Frank Ober",
+    "pattern_ids": [],
+    "assessment_type": "clinical",
+    "views": [
+      "side"
+    ],
+    "key_observations": [
+      "Thigh adduction toward the table",
+      "Pelvic stability during the test"
+    ],
+    "positive_indicators": {
+      "side": "Thigh remains abducted or pelvis tilts"
+    },
+    "purpose": "Screen for Ober findings.",
+    "protocol": [
+      "Observe from: side.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__faber_test_assessment",
+    "name": "FABER/Patrick Test",
+    "target": "Assess hip pathology, SI joint, and hip flexor restrictions",
+    "images": [],
+    "videos": [],
+    "description": "Screening test for the hip and sacroiliac joint. FABER stands for Flexion, Abduction, External Rotation. Pain location helps identify the source.",
+    "execution": [
+      "Lie supine with the pelvis neutral",
+      "Place the test ankle above the opposite knee (figure-4)",
+      "Stabilize the opposite pelvis",
+      "Gently press the test knee toward the table",
+      "Compare range and discomfort to the other side"
+    ],
+    "cues": [
+      "Let the leg drop passively",
+      "Ask for the exact pain location",
+      "Compare both sides"
+    ],
+    "interpretation": [
+      "Groin pain: possible intra-articular hip pathology",
+      "Posterior/SI pain: sacroiliac dysfunction",
+      "ROM limitation without pain: muscular stiffness"
+    ],
+    "source": "Clinical",
+    "reference": "David J. Magee",
+    "pattern_ids": [],
+    "views": [
+      "supine"
+    ],
+    "key_observations": [
+      "Distance from knee to table",
+      "Pain location (hip vs SI region)",
+      "Side-to-side asymmetry"
+    ],
+    "positive_indicators": {
+      "supine": "Increased distance or reproduction of hip/SI pain"
+    },
+    "purpose": "Screen for FABER/Patrick findings.",
+    "protocol": [
+      "Observe from: supine.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__apley_scratch_test_assessment",
+    "name": "Apley Scratch Test",
+    "target": "Assess combined shoulder ROM",
+    "images": [],
+    "videos": [],
+    "description": "Quick screening test for shoulder ROM. Assesses combined movements in two patterns.",
+    "execution": [
+      "Stand tall with relaxed shoulders",
+      "Reach one hand over the same-side shoulder toward the upper back",
+      "Reach the other hand behind the back and up toward the shoulder blades",
+      "Measure the distance between fingertips or note overlap",
+      "Repeat on the opposite side"
+    ],
+    "cues": [
+      "Reach as far as possible without pain",
+      "Note asymmetries",
+      "Identify which motion is limited"
+    ],
+    "interpretation": [
+      "Significant asymmetry suggests restriction",
+      "Pattern 1 limited: internal rotation, extension, or adduction",
+      "Pattern 2 limited: external rotation, flexion, or abduction"
+    ],
+    "source": "Clinical",
+    "reference": "David J. Magee - Orthopedic Physical Assessment",
+    "pattern_ids": [],
+    "views": [
+      "posterior"
+    ],
+    "key_observations": [
+      "Distance between the hands behind the back",
+      "Side-to-side asymmetry"
+    ],
+    "positive_indicators": {
+      "posterior": "Large asymmetry or inability to approximate hands"
+    },
+    "purpose": "Screen for Apley Scratch findings.",
+    "protocol": [
+      "Observe from: posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__y_balance_test_assessment",
+    "name": "Y-Balance Test / Star Excursion",
+    "target": "Assess dynamic balance, neuromuscular control, and asymmetries",
+    "images": [],
+    "videos": [],
+    "description": "Gold-standard test to assess dynamic balance and detect asymmetries that predict injury risk. Simplified version of the Star Excursion Balance Test.",
+    "execution": [
+      "Stand on the test leg at the center point",
+      "Reach the free leg in the anterior direction",
+      "Reach in posteromedial and posterolateral directions",
+      "Maintain balance without touching down",
+      "Record reach distances and compare sides"
+    ],
+    "cues": [
+      "Maintain balance throughout the reach",
+      "Touch lightly, do not load the reaching foot",
+      "Maximize reach without compensation"
+    ],
+    "interpretation": [
+      "Asymmetry >4 cm between legs indicates higher injury risk",
+      "Anterior reach <65% of leg length indicates higher risk",
+      "Posterolateral deficit suggests glute med or lateral core weakness"
+    ],
+    "source": "Research",
+    "reference": "Phil Plisky et al.",
+    "pattern_ids": [],
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Reach distance in anterior, posteromedial, posterolateral directions",
+      "Balance errors or foot touch-downs",
+      "Side-to-side reach asymmetry"
+    ],
+    "positive_indicators": {
+      "frontal": "Large asymmetry or loss of balance"
+    },
+    "purpose": "Screen for dynamic balance and reach asymmetry.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__postural_assessment",
+    "name": "Postural Assessment",
+    "category": "Posture",
+    "description": "Global standing postural scan to identify alignment deviations.",
+    "views": [
+      "frontal",
+      "lateral",
+      "posterior"
+    ],
+    "key_observations": [
+      "Head and shoulder alignment",
+      "Spine curves (thoracic and lumbar)",
+      "Pelvic position and symmetry",
+      "Knee and foot alignment"
+    ],
+    "positive_indicators": {
+      "frontal": "Asymmetry in shoulders, pelvis, or knees",
+      "lateral": "Forward head, rounded shoulders, or pelvic tilt deviations",
+      "posterior": "Scapular winging, spinal deviation, or pelvic shift"
+    },
+    "reference": "Kendall FP, McCreary EK, Provance PG. Muscles: Testing and Function with Posture and Pain. Lippincott. Postural alignment and plumb line assessment.",
+    "execution": [
+      "Have the client stand relaxed and barefoot",
+      "Assess from the sagittal view first",
+      "Assess from the frontal and posterior views",
+      "Note head, shoulder, spine, pelvic, knee, and foot alignment",
+      "Document asymmetries and deviations"
+    ],
+    "purpose": "Screen for postural alignment deviations.",
+    "protocol": [
+      "Observe from: frontal, lateral, posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__postural_assessment_side_view_assessment",
+    "name": "Postural Assessment (Side View)",
+    "category": "Posture",
+    "description": "Lateral postural scan emphasizing sagittal alignment.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Ear over shoulder, shoulder over hip",
+      "Thoracic kyphosis and lumbar lordosis",
+      "Pelvic tilt position"
+    ],
+    "positive_indicators": {
+      "lateral": "Forward head, rounded shoulders, or excessive kyphosis/lordosis"
+    },
+    "reference": "Kendall FP et al. Muscles: Testing and Function with Posture and Pain. Sagittal postural alignment (lateral view).",
+    "execution": [
+      "Stand relaxed with feet together",
+      "View the client from the lateral side",
+      "Check ear-shoulder-hip-knee-ankle alignment",
+      "Note forward head, kyphosis, or pelvic tilt",
+      "Document deviations"
+    ],
+    "purpose": "Screen for sagittal plane postural deviations.",
+    "protocol": [
+      "Observe from: lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__squat_assessment",
+    "name": "Squat Assessment",
+    "category": "Movement Screen",
+    "description": "Uncoached bodyweight squat to observe habitual movement patterns.",
+    "views": [
+      "frontal",
+      "lateral",
+      "posterior"
+    ],
+    "key_observations": [
+      "Knee alignment over feet",
+      "Torso angle and lumbar control",
+      "Heel contact and foot stability",
+      "Weight shift or asymmetry"
+    ],
+    "positive_indicators": {
+      "frontal": "Knee valgus or foot collapse",
+      "lateral": "Excessive forward lean or lumbar extension",
+      "posterior": "Pelvic shift or asymmetry"
+    },
+    "reference": "Cook G, Burton L, Hoogenboom BJ, Voight M. Functional movement screening: the use of fundamental movements as an assessment of function - part 1. Int J Sports Phys Ther. 2014;9(3):396-409. PMID: 24944860.",
+    "execution": [
+      "Stand with feet shoulder-width apart",
+      "Perform a bodyweight squat without coaching",
+      "Observe from frontal, lateral, and posterior views",
+      "Note knee alignment, trunk angle, and foot control",
+      "Repeat 5-10 reps"
+    ],
+    "purpose": "Screen for movement compensations during a bodyweight squat.",
+    "protocol": [
+      "Observe from: frontal, lateral, posterior.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__overhead_reach_assessment",
+    "name": "Overhead Reach Assessment",
+    "category": "Mobility",
+    "description": "Standing overhead reach to screen shoulder mobility and compensations.",
+    "views": [
+      "frontal",
+      "lateral"
+    ],
+    "key_observations": [
+      "Ability to raise arms overhead without trunk compensation",
+      "Scapular control and shoulder shrug",
+      "Head position during reach"
+    ],
+    "positive_indicators": {
+      "frontal": "Asymmetry or shoulder shrug",
+      "lateral": "Forward head or lumbar extension during reach"
+    },
+    "reference": "Functional shoulder mobility assessment. Apley scratch test (Hoppenfeld). Orthopedic shoulder examination standard.",
+    "execution": [
+      "Stand tall with feet together",
+      "Raise both arms overhead with thumbs up",
+      "Keep ribs down and neck neutral",
+      "Observe scapular control and trunk compensation",
+      "Compare left vs right reach"
+    ],
+    "purpose": "Screen for Overhead Reach findings.",
+    "protocol": [
+      "Observe from: frontal, lateral.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__big_toe_assessment",
+    "name": "Big Toe Extension Assessment",
+    "category": "Mobility",
+    "description": "Assesses big toe extension range of motion.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Big toe extension angle",
+      "Comparing left vs right"
+    ],
+    "positive_indicators": {
+      "medial": "Extension less than 70 degrees or side-to-side asymmetry"
+    },
+    "reference": "First MTPJ extension / windlass. Hicks JH. J Anat. 1953;87:345-357. Jack's test, FHL: López et al. Foot Ankle Int. 2020;41(4):457-462. PMID: 31994419.",
+    "execution": [
+      "Sit with the foot supported and ankle in neutral",
+      "Stabilize the midfoot and heel",
+      "Extend the big toe upward as far as possible",
+      "Estimate or measure the extension angle",
+      "Compare left vs right"
+    ],
+    "purpose": "Screen for Big Toe Extension findings.",
+    "protocol": [
+      "Observe from: medial.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__foot_inversion_assessment",
+    "name": "Foot Inversion Assessment",
+    "category": "Mobility",
+    "description": "Assesses ability to invert the foot and control pronation.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Ability to invert the foot with knee extended",
+      "Symmetry between sides"
+    ],
+    "positive_indicators": {
+      "frontal": "Unable to reach neutral inversion or excessive pronation"
+    },
+    "reference": "Subtalar/inversion assessment. Elveru RA et al. J Orthop Sports Phys Ther. 1994;19(3):162-167. Picciano AM et al. JOSPT. 1993;18(4):553-558.",
+    "execution": [
+      "Stand in a split stance with the test foot forward",
+      "Keep the test knee extended",
+      "Invert the test foot as far as possible",
+      "Observe if the forefoot reaches neutral or beyond",
+      "Compare sides"
+    ],
+    "purpose": "Screen for Foot Inversion findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__tfl_frontal_plane_assessment",
+    "name": "TFL Frontal Plane Assessment",
+    "category": "Mobility",
+    "description": "Frontal plane check during modified Thomas position to assess TFL stiffness.",
+    "views": [
+      "frontal"
+    ],
+    "key_observations": [
+      "Thigh alignment relative to the trunk",
+      "Abduction at rest indicating TFL shortening"
+    ],
+    "positive_indicators": {
+      "frontal": "Thigh abducts away from midline at rest"
+    },
+    "reference": "TFL/hip flexor differentiation in modified Thomas. Kendall FP et al. Muscles: Testing and Function with Posture and Pain. Ober test: Gajdosik RL et al. J Orthop Sports Phys Ther. 2003;33(6):326-330. PMID: 12839207.",
+    "execution": [
+      "Set the client in the modified Thomas position",
+      "View the test leg from the frontal plane",
+      "Observe thigh alignment relative to the trunk",
+      "Note abduction at rest indicating TFL stiffness",
+      "Compare sides"
+    ],
+    "purpose": "Screen for TFL Frontal Plane findings.",
+    "protocol": [
+      "Observe from: frontal.",
+      "Standardize start position and instructions.",
+      "Perform 2-3 trials per side when applicable.",
+      "Record key observations and any positive indicators.",
+      "Compare left vs right when applicable."
+    ]
+  },
+  {
+    "id": "a__cozen_test_assessment",
+    "name": "Cozen's Test",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Resisted wrist extension test for lateral epicondylalgia.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Pain at lateral epicondyle with resisted wrist extension",
+      "Pain with gripping under load"
+    ],
+    "positive_indicators": {
+      "lateral": "Reproduction of lateral elbow pain with resisted wrist extension"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient makes a fist with the elbow extended",
+      "Therapist applies resistance to wrist extension and radial deviation",
+      "Ask for pain location and intensity"
+    ],
+    "purpose": "Screen for lateral epicondylalgia.",
+    "protocol": [
+      "Compare both sides",
+      "Record pain location and severity",
+      "Use with other tests for confirmation"
+    ]
+  },
+  {
+    "id": "a__mill_test_assessment",
+    "name": "Mill's Test",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Passive stretch test for lateral epicondylalgia.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Pain at lateral epicondyle with passive wrist flexion and elbow extension"
+    ],
+    "positive_indicators": {
+      "lateral": "Reproduction of lateral elbow pain during passive stretch"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient seated with elbow extended and forearm pronated",
+      "Therapist passively flexes the wrist and flexes the fingers",
+      "Ask for pain location and intensity"
+    ],
+    "purpose": "Screen for lateral epicondylalgia.",
+    "protocol": [
+      "Compare both sides",
+      "Avoid excessive force",
+      "Document pain location"
+    ]
+  },
+  {
+    "id": "a__maudsley_test_assessment",
+    "name": "Maudsley's Test (Resisted Middle Finger)",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Resisted middle finger extension test for lateral epicondylalgia.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Pain at lateral epicondyle with resisted middle finger extension"
+    ],
+    "positive_indicators": {
+      "lateral": "Reproduction of lateral elbow pain during resisted middle finger extension"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient extends the middle finger",
+      "Therapist applies resistance",
+      "Ask for pain location and intensity"
+    ],
+    "purpose": "Screen for lateral epicondylalgia.",
+    "protocol": [
+      "Compare both sides",
+      "Record pain intensity",
+      "Use with other tests"
+    ]
+  },
+  {
+    "id": "a__pain_free_grip_test_assessment",
+    "name": "Pain-Free Grip Strength Test",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Grip strength recorded at pain-free threshold for epicondylalgia tracking.",
+    "views": [
+      "anterior"
+    ],
+    "key_observations": [
+      "Pain-free grip strength value",
+      "Side-to-side differences"
+    ],
+    "positive_indicators": {
+      "anterior": "Reduced pain-free grip strength on affected side"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient squeezes dynamometer until pain threshold",
+      "Record the force reading",
+      "Repeat 2-3 trials"
+    ],
+    "purpose": "Monitor symptom-limited grip strength.",
+    "protocol": [
+      "Use consistent position and dynamometer setting",
+      "Average 2-3 trials",
+      "Compare to contralateral side"
+    ]
+  },
+  {
+    "id": "a__medial_epicondyle_tenderness_assessment",
+    "name": "Medial Epicondyle Tenderness",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Palpation of medial epicondyle and flexor-pronator origin.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Localized tenderness at medial epicondyle"
+    ],
+    "positive_indicators": {
+      "medial": "Pain with palpation at the medial epicondyle"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient seated with elbow flexed",
+      "Palpate the medial epicondyle and flexor origin",
+      "Ask for pain rating"
+    ],
+    "purpose": "Screen for medial epicondylalgia.",
+    "protocol": [
+      "Compare both sides",
+      "Document pain location"
+    ]
+  },
+  {
+    "id": "a__resisted_wrist_flexion_pronation_assessment",
+    "name": "Resisted Wrist Flexion/Pronation Test",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Resisted wrist flexion and forearm pronation test for medial epicondylalgia.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Pain at medial epicondyle with resisted flexion/pronation"
+    ],
+    "positive_indicators": {
+      "medial": "Reproduction of medial elbow pain during resisted flexion/pronation"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient flexes wrist and pronates forearm",
+      "Therapist applies resistance",
+      "Ask for pain location and intensity"
+    ],
+    "purpose": "Screen for medial epicondylalgia.",
+    "protocol": [
+      "Compare both sides",
+      "Record pain intensity",
+      "Use with palpation findings"
+    ]
+  },
+  {
+    "id": "a__wrist_extension_rom_assessment",
+    "name": "Wrist Extension ROM",
+    "category": "Elbow/Wrist - Mobility",
+    "assessment_type": "standard",
+    "description": "Active wrist extension range of motion assessment.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Active extension range",
+      "Pain or compensation"
+    ],
+    "positive_indicators": {
+      "lateral": "Limited or painful wrist extension"
+    },
+    "reference": "Clinical ROM assessment",
+    "execution": [
+      "Forearm supported with palm down",
+      "Patient actively extends the wrist",
+      "Compare to contralateral side"
+    ],
+    "purpose": "Identify limitation in wrist extension range.",
+    "protocol": [
+      "Standardize elbow position",
+      "Compare left vs right",
+      "Record pain and end range"
+    ]
+  },
+  {
+    "id": "a__wrist_flexion_rom_assessment",
+    "name": "Wrist Flexion ROM",
+    "category": "Elbow/Wrist - Mobility",
+    "assessment_type": "standard",
+    "description": "Active wrist flexion range of motion assessment.",
+    "views": [
+      "lateral"
+    ],
+    "key_observations": [
+      "Active flexion range",
+      "Pain or compensation"
+    ],
+    "positive_indicators": {
+      "lateral": "Limited or painful wrist flexion"
+    },
+    "reference": "Clinical ROM assessment",
+    "execution": [
+      "Forearm supported with palm up",
+      "Patient actively flexes the wrist",
+      "Compare to contralateral side"
+    ],
+    "purpose": "Identify limitation in wrist flexion range.",
+    "protocol": [
+      "Standardize elbow position",
+      "Compare left vs right",
+      "Record pain and end range"
+    ]
+  },
+  {
+    "id": "a__forearm_pronation_rom_assessment",
+    "name": "Forearm Pronation ROM",
+    "category": "Elbow/Wrist - Mobility",
+    "assessment_type": "standard",
+    "description": "Active forearm pronation range of motion assessment.",
+    "views": [
+      "anterior"
+    ],
+    "key_observations": [
+      "Active pronation range",
+      "Pain or compensation"
+    ],
+    "positive_indicators": {
+      "anterior": "Limited or painful forearm pronation"
+    },
+    "reference": "Clinical ROM assessment",
+    "execution": [
+      "Elbow at 90 degrees with forearm supported",
+      "Patient rotates palm down",
+      "Compare to contralateral side"
+    ],
+    "purpose": "Identify limitation in forearm pronation range.",
+    "protocol": [
+      "Keep elbow fixed at 90 degrees",
+      "Compare left vs right",
+      "Record pain and end range"
+    ]
+  },
+  {
+    "id": "a__forearm_supination_rom_assessment",
+    "name": "Forearm Supination ROM",
+    "category": "Elbow/Wrist - Mobility",
+    "assessment_type": "standard",
+    "description": "Active forearm supination range of motion assessment.",
+    "views": [
+      "anterior"
+    ],
+    "key_observations": [
+      "Active supination range",
+      "Pain or compensation"
+    ],
+    "positive_indicators": {
+      "anterior": "Limited or painful forearm supination"
+    },
+    "reference": "Clinical ROM assessment",
+    "execution": [
+      "Elbow at 90 degrees with forearm supported",
+      "Patient rotates palm up",
+      "Compare to contralateral side"
+    ],
+    "purpose": "Identify limitation in forearm supination range.",
+    "protocol": [
+      "Keep elbow fixed at 90 degrees",
+      "Compare left vs right",
+      "Record pain and end range"
+    ]
+  },
+  {
+    "id": "a__elbow_valgus_stress_test_assessment",
+    "name": "Elbow Valgus Stress Test",
+    "category": "Elbow/Wrist - Clinical",
+    "assessment_type": "clinical",
+    "description": "Assesses medial elbow stability under valgus stress.",
+    "views": [
+      "medial"
+    ],
+    "key_observations": [
+      "Pain or laxity at medial elbow"
+    ],
+    "positive_indicators": {
+      "medial": "Pain or increased laxity with valgus stress"
+    },
+    "reference": "Clinical orthopedic tests",
+    "execution": [
+      "Patient supine or seated with elbow slightly flexed",
+      "Apply valgus stress to the elbow",
+      "Assess pain and end feel"
+    ],
+    "purpose": "Screen for medial elbow instability.",
+    "protocol": [
+      "Compare both sides",
+      "Stop if sharp pain occurs"
+    ]
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "name": { "en": "Physical Activity Readiness", "es": "Disposición para la actividad física" },
+  "abbreviation": "READINESS",
+  "type": "form",
+  "description": { "en": "Health screening before vigorous activity.", "es": "Evaluación de salud antes de actividad vigorosa." },
+  "showClearanceNotice": true,
+  "sections": [
+    {
+      "title": { "en": "Client Details", "es": "Datos del cliente" },
+      "questions": [
+        {
+          "id": "parq_first_name",
+          "type": "text",
+          "label": { "en": "First name", "es": "Nombre" },
+          "required": true
+        },
+        {
+          "id": "parq_last_name",
+          "type": "text",
+          "label": { "en": "Last name", "es": "Apellidos" },
+          "required": true
+        },
+        {
+          "id": "parq_age",
+          "type": "text",
+          "label": { "en": "Age", "es": "Edad" },
+          "required": true
+        },
+        {
+          "id": "parq_biological_sex",
+          "type": "select",
+          "label": { "en": "Biological sex (optional)", "es": "Sexo biológico (opcional)" },
+          "options": [
+            { "value": "", "label": { "en": "—", "es": "—" } },
+            { "value": "female", "label": { "en": "Female", "es": "Femenino" } },
+            { "value": "male", "label": { "en": "Male", "es": "Masculino" } },
+            { "value": "other", "label": { "en": "Other", "es": "Otro" } }
+          ]
+        },
+        {
+          "id": "parq_email",
+          "type": "text",
+          "label": { "en": "Email", "es": "Email" },
+          "required": true
+        },
+        {
+          "id": "parq_phone",
+          "type": "text",
+          "label": { "en": "Phone (optional)", "es": "Teléfono (opcional)" }
+        },
+        {
+          "id": "parq_emergency_contact_name",
+          "type": "text",
+          "label": { "en": "Emergency contact name (optional)", "es": "Nombre de contacto de emergencia (opcional)" }
+        },
+        {
+          "id": "parq_emergency_contact_phone",
+          "type": "text",
+          "label": { "en": "Emergency contact phone (optional)", "es": "Teléfono de emergencia (opcional)" }
+        },
+        {
+          "id": "parq_trainer_name",
+          "type": "text",
+          "label": { "en": "Trainer name", "es": "Nombre del entrenador" }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Cycle", "es": "Ciclo" },
+      "description": { "en": "Optional. If you menstruate and want to sync training with your cycle, answer below.", "es": "Opcional. Si menstruas y quieres sincronizar el entrenamiento con tu ciclo, responde abajo." },
+      "questions": [
+        {
+          "id": "parq_sync_cycle",
+          "type": "yes_no",
+          "label": { "en": "Would you like to sync your training with your menstrual cycle?", "es": "¿Te gustaría sincronizar tu entrenamiento con tu ciclo menstrual?" }
+        },
+        {
+          "id": "parq_cycle_length",
+          "type": "text",
+          "label": { "en": "Typical cycle length (days)", "es": "Duración típica del ciclo (días)" },
+          "showWhen": { "questionId": "parq_sync_cycle", "values": ["Yes"] }
+        },
+        {
+          "id": "parq_last_period",
+          "type": "date",
+          "label": { "en": "First day of last period (optional)", "es": "Primer día de la última regla (opcional)" },
+          "showWhen": { "questionId": "parq_sync_cycle", "values": ["Yes"] }
+        },
+        {
+          "id": "parq_hormonal_contraception",
+          "type": "yes_no",
+          "label": { "en": "Are you using hormonal contraception?", "es": "¿Usas anticonceptivos hormonales?" },
+          "showWhen": { "questionId": "parq_sync_cycle", "values": ["Yes"] }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Health Screening", "es": "Cuestionario de salud" },
+      "questions": [
+        {
+          "id": "parq_heart_condition",
+          "type": "yes_no",
+          "label": { "en": "Has a medical professional ever told you that you have a heart condition and recommended only medically supervised activity?", "es": "¿Algún profesional médico te ha dicho que tienes una afección cardíaca y que solo debes hacer actividad supervisada médicamente?" },
+          "required": true
+        },
+        {
+          "id": "parq_activity_chest_pain",
+          "type": "yes_no",
+          "label": { "en": "Do you experience chest pain, pressure, or tightness with physical activity?", "es": "¿Sientes dolor, presión u opresión en el pecho con la actividad física?" },
+          "required": true
+        },
+        {
+          "id": "parq_rest_chest_pain",
+          "type": "yes_no",
+          "label": { "en": "In the past month, have you had chest pain while at rest?", "es": "¿En el último mes has tenido dolor en el pecho en reposo?" },
+          "required": true
+        },
+        {
+          "id": "parq_dizziness",
+          "type": "yes_no",
+          "label": { "en": "Do you ever lose balance because of dizziness or lose consciousness?", "es": "¿Has perdido el equilibrio por mareos o has perdido la consciencia?" },
+          "required": true
+        },
+        {
+          "id": "parq_joint_issue",
+          "type": "yes_no",
+          "label": { "en": "Do you have any bone, joint, or soft tissue problem that could worsen with increased activity?", "es": "¿Tienes algún problema óseo, articular o de tejidos blandos que pueda empeorar con más actividad?" },
+          "required": true
+        },
+        {
+          "id": "parq_medications",
+          "type": "yes_no",
+          "label": { "en": "Are you currently taking prescription medications that could affect exercise response (heart, blood pressure, blood sugar, or breathing)?", "es": "¿Estás tomando medicación que pueda afectar la respuesta al ejercicio (corazón, tensión, glucosa o respiración)?" },
+          "required": true
+        },
+        {
+          "id": "parq_pregnancy",
+          "type": "yes_no",
+          "label": { "en": "Are you currently pregnant or recently postpartum?", "es": "¿Estás embarazada o en posparto reciente?" },
+          "required": true
+        },
+        {
+          "id": "parq_other",
+          "type": "yes_no",
+          "label": { "en": "Is there any other reason you should not do physical activity right now?", "es": "¿Hay alguna otra razón por la que no deberías hacer actividad física ahora?" },
+          "required": true
+        },
+        {
+          "id": "parq_injury_surgery",
+          "type": "yes_no",
+          "label": { "en": "Have you had any injury or surgery in the past 12 months that could affect your participation in physical activity?", "es": "¿Has tenido alguna lesión o cirugía en los últimos 12 meses que pueda afectar tu participación en actividad física?" },
+          "required": true
+        },
+        {
+          "id": "parq_activity_level",
+          "type": "yes_no",
+          "label": { "en": "In a typical week, do you get at least 30 minutes of moderate physical activity on 3 or more days?", "es": "En una semana típica, ¿haces al menos 30 minutos de actividad física moderada 3 o más días?" },
+          "required": false
+        }
+      ]
+    },
+    {
+      "title": { "en": "Follow-up", "es": "Seguimiento" },
+      "questions": [
+        {
+          "id": "parq_followup",
+          "type": "textarea",
+          "label": { "en": "If you answered YES to any question, please describe.", "es": "Si respondiste SÍ a alguna pregunta, describe por favor." }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Consent", "es": "Consentimiento" },
+      "questions": [
+        {
+          "id": "parq_consent",
+          "type": "checkbox",
+          "label": { "en": "I confirm the information above is accurate and I consent to participate in physical activity.", "es": "Confirmo que la información anterior es correcta y doy mi consentimiento para participar en actividad física." },
+          "required": true
+        },
+        {
+          "id": "parq_medical_clearance",
+          "type": "checkbox",
+          "label": { "en": "I confirm I have medical clearance to perform physical activity (or have been cleared by my doctor).", "es": "Confirmo que tengo autorización médica para realizar actividad física (o mi médico me ha dado el alta)." },
+          "required": true
+        },
+        {
+          "id": "parq_consent_date",
+          "type": "date",
+          "label": { "en": "Date completed", "es": "Fecha de completado" },
+          "default": "today"
+        }
+      ]
+    }
+  ]
+}

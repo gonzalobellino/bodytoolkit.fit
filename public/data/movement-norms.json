@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-01-05",
+    "description": "Normative ROM data for movement comparison",
+    "sources": [
+      "AAOS Guidelines",
+      "Kendall's Muscles: Testing and Function",
+      "Hoppenfeld's Physical Examination of the Spine and Extremities"
+    ]
+  },
+  "norms": [
+    {
+      "joint": "shoulder",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 40 },
+      "gender": "male",
+      "percentile": { "p10": 162, "p25": 167, "p50": 172, "p75": 177, "p90": 180 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 40 },
+      "gender": "female",
+      "percentile": { "p10": 165, "p25": 170, "p50": 175, "p75": 178, "p90": 180 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "flexion",
+      "ageRange": { "min": 41, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 155, "p25": 160, "p50": 165, "p75": 170, "p90": 175 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 45, "p25": 50, "p50": 60, "p75": 65, "p90": 70 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "abduction",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 160, "p25": 165, "p50": 170, "p75": 175, "p90": 180 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "internal_rotation",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 60, "p25": 65, "p50": 70, "p75": 75, "p90": 80 },
+      "units": "degrees"
+    },
+    {
+      "joint": "shoulder",
+      "movement": "external_rotation",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 80, "p25": 85, "p50": 90, "p75": 95, "p90": 100 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 40 },
+      "gender": "male",
+      "percentile": { "p10": 110, "p25": 115, "p50": 120, "p75": 125, "p90": 130 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 40 },
+      "gender": "female",
+      "percentile": { "p10": 115, "p25": 120, "p50": 125, "p75": 130, "p90": 135 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "flexion",
+      "ageRange": { "min": 41, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 100, "p25": 105, "p50": 115, "p75": 120, "p90": 125 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 15, "p25": 20, "p50": 30, "p75": 35, "p90": 40 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "abduction",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 35, "p25": 40, "p50": 45, "p75": 50, "p90": 55 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "internal_rotation",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 30, "p25": 35, "p50": 45, "p75": 50, "p90": 55 },
+      "units": "degrees"
+    },
+    {
+      "joint": "hip",
+      "movement": "external_rotation",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 35, "p25": 40, "p50": 45, "p75": 50, "p90": 55 },
+      "units": "degrees"
+    },
+    {
+      "joint": "knee",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 130, "p25": 135, "p50": 140, "p75": 145, "p90": 150 },
+      "units": "degrees"
+    },
+    {
+      "joint": "knee",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": -5, "p25": 0, "p50": 0, "p75": 5, "p90": 10 },
+      "units": "degrees"
+    },
+    {
+      "joint": "ankle",
+      "movement": "dorsiflexion",
+      "ageRange": { "min": 18, "max": 40 },
+      "gender": "both",
+      "percentile": { "p10": 12, "p25": 17, "p50": 22, "p75": 27, "p90": 32 },
+      "units": "degrees"
+    },
+    {
+      "joint": "ankle",
+      "movement": "dorsiflexion",
+      "ageRange": { "min": 41, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 8, "p25": 12, "p50": 18, "p75": 22, "p90": 26 },
+      "units": "degrees"
+    },
+    {
+      "joint": "ankle",
+      "movement": "plantarflexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 40, "p25": 45, "p50": 50, "p75": 55, "p90": 60 },
+      "units": "degrees"
+    },
+    {
+      "joint": "cervical",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 40, "p25": 45, "p50": 50, "p75": 55, "p90": 60 },
+      "units": "degrees"
+    },
+    {
+      "joint": "cervical",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 55, "p25": 60, "p50": 70, "p75": 75, "p90": 80 },
+      "units": "degrees"
+    },
+    {
+      "joint": "cervical",
+      "movement": "rotation",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 65, "p25": 70, "p50": 80, "p75": 85, "p90": 90 },
+      "units": "degrees"
+    },
+    {
+      "joint": "cervical",
+      "movement": "lateral_flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 35, "p25": 40, "p50": 45, "p75": 50, "p90": 55 },
+      "units": "degrees"
+    },
+    {
+      "joint": "lumbar",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 50, "p25": 55, "p50": 60, "p75": 65, "p90": 70 },
+      "units": "degrees"
+    },
+    {
+      "joint": "lumbar",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 20, "p25": 25, "p50": 30, "p75": 35, "p90": 40 },
+      "units": "degrees"
+    },
+    {
+      "joint": "lumbar",
+      "movement": "lateral_flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 20, "p25": 25, "p50": 30, "p75": 35, "p90": 40 },
+      "units": "degrees"
+    },
+    {
+      "joint": "elbow",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 140, "p25": 145, "p50": 150, "p75": 155, "p90": 160 },
+      "units": "degrees"
+    },
+    {
+      "joint": "elbow",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": -5, "p25": 0, "p50": 0, "p75": 5, "p90": 10 },
+      "units": "degrees"
+    },
+    {
+      "joint": "wrist",
+      "movement": "flexion",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 70, "p25": 75, "p50": 80, "p75": 85, "p90": 90 },
+      "units": "degrees"
+    },
+    {
+      "joint": "wrist",
+      "movement": "extension",
+      "ageRange": { "min": 18, "max": 65 },
+      "gender": "both",
+      "percentile": { "p10": 65, "p25": 70, "p50": 75, "p75": 80, "p90": 85 },
+      "units": "degrees"
+    }
+  ],
+  "movementPatterns": {
+    "overhead_squat": {
+      "name": "Overhead Squat Assessment",
+      "description": "Full body movement pattern assessment",
+      "relevantJoints": ["ankle", "knee", "hip", "lumbar", "shoulder"],
+      "idealAngles": {
+        "ankle_dorsiflexion": { "min": 20, "optimal": 25, "max": 35 },
+        "knee_flexion": { "min": 100, "optimal": 120, "max": 130 },
+        "hip_flexion": { "min": 90, "optimal": 110, "max": 120 },
+        "lumbar_flexion": { "min": 0, "optimal": 5, "max": 15 },
+        "shoulder_flexion": { "min": 165, "optimal": 175, "max": 180 }
+      }
+    },
+    "single_leg_squat": {
+      "name": "Single Leg Squat",
+      "description": "Unilateral lower extremity assessment",
+      "relevantJoints": ["ankle", "knee", "hip"],
+      "idealAngles": {
+        "ankle_dorsiflexion": { "min": 15, "optimal": 20, "max": 30 },
+        "knee_flexion": { "min": 60, "optimal": 80, "max": 100 },
+        "hip_flexion": { "min": 70, "optimal": 90, "max": 110 }
+      }
+    },
+    "forward_bend": {
+      "name": "Standing Forward Bend",
+      "description": "Hamstring and lumbar flexibility assessment",
+      "relevantJoints": ["hip", "lumbar"],
+      "idealAngles": {
+        "hip_flexion": { "min": 80, "optimal": 100, "max": 120 },
+        "lumbar_flexion": { "min": 30, "optimal": 50, "max": 60 }
+      }
+    },
+    "hip_hinge": {
+      "name": "Hip Hinge Pattern",
+      "description": "Hip-dominant movement pattern",
+      "relevantJoints": ["hip", "knee", "lumbar"],
+      "idealAngles": {
+        "hip_flexion": { "min": 70, "optimal": 90, "max": 110 },
+        "knee_flexion": { "min": 10, "optimal": 20, "max": 30 },
+        "lumbar_flexion": { "min": 0, "optimal": 5, "max": 10 }
+      }
+    }
+  }
+}
+

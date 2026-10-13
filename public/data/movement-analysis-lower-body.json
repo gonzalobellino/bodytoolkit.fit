@@ -1,0 +1,84 @@
+{
+  "name": { "en": "Lower Body Multi-Joint Movement Analysis", "es": "Lower Body Multi-Joint Movement Analysis" },
+  "type": "form",
+  "domain": "Lower Body",
+  "description": { "en": "Movement pattern assessment for multi-joint lower body exercises", "es": "Movement pattern assessment for multi-joint lower body exercises" },
+  "sections": [
+    {
+      "title": { "en": "Client Information", "es": "Client Information" },
+      "questions": [
+        { "id": "lbmjma_client", "type": "text", "label": { "en": "Client name", "es": "Client name" } },
+        { "id": "lbmjma_date", "type": "date", "label": { "en": "Date", "es": "Date" }, "default": "today" }
+      ]
+    },
+    {
+      "title": { "en": "Critical Movement Events", "es": "Critical Movement Events" },
+      "questions": [
+        { "id": "lbmjma_event1", "type": "yes_no", "label": { "en": "Critical event #1: Maintenance of posture - Was this event met?", "es": "Critical event #1: Maintenance of posture - Was this event met?" } },
+        { "id": "lbmjma_event2", "type": "yes_no", "label": { "en": "Critical event #2 - Was this event met?", "es": "Critical event #2 - Was this event met?" } },
+        { "id": "lbmjma_event3", "type": "yes_no", "label": { "en": "Critical event #3 - Was this event met?", "es": "Critical event #3 - Was this event met?" } },
+        { "id": "lbmjma_event4", "type": "yes_no", "label": { "en": "Critical event #4 - Was this event met?", "es": "Critical event #4 - Was this event met?" } }
+      ]
+    },
+    {
+      "title": { "en": "Sagittal", "es": "Sagittal" },
+      "questions": [
+        {
+          "id": "lbmjma_observed_sagittal",
+          "type": "multi_select",
+          "label": { "en": "Sagittal plane observations", "es": "Sagittal plane observations" },
+          "options": [
+            { "value": "excessive_forward_lean", "label": { "en": "Excessive forward lean", "es": "Excessive forward lean" } },
+            { "value": "insufficient_hip_flexion", "label": { "en": "Insufficient hip flexion", "es": "Insufficient hip flexion" } },
+            { "value": "excessive_knee_flexion", "label": { "en": "Excessive knee flexion", "es": "Excessive knee flexion" } },
+            { "value": "limited_ankle_dorsiflexion", "label": { "en": "Limited ankle dorsiflexion", "es": "Limited ankle dorsiflexion" } },
+            { "value": "inadequate_hip_extension", "label": { "en": "Inadequate hip extension", "es": "Inadequate hip extension" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Frontal", "es": "Frontal" },
+      "questions": [
+        {
+          "id": "lbmjma_observed_frontal",
+          "type": "multi_select",
+          "label": { "en": "Frontal plane observations", "es": "Frontal plane observations" },
+          "options": [
+            { "value": "knee_valgus", "label": { "en": "Knee valgus", "es": "Knee valgus" } },
+            { "value": "hip_adduction", "label": { "en": "Hip adduction", "es": "Hip adduction" } },
+            { "value": "pelvic_drop", "label": { "en": "Pelvic drop", "es": "Pelvic drop" } },
+            { "value": "asymmetric_weight_shift", "label": { "en": "Asymmetric weight shift", "es": "Asymmetric weight shift" } },
+            { "value": "lateral_pelvic_tilt", "label": { "en": "Lateral pelvic tilt", "es": "Lateral pelvic tilt" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Transverse", "es": "Transverse" },
+      "questions": [
+        {
+          "id": "lbmjma_observed_transverse",
+          "type": "multi_select",
+          "label": { "en": "Transverse plane observations", "es": "Transverse plane observations" },
+          "options": [
+            { "value": "knee_internal_rotation", "label": { "en": "Knee internal rotation", "es": "Knee internal rotation" } },
+            { "value": "femoral_internal_rotation", "label": { "en": "Femoral internal rotation", "es": "Femoral internal rotation" } },
+            { "value": "tibial_rotation", "label": { "en": "Tibial rotation", "es": "Tibial rotation" } },
+            { "value": "trunk_rotation", "label": { "en": "Trunk rotation", "es": "Trunk rotation" } },
+            { "value": "pelvic_rotation", "label": { "en": "Pelvic rotation", "es": "Pelvic rotation" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Additional Notes", "es": "Additional Notes" },
+      "questions": [
+        { "id": "lbmjma_notes", "type": "textarea", "label": { "en": "Additional notes and observations", "es": "Additional notes and observations" } }
+      ]
+    }
+  ]
+}
