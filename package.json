@@ -67,6 +67,11 @@
     "tailwind-merge": "*",
     "tailwindcss": "^4.3.3"
   },
+  "overrides": {
+    "@tensorflow/tfjs": {
+      "argparse": "2.0.1"
+    }
+  },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^26.6.5",
