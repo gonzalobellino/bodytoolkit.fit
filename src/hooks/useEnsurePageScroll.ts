@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export function useEnsurePageScroll(enabled: boolean = true) {
+export function useEnsurePageScroll(enabled: boolean = true): void {
   useEffect(() => {
     if (!enabled) return;
 

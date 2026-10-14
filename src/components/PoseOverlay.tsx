@@ -125,7 +125,7 @@ export function PoseOverlay({
   showAngles = false,
   angleTypes = ALL_JOINT_ANGLES,
   angleColor = '#00ffff',
-}: PoseOverlayProps) {
+}: PoseOverlayProps): React.JSX.Element {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [hoveredKeypoint, setHoveredKeypoint] = useState<number | null>(null);
   const dragStateRef = useRef<{
@@ -156,7 +156,7 @@ export function PoseOverlay({
   });
   const effectiveThreshold = modelType === 'blazepose' ? Math.min(0.05, threshold) : threshold;
   const shouldCollapseFace = modelType === 'blazepose';
-  const isFaceKeypoint = (kp: Keypoint, index: number) => {
+  const isFaceKeypoint = (kp: Keypoint, index: number): boolean => {
     if (kp.name && FACE_KEYPOINTS.has(kp.name)) {
       return true;
     }
@@ -185,11 +185,11 @@ export function PoseOverlay({
     const effectiveDrawHeight = drawHeight ?? canvasHeight;
     const scaleX = effectiveDrawWidth / videoWidth;
     const scaleY = effectiveDrawHeight / videoHeight;
-    const mapX = (x: number) => {
+    const mapX = (x: number): number => {
       const scaled = x * scaleX;
       return offsetX + (flipX ? effectiveDrawWidth - scaled : scaled);
     };
-    const mapY = (y: number) => offsetY + y * scaleY;
+    const mapY = (y: number): number => offsetY + y * scaleY;
 
     // Draw trails before skeleton and keypoints (so they appear behind)
     if (trailHistory && typeof trailHistory === 'object' && Object.keys(trailHistory).length > 0) {
@@ -495,21 +495,21 @@ export function PoseOverlay({
     const dragState = dragStateRef.current;
 
     // Helper functions for coordinate mapping
-    const getMapFunctions = () => {
+    const getMapFunctions = (): { mapX: (x: number) => number; mapY: (y: number) => number; unmapX: (canvasX: number) => number; unmapY: (canvasY: number) => number; } => {
       const effectiveDrawWidth = drawWidth ?? canvasWidth;
       const effectiveDrawHeight = drawHeight ?? canvasHeight;
       const scaleX = effectiveDrawWidth / videoWidth;
       const scaleY = effectiveDrawHeight / videoHeight;
-      const mapX = (x: number) => {
+      const mapX = (x: number): number => {
         const scaled = x * scaleX;
         return offsetX + (flipX ? effectiveDrawWidth - scaled : scaled);
       };
-      const mapY = (y: number) => offsetY + y * scaleY;
-      const unmapX = (canvasX: number) => {
+      const mapY = (y: number): number => offsetY + y * scaleY;
+      const unmapX = (canvasX: number): number => {
         const adjustedX = flipX ? effectiveDrawWidth - (canvasX - offsetX) : canvasX - offsetX;
         return adjustedX / scaleX;
       };
-      const unmapY = (canvasY: number) => {
+      const unmapY = (canvasY: number): number => {
         return (canvasY - offsetY) / scaleY;
       };
       return { mapX, mapY, unmapX, unmapY };
@@ -545,7 +545,7 @@ export function PoseOverlay({
       return closestIndex;
     };
 
-    const handlePointerDown = (e: PointerEvent) => {
+    const handlePointerDown = (e: PointerEvent): void => {
       const rect = canvas.getBoundingClientRect();
       // Get coordinates relative to canvas (already accounts for container transform via getBoundingClientRect)
       let clickX = e.clientX - rect.left;
@@ -624,7 +624,7 @@ export function PoseOverlay({
       }
     };
 
-    const handlePointerMove = (e: PointerEvent) => {
+    const handlePointerMove = (e: PointerEvent): void => {
       // If in passthrough mode, forward events to the target element
       if (passthroughRef.current.active && passthroughRef.current.targetElement) {
         const newEvent = new PointerEvent(e.type, {
@@ -725,7 +725,7 @@ export function PoseOverlay({
       }
     };
 
-    const handlePointerUp = (e: PointerEvent) => {
+    const handlePointerUp = (e: PointerEvent): void => {
       // If in passthrough mode, forward the event and reset
       if (passthroughRef.current.active && passthroughRef.current.targetElement) {
         const newEvent = new PointerEvent(e.type, {
@@ -803,7 +803,7 @@ export function PoseOverlay({
     };
 
     // Also handle click events directly as a fallback (more reliable than pointer events for clicks)
-    const handleClick = (e: MouseEvent) => {
+    const handleClick = (e: MouseEvent): void => {
       // Only handle if we're not in the middle of a drag
       if (dragState.draggedKeypoint !== null || dragState.isDragging) {
         // If we just finished a drag, don't trigger click
@@ -841,7 +841,7 @@ export function PoseOverlay({
       }
     };
 
-    const handlePointerLeave = () => {
+    const handlePointerLeave = (): void => {
       // Clear passthrough mode when leaving canvas
       passthroughRef.current = { active: false, targetElement: null };
       // Clear hover when mouse leaves canvas

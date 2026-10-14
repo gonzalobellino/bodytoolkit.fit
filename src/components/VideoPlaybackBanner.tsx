@@ -6,7 +6,7 @@ export function VideoPlaybackBanner({
 }: {
   notice: VideoPlaybackNotice | null;
   className?: string;
-}) {
+}): React.JSX.Element | null {
   if (!notice) return null;
 
   const tone = notice.tone === 'error'

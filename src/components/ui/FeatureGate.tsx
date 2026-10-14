@@ -19,7 +19,7 @@ export function FeatureGate({
   featureName,
   children,
   fallback,
-}: FeatureGateProps) {
+}: FeatureGateProps): React.JSX.Element {
   const { hasFeature, activateTier } = usePremium();
   const [showModal, setShowModal] = useState(false);
 
@@ -39,7 +39,7 @@ export function FeatureGate({
     return <>{fallback}</>;
   }
 
-  const openModal = () => setShowModal(true);
+  const openModal = (): void => setShowModal(true);
 
   const wrappedChildren = isValidElement(children)
     ? cloneElement(children as React.ReactElement<{ onClick?: React.MouseEventHandler }>, {

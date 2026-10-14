@@ -49,7 +49,7 @@ import { calculateAngle, findKeypoint, type Keypoint } from '../utils/poseAnalys
 import { usePoseMetrics } from '../hooks/usePoseMetrics';
 import { useArucoCalibration } from '../hooks/useArucoCalibration';
 
-const ArucoIcon = ({ className }: { className?: string }) => (
+const ArucoIcon = ({ className }: { className?: string }): React.JSX.Element => (
   <svg viewBox="0 0 12 12" className={className} xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <rect width="12" height="12" fill="black" />
     <rect x="4" y="2" width="2" height="2" fill="white" />
@@ -132,7 +132,7 @@ const DEFAULT_JOINTS = [
   { joint: 'ankle', movement: 'dorsiflexion' },
 ];
 
-export function MovementAnalysis({ onBack }: MovementAnalysisProps) {
+export function MovementAnalysis({ onBack }: MovementAnalysisProps): React.JSX.Element {
   const { notice: videoPlaybackNotice, inspectFile: inspectVideoFile, inspectVideo: inspectVideoElement } = useVideoPlaybackNotice();
   const { hasFeature } = usePremium();
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
@@ -298,7 +298,7 @@ export function MovementAnalysis({ onBack }: MovementAnalysisProps) {
     };
   }, [videoUrl]);
   
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const file = e.target.files?.[0];
     if (file) {
       inspectVideoFile(file);
@@ -308,20 +308,20 @@ export function MovementAnalysis({ onBack }: MovementAnalysisProps) {
     }
   };
   
-  const handleTimeUpdate = () => {
+  const handleTimeUpdate = (): void => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
     }
   };
   
-  const handleLoadedMetadata = () => {
+  const handleLoadedMetadata = (): void => {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
       inspectVideoElement(videoRef.current);
     }
   };
   
-  const togglePlayPause = () => {
+  const togglePlayPause = (): void => {
     if (videoRef.current) {
       if (isPlaying) {
         videoRef.current.pause();
@@ -332,19 +332,19 @@ export function MovementAnalysis({ onBack }: MovementAnalysisProps) {
     }
   };
 
-  const formatTime = (time: number) => {
+  const formatTime = (time: number): string => {
     const mins = Math.floor(time / 60);
     const secs = Math.floor(time % 60);
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const getScoreColor = (score: number) => {
+  const getScoreColor = (score: number): "text-green-600" | "text-yellow-600" | "text-red-600" => {
     if (score >= 90) return 'text-green-600';
     if (score >= 70) return 'text-yellow-600';
     return 'text-red-600';
   };
 
-  const getScoreBg = (score: number) => {
+  const getScoreBg = (score: number): "bg-red-500" | "bg-yellow-500" | "bg-green-500" => {
     if (score >= 90) return 'bg-green-500';
     if (score >= 70) return 'bg-yellow-500';
     return 'bg-red-500';

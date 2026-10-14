@@ -45,7 +45,7 @@ const getStoredPrompt = (): BeforeInstallPromptEvent | null => {
   return (window as WindowWithPwa).__pwaDeferredPrompt ?? null;
 };
 
-const getDisplayMode = () => {
+const getDisplayMode = (): "unknown" | "standalone" | "fullscreen" | "minimal-ui" | "browser" => {
   if (typeof window === 'undefined') {
     return 'unknown';
   }
@@ -111,7 +111,17 @@ const computeDebugInfo = (hasDeferredPrompt: boolean): PwaDebugInfo => {
   };
 };
 
-export function usePWAInstall() {
+export function usePWAInstall(): {
+  isInstallable: boolean;
+  isInstalled: boolean;
+  promptInstall: () => Promise<boolean>;
+  installLabel: string;
+  showInstallNotice: boolean;
+  dismissInstallNotice: () => void;
+  debugInfo: PwaDebugInfo;
+  refreshDebugInfo: (promptOverride?: boolean) => Promise<void>;
+  unregisterServiceWorkers: () => Promise<void>;
+} {
   const [deferredPrompt, setDeferredPrompt] = useState<BeforeInstallPromptEvent | null>(null);
   const [isInstallable, setIsInstallable] = useState(false);
   const [isInstalled, setIsInstalled] = useState(false);
@@ -120,11 +130,11 @@ export function usePWAInstall() {
   const [showInstallNotice, setShowInstallNotice] = useState(false);
   const [debugInfo, setDebugInfo] = useState<PwaDebugInfo>(() => computeDebugInfo(!!getStoredPrompt()));
 
-  const triggerInstallNotice = () => {
+  const triggerInstallNotice = (): void => {
     setShowInstallNotice(true);
   };
 
-  const refreshDebugInfo = async (promptOverride?: boolean) => {
+  const refreshDebugInfo = async (promptOverride?: boolean): Promise<void> => {
     const baseInfo = computeDebugInfo(promptOverride ?? !!getStoredPrompt());
     if (!('serviceWorker' in navigator)) {
       setDebugInfo(baseInfo);
@@ -169,7 +179,7 @@ export function usePWAInstall() {
     }
   };
 
-  const unregisterServiceWorkers = async () => {
+  const unregisterServiceWorkers = async (): Promise<void> => {
     if (!('serviceWorker' in navigator)) {
       return;
     }
@@ -207,7 +217,7 @@ export function usePWAInstall() {
       refreshDebugInfo(true);
     }
 
-    const handleDeferredPrompt = () => {
+    const handleDeferredPrompt = (): void => {
       const promptEvent = getStoredPrompt();
       if (promptEvent) {
         setDeferredPrompt(promptEvent);
@@ -217,7 +227,7 @@ export function usePWAInstall() {
       }
     };
 
-    const handleAppInstalled = () => {
+    const handleAppInstalled = (): void => {
       setIsInstalled(true);
       setIsInstallable(false);
       setDeferredPrompt(null);
@@ -225,7 +235,7 @@ export function usePWAInstall() {
       refreshDebugInfo(false);
     };
 
-    const handleVisibility = () => refreshDebugInfo();
+    const handleVisibility = (): Promise<void> => refreshDebugInfo();
 
     window.addEventListener('pwa:deferredprompt', handleDeferredPrompt);
     window.addEventListener('pwa:appinstalled', handleAppInstalled);

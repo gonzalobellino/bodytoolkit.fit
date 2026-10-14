@@ -92,7 +92,7 @@ export function formatFormAnswer(question: QuestionnaireQuestion, value: unknown
   return String(value);
 }
 
-export function buildQuestionnaireSummary(scaleData: Questionnaire, data: AnswersMap, lang: FormLang = 'en') {
+export function buildQuestionnaireSummary(scaleData: Questionnaire, data: AnswersMap, lang: FormLang = 'en'): { title: string; text: string; } {
   const lines = [`${getText(scaleData.name, lang)} (${scaleData.abbreviation ?? ''})`, `Generated: ${new Date().toLocaleString()}`, ''];
   scaleData.sections.forEach(section => {
     lines.push('');
@@ -161,7 +161,7 @@ function drawQuestionList(doc: jsPDF, questions: QuestionnaireQuestion[], data: 
   return y + 6;
 }
 
-function buildQuestionnairePDF(scaleData: Questionnaire, data: AnswersMap, selectedId: string | null, lang: FormLang = 'en') {
+function buildQuestionnairePDF(scaleData: Questionnaire, data: AnswersMap, selectedId: string | null, lang: FormLang = 'en'): { doc: jsPDF; filename: string; } | null {
   try {
     const doc = new jsPDF({ unit: 'pt', format: 'letter' });
     const margin = 48;
@@ -228,7 +228,7 @@ function buildPDFBlob(scaleData: Questionnaire, data: AnswersMap, selectedId: st
   }
 }
 
-function autosaveQuestionnaire(abbr: string, currentAnswers: AnswersMap, wasSubmitted: boolean) {
+function autosaveQuestionnaire(abbr: string, currentAnswers: AnswersMap, wasSubmitted: boolean): void {
   try {
     localStorage.setItem(`questionnaire_${abbr}`, JSON.stringify({ answers: currentAnswers, submitted: wasSubmitted }));
   } catch (error) {
@@ -253,13 +253,13 @@ interface BodyMapQuestionProps {
   lang: FormLang;
 }
 
-function BodyMapQuestion({ question, value, onChange, disabled, lang }: BodyMapQuestionProps) {
+function BodyMapQuestion({ question, value, onChange, disabled, lang }: BodyMapQuestionProps): React.JSX.Element {
   const selectedValues = Array.isArray(value)
     ? value.map(String)
     : String(value ?? '').split(',').filter(Boolean);
   const selected = new Set(selectedValues);
 
-  const handleRegionClick = (regionId: string) => {
+  const handleRegionClick = (regionId: string): void => {
     if (disabled) return;
     const newSelected = new Set(selected);
     if (newSelected.has(regionId)) {
@@ -323,7 +323,7 @@ interface FormQuestionProps {
   lang: FormLang;
 }
 
-function FormQuestion({ question, value, onChange, disabled, lang }: FormQuestionProps) {
+function FormQuestion({ question, value, onChange, disabled, lang }: FormQuestionProps): React.JSX.Element {
   const requiredMark = question.required ? <span className="text-red-500 ml-0.5">*</span> : null;
   const labelText = getText(question.label, lang);
 
@@ -455,7 +455,7 @@ function FormQuestion({ question, value, onChange, disabled, lang }: FormQuestio
     const otherValue = selectedValues.find(v => typeof v === 'object' && v !== null && 'other' in v) as { other: string } | undefined;
     const isOtherSelected = otherValue !== undefined;
 
-    const handleOptionChange = (optionValue: string, checked: boolean) => {
+    const handleOptionChange = (optionValue: string, checked: boolean): void => {
       if (disabled) return;
       const newSelected = [...selectedValues];
       if (optionValue === 'other') {
@@ -476,7 +476,7 @@ function FormQuestion({ question, value, onChange, disabled, lang }: FormQuestio
       onChange(newSelected);
     };
 
-    const handleOtherTextChange = (text: string) => {
+    const handleOtherTextChange = (text: string): void => {
       if (disabled || !isOtherSelected) return;
       const newSelected = selectedValues.filter(v => typeof v !== 'object' || v === null || !('other' in v));
       if (text.trim() || isOtherSelected) {
@@ -549,7 +549,7 @@ export interface FormQuestionnaireProps {
   lang?: FormLang;
 }
 
-export function FormQuestionnaire({ questionnaire, answers, onAnswer, onSubmit, submitted, submitLabel, lang = 'en' }: FormQuestionnaireProps) {
+export function FormQuestionnaire({ questionnaire, answers, onAnswer, onSubmit, submitted, submitLabel, lang = 'en' }: FormQuestionnaireProps): React.JSX.Element {
   const canSubmit = questionnaire.sections.every(section =>
     section.questions
       .filter(q => isQuestionVisible(q, answers))
@@ -603,7 +603,7 @@ export function FormQuestionnaire({ questionnaire, answers, onAnswer, onSubmit, 
 
         // Determine tag color based on section title (use EN key for consistency)
         const sectionTitleStr = getText(section.title, lang);
-        const getTagColor = (title: string) => {
+        const getTagColor = (title: string): "bg-blue-100 text-blue-700" | "bg-green-100 text-green-700" | "bg-orange-100 text-orange-700" | null => {
           if (title === 'Sagittal') {
             return 'bg-blue-100 text-blue-700';
           } else if (title === 'Frontal') {
@@ -695,7 +695,7 @@ export function FormQuestionnaire({ questionnaire, answers, onAnswer, onSubmit, 
   );
 }
 
-export function Questionnaires({ onBack, questionnaires, initialSelection = null }: QuestionnairesProps) {
+export function Questionnaires({ onBack, questionnaires, initialSelection = null }: QuestionnairesProps): React.JSX.Element {
   // Auto-select if initialSelection provided or if only one questionnaire exists
   const getInitialSelection = (): string | null => {
     if (initialSelection) return initialSelection;
@@ -736,18 +736,18 @@ export function Questionnaires({ onBack, questionnaires, initialSelection = null
     }
   }, [answers, submitted, selectedQuestionnaire, questionnaire]);
 
-  const handleAnswer = (questionId: string, value: unknown) => {
+  const handleAnswer = (questionId: string, value: unknown): void => {
     setAnswers(prev => ({ ...prev, [questionId]: value }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (): void => {
     setSubmitted(true);
     if (questionnaire) {
       autosaveQuestionnaire(questionnaire.abbreviation ?? selectedQuestionnaire ?? '', answers, true);
     }
   };
 
-  const handleReset = () => {
+  const handleReset = (): void => {
     if (questionnaire && confirm('Are you sure you want to reset this questionnaire?')) {
       const abbr = questionnaire.abbreviation ?? selectedQuestionnaire ?? '';
       localStorage.removeItem(`questionnaire_${abbr}`);
@@ -756,14 +756,14 @@ export function Questionnaires({ onBack, questionnaires, initialSelection = null
     }
   };
 
-  const handleSaveProgress = () => {
+  const handleSaveProgress = (): void => {
     if (questionnaire) {
       autosaveQuestionnaire(questionnaire.abbreviation ?? selectedQuestionnaire ?? '', answers, submitted);
       alert('Progress saved locally.');
     }
   };
 
-  const handleExportCSV = () => {
+  const handleExportCSV = (): void => {
     if (!questionnaire) return;
     const rows = [['Question', 'Answer']];
     questionnaire.sections.forEach(section => {
@@ -784,7 +784,7 @@ export function Questionnaires({ onBack, questionnaires, initialSelection = null
     URL.revokeObjectURL(url);
   };
 
-  const handleExportPDF = () => {
+  const handleExportPDF = (): void => {
     if (!questionnaire) return;
     const pdf = buildQuestionnairePDF(questionnaire, answers, selectedQuestionnaire, 'en');
     if (pdf) {
@@ -792,7 +792,7 @@ export function Questionnaires({ onBack, questionnaires, initialSelection = null
     }
   };
 
-  const handleShare = async () => {
+  const handleShare = async (): Promise<void> => {
     if (!questionnaire) return;
     const summary = buildQuestionnaireSummary(questionnaire, answers);
 

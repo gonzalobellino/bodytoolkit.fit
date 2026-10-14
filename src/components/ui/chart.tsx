@@ -23,7 +23,7 @@ type ChartContextProps = {
 
 const ChartContext = React.createContext<ChartContextProps | null>(null);
 
-function useChart() {
+function useChart(): ChartContextProps {
   const context = React.useContext(ChartContext);
 
   if (!context) {
@@ -38,7 +38,7 @@ function getPayloadConfigFromPayload(
   config: ChartConfig,
   payload: unknown,
   key: string,
-) {
+): ({ label?: React.ReactNode; icon?: React.ComponentType; } & ({ color?: string; theme?: never; } | { color?: never; theme: Record<keyof typeof THEMES, string>; })) | undefined {
   if (typeof payload !== "object" || payload === null) {
     return undefined;
   }
@@ -70,7 +70,7 @@ function getPayloadConfigFromPayload(
   return configLabelKey in config ? config[configLabelKey] : config[key];
 }
 
-function ChartStyle({ id, config }: { id: string; config: ChartConfig }) {
+function ChartStyle({ id, config }: { id: string; config: ChartConfig }): React.JSX.Element | null {
   const colorConfig = Object.entries(config).filter(
     ([, config]) => Boolean(config.theme ?? config.color),
   );
@@ -114,7 +114,7 @@ function ChartContainer({
   children: React.ComponentProps<
     typeof RechartsPrimitive.ResponsiveContainer
   >["children"];
-}) {
+}): React.JSX.Element {
   const uniqueId = React.useId();
   const chartId = `chart-${(id ?? uniqueId.replace(/:/g, ""))}`;
 
@@ -161,7 +161,7 @@ function ChartTooltipContent({
     indicator?: "line" | "dot" | "dashed";
     nameKey?: string;
     labelKey?: string;
-  }) {
+  }): React.JSX.Element | null {
   const { config } = useChart();
 
   const tooltipLabel = React.useMemo(() => {
@@ -294,7 +294,7 @@ function ChartLegendContent({
   Pick<RechartsPrimitive.LegendProps, "payload" | "verticalAlign"> & {
     hideIcon?: boolean;
     nameKey?: string;
-  }) {
+  }): React.JSX.Element | null {
   const { config } = useChart();
 
   if (!payload?.length) {

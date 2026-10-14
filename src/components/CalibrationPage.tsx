@@ -14,7 +14,7 @@ interface CalibrationPageProps {
   onCalibrated?: (factor: number) => void;
 }
 
-export function CalibrationPage({ onBack, onCalibrated }: CalibrationPageProps) {
+export function CalibrationPage({ onBack, onCalibrated }: CalibrationPageProps): React.JSX.Element {
   const [step, setStep] = useState<1 | 2 | 3>(1);
   const { calibration } = useArucoCalibration({ marker1Id: 0, marker2Id: 1 });
 

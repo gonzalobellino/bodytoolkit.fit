@@ -18,7 +18,7 @@ export function CenterOfMassCanvas({
   videoHeight,
   canvasWidth,
   canvasHeight,
-}: CenterOfMassCanvasProps) {
+}: CenterOfMassCanvasProps): React.JSX.Element {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -41,11 +41,11 @@ export function CenterOfMassCanvas({
 
     const scaleX = (layout.drawWidth ?? canvasWidth) / videoWidth;
     const scaleY = (layout.drawHeight ?? canvasHeight) / videoHeight;
-    const mapX = (x: number) => {
+    const mapX = (x: number): number => {
       const scaled = x * scaleX;
       return (layout.offsetX ?? 0) + scaled;
     };
-    const mapY = (y: number) => (layout.offsetY ?? 0) + y * scaleY;
+    const mapY = (y: number): number => (layout.offsetY ?? 0) + y * scaleY;
 
     // Draw center of mass
     if (centerOfMass && centerOfMass.confidence > 0.3) {

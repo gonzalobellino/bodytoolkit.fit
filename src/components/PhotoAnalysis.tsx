@@ -46,7 +46,7 @@ interface PhotoAnalysisProps {
   onBack: () => void;
 }
 
-export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
+export function PhotoAnalysis({ onBack }: PhotoAnalysisProps): React.JSX.Element {
   useEnsurePageScroll(true);
   // Image states
   const [imageUrl, setImageUrl] = useState<string | null>(null);
@@ -497,7 +497,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
         ctx.stroke();
         ctx.restore();
 
-        const labelFromArc = (arc: ReturnType<typeof getArcData>, value: number, radius: number) => {
+        const labelFromArc = (arc: ReturnType<typeof getArcData>, value: number, radius: number): void => {
           if (arc.arcAngle < 0.5) return;
           drawAngleText(
             ctx,
@@ -634,7 +634,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
   }, [renderCanvas]);
 
   useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
+    const onKeyDown = (e: KeyboardEvent): void => {
       if (e.key !== 'Delete' && e.key !== 'Backspace') return;
       const target = e.target as HTMLElement | null;
       if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || (target as HTMLElement).isContentEditable)) {
@@ -980,7 +980,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
   }, [updateCanvasCursor, scheduleRender]);
 
   // Load image
-  const loadImage = (url: string) => {
+  const loadImage = (url: string): void => {
     const img = new Image();
     img.onload = () => {
       imageRef.current = img;
@@ -1033,7 +1033,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
       containerHeightRef.current = null;
       return;
     }
-    const update = () => {
+    const update = (): void => {
       const container = containerRef.current;
       if (!container) return;
       if (hasDrawingActivity()) {
@@ -1101,7 +1101,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
           scheduleRender();
           return;
         }
-        const mapPoint = (p: Point) => {
+        const mapPoint = (p: Point): void => {
           const imgX = (p.x - prev.offsetX) / prev.scale;
           const imgY = (p.y - prev.offsetY) / prev.scale;
           p.x = imgX * next.scale + next.offsetX;
@@ -1151,7 +1151,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
     }
   }, []);
 
-  const startCamera = async (facing: 'environment' | 'user' = 'environment') => {
+  const startCamera = async (facing: 'environment' | 'user' = 'environment'): Promise<void> => {
     if (!window.isSecureContext) {
       alert('Camera requires HTTPS or localhost.');
       return;
@@ -1181,7 +1181,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
     }
   };
 
-  const flipCamera = () => {
+  const flipCamera = (): void => {
     const nextFacing = cameraFacing === 'environment' ? 'user' : 'environment';
     startCamera(nextFacing).catch(() => {
       // If the new facing mode fails, try restoring the previous camera.
@@ -1206,7 +1206,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
 
   
   // Capture photo from camera
-  const capturePhoto = () => {
+  const capturePhoto = (): void => {
     const video = videoRef.current;
     if (!video?.videoWidth) {
       console.error('Video not ready');
@@ -1233,7 +1233,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
   };
   
   // Cancel camera
-  const cancelCamera = () => {
+  const cancelCamera = (): void => {
     stopCameraStream();
     setCameraActive(false);
   };
@@ -1263,7 +1263,7 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
 
   // Keyboard shortcuts
   useEffect(() => {
-    const handleKeyPress = (e: KeyboardEvent) => {
+    const handleKeyPress = (e: KeyboardEvent): void => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       
       if ((e.ctrlKey || e.metaKey) && e.key === 'z') {

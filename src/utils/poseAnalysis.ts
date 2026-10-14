@@ -463,7 +463,7 @@ export function analyzePose(
  * Returns null if insufficient keypoints are visible.
  */
 export function estimateBodyHeight(keypoints: Keypoint[]): number | null {
-  const get = (name: string) => findKeypoint(keypoints, name);
+  const get = (name: string): Keypoint | null => findKeypoint(keypoints, name);
 
   const leftShoulder  = get('left_shoulder');
   const rightShoulder = get('right_shoulder');
@@ -474,7 +474,7 @@ export function estimateBodyHeight(keypoints: Keypoint[]): number | null {
   const leftAnkle     = get('left_ankle');
   const rightAnkle    = get('right_ankle');
 
-  const segLen = (a: Keypoint | null, b: Keypoint | null) =>
+  const segLen = (a: Keypoint | null, b: Keypoint | null): number | null =>
     a && b && a.score > 0.3 && b.score > 0.3
       ? Math.hypot(a.x - b.x, a.y - b.y)
       : null;
@@ -696,7 +696,7 @@ export function calculateBalancePoint(keypoints: Keypoint[]): BalancePoint | nul
   const rKnee  = findKeypoint(keypoints, 'right_knee');
 
   // ── Helper: project COM onto a 1-D support segment and compute stability ──
-  const projectOntoSupport = (contactPts: Array<{ x: number; y: number }>) => {
+  const projectOntoSupport = (contactPts: Array<{ x: number; y: number }>): { balanceX: number; balanceY: number; centroidX: number; stability: number; } => {
     const xs = contactPts.map(p => p.x);
     const minX = Math.min(...xs);
     const maxX = Math.max(...xs);

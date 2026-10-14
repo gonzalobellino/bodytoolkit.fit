@@ -84,7 +84,14 @@ const COMPENSATION_LABELS: Record<CompensationType, string> = {
   lateral_trunk_lean: 'Lateral Trunk Lean',
 };
 
-export function useCompensationDetection(settings?: CompensationSettings) {
+export function useCompensationDetection(settings?: CompensationSettings): {
+  alerts: CompensationAlert[];
+  currentCompensations: CompensationAlert[];
+  processKeypoints: (keypoints: Keypoint[], timestamp: number) => void;
+  resetBaseline: () => void;
+  clearAlerts: () => void;
+  getCompensationLabel: (type: CompensationType) => string;
+} {
   const [alerts, setAlerts] = useState<CompensationAlert[]>([]);
   const [currentCompensations, setCurrentCompensations] = useState<CompensationAlert[]>([]);
   
@@ -104,14 +111,14 @@ export function useCompensationDetection(settings?: CompensationSettings) {
   ): CompensationAlert[] => {
     if (!isEnabled || !keypoints || keypoints.length < 17) return [];
 
-    const getKp = (idx: number) => keypoints[idx];
-    const isValid = (kp: Keypoint | undefined) => kp && kp.score >= 0.3;
+    const getKp = (idx: number): Keypoint => keypoints[idx];
+    const isValid = (kp: Keypoint | undefined): boolean | undefined => kp && kp.score >= 0.3;
     const detected: CompensationAlert[] = [];
 
     // Normalize pixel-based thresholds by estimated body height so detections
     // are independent of camera distance and subject size.
     const bodyHeight = estimateBodyHeight(keypoints) ?? BASE_BODY_HEIGHT_PX;
-    const px = (ratio: number) => ratio * bodyHeight;
+    const px = (ratio: number): number => ratio * bodyHeight;
 
     const leftShoulder = getKp(KP.LEFT_SHOULDER);
     const rightShoulder = getKp(KP.RIGHT_SHOULDER);
@@ -215,7 +222,7 @@ export function useCompensationDetection(settings?: CompensationSettings) {
         const leftElevation  = baselineShoulderYRef.current.left  - leftShoulder!.y;
         const rightElevation = baselineShoulderYRef.current.right - rightShoulder!.y;
 
-        const checkElevation = (elevation: number, side: 'left' | 'right') => {
+        const checkElevation = (elevation: number, side: 'left' | 'right'): void => {
           if (elevation > getThreshold(px(BASE_THRESHOLDS.SHOULDER_ELEVATION_MILD))) {
             const severity = elevation >= getThreshold(px(BASE_THRESHOLDS.SHOULDER_ELEVATION_SEVERE))   ? 'severe'   :
                              elevation >= getThreshold(px(BASE_THRESHOLDS.SHOULDER_ELEVATION_MODERATE)) ? 'moderate' : 'mild';

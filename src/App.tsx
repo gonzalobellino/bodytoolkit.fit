@@ -49,11 +49,11 @@ interface AppData {
   muscleCharts: MuscleChartsData | null;
 }
 
-export default function App() {
+export default function App(): React.JSX.Element {
   // Sync hash so client form route updates when user navigates (e.g. header link to #/)
   const [hash, setHash] = useState(() => window.location.hash);
   useEffect(() => {
-    const handler = () => setHash(window.location.hash);
+    const handler = (): void => setHash(window.location.hash);
     window.addEventListener('hashchange', handler);
     return () => window.removeEventListener('hashchange', handler);
   }, []);
@@ -116,7 +116,7 @@ export default function App() {
   };
 
   // Navigation handler that supports optional learn tab and item to open
-  const handleNavigate = (section: MainSection, learnTab?: LearnTab, learnItemId?: string) => {
+  const handleNavigate = (section: MainSection, learnTab?: LearnTab, learnItemId?: string): void => {
     setCurrentSection(section);
     setInitialLearnTab(section === 'learn' ? learnTab : undefined);
     setInitialLearnItemId(section === 'learn' ? learnItemId : undefined);
@@ -124,7 +124,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    async function initializeData() {
+    async function initializeData(): Promise<void> {
       try {
         const loadedData = await loadAllData();
         setData(loadedData as AppData);
@@ -176,7 +176,7 @@ export default function App() {
     );
   }
 
-  const LoadingFallback = () => (
+  const LoadingFallback = (): React.JSX.Element => (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
       <div className="text-center">
         <div className="text-slate-600 text-lg mb-2">Loading...</div>
@@ -185,7 +185,7 @@ export default function App() {
     </div>
   );
 
-  const renderSection = () => {
+  const renderSection = (): React.JSX.Element => {
     switch (currentSection) {
       case 'home':
         return (

@@ -18,7 +18,7 @@ interface PracticeSectionProps {
 
 type PracticeMode = 'quiz' | 'evaluation' | null;
 
-export function PracticeSection({ onBack, quizQuestions, quizTopics, patterns = [], assessments = [], exercises = {}, muscleCharts = null }: PracticeSectionProps) {
+export function PracticeSection({ onBack, quizQuestions, quizTopics, patterns = [], assessments = [], exercises = {}, muscleCharts = null }: PracticeSectionProps): React.JSX.Element {
   // quizQuestions prop is deprecated - questions are now generated dynamically
   const [mode, setMode] = useState<PracticeMode>('quiz');
   const [activeQuizTopic, setActiveQuizTopic] = useState<string | null>(null);
@@ -28,14 +28,14 @@ export function PracticeSection({ onBack, quizQuestions, quizTopics, patterns = 
   const [loadingQuestions, setLoadingQuestions] = useState<string | null>(null);
   const [quizKey, setQuizKey] = useState(0);
 
-  const handleQuizComplete = (topicId: string, score: number) => {
+  const handleQuizComplete = (topicId: string, score: number): void => {
     setCompletedQuizzes({
       ...completedQuizzes,
       [topicId]: Math.max(completedQuizzes[topicId] ?? 0, score)
     });
   };
 
-  const handleExitQuiz = () => {
+  const handleExitQuiz = (): void => {
     if (activeQuizTopic) {
       setGeneratedQuestions(prev => {
         const next = { ...prev };
@@ -47,7 +47,7 @@ export function PracticeSection({ onBack, quizQuestions, quizTopics, patterns = 
     setMode('quiz');
   };
 
-  const handleRestartQuiz = () => {
+  const handleRestartQuiz = (): void => {
     if (!activeQuizTopic) return;
     setGeneratedQuestions(prev => {
       const next = { ...prev };
@@ -59,7 +59,7 @@ export function PracticeSection({ onBack, quizQuestions, quizTopics, patterns = 
   };
 
   // Generate questions for a topic dynamically
-  const generateQuestionsForTopic = async (topicId: string) => {
+  const generateQuestionsForTopic = async (topicId: string): Promise<QuizQuestion[]> => {
     const topic = quizTopics.find(t => t.id === topicId);
     if (!topic || !topic.knowledgeBase || !topic.questionTypes) {
       return [];

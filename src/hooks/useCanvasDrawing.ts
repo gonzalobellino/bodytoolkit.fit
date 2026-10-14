@@ -45,7 +45,28 @@ export function useCanvasDrawing({
   scopeMode = 'global',
   scopeStart = null,
   scopeEnd = null,
-}: UseCanvasDrawingOptions) {
+}: UseCanvasDrawingOptions): {
+  tool: DrawingTool;
+  setTool: React.Dispatch<React.SetStateAction<DrawingTool>>;
+  shapes: Shape[];
+  pendingPoints: Point[];
+  cursor: Point | null;
+  dragPoint: Point | null;
+  dragShape: Shape | null;
+  hoverPoint: Point | null;
+  hoverShape: Shape | null;
+  freehandDrawing: boolean;
+  handleCanvasClick: (event: React.MouseEvent<HTMLCanvasElement>) => void;
+  handleCanvasMove: (event: React.MouseEvent<HTMLCanvasElement>) => void;
+  handleCanvasLeave: () => void;
+  handlePointerDown: (event: React.PointerEvent<HTMLCanvasElement>) => void;
+  handlePointerMove: (event: React.PointerEvent<HTMLCanvasElement>) => void;
+  handlePointerUp: (event: React.PointerEvent<HTMLCanvasElement>) => void;
+  handleContextMenu: (event: React.MouseEvent<HTMLCanvasElement>) => void;
+  undoShape: () => void;
+  clearShapes: () => void;
+  renderCanvas: () => void;
+} {
   const [tool, setTool] = useState<DrawingTool>('point');
   const [shapes, setShapes] = useState<Shape[]>([]);
   const [pendingPoints, setPendingPoints] = useState<Point[]>([]);

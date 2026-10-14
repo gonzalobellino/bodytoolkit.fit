@@ -282,7 +282,18 @@ export async function loadAllFunctionalScales(): Promise<Record<string, Function
 /**
  * Loads all data at once
  */
-export async function loadAllData() {
+export async function loadAllData(): Promise<{
+  patterns: Pattern[];
+  assessments: Assessment[];
+  exercises: ExercisesByCategory;
+  conditions: Condition[];
+  glossary: GlossaryTerms;
+  quizQuestions: QuizQuestionsByTopic;
+  quizTopics: QuizTopic[];
+  questionnaires: Record<string, Questionnaire>;
+  functionalScales: Record<string, FunctionalScale>;
+  muscleCharts: MuscleChartsData | null;
+}> {
   const [
     patterns,
     assessments,

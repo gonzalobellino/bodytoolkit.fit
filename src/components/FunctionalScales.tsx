@@ -14,7 +14,7 @@ interface FunctionalScalesProps {
   questionnaires?: Record<string, Questionnaire>;
 }
 
-export function FunctionalScales({ onBack, functionalScales, questionnaires = {} }: FunctionalScalesProps) {
+export function FunctionalScales({ onBack, functionalScales, questionnaires = {} }: FunctionalScalesProps): React.JSX.Element {
   const [selectedScale, setSelectedScale] = useState<string | null>(null);
   const [selectedQuestionnaire, setSelectedQuestionnaire] = useState<string | null>(null);
   const [sendToClientData, setSendToClientData] = useState<{ id: string; name: string } | null>(null);
@@ -37,7 +37,7 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     return answers;
   };
 
-  const buildSummary = (scaleData: FunctionalScale, data: Record<string, number>) => {
+  const buildSummary = (scaleData: FunctionalScale, data: Record<string, number>): { title: string; text: string; } => {
     const lines = [`${getText(scaleData.name, COACH_LANG)} (${scaleData.abbreviation})`, `Generated: ${new Date().toLocaleString()}`, ''];
     let score = 0;
     scaleData.questions.forEach((q, i) => {
@@ -126,7 +126,7 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     }
   };
 
-  const autosaveScale = (abbr: string, answersToSave: Record<string, number>, isSubmitted: boolean) => {
+  const autosaveScale = (abbr: string, answersToSave: Record<string, number>, isSubmitted: boolean): void => {
     try {
       localStorage.setItem(`functional_scale_${abbr}`, JSON.stringify({ answers: answersToSave, submitted: isSubmitted }));
     } catch (error) {
@@ -161,18 +161,18 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     }
   }, [answers, submitted, selectedScale]);
 
-  const handleAnswer = (questionId: string, value: number) => {
+  const handleAnswer = (questionId: string, value: number): void => {
     setAnswers(prev => ({ ...prev, [questionId]: value }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (): void => {
     setSubmitted(true);
     if (selectedScale) {
       autosaveScale(selectedScale, answers, true);
     }
   };
 
-  const handleReset = () => {
+  const handleReset = (): void => {
     if (selectedScale && confirm('Are you sure you want to reset this assessment?')) {
       localStorage.removeItem(`functional_scale_${selectedScale}`);
       setAnswers({});
@@ -180,7 +180,7 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     }
   };
 
-  const handleExportCSV = () => {
+  const handleExportCSV = (): void => {
     if (!scale) return;
     const data = getFormValues();
     const rows = [
@@ -205,7 +205,7 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     URL.revokeObjectURL(url);
   };
 
-  const handleExportPDF = () => {
+  const handleExportPDF = (): void => {
     if (!scale) return;
     const doc = new jsPDF({ unit: 'pt', format: 'letter' });
     const margin = 48;
@@ -266,7 +266,7 @@ export function FunctionalScales({ onBack, functionalScales, questionnaires = {}
     doc.save(`${scale.abbreviation}_result.pdf`);
   };
 
-  const handleShare = async () => {
+  const handleShare = async (): Promise<void> => {
     if (!scale) return;
     const data = getFormValues();
     const summary = buildSummary(scale, data);

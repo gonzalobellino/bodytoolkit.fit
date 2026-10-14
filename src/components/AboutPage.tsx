@@ -16,7 +16,7 @@ function getCertifications(): string[] {
   return list;
 }
 
-export function AboutPage({ onBack }: AboutPageProps) {
+export function AboutPage({ onBack }: AboutPageProps): React.JSX.Element {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Header */}

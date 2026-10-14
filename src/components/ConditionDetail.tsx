@@ -12,7 +12,7 @@ interface ConditionDetailProps {
   sectionLabel?: string;
 }
 
-export function ConditionDetail({ condition, onBack, allExercises, allAssessments, onNavigateToExercise, onNavigateToAssessment, sectionLabel = 'Conditions & Red Flags' }: ConditionDetailProps) {
+export function ConditionDetail({ condition, onBack, allExercises, allAssessments, onNavigateToExercise, onNavigateToAssessment, sectionLabel = 'Conditions & Red Flags' }: ConditionDetailProps): React.JSX.Element {
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);

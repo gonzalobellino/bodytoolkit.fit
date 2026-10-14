@@ -15,7 +15,13 @@ export interface BilateralComparison {
   percentage: number; // similarity percentage
 }
 
-export function useSymmetryAnalysis() {
+export function useSymmetryAnalysis(): {
+  symmetryScore: SymmetryScore | null;
+  comparisons: Record<string, BilateralComparison>;
+  analyzeSymmetry: (keypoints: Keypoint[]) => SymmetryScore | null;
+  comparePoses: (pose1: Keypoint[], pose2: Keypoint[]) => BilateralComparison[];
+  compareBilateral: (leftKeypoints: Keypoint[], rightKeypoints: Keypoint[]) => SymmetryScore | null;
+} {
   const [symmetryScore, setSymmetryScore] = useState<SymmetryScore | null>(null);
   const [comparisons, setComparisons] = useState<Record<string, BilateralComparison>>({});
 

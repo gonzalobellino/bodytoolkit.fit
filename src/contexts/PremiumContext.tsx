@@ -105,7 +105,7 @@ interface PremiumProviderProps {
   children: ReactNode;
 }
 
-export function PremiumProvider({ children }: PremiumProviderProps) {
+export function PremiumProvider({ children }: PremiumProviderProps): React.JSX.Element {
   const [premiumState, setPremiumState] = useState<PremiumState>(loadStateFromStorage);
 
   useEffect(() => {

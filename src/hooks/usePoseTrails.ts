@@ -37,7 +37,7 @@ export function usePoseTrails({
   maxTrailLength = 60, // Default: keep last 60 frames (~2 seconds at 30fps)
   minScoreThreshold = 0.3,
   trailConfigs = {},
-}: UsePoseTrailsOptions) {
+}: UsePoseTrailsOptions): { trailHistory: TrailHistory; resetTrails: () => void; } {
   const [trailHistory, setTrailHistory] = useState<TrailHistory>({});
   const lastTimeRef = useRef<number | null>(null);
   const historyRef = useRef<TrailHistory>({});

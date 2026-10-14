@@ -5,7 +5,7 @@ interface LegalPageProps {
   onBack: () => void;
 }
 
-export function LegalPage({ onBack }: LegalPageProps) {
+export function LegalPage({ onBack }: LegalPageProps): React.JSX.Element {
   // Scroll to section if hash is present
   useEffect(() => {
     const hash = window.location.hash;

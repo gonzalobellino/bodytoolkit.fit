@@ -57,12 +57,12 @@ function renderCanvas(
   pendingTool: DrawTool,
   color: string,
   mousePos: Point | null,
-) {
+): void {
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  const stroke = (c: string, fn: () => void, dash = false, w = 2) => {
+  const stroke = (c: string, fn: () => void, dash = false, w = 2): void => {
     ctx.save();
     ctx.strokeStyle = c;
     ctx.fillStyle = c;
@@ -74,7 +74,7 @@ function renderCanvas(
     ctx.restore();
   };
 
-  const dot = (p: Point, c: string) => {
+  const dot = (p: Point, c: string): void => {
     ctx.save();
     ctx.fillStyle = c;
     ctx.shadowColor = 'rgba(0,0,0,0.6)';
@@ -85,7 +85,7 @@ function renderCanvas(
     ctx.restore();
   };
 
-  const angleLabel = (vertex: Point, p1: Point, p2: Point, c: string) => {
+  const angleLabel = (vertex: Point, p1: Point, p2: Point, c: string): void => {
     const a1 = Math.atan2(p1.y - vertex.y, p1.x - vertex.x);
     const a2 = Math.atan2(p2.y - vertex.y, p2.x - vertex.x);
     let deg = Math.abs((a2 - a1) * 180 / Math.PI);
@@ -161,7 +161,7 @@ function getCanvasPoint(e: React.MouseEvent, canvas: HTMLCanvasElement): Point {
 
 // ── Component ────────────────────────────────────────────────────────────────
 
-export function DualVideoAnalysis({ onBack }: DualVideoAnalysisProps) {
+export function DualVideoAnalysis({ onBack }: DualVideoAnalysisProps): React.JSX.Element {
   const playback1 = useVideoPlaybackNotice();
   const playback2 = useVideoPlaybackNotice();
   const [video1Url, setVideo1Url] = useState<string | null>(null);
@@ -293,14 +293,14 @@ export function DualVideoAnalysis({ onBack }: DualVideoAnalysisProps) {
 
   // ── File handlers ──────────────────────────────────────────────────────────
 
-  const handleFile1 = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFile1 = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const f = e.target.files?.[0];
     if (f) {
       playback1.inspectFile(f);
       setVideo1Url(URL.createObjectURL(f));
     }
   };
-  const handleFile2 = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFile2 = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const f = e.target.files?.[0];
     if (f) {
       playback2.inspectFile(f);
@@ -312,7 +312,7 @@ export function DualVideoAnalysis({ onBack }: DualVideoAnalysisProps) {
 
   // ── Toolbar helper ─────────────────────────────────────────────────────────
 
-  const toolBtn = (tool: DrawTool, icon: React.ReactNode, label: string) => (
+  const toolBtn = (tool: DrawTool, icon: React.ReactNode, label: string): React.JSX.Element => (
     <Button
       key={tool}
       variant={selectedTool === tool ? 'default' : 'ghost'}
@@ -484,8 +484,8 @@ export function DualVideoAnalysis({ onBack }: DualVideoAnalysisProps) {
               e.preventDefault();
               const startX = e.clientX;
               const startPos = splitPosition;
-              const move = (mv: MouseEvent) => setSplitPosition(Math.max(15, Math.min(85, startPos + ((mv.clientX - startX) / window.innerWidth) * 100)));
-              const up = () => { document.removeEventListener('mousemove', move); document.removeEventListener('mouseup', up); };
+              const move = (mv: MouseEvent): void => setSplitPosition(Math.max(15, Math.min(85, startPos + ((mv.clientX - startX) / window.innerWidth) * 100)));
+              const up = (): void => { document.removeEventListener('mousemove', move); document.removeEventListener('mouseup', up); };
               document.addEventListener('mousemove', move);
               document.addEventListener('mouseup', up);
             }}

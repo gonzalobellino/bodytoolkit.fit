@@ -37,7 +37,7 @@ export function KeypointToolbar({
   onBalancePointChange,
   onClose,
   onResetKeypoint,
-}: KeypointToolbarProps) {
+}: KeypointToolbarProps): React.JSX.Element {
   return (
     <div className="flex items-center gap-1 bg-white/90 backdrop-blur border border-slate-200 rounded-lg shadow-sm p-1" data-keypoint-toolbar>
         {/* Mode selection buttons */}

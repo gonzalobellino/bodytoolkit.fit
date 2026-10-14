@@ -4,11 +4,11 @@ import { ChevronRight, MoreHorizontal } from "lucide-react";
 
 import { cn } from "./utils";
 
-function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
+function Breadcrumb({ ...props }: React.ComponentProps<"nav">): React.JSX.Element {
   return <nav aria-label="breadcrumb" data-slot="breadcrumb" {...props} />;
 }
 
-function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
+function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">): React.JSX.Element {
   return (
     <ol
       data-slot="breadcrumb-list"
@@ -21,7 +21,7 @@ function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
   );
 }
 
-function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
+function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">): React.JSX.Element {
   return (
     <li
       data-slot="breadcrumb-item"
@@ -37,7 +37,7 @@ function BreadcrumbLink({
   ...props
 }: React.ComponentProps<"a"> & {
   asChild?: boolean;
-}) {
+}): React.JSX.Element {
   const Comp = asChild ? Slot : "a";
 
   return (
@@ -49,7 +49,7 @@ function BreadcrumbLink({
   );
 }
 
-function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
+function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">): React.JSX.Element {
   return (
     <span
       data-slot="breadcrumb-page"
@@ -66,7 +66,7 @@ function BreadcrumbSeparator({
   children,
   className,
   ...props
-}: React.ComponentProps<"li">) {
+}: React.ComponentProps<"li">): React.JSX.Element {
   return (
     <li
       data-slot="breadcrumb-separator"
@@ -83,7 +83,7 @@ function BreadcrumbSeparator({
 function BreadcrumbEllipsis({
   className,
   ...props
-}: React.ComponentProps<"span">) {
+}: React.ComponentProps<"span">): React.JSX.Element {
   return (
     <span
       data-slot="breadcrumb-ellipsis"

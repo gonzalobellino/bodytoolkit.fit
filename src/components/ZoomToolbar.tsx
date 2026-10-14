@@ -30,7 +30,7 @@ export function ZoomToolbar({
   onResetVideo,
   position = 'absolute',
   className = '',
-}: ZoomToolbarProps) {
+}: ZoomToolbarProps): React.JSX.Element {
   const containerClass = position === 'absolute' 
     ? `absolute bottom-4 right-4 z-10 pointer-events-auto ${className}`
     : className;

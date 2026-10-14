@@ -26,7 +26,7 @@ interface GlossaryViewProps {
   searchQuery: string;
 }
 
-function GlossaryView({ glossary, searchQuery }: GlossaryViewProps) {
+function GlossaryView({ glossary, searchQuery }: GlossaryViewProps): React.JSX.Element {
   const [expandedTerm, setExpandedTerm] = useState<string | null>(null);
 
   const glossaryEntries = Object.entries(glossary)
@@ -122,7 +122,7 @@ function GlossaryView({ glossary, searchQuery }: GlossaryViewProps) {
     </div>
   );
 }
-export function LearnSection({ onBack, patterns, assessments, exercises, conditions, glossary, initialTab, initialItemId }: LearnSectionProps) {
+export function LearnSection({ onBack, patterns, assessments, exercises, conditions, glossary, initialTab, initialItemId }: LearnSectionProps): React.JSX.Element {
   // Flatten exercises from grouped structure
   const allExercises = Object.values(exercises).flatMap(group => group);
   const [activeTab, setActiveTab] = useState<LearnTab>(initialTab ?? 'all');

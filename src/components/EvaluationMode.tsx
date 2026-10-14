@@ -14,7 +14,7 @@ interface EvaluationModeProps {
   exercises: ExercisesByCategory;
 }
 
-export function EvaluationMode({ onBack, patterns, assessments, exercises }: EvaluationModeProps) {
+export function EvaluationMode({ onBack, patterns, assessments, exercises }: EvaluationModeProps): React.JSX.Element {
   const [config, setConfig] = useState<EvaluationConfig>({
     zone: 'all',
     count: 10,

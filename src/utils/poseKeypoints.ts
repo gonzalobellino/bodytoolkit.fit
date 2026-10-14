@@ -41,7 +41,7 @@ const BLAZEPOSE_TO_MOVENET: Record<(typeof MOVENET_ORDER)[number], string[]> = {
   right_ankle: ['right_ankle'],
 };
 
-const normalizeName = (name?: string) => (name ? name.toLowerCase() : '');
+const normalizeName = (name?: string): string => (name ? name.toLowerCase() : '');
 
 const BLAZEPOSE_INDEX_MAP: Record<(typeof MOVENET_ORDER)[number], number[]> = {
   nose: [0],
@@ -64,12 +64,12 @@ const BLAZEPOSE_INDEX_MAP: Record<(typeof MOVENET_ORDER)[number], number[]> = {
   right_ankle: [28],
 };
 
-const findKeypointByNames = (keypoints: Keypoint[], names: string[]) => {
+const findKeypointByNames = (keypoints: Keypoint[], names: string[]): Keypoint | undefined => {
   const nameSet = new Set(names.map((name) => name.toLowerCase()));
   return keypoints.find((kp) => nameSet.has(normalizeName(kp.name)));
 };
 
-const findKeypointByIndex = (keypoints: Keypoint[], indices: number[]) => {
+const findKeypointByIndex = (keypoints: Keypoint[], indices: number[]): Keypoint | undefined => {
   for (const index of indices) {
     const kp = keypoints[index];
     if (kp) {
@@ -97,7 +97,7 @@ export function remapKeypoints(
     maxX <= 2 &&
     maxY <= 2;
 
-  const normalizePoint = (point: Keypoint) => {
+  const normalizePoint = (point: Keypoint): Keypoint => {
     if (!useNormalized || !videoSize) {
       return point;
     }
