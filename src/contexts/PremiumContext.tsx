@@ -23,7 +23,6 @@ const getDefaultState = (): PremiumState => ({
     aiPoseDetection: false,
     gaitAnalysis: false,
     symmetryAnalysis: false,
-    assessmentSharing: false,
     movementComparison: false,
     progressTracking: false,
     clientDatabase: false,
@@ -37,7 +36,6 @@ const getFeaturesForTier = (tier: SubscriptionTier): PremiumState['features'] =>
       aiPoseDetection: false,
       gaitAnalysis: false,
       symmetryAnalysis: false,
-      assessmentSharing: false,
       movementComparison: false,
       progressTracking: false,
       clientDatabase: false,
@@ -50,7 +48,6 @@ const getFeaturesForTier = (tier: SubscriptionTier): PremiumState['features'] =>
       aiPoseDetection: true,
       gaitAnalysis: true,
       symmetryAnalysis: true,
-      assessmentSharing: true, // Limited to 5/month
       movementComparison: true, // Basic
       progressTracking: true,
       clientDatabase: true, // Limited to 10 clients
@@ -63,7 +60,6 @@ const getFeaturesForTier = (tier: SubscriptionTier): PremiumState['features'] =>
     aiPoseDetection: true,
     gaitAnalysis: true,
     symmetryAnalysis: true,
-    assessmentSharing: true, // Unlimited
     movementComparison: true, // Full
     progressTracking: true,
     clientDatabase: true, // Unlimited

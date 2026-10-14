@@ -1,5 +1,8 @@
 # Catalog links and TypeScript audit
 
+Historical note: entries #3 and #9 below refer to assessment-sharing components that were removed
+after this audit because they were not reachable from the application.
+
 Branch: `analysis/data-links-typescript-errors`. Initial baseline: `main` at merge commit `b8095dd` (PR #11). The branch was updated after PR #3. The user validated adding the 13 reverse links described below on 2026-10-14, after the agent clarified that they make the exercises visible from the pattern view. No exercise-side link was removed.
 
 ## Resolution

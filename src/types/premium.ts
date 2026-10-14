@@ -5,7 +5,6 @@ export interface PremiumFeatures {
   aiPoseDetection: boolean;
   gaitAnalysis: boolean;
   symmetryAnalysis: boolean;
-  assessmentSharing: boolean;
   movementComparison: boolean;
   progressTracking: boolean;
   clientDatabase: boolean;
@@ -34,7 +33,6 @@ export const PREMIUM_FEATURES = {
   aiPoseDetection: 'aiPoseDetection',
   gaitAnalysis: 'gaitAnalysis',
   symmetryAnalysis: 'symmetryAnalysis',
-  assessmentSharing: 'assessmentSharing',
   movementComparison: 'movementComparison',
   progressTracking: 'progressTracking',
   clientDatabase: 'clientDatabase',
