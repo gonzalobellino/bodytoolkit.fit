@@ -1,0 +1,168 @@
+{
+  "name": { "en": "Client Questionnaire", "es": "Cuestionario del cliente" },
+  "abbreviation": "CQ",
+  "type": "form",
+  "description": { "en": "General client intake. Not a diagnosis.", "es": "Cuestionario general del cliente. No es un diagnóstico." },
+  "sections": [
+    {
+      "title": { "en": "Client Details", "es": "Datos del cliente" },
+      "questions": [
+        {
+          "id": "cq_first_name",
+          "type": "text",
+          "label": { "en": "First name", "es": "Nombre" },
+          "required": true
+        },
+        {
+          "id": "cq_last_name",
+          "type": "text",
+          "label": { "en": "Last name", "es": "Apellidos" },
+          "required": true
+        },
+        {
+          "id": "cq_email",
+          "type": "text",
+          "label": { "en": "Email", "es": "Email" },
+          "required": true
+        },
+        {
+          "id": "cq_phone",
+          "type": "text",
+          "label": { "en": "Phone (optional)", "es": "Teléfono (opcional)" }
+        },
+        {
+          "id": "cq_trainer_name",
+          "type": "text",
+          "label": { "en": "Trainer name", "es": "Nombre del entrenador" }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Current Symptoms", "es": "Síntomas actuales" },
+      "questions": [
+        {
+          "id": "cq_joint_pain",
+          "type": "yes_no",
+          "label": { "en": "Do you have any joint pain that feels deep or hard to locate?", "es": "¿Tienes dolor articular que se siente profundo o difícil de ubicar?" },
+          "required": true
+        },
+        {
+          "id": "cq_local_pain",
+          "type": "yes_no",
+          "label": { "en": "Do you have intense or localized pain in any area?", "es": "¿Tienes dolor intenso o localizado en alguna zona?" },
+          "required": true
+        },
+        {
+          "id": "cq_numbness",
+          "type": "yes_no",
+          "label": { "en": "Do you experience numbness or tingling in your limbs?", "es": "¿Sientes entumecimiento u hormigueo en las extremidades?" },
+          "required": true
+        },
+        {
+          "id": "cq_weight_change",
+          "type": "yes_no",
+          "label": { "en": "Have you had a significant weight change in the last few months?", "es": "¿Has tenido un cambio de peso importante en los últimos meses?" },
+          "required": true
+        },
+        {
+          "id": "cq_recent_illness",
+          "type": "yes_no",
+          "label": { "en": "Have you recently had illness or fatigue that affects daily activity?", "es": "¿Has tenido recientemente enfermedad o fatiga que afecte la actividad diaria?" },
+          "required": true
+        }
+      ]
+    },
+    {
+      "title": { "en": "Injury and Rehabilitation History", "es": "Historial de lesiones y rehabilitación" },
+      "questions": [
+        {
+          "id": "cq_injury_recent",
+          "type": "yes_no",
+          "label": { "en": "Have you had injuries, surgeries, or rehab in the last 2 years?", "es": "¿Has tenido lesiones, cirugías o rehabilitación en los últimos 2 años?" },
+          "required": true
+        },
+        {
+          "id": "cq_injury_details",
+          "type": "textarea",
+          "label": { "en": "List injuries, surgeries, or rehab details (area, date, status).", "es": "Detalla lesiones, cirugías o rehabilitación (zona, fecha, estado)." }
+        },
+        {
+          "id": "cq_injury_other",
+          "type": "textarea",
+          "label": { "en": "Any other details you want to share?", "es": "¿Algún otro detalle que quieras compartir?" }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Pain or Discomfort Map", "es": "Mapa de dolor o molestias" },
+      "questions": [
+        {
+          "id": "cq_bodymap_front",
+          "type": "bodymap",
+          "label": { "en": "Front view", "es": "Vista frontal" },
+          "view": "front"
+        },
+        {
+          "id": "cq_bodymap_back",
+          "type": "bodymap",
+          "label": { "en": "Back view", "es": "Vista posterior" },
+          "view": "back"
+        },
+        {
+          "id": "cq_bodymap_notes",
+          "type": "textarea",
+          "label": { "en": "Notes about discomfort locations (optional).", "es": "Notas sobre zonas de molestia (opcional)." }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Motivation and Goals", "es": "Motivación y objetivos" },
+      "questions": [
+        {
+          "id": "cq_primary_goals",
+          "type": "multi_select",
+          "label": { "en": "What are your main goals? Select all that apply.", "es": "¿Cuáles son tus objetivos principales? Selecciona todos los que correspondan." },
+          "options": [
+            { "value": "general_health", "label": { "en": "General health", "es": "Salud general" } },
+            { "value": "strength", "label": { "en": "Strength", "es": "Fuerza" } },
+            { "value": "hypertrophy", "label": { "en": "Hypertrophy", "es": "Hipertrofia" } },
+            { "value": "fat_loss", "label": { "en": "Fat loss / body composition", "es": "Pérdida de grasa / composición corporal" } },
+            { "value": "mobility", "label": { "en": "Mobility / flexibility", "es": "Movilidad / flexibilidad" } },
+            { "value": "pain_discomfort", "label": { "en": "Reduce pain or discomfort", "es": "Reducir dolor o molestias" } },
+            { "value": "posture", "label": { "en": "Posture / body awareness", "es": "Postura / conciencia corporal" } },
+            { "value": "sport_performance", "label": { "en": "Sport or performance", "es": "Deporte o rendimiento" } },
+            { "value": "daily_function", "label": { "en": "Daily function", "es": "Función diaria" } },
+            { "value": "other", "label": { "en": "Other", "es": "Otro" } }
+          ]
+        },
+        {
+          "id": "cq_goal_context",
+          "type": "textarea",
+          "label": { "en": "What brings you in, and what priorities or activities matter most to you?", "es": "¿Qué te trae aquí y qué prioridades o actividades son más importantes para ti?" }
+        },
+        {
+          "id": "cq_success",
+          "type": "textarea",
+          "label": { "en": "What would success look like in the next 4-12 weeks?", "es": "¿Cómo se vería el éxito en las próximas 4 a 12 semanas?" }
+        }
+      ]
+    },
+    {
+      "title": { "en": "Consent", "es": "Consentimiento" },
+      "questions": [
+        {
+          "id": "cq_consent",
+          "type": "checkbox",
+          "label": { "en": "I confirm the information above is accurate and I consent to participate in the service or program discussed with my provider.", "es": "Confirmo que la información anterior es correcta y doy mi consentimiento para participar en el servicio o programa acordado con mi proveedor." },
+          "required": true
+        },
+        {
+          "id": "cq_consent_date",
+          "type": "date",
+          "label": { "en": "Consent date", "es": "Fecha de consentimiento" },
+          "default": "today"
+        }
+      ]
+    }
+  ]
+}

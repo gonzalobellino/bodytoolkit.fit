@@ -1,0 +1,36 @@
+{
+  "name": { "en": "Lower Extremity Functional Scale", "es": "Escala funcional del miembro inferior" },
+  "abbreviation": "LEFS",
+  "type": "scale",
+  "maxScore": 80,
+  "minScore": 0,
+  "questions": [
+    { "en": "Any of your usual work, housework or school activities", "es": "Cualquiera de tus actividades habituales de trabajo, hogar o estudios" },
+    { "en": "Your usual hobbies, recreational or sporting activities", "es": "Tus hobbies, actividades recreativas o deportivas habituales" },
+    { "en": "Getting into or out of the bath", "es": "Entrar o salir de la bañera" },
+    { "en": "Walking between rooms", "es": "Caminar entre habitaciones" },
+    { "en": "Putting on your shoes or socks", "es": "Ponerte los zapatos o los calcetines" },
+    { "en": "Squatting", "es": "Ponerte en cuclillas" },
+    { "en": "Lifting an object, like a bag of groceries from the floor", "es": "Levantar un objeto del suelo, como una bolsa de la compra" },
+    { "en": "Performing light activities around your home", "es": "Realizar actividades ligeras en casa" },
+    { "en": "Performing heavy activities around your home", "es": "Realizar actividades pesadas en casa" },
+    { "en": "Getting into or out of a car", "es": "Entrar o salir del coche" },
+    { "en": "Walking 2 blocks", "es": "Caminar 2 manzanas" },
+    { "en": "Walking a mile", "es": "Caminar 1,5 km (aprox. 1 milla)" },
+    { "en": "Going up or down 10 stairs (about 1 flight of stairs)", "es": "Subir o bajar unos 10 escalones (un tramo)" },
+    { "en": "Standing for 1 hour", "es": "Estar de pie 1 hora" },
+    { "en": "Sitting for 1 hour", "es": "Estar sentado 1 hora" },
+    { "en": "Running on even ground", "es": "Correr en terreno llano" },
+    { "en": "Running on uneven ground", "es": "Correr en terreno irregular" },
+    { "en": "Making sharp turns while running fast", "es": "Hacer giros bruscos corriendo rápido" },
+    { "en": "Hopping", "es": "Saltar a la pata coja" },
+    { "en": "Rolling over in bed", "es": "Darte la vuelta en la cama" }
+  ],
+  "options": [
+    { "value": 0, "label": { "en": "Extreme difficulty or unable to perform activity", "es": "Dificultad extrema o incapaz de realizar la actividad" } },
+    { "value": 1, "label": { "en": "Quite a bit of difficulty", "es": "Bastante dificultad" } },
+    { "value": 2, "label": { "en": "Moderate difficulty", "es": "Dificultad moderada" } },
+    { "value": 3, "label": { "en": "A little bit of difficulty", "es": "Un poco de dificultad" } },
+    { "value": 4, "label": { "en": "No difficulty", "es": "Sin dificultad" } }
+  ]
+}

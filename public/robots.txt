@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Private API endpoints (Vercel serverless functions)
+Disallow: /api/
+
+# Client form tokens — private, query-string based, served via hash router
+# (not reachable as real URLs, but listed for explicitness)
+Disallow: /#/form/
+
+Sitemap: https://bodytoolkit.fit/sitemap.xml

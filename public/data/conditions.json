@@ -1,0 +1,622 @@
+[
+  {
+    "name": "Shoulder Impingement",
+    "category": "Shoulder - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Shoulder impingement involves compression of subacromial structures during arm elevation, often due to poor scapular control and soft tissue tightness.",
+    "biomechanical_mechanism": "Decreased subacromial space from scapular dyskinesis, posterior capsule tightness, and humeral head migration.",
+    "common_compensations": [
+      "Painful arc during elevation",
+      "Scapular hiking",
+      "Reduced overhead ROM"
+    ],
+    "differential_diagnosis": [
+      "Rotator cuff tear",
+      "Bursitis",
+      "Labral pathology"
+    ],
+    "correctives": [
+      "Scapular stabilization drills",
+      "Posterior capsule mobility",
+      "Rotator cuff activation",
+      "Thoracic mobility"
+    ],
+    "practical_solution": "Address scapular control and posterior capsule stiffness, then gradually reintroduce overhead loading.",
+    "clinical_rationale": "Impingement is often secondary to scapular and thoracic dysfunction. Corrective strategies reduce compression and restore mechanics.",
+    "progression": [
+      "Level 1: Pain-free mobility",
+      "Level 2: Scapular activation",
+      "Level 3: Rotator cuff strengthening",
+      "Level 4: Overhead integration"
+    ],
+    "regression": [
+      "Avoid painful arcs",
+      "Reduce load",
+      "Use supported positions"
+    ],
+    "red_flags": [
+      "Severe pain at rest",
+      "Night pain",
+      "Loss of strength"
+    ],
+    "related_patterns": [
+      "p__scapular_dyskinesis",
+      "p__rounded_shoulders"
+    ],
+    "id": "c__shoulder_impingement",
+    "exercise_ids": [
+      "e__wall_elbow_walk_band",
+      "e__y_raise_swiss_ball",
+      "e__sleeper_stretch"
+    ],
+    "assessment_ids": [
+      "a__painful_arc_assessment",
+      "a__hawkins_kennedy_assessment",
+      "a__neer_test_assessment"
+    ]
+  },
+  {
+    "name": "Cervical Hypolordosis (Rectification)",
+    "category": "Cervical - Postural",
+    "images": [],
+    "videos": [],
+    "overview": "Flattening or reduction of the normal cervical lordotic curve. It is a postural/structural finding that can be associated with altered head/neck strategies, protective stiffness, and changes in load distribution.",
+    "biomechanical_mechanism": "Altered cervical segmental alignment commonly associated with protective stiffness, sustained forward head posture, prolonged flexed postures, and reduced thoracic contribution during upright tasks and arm movements.",
+    "common_compensations": [
+      "Forward head posture",
+      "Upper cervical extension",
+      "Increased thoracic kyphosis"
+    ],
+    "differential_diagnosis": [
+      "Cervical disc pathology",
+      "Cervical radiculopathy",
+      "Cervicogenic headache"
+    ],
+    "correctives": [
+      "Deep neck flexor activation",
+      "Thoracic extension mobility",
+      "Postural endurance drills"
+    ],
+    "practical_solution": "Reduce sustained flexed positions and improve cervical-thoracic movement strategies through targeted mobility, motor control, and postural endurance work (without assuming structural normalization).",
+    "clinical_rationale": "Improving movement strategies and load distribution may reduce excessive cervical stress and improve function and symptom tolerance, even if structural alignment does not fully change.",
+    "progression": [
+      "Level 1: Supine activation",
+      "Level 2: Seated control",
+      "Level 3: Standing integration",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce hold time",
+      "Use supported positions",
+      "Shorten ROM"
+    ],
+    "red_flags": [
+      "Severe or progressive neurological symptoms",
+      "Recent trauma",
+      "Night pain"
+    ],
+    "related_patterns": [
+      "p__forward_head_posture",
+      "p__upper_crossed_syndrome",
+      "p__thoracic_kyphosis"
+    ],
+    "id": "c__cervical_hypolordosis",
+    "exercise_ids": [
+      "e__chin_tuck",
+      "e__dnf_activation",
+      "e__thoracic_extension_foam_roller"
+    ],
+    "assessment_ids": [
+      "a__postural_assessment",
+      "a__ccft_assessment"
+    ]
+  },
+  {
+    "name": "Plantar Fasciitis",
+    "category": "Foot - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Plantar fasciitis is characterized by pain at the medial calcaneal tubercle, often worse in the morning or after prolonged standing.",
+    "biomechanical_mechanism": "Excessive foot pronation, calf tightness, and poor load management increase strain on the plantar fascia.",
+    "common_compensations": [
+      "Antalgic gait",
+      "Reduced dorsiflexion",
+      "Arch collapse"
+    ],
+    "differential_diagnosis": [
+      "Fat pad syndrome",
+      "Stress fracture",
+      "Tarsal tunnel syndrome"
+    ],
+    "correctives": [
+      "Plantar fascia self-release (2x60 sec)",
+      "Calf stretching (2x30 sec)",
+      "Foot intrinsic strengthening",
+      "Load management and progressive return"
+    ],
+    "practical_solution": "Reduce overload, restore calf/foot mobility, and gradually reload the fascia.",
+    "clinical_rationale": "Managing load and improving foot mechanics reduces plantar fascia stress and supports recovery.",
+    "progression": [
+      "Level 1: Pain reduction",
+      "Level 2: Mobility and SMR",
+      "Level 3: Strength and balance",
+      "Level 4: Return to impact"
+    ],
+    "regression": [
+      "Reduce impact",
+      "Shorten durations",
+      "Use low-load exercises"
+    ],
+    "red_flags": [
+      "Severe night pain",
+      "Swelling and redness",
+      "History of fracture"
+    ],
+    "related_patterns": [
+      "p__overpronation",
+      "p__limited_ankle_dorsiflexion"
+    ],
+    "id": "c__plantar_fasciitis",
+    "exercise_ids": [
+      "e__plantar_fascia_roll",
+      "e__gastroc_soleus_stretch",
+      "e__short_foot"
+    ],
+    "assessment_ids": [
+      "a__windlass_test_assessment",
+      "a__knee_to_wall_assessment"
+    ]
+  },
+  {
+    "name": "Rotator Cuff Tendinopathy",
+    "category": "Shoulder - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Rotator cuff tendinopathy presents as shoulder pain with overhead activity, often due to overuse and poor mechanics.",
+    "biomechanical_mechanism": "Repeated overhead loading with poor scapular control or insufficient cuff strength leads to tendon overload.",
+    "common_compensations": [
+      "Painful arc",
+      "Scapular hiking",
+      "Reduced overhead ROM"
+    ],
+    "differential_diagnosis": [
+      "Rotator cuff tear",
+      "Impingement",
+      "Labral pathology"
+    ],
+    "correctives": [
+      "Isometric cuff loading",
+      "Scapular stabilization",
+      "Gradual load progression"
+    ],
+    "practical_solution": "Use pain-free isometrics and progressive loading with strict scapular control.",
+    "clinical_rationale": "Tendon adaptation requires gradual loading. Proper mechanics reduce irritation and improve tolerance.",
+    "progression": [
+      "Level 1: Isometrics",
+      "Level 2: Light resistance",
+      "Level 3: Eccentric loading",
+      "Level 4: Overhead integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Avoid painful arcs",
+      "Use assisted ROM"
+    ],
+    "red_flags": [
+      "Night pain",
+      "Severe weakness",
+      "Trauma"
+    ],
+    "related_patterns": [
+      "p__rotator_cuff_weakness"
+    ],
+    "id": "c__rotator_cuff_tendinopathy",
+    "exercise_ids": [
+      "e__external_rotation_band",
+      "e__scapular_squeeze"
+    ],
+    "assessment_ids": [
+      "a__painful_arc_assessment",
+      "a__empty_can_assessment"
+    ],
+    "related_conditions": [
+      "c__shoulder_impingement"
+    ]
+  },
+  {
+    "name": "Lumbar Flexion Intolerance",
+    "category": "Lumbar - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Lumbar flexion intolerance is pain provoked by repeated or sustained flexion.",
+    "biomechanical_mechanism": "Disc sensitivity and flexion-biased mechanics often increase symptoms during bending or sitting.",
+    "common_compensations": [
+      "Avoidance of flexion",
+      "Excess hip hinge",
+      "Protective muscle guarding"
+    ],
+    "differential_diagnosis": [
+      "Disc herniation",
+      "Radiculopathy",
+      "Facet irritation"
+    ],
+    "correctives": [
+      "Neutral spine training",
+      "Hip hinge mechanics",
+      "Core endurance exercises",
+      "Load management"
+    ],
+    "practical_solution": "Limit flexion provocation and build tolerance through neutral spine mechanics.",
+    "clinical_rationale": "Flexion-sensitive backs respond best to load management and neutral spine training.",
+    "progression": [
+      "Level 1: Pain-free neutral control",
+      "Level 2: Core endurance",
+      "Level 3: Hip hinge loading",
+      "Level 4: Functional integration"
+    ],
+    "regression": [
+      "Reduce load",
+      "Shorten duration",
+      "Use supported positions"
+    ],
+    "red_flags": [
+      "Progressive neurological deficits",
+      "Bowel/bladder changes",
+      "Severe night pain"
+    ],
+    "related_patterns": [
+      "p__hamstring_dominance",
+      "p__loss_of_lumbar_extension"
+    ],
+    "id": "c__lumbar_flexion_intolerance",
+    "exercise_ids": [
+      "e__bird_dog",
+      "e__plank",
+      "e__hip_hinge_drill"
+    ],
+    "assessment_ids": [
+      "a__slump_test_assessment"
+    ]
+  },
+  {
+    "name": "Patellofemoral Pain",
+    "category": "Knee - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Patellofemoral pain is anterior knee pain commonly aggravated by squatting, stairs, or prolonged sitting.",
+    "biomechanical_mechanism": "Poor patellar tracking due to hip weakness, dynamic valgus, and quad dominance increases joint stress.",
+    "common_compensations": [
+      "Knee valgus",
+      "Quad dominance",
+      "Reduced squat depth"
+    ],
+    "differential_diagnosis": [
+      "Patellar tendinopathy",
+      "Chondromalacia",
+      "Meniscal pathology"
+    ],
+    "correctives": [
+      "Glute strengthening",
+      "VMO activation",
+      "Movement pattern retraining"
+    ],
+    "practical_solution": "Improve hip control and patellar tracking while reducing pain-provoking load.",
+    "clinical_rationale": "Dynamic valgus and quad dominance elevate patellofemoral stress. Correcting these factors improves symptoms.",
+    "progression": [
+      "Level 1: Pain-free activation",
+      "Level 2: Controlled squats",
+      "Level 3: Single-leg control",
+      "Level 4: Return to impact"
+    ],
+    "regression": [
+      "Reduce depth",
+      "Avoid pain",
+      "Use assisted patterns"
+    ],
+    "red_flags": [
+      "Severe swelling",
+      "Locking",
+      "Acute trauma"
+    ],
+    "related_patterns": [
+      "p__knee_valgus",
+      "p__gluteal_amnesia"
+    ],
+    "id": "c__patellofemoral_pain",
+    "exercise_ids": [
+      "e__terminal_knee_extension",
+      "e__glute_bridge",
+      "e__clamshell"
+    ],
+    "assessment_ids": [
+      "a__single_leg_squat_assessment",
+      "a__overhead_squat_assessment",
+      "a__hip_abduction_strength_assessment"
+    ]
+  },
+  {
+    "name": "IT Band Syndrome",
+    "category": "Knee - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "IT band syndrome is lateral knee pain related to friction or compression of the IT band during repetitive knee flexion and extension.",
+    "biomechanical_mechanism": "Overactive TFL, hip abductor weakness, and increased dynamic valgus contribute to lateral knee stress.",
+    "common_compensations": [
+      "Hip adduction",
+      "Knee valgus",
+      "Lateral knee pain during running"
+    ],
+    "differential_diagnosis": [
+      "Lateral meniscus injury",
+      "LCL sprain",
+      "Biceps femoris tendinopathy"
+    ],
+    "correctives": [
+      "TFL/IT band SMR (2x60 sec)",
+      "Glute med strengthening",
+      "Running gait retraining"
+    ],
+    "practical_solution": "Address hip control and reduce lateral knee loading with strength and gait correction.",
+    "clinical_rationale": "IT band syndrome is often driven by proximal hip control deficits. Improving hip stability reduces lateral knee stress.",
+    "progression": [
+      "Level 1: SMR and stretching",
+      "Level 2: Hip strengthening",
+      "Level 3: Single-leg control",
+      "Level 4: Return to running"
+    ],
+    "regression": [
+      "Reduce running volume",
+      "Limit pain-provoking range",
+      "Use low-load drills"
+    ],
+    "red_flags": [
+      "Severe swelling",
+      "Locking",
+      "Trauma"
+    ],
+    "related_patterns": [
+      "p__knee_valgus",
+      "p__overpronation"
+    ],
+    "id": "c__it_band_syndrome",
+    "exercise_ids": [
+      "e__tfl_it_band_smr",
+      "e__lateral_step_band"
+    ],
+    "assessment_ids": [
+      "a__ober_test_assessment",
+      "a__single_leg_squat_assessment"
+    ]
+  },
+  {
+    "name": "Achilles Tendinopathy",
+    "category": "Ankle - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Achilles tendinopathy presents with pain and stiffness in the Achilles tendon, often worse with running or jumping.",
+    "biomechanical_mechanism": "Excessive load, limited ankle dorsiflexion, and calf weakness contribute to tendon overload.",
+    "common_compensations": [
+      "Reduced push-off",
+      "Altered gait",
+      "Overpronation"
+    ],
+    "differential_diagnosis": [
+      "Tendon rupture",
+      "Retrocalcaneal bursitis",
+      "Stress fracture"
+    ],
+    "correctives": [
+      "Eccentric calf loading",
+      "Ankle mobility drills",
+      "Load management",
+      "Progressive return to impact"
+    ],
+    "practical_solution": "Use eccentric loading and gradual progression while reducing provocative volume.",
+    "clinical_rationale": "Tendon adaptation responds to progressive loading. Managing volume and mobility reduces irritation.",
+    "progression": [
+      "Level 1: Isometrics",
+      "Level 2: Eccentrics",
+      "Level 3: Heavy slow resistance",
+      "Level 4: Plyometric return"
+    ],
+    "regression": [
+      "Reduce load",
+      "Shorten ROM",
+      "Avoid plyometrics"
+    ],
+    "red_flags": [
+      "Sudden sharp pain",
+      "Significant swelling",
+      "Loss of function"
+    ],
+    "related_patterns": [
+      "p__limited_ankle_dorsiflexion",
+      "p__overpronation"
+    ],
+    "id": "c__achilles_tendinopathy",
+    "exercise_ids": [
+      "e__eccentric_calf_raises",
+      "e__wall_ankle_mob"
+    ],
+    "assessment_ids": [
+      "a__single_leg_heel_raise_test_assessment",
+      "a__knee_to_wall_assessment"
+    ]
+  },
+  {
+    "name": "Shin Splints (MTSS)",
+    "category": "Lower Leg - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Medial tibial stress syndrome (shin splints) presents with diffuse medial tibial pain related to training load and biomechanical stress.",
+    "biomechanical_mechanism": "Overpronation, weak tibialis posterior/anterior, and rapid load progression increase tibial stress.",
+    "common_compensations": [
+      "Altered gait",
+      "Reduced impact tolerance",
+      "Foot pronation"
+    ],
+    "differential_diagnosis": [
+      "Stress fracture",
+      "Compartment syndrome",
+      "Tendinopathy"
+    ],
+    "correctives": [
+      "Reduce training volume",
+      "Foot intrinsic strengthening",
+      "Tibialis strengthening",
+      "Gradual return to impact"
+    ],
+    "practical_solution": "Manage load and build lower-leg strength to improve tissue tolerance.",
+    "clinical_rationale": "MTSS is often driven by overload and biomechanical deficits. Load management and strengthening reduce symptoms.",
+    "progression": [
+      "Level 1: Pain reduction",
+      "Level 2: Strengthening",
+      "Level 3: Low-impact conditioning",
+      "Level 4: Return to running"
+    ],
+    "regression": [
+      "Reduce impact",
+      "Shorten sessions",
+      "Avoid hills"
+    ],
+    "red_flags": [
+      "Focal bone pain",
+      "Night pain",
+      "Swelling"
+    ],
+    "related_patterns": [
+      "p__overpronation",
+      "p__limited_ankle_dorsiflexion"
+    ],
+    "id": "c__shin_splints",
+    "exercise_ids": [
+      "e__tibialis_strengthening",
+      "e__short_foot"
+    ],
+    "assessment_ids": [
+      "a__single_leg_heel_raise_test_assessment"
+    ]
+  },
+  {
+    "name": "Lateral Epicondylalgia (Tennis Elbow)",
+    "category": "Elbow - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Lateral epicondylalgia (tennis elbow) is an overuse tendinopathy of the common wrist extensor origin at the lateral epicondyle, typically provoked by gripping and wrist extension.",
+    "biomechanical_mechanism": "Repeated loading of wrist extensors (especially ECRB) leads to tendon degeneration and pain with resisted extension or gripping tasks.",
+    "common_compensations": [
+      "Avoided or painful grip",
+      "Reduced wrist extension strength",
+      "Elbow flexion substitution during load"
+    ],
+    "differential_diagnosis": [
+      "Radial tunnel syndrome",
+      "Cervical radiculopathy",
+      "Lateral collateral ligament sprain"
+    ],
+    "correctives": [
+      "Load management and graded exposure",
+      "Eccentric and isometric wrist extensor loading",
+      "Forearm mobility and soft tissue work"
+    ],
+    "practical_solution": "Begin with pain-modulated isometrics and progress to eccentric/concentric loading with gradual return to gripping tasks.",
+    "clinical_rationale": "Tendinopathies respond best to progressive loading and symptom-guided dosing rather than rest alone.",
+    "progression": [
+      "Level 1: Isometrics and pain-free mobility",
+      "Level 2: Eccentric loading",
+      "Level 3: Concentric strength",
+      "Level 4: Task-specific grip and sport work"
+    ],
+    "regression": [
+      "Reduce gripping volume",
+      "Lower resistance",
+      "Shorter lever positions"
+    ],
+    "red_flags": [
+      "Night pain not improving",
+      "Neurological symptoms",
+      "Severe swelling or trauma"
+    ],
+    "related_conditions": [],
+    "related_patterns": [
+      "p__pain_with_grip",
+      "p__limited_wrist_extension",
+      "p__limited_wrist_flexion",
+      "p__limited_forearm_pronation",
+      "p__limited_forearm_supination"
+    ],
+    "exercise_ids": [
+      "e__wrist_extensor_isometric",
+      "e__wrist_extensor_eccentric",
+      "e__forearm_extensor_stretch",
+      "e__forearm_extensor_smr"
+    ],
+    "assessment_ids": [
+      "a__cozen_test_assessment",
+      "a__mill_test_assessment",
+      "a__maudsley_test_assessment",
+      "a__pain_free_grip_test_assessment"
+    ],
+    "id": "c__lateral_epicondylalgia"
+  },
+  {
+    "name": "Medial Epicondylalgia (Golfer's Elbow)",
+    "category": "Elbow - Pathology",
+    "images": [],
+    "videos": [],
+    "overview": "Medial epicondylalgia (golfer's elbow), also called epitrocleitis, is an overuse tendinopathy of the common wrist flexor origin at the medial epicondyle, often aggravated by gripping and wrist flexion or pronation.",
+    "biomechanical_mechanism": "Repeated loading of wrist flexors and pronators leads to tendon degeneration and pain with resisted flexion or forearm pronation.",
+    "common_compensations": [
+      "Pain with gripping or wrist flexion",
+      "Reduced forearm pronation strength",
+      "Avoidance of loaded carries"
+    ],
+    "differential_diagnosis": [
+      "Ulnar neuropathy (cubital tunnel)",
+      "Medial collateral ligament sprain",
+      "Flexor-pronator strain"
+    ],
+    "correctives": [
+      "Load management and graded exposure",
+      "Eccentric and isometric wrist flexor loading",
+      "Forearm mobility and soft tissue work"
+    ],
+    "practical_solution": "Start with pain-modulated isometrics and progress to eccentric/concentric loading with gradual return to gripping tasks.",
+    "clinical_rationale": "Progressive loading supports tendon remodeling and functional recovery when symptoms are monitored.",
+    "progression": [
+      "Level 1: Isometrics and pain-free mobility",
+      "Level 2: Eccentric loading",
+      "Level 3: Concentric strength",
+      "Level 4: Task-specific grip and sport work"
+    ],
+    "regression": [
+      "Reduce gripping volume",
+      "Lower resistance",
+      "Shorter lever positions"
+    ],
+    "red_flags": [
+      "Night pain not improving",
+      "Neurological symptoms",
+      "Severe swelling or trauma"
+    ],
+    "related_conditions": [],
+    "related_patterns": [
+      "p__pain_with_grip",
+      "p__limited_wrist_flexion",
+      "p__limited_forearm_pronation"
+    ],
+    "exercise_ids": [
+      "e__wrist_flexor_isometric",
+      "e__wrist_flexor_eccentric",
+      "e__forearm_flexor_stretch",
+      "e__forearm_flexor_smr"
+    ],
+    "assessment_ids": [
+      "a__resisted_wrist_flexion_pronation_assessment",
+      "a__medial_epicondyle_tenderness_assessment",
+      "a__pain_free_grip_test_assessment"
+    ],
+    "id": "c__medial_epicondylalgia"
+  }
+]

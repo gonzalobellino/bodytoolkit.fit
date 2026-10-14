@@ -1,0 +1,76 @@
+{
+  "name": { "en": "Single-Joint Movement Analysis", "es": "Single-Joint Movement Analysis" },
+  "type": "form",
+  "domain": "General",
+  "description": { "en": "Movement pattern assessment for single-joint exercises", "es": "Movement pattern assessment for single-joint exercises" },
+  "sections": [
+    {
+      "title": { "en": "Client Information", "es": "Client Information" },
+      "questions": [
+        { "id": "sjma_client", "type": "text", "label": { "en": "Client name", "es": "Client name" } },
+        { "id": "sjma_date", "type": "date", "label": { "en": "Date", "es": "Date" }, "default": "today" }
+      ]
+    },
+    {
+      "title": { "en": "Critical Movement Events", "es": "Critical Movement Events" },
+      "questions": [
+        { "id": "sjma_event1", "type": "yes_no", "label": { "en": "Critical event #1 - Was this event met?", "es": "Critical event #1 - Was this event met?" } },
+        { "id": "sjma_event2", "type": "yes_no", "label": { "en": "Critical event #2 - Was this event met?", "es": "Critical event #2 - Was this event met?" } }
+      ]
+    },
+    {
+      "title": { "en": "Sagittal", "es": "Sagittal" },
+      "questions": [
+        {
+          "id": "sjma_observed_sagittal",
+          "type": "multi_select",
+          "label": { "en": "Sagittal plane observations", "es": "Sagittal plane observations" },
+          "options": [
+            { "value": "limited_range_of_motion", "label": { "en": "Limited range of motion", "es": "Limited range of motion" } },
+            { "value": "compensatory_movement", "label": { "en": "Compensatory movement", "es": "Compensatory movement" } },
+            { "value": "excessive_movement", "label": { "en": "Excessive movement", "es": "Excessive movement" } },
+            { "value": "asymmetric_movement", "label": { "en": "Asymmetric movement", "es": "Asymmetric movement" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Frontal", "es": "Frontal" },
+      "questions": [
+        {
+          "id": "sjma_observed_frontal",
+          "type": "multi_select",
+          "label": { "en": "Frontal plane observations", "es": "Frontal plane observations" },
+          "options": [
+            { "value": "lateral_deviation", "label": { "en": "Lateral deviation", "es": "Lateral deviation" } },
+            { "value": "asymmetric_movement", "label": { "en": "Asymmetric movement", "es": "Asymmetric movement" } },
+            { "value": "compensatory_stabilization", "label": { "en": "Compensatory stabilization", "es": "Compensatory stabilization" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Transverse", "es": "Transverse" },
+      "questions": [
+        {
+          "id": "sjma_observed_transverse",
+          "type": "multi_select",
+          "label": { "en": "Transverse plane observations", "es": "Transverse plane observations" },
+          "options": [
+            { "value": "rotational_compensation", "label": { "en": "Rotational compensation", "es": "Rotational compensation" } },
+            { "value": "asymmetric_rotation", "label": { "en": "Asymmetric rotation", "es": "Asymmetric rotation" } },
+            { "value": "other", "label": { "en": "Other", "es": "Other" } }
+          ]
+        }
+      ]
+    },
+    {
+      "title": { "en": "Additional Notes", "es": "Additional Notes" },
+      "questions": [
+        { "id": "sjma_notes", "type": "textarea", "label": { "en": "Additional notes and observations", "es": "Additional notes and observations" } }
+      ]
+    }
+  ]
+}

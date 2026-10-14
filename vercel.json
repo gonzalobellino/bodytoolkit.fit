@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.bodytoolkit.fit" }],
+      "destination": "https://bodytoolkit.fit/:path*",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/:path*", "destination": "/index.html" }
+  ]
+}

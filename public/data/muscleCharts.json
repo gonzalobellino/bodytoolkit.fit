@@ -1,0 +1,1606 @@
+{
+  "metadata": {
+    "source": "Anatomical reference data",
+    "total_muscles": 133
+  },
+  "muscles_by_section": {
+    "Feet": [
+      {
+        "muscle": "Extensor digitorum brevis",
+        "origin": "Calcaneus, dorsal surface",
+        "insertion": "Base of middle phalanges 2-4"
+      },
+      {
+        "muscle": "Extensor hallucis brevis",
+        "origin": "Calcaneus, dorsal surface",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Abductor hallucis",
+        "origin": "Medial calcaneal tuberosity",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Flexor hallucis brevis (medial head)",
+        "origin": "Medial cuneiform",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Flexor hallucis brevis (lateral head)",
+        "origin": "Intermediate cuneiform",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Adductor hallucis (oblique head)",
+        "origin": "Base of metatarsals 2-4, cuboid, lateral cuneiform",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Adductor hallucis (transverse",
+        "origin": "Transverse metatarsal ligament, meta- tarsal phalanges 3-5",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Abductor digiti minimi",
+        "origin": "Lateral calcaneal tuberosity",
+        "insertion": "Base of 5th proximal phalanx"
+      },
+      {
+        "muscle": "Flexor digiti minimi",
+        "origin": "Base of 5th metatarsal",
+        "insertion": "Base of 5th proximal phalanx"
+      },
+      {
+        "muscle": "Flexor digitorum brevis",
+        "origin": "Calcaneal tuberosity",
+        "insertion": "Middle phalanges 2-5"
+      },
+      {
+        "muscle": "Quadratus plantae",
+        "origin": "Calcaneal tuberosity",
+        "insertion": "Lateral border of flexor digitorum lon- gus tendon"
+      },
+      {
+        "muscle": "Lumbricals 1-4",
+        "origin": "Medial border of flexor digitorum lon- gus tendons",
+        "insertion": "Dorsal aponeuroses 2-5"
+      },
+      {
+        "muscle": "Plantar interossei 1-3",
+        "origin": "Medial border of metatarsals 3-5",
+        "insertion": "Medial base of proximal phalanges 3-5"
+      },
+      {
+        "muscle": "Dorsal interossei 1-4",
+        "origin": "Two heads from opposing sides of",
+        "insertion": "Medial base of 2nd proximal phalange, lateral base of proximal phalanges 2-4"
+      }
+    ],
+    "Calf/Shin": [
+      {
+        "muscle": "Tibialis anterior",
+        "origin": "Upper lateral tibia interosseous membrane",
+        "insertion": "Medial cuneiform"
+      },
+      {
+        "muscle": "Extensor digitorum longus",
+        "origin": "Anterior fibula, lateral tibial condyle, inter- osseous membrane",
+        "insertion": "Base of middle/distal phalanges 2-5"
+      },
+      {
+        "muscle": "Extensor hallucis longus",
+        "origin": "Medial fibula interosseous membrane",
+        "insertion": "Base of 1st distal phalanx"
+      },
+      {
+        "muscle": "Peroneus (fibularis) longus",
+        "origin": "Proximal lateral fibula, head of fibula",
+        "insertion": "Medial cuneiform, base of 1st metatarsal"
+      },
+      {
+        "muscle": "Peroneus (fibularis) brevis",
+        "origin": "Distal lateral fibula, interosseous membrane",
+        "insertion": "Base of 5th metatarsal"
+      },
+      {
+        "muscle": "Peroneus (fibularis) tertius",
+        "origin": "Distal anterior fibula",
+        "insertion": "Base of 5th metatarsal"
+      },
+      {
+        "muscle": "Soleus",
+        "origin": "Soleal line of tibia, head/neck of fibula",
+        "insertion": "Calcaneal tuberosity via Achilles tendon",
+        "subsection": "Posterior lower leg (calf) muscles"
+      },
+      {
+        "muscle": "Gastrocnemius",
+        "origin": "Medial/lateral epicondyles of femur",
+        "insertion": "Calcaneal tuberosity via Achilles tendon",
+        "subsection": "Posterior lower leg (calf) muscles"
+      },
+      {
+        "muscle": "Plantaris",
+        "origin": "Lateral epicondyle of femur",
+        "insertion": "Calcaneal tuberosity via Achilles tendon",
+        "subsection": "Posterior lower leg (calf) muscles"
+      },
+      {
+        "muscle": "Tibialis posterior",
+        "origin": "Posterior tibia, interosseous membrane,",
+        "insertion": "Navicular, medial/intermediate/lateral cuneiforms, base of metatarsals 2-4",
+        "subsection": "Posterior lower leg (calf) muscles"
+      },
+      {
+        "muscle": "Flexor digitorum longus",
+        "origin": "Middle posterior tibia",
+        "insertion": "Base of distal phalanges 2-5",
+        "subsection": "Posterior lower leg (calf) muscles"
+      },
+      {
+        "muscle": "Flexor hallucis longus",
+        "origin": "Distal posterior fibula",
+        "insertion": "Base of 1st distal phalanx",
+        "subsection": "Posterior lower leg (calf) muscles"
+      }
+    ],
+    "Thigh": [
+      {
+        "muscle": "Biceps femoris (long head)",
+        "origin": "Ischial tuberosity, sacrotuberous ligament",
+        "insertion": "Head of fibula"
+      },
+      {
+        "muscle": "Biceps femoris (short head)",
+        "origin": "Lateral lip of linea aspera",
+        "insertion": "Head of fibula"
+      },
+      {
+        "muscle": "Semimembranosus",
+        "origin": "Ischial tuberosity, sacrotuberous ligament",
+        "insertion": "Medial tibial condyle"
+      },
+      {
+        "muscle": "Semitendinosus",
+        "origin": "Ischial tuberosity, sacrotuberous ligament",
+        "insertion": "Medial of the tibial tuberosity via pes anserinus"
+      },
+      {
+        "muscle": "Popliteus",
+        "origin": "Lateral femoral condyle",
+        "insertion": "Posterior tibial surface"
+      },
+      {
+        "muscle": "Rectus femoris",
+        "origin": "Anterior inferior iliac spine & acetabu- lar roof",
+        "insertion": "Tibial tuberosity via pes anserinus",
+        "section": "Thigh",
+        "subsection": "Anterior upper leg (thigh) muscles"
+      },
+      {
+        "muscle": "Vastus medialis",
+        "origin": "Medial lip of linea aspera",
+        "insertion": "Tibial tuberosity via patellar tendon",
+        "section": "Thigh",
+        "subsection": "Anterior upper leg (thigh) muscles"
+      },
+      {
+        "muscle": "Vastus lateralis",
+        "origin": "Lateral lip of linea aspera",
+        "insertion": "Tibial tuberosity via patellar tendon",
+        "section": "Thigh",
+        "subsection": "Anterior upper leg (thigh) muscles"
+      },
+      {
+        "muscle": "Vastus intermedius",
+        "origin": "Anterior femur",
+        "insertion": "Tibial tuberosity via patellar tendon",
+        "section": "Thigh",
+        "subsection": "Anterior upper leg (thigh) muscles"
+      },
+      {
+        "muscle": "Biceps femoris: long head",
+        "origin": "Ischial tuberosity & sacrotuberous ligament",
+        "insertion": "Head of fibula",
+        "section": "Thigh",
+        "subsection": "Posterior upper leg (thigh) muscles"
+      }
+    ],
+    "Hip": [
+      {
+        "muscle": "Psoas major",
+        "origin": "Lateral surface of T12-L4 vertebral bodies",
+        "insertion": "Lesser trochanter"
+      },
+      {
+        "muscle": "Illiacus",
+        "origin": "Iliac fossa",
+        "insertion": "Lesser trochanter"
+      },
+      {
+        "muscle": "Sartorius",
+        "origin": "Anterior superior iliac spine",
+        "insertion": "Pes anserinus"
+      },
+      {
+        "muscle": "Gluteus maximus: Upper portion",
+        "origin": "Sacrum, posterior iliac crest, thoraco- lumbar fascia",
+        "insertion": "Iliotibial tract"
+      },
+      {
+        "muscle": "Gluteus maxium: Lower portion",
+        "origin": "Sacrum, thoracolumbar fascia, sacrotu- berous ligament",
+        "insertion": "Gluteal tuberosity"
+      },
+      {
+        "muscle": "Gluteus medius",
+        "origin": "Superior gluteal surface of ilium",
+        "insertion": "Greater trochanter"
+      },
+      {
+        "muscle": "Gluteus minimus",
+        "origin": "Inferior gluteal surface of ilium",
+        "insertion": "Greater trochanter"
+      },
+      {
+        "muscle": "Tensor fascia latae",
+        "origin": "Anterior superior iliac spine",
+        "insertion": "Iliotibial tract"
+      },
+      {
+        "muscle": "Piriformis",
+        "origin": "Anterior surface of sacrum",
+        "insertion": "Greater trochanter"
+      },
+      {
+        "muscle": "Gemellus superior",
+        "origin": "Ischial spine",
+        "insertion": "Medial greater trochanter"
+      },
+      {
+        "muscle": "Obturator internus",
+        "origin": "Inner surface of obturator membrane",
+        "insertion": "Medial greater trochanter"
+      },
+      {
+        "muscle": "Gemellus inferior",
+        "origin": "Ischial tuberosity",
+        "insertion": "Medial greater trochanter"
+      },
+      {
+        "muscle": "Obturator externus",
+        "origin": "Outer surface of obturator membrane",
+        "insertion": "Trochanteric fossa"
+      },
+      {
+        "muscle": "Quadratus femoris",
+        "origin": "Ischial tuberosity",
+        "insertion": "Intertrochanteric crest"
+      },
+      {
+        "muscle": "Pectineus",
+        "origin": "Pubic body",
+        "insertion": "Proximal linea aspera"
+      },
+      {
+        "muscle": "Adductor longus",
+        "origin": "Superior pubic ramus",
+        "insertion": "Medial lip of linea aspera"
+      },
+      {
+        "muscle": "Adductor brevis",
+        "origin": "Inferior pubic ramus",
+        "insertion": "Medial lip of linea aspera"
+      },
+      {
+        "muscle": "Adductor magnus: Anterior portion",
+        "origin": "Inferior pubic ramus & ischial ramus",
+        "insertion": "Adductor tubercle of femur"
+      },
+      {
+        "muscle": "Adductor magnus: Posterior portion",
+        "origin": "Ischial ramus & ischial tuberosity",
+        "insertion": "Medial lip of linea aspera"
+      },
+      {
+        "muscle": "Gracilis",
+        "origin": "Inferior pubic ramus",
+        "insertion": "Pes anserinus"
+      }
+    ],
+    "Trunk": [
+      {
+        "muscle": "Rectus abdominis",
+        "origin": "Ribs 5-7, xiphoid process",
+        "insertion": "Pubic ramus"
+      },
+      {
+        "muscle": "External oblique",
+        "origin": "Posterolateral ribs 5-12",
+        "insertion": "Iliac crest, linea albea"
+      },
+      {
+        "muscle": "Internal oblique",
+        "origin": "Iliac crest, thoracolumbar fascia",
+        "insertion": "Linea alba, inferior ribs"
+      },
+      {
+        "muscle": "Transversus abdominis",
+        "origin": "Ribs 7-12, thoracolumbar fascia, iliac crest",
+        "insertion": "Linea alba"
+      },
+      {
+        "muscle": "Quadratus lumborum",
+        "origin": "Upper lumbar transverse processes, 12th rib",
+        "insertion": "Iliac crest"
+      },
+      {
+        "muscle": "Intertransversarii",
+        "origin": "Lumbar to cervical transverse processes",
+        "insertion": "Lumbar to cervical transverse processes of adjacent superior vertebrae"
+      },
+      {
+        "muscle": "Interspinalis",
+        "origin": "Lumbar to cervical spinous processes",
+        "insertion": "Lumbar to cervical spinous processes of adja- cent superior vertebrae"
+      },
+      {
+        "muscle": "Rotatores",
+        "origin": "Lumbar to cervical transverse processes",
+        "insertion": "Lumbar to cervical spinous processes"
+      },
+      {
+        "muscle": "Multifidus",
+        "origin": "Sacrum, lower lumbar to lower cervical",
+        "insertion": "Spinous processes of vertebrae 2-5 superior to origin"
+      },
+      {
+        "muscle": "Semispinalis",
+        "origin": "Lower thoracic to lower cervical transverse",
+        "insertion": "Upper thoracic spinous processes to occipital bone"
+      },
+      {
+        "muscle": "Spinalis",
+        "origin": "Upper lumbar and lower thoracic spinous processes",
+        "insertion": "Upper thoracic spinous processes"
+      },
+      {
+        "muscle": "Longissimus",
+        "origin": "Lumbar to lower cervical transverse",
+        "insertion": "Thoracic spinous processes and lower 9 ribs to mastoid process"
+      },
+      {
+        "muscle": "Iliocostalis",
+        "origin": "Iliac crest to upper ribs",
+        "insertion": "Lower ribs to lower cervical transverse processes"
+      }
+    ],
+    "Shoulder": [
+      {
+        "muscle": "Upper trapezius",
+        "origin": "Occipital bone, C1-C7 spinous processes",
+        "insertion": "Lateral clavicle, acromion",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Middle trapezius",
+        "origin": "T1-T4 spinous processes",
+        "insertion": "Scapular spine",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Lower trapezius",
+        "origin": "T5-T12 spinous processes",
+        "insertion": "Medial scapular spine",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Rhomboid major",
+        "origin": "T1-T4 spinous processes",
+        "insertion": "Medial border of scapula above scapular spine",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Rhomboid minor",
+        "origin": "C6-C7 spinous processes",
+        "insertion": "Medial border of scapula below scapular spine",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Levator scapulae",
+        "origin": "C1-C4 transverse processes",
+        "insertion": "Superior angle of scapula",
+        "subsection": "Posterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Sternocleidomastoid",
+        "origin": "Manubrium, medial clavicle",
+        "insertion": "Lateral clavicle, acromion",
+        "subsection": "Anterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Subclavius",
+        "origin": "Superior surface of 1st rib",
+        "insertion": "Inferior/lateral surface of clavicle",
+        "subsection": "Anterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Pectoralis minor",
+        "origin": "Anterior surface of ribs 3-5",
+        "insertion": "Coracoid process of scapula",
+        "subsection": "Anterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Serratus anterior: superior portion",
+        "origin": "Lateral surface of ribs 5-9",
+        "insertion": "Medial border scapula, inferior angle",
+        "subsection": "Anterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Serratus anterior: inferior portion",
+        "origin": "Lateral surface of ribs 5-9",
+        "insertion": "Medial border of scapula, inferior angle",
+        "subsection": "Anterior shoulder girdle muscles"
+      },
+      {
+        "muscle": "Anterior deltoid",
+        "origin": "Lateral clavicle",
+        "insertion": "Deltoid tuberosity of humerus"
+      },
+      {
+        "muscle": "Middle deltoid",
+        "origin": "Acromion",
+        "insertion": "Deltoid tuberosity of humerus"
+      },
+      {
+        "muscle": "Posterior deltoid",
+        "origin": "Scapular spine",
+        "insertion": "Deltoid tuberosity of humerus"
+      },
+      {
+        "muscle": "Coracobrachialis",
+        "origin": "Coracoid process of scapula",
+        "insertion": "Medial humerus"
+      },
+      {
+        "muscle": "Teres major",
+        "origin": "Inferior angle of scapula",
+        "insertion": "Medial border of bicipital groove"
+      },
+      {
+        "muscle": "Pectoralis major: clavicular portion",
+        "origin": "Medial clavicle",
+        "insertion": "Lateral border of bicipital groove"
+      },
+      {
+        "muscle": "Pectoralis major: sternal portion",
+        "origin": "Sternum & costal cartilages of ribs 2-6",
+        "insertion": "Lateral border of bicipital groove"
+      },
+      {
+        "muscle": "Latissimus dorsi",
+        "origin": "T7-T12 spinous processes, thoraco- lumbar fascia, posterior iliac crest, ribs 9- 12, inferior angle of scapula",
+        "insertion": "Medial border of bicipital groove"
+      },
+      {
+        "muscle": "Suprspinatus",
+        "origin": "Supraspinous fossa",
+        "insertion": "Greater tuberosity of humerus"
+      },
+      {
+        "muscle": "Infraspinatus",
+        "origin": "Infraspinous foss",
+        "insertion": "Greater tuberosity of humerus"
+      },
+      {
+        "muscle": "Teres minor",
+        "origin": "Lateral border of scapula",
+        "insertion": "Greater tuberosity of humerus"
+      },
+      {
+        "muscle": "Subscapularis",
+        "origin": "Subscapular fossa of scapula",
+        "insertion": "Lesser tuberosity of humerus"
+      }
+    ],
+    "Upper Arm": [
+      {
+        "muscle": "Triceps brachii: long head",
+        "origin": "Infraglenoid tubercle of the scapula",
+        "insertion": "Olecranon",
+        "subsection": "Posterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Triceps brachii: medial head",
+        "origin": "Distal posterior surface of humerus",
+        "insertion": "Olecranon",
+        "subsection": "Posterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Triceps brachii: lateral head",
+        "origin": "Proximal posterior surface of humerus",
+        "insertion": "Olecranon",
+        "subsection": "Posterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Anconeus",
+        "origin": "Lateral epicondyle of humerus",
+        "insertion": "Olecranon",
+        "subsection": "Posterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Coracobrachialis",
+        "origin": "Coracoid process of the scapula",
+        "insertion": "Medial humerus",
+        "subsection": "Anterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Biceps brachii: long head",
+        "origin": "Supraglenoid tubercle of the scapula",
+        "insertion": "Radial tuberosity",
+        "subsection": "Anterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Biceps brachii: short head",
+        "origin": "Coracoid process of the scapula",
+        "insertion": "Radial tuberosity",
+        "subsection": "Anterior brachium (upper arm) muscles"
+      },
+      {
+        "muscle": "Brachialis",
+        "origin": "Distal anterior humerus",
+        "insertion": "Ulnar tuberosity",
+        "subsection": "Anterior brachium (upper arm) muscles"
+      }
+    ],
+    "Forearm": [
+      {
+        "muscle": "Brachioradialis",
+        "origin": "Lateral supracondylar ridge of humerus",
+        "insertion": "Styloid process of radius",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Extensor carpi radialis longus",
+        "origin": "Lateral supracondylar ridge of humerus",
+        "insertion": "Base of 2nd metacarpal",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Extensor carpi radialis brevis",
+        "origin": "Lateral epicondyle of humerus",
+        "insertion": "Base of 3rd metacarpal",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Supinator",
+        "origin": "Lateral epicondyle of humerus, supinator crest of ulna",
+        "insertion": "Lateral radius",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Extensor digitorum",
+        "origin": "Lateral epicondyle of humerus",
+        "insertion": "Middle/distal phalanges 2-5",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Extensor digiti minimi",
+        "origin": "Lateral epicondyle of humerus",
+        "insertion": "5th middle/distal phalange",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Extensor carpi ulnaris",
+        "origin": "Lateral epicondyle of humerus, posterior ulna",
+        "insertion": "Base of 5th metacarpal",
+        "subsection": "Posterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Pronator teres",
+        "origin": "Medial epicondyle of humerus, coronoid process of ulna",
+        "insertion": "Lateral surface of radius",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Flexor digitorum superficialis",
+        "origin": "Medial epicondyle of humerus, coronoid process of ulna",
+        "insertion": "Side of middle phalanges 2-5",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Flexor carpi radialis",
+        "origin": "Medial epicondyle of humerus",
+        "insertion": "Base of 2nd metacarpal",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Flexor carpi ulnaris",
+        "origin": "Medial epicondyle of humerus, olecranon",
+        "insertion": "Pisiform, hook of hamate",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Palmaris longus",
+        "origin": "Medial epicondyle of humerus",
+        "insertion": "Palmar aponeurosis",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Flexor digitorum profundus",
+        "origin": "Proximal anterior ulna, interosse- ous membrane",
+        "insertion": "Distal phalanges 2-5",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Flexor pollicis longus",
+        "origin": "Anterior radius, interosseous membrane",
+        "insertion": "Distal 1st phalanx",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      },
+      {
+        "muscle": "Pronator quadratus",
+        "origin": "Distal anterior surface of ulna",
+        "insertion": "Distal anterior surface of radius",
+        "subsection": "Anterior antebrachium (forearm) muscles"
+      }
+    ],
+    "Hand": [
+      {
+        "muscle": "Abductor pollicis brevis",
+        "origin": "Flexor retinaculum, scaphoid, trapezium",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Adductor pollicis: transverse head",
+        "origin": "3rd metacarpal",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Adductor pollicis: oblique head",
+        "origin": "Base of 2nd metacarpal, capitate",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Flexor pollicis brevis",
+        "origin": "Flexor retinaculum, capitate, trapezium",
+        "insertion": "Base of 1st proximal phalanx"
+      },
+      {
+        "muscle": "Opponens pollicis",
+        "origin": "Trapezium",
+        "insertion": "1st metacarpal"
+      },
+      {
+        "muscle": "Abductor digiti minimi",
+        "origin": "Pisiform",
+        "insertion": "Base of 5th proximal phalanx"
+      },
+      {
+        "muscle": "Flexor digiti minimi",
+        "origin": "Hook of hamate, flexor retinaculum",
+        "insertion": "Base of 5th proximal phalanx"
+      },
+      {
+        "muscle": "Opponens digiti minimi",
+        "origin": "Hook of hamate",
+        "insertion": "5th metacarpal"
+      },
+      {
+        "muscle": "Palmaris brevis*",
+        "origin": "Palmar aponeurosis",
+        "insertion": "Skin of hypothenar eminence"
+      }
+    ],
+    "Neck/Head": [
+      {
+        "muscle": "Sternocleidomastoid",
+        "origin": "Manubrium, medial clavicle",
+        "insertion": "Mastoid process, superior nuchal line",
+        "subsection": "Anterior/lateral neck muscles"
+      },
+      {
+        "muscle": "Scalenus anterior",
+        "origin": "C3-C6 transverse processes",
+        "insertion": "1st rib",
+        "subsection": "Anterior/lateral neck muscles"
+      },
+      {
+        "muscle": "Scalenus medius",
+        "origin": "C2-C7 transverse processes",
+        "insertion": "1st rib",
+        "subsection": "Anterior/lateral neck muscles"
+      },
+      {
+        "muscle": "Scalenus posterior",
+        "origin": "C5-C6 transverse processes",
+        "insertion": "2nd rib",
+        "subsection": "Anterior/lateral neck muscles"
+      },
+      {
+        "muscle": "Platysma",
+        "origin": "Superior fascia of deltoid/pectoral regions",
+        "insertion": "Inferior border of mandible",
+        "subsection": "Anterior/lateral neck muscles"
+      },
+      {
+        "muscle": "Rectus capitis posterior, major",
+        "origin": "Spinous process of the axis",
+        "insertion": "Inferior nuchal line",
+        "subsection": "Suboccipital muscles (posterior skull)"
+      },
+      {
+        "muscle": "Rectus capitis posterior, minor",
+        "origin": "Posterior arch of atlas",
+        "insertion": "Inferior nuchal line",
+        "subsection": "Suboccipital muscles (posterior skull)"
+      },
+      {
+        "muscle": "Obliquus capitis, superior",
+        "origin": "Transverse process of atlas",
+        "insertion": "Occipital bone",
+        "subsection": "Suboccipital muscles (posterior skull)"
+      },
+      {
+        "muscle": "Obliquus capitis, inferior",
+        "origin": "Spinous process of the axis",
+        "insertion": "Transverse process of the atlas",
+        "subsection": "Suboccipital muscles (posterior skull)"
+      }
+    ]
+  },
+  "all_muscles": [
+    {
+      "muscle": "Extensor digitorum brevis",
+      "origin": "Calcaneus, dorsal surface",
+      "insertion": "Base of middle phalanges 2-4",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Extensor hallucis brevis",
+      "origin": "Calcaneus, dorsal surface",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Abductor hallucis",
+      "origin": "Medial calcaneal tuberosity",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Flexor hallucis brevis (medial head)",
+      "origin": "Medial cuneiform",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Flexor hallucis brevis (lateral head)",
+      "origin": "Intermediate cuneiform",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Adductor hallucis (oblique head)",
+      "origin": "Base of metatarsals 2-4, cuboid, lateral cuneiform",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Adductor hallucis (transverse",
+      "origin": "Transverse metatarsal ligament, meta- tarsal phalanges 3-5",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Abductor digiti minimi",
+      "origin": "Lateral calcaneal tuberosity",
+      "insertion": "Base of 5th proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Flexor digiti minimi",
+      "origin": "Base of 5th metatarsal",
+      "insertion": "Base of 5th proximal phalanx",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Flexor digitorum brevis",
+      "origin": "Calcaneal tuberosity",
+      "insertion": "Middle phalanges 2-5",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Quadratus plantae",
+      "origin": "Calcaneal tuberosity",
+      "insertion": "Lateral border of flexor digitorum lon- gus tendon",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Lumbricals 1-4",
+      "origin": "Medial border of flexor digitorum lon- gus tendons",
+      "insertion": "Dorsal aponeuroses 2-5",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Plantar interossei 1-3",
+      "origin": "Medial border of metatarsals 3-5",
+      "insertion": "Medial base of proximal phalanges 3-5",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Dorsal interossei 1-4",
+      "origin": "Two heads from opposing sides of",
+      "insertion": "Medial base of 2nd proximal phalange, lateral base of proximal phalanges 2-4",
+      "section": "Feet"
+    },
+    {
+      "muscle": "Tibialis anterior",
+      "origin": "Upper lateral tibia interosseous membrane",
+      "insertion": "Medial cuneiform",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Extensor digitorum longus",
+      "origin": "Anterior fibula, lateral tibial condyle, inter- osseous membrane",
+      "insertion": "Base of middle/distal phalanges 2-5",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Extensor hallucis longus",
+      "origin": "Medial fibula interosseous membrane",
+      "insertion": "Base of 1st distal phalanx",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Peroneus (fibularis) longus",
+      "origin": "Proximal lateral fibula, head of fibula",
+      "insertion": "Medial cuneiform, base of 1st metatarsal",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Peroneus (fibularis) brevis",
+      "origin": "Distal lateral fibula, interosseous membrane",
+      "insertion": "Base of 5th metatarsal",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Peroneus (fibularis) tertius",
+      "origin": "Distal anterior fibula",
+      "insertion": "Base of 5th metatarsal",
+      "section": "Calf/Shin"
+    },
+    {
+      "muscle": "Soleus",
+      "origin": "Soleal line of tibia, head/neck of fibula",
+      "insertion": "Calcaneal tuberosity via Achilles tendon",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Gastrocnemius",
+      "origin": "Medial/lateral epicondyles of femur",
+      "insertion": "Calcaneal tuberosity via Achilles tendon",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Plantaris",
+      "origin": "Lateral epicondyle of femur",
+      "insertion": "Calcaneal tuberosity via Achilles tendon",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Tibialis posterior",
+      "origin": "Posterior tibia, interosseous membrane,",
+      "insertion": "Navicular, medial/intermediate/lateral cuneiforms, base of metatarsals 2-4",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Flexor digitorum longus",
+      "origin": "Middle posterior tibia",
+      "insertion": "Base of distal phalanges 2-5",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Flexor hallucis longus",
+      "origin": "Distal posterior fibula",
+      "insertion": "Base of 1st distal phalanx",
+      "section": "Calf/Shin",
+      "subsection": "Posterior lower leg (calf) muscles"
+    },
+    {
+      "muscle": "Biceps femoris (long head)",
+      "origin": "Ischial tuberosity, sacrotuberous ligament",
+      "insertion": "Head of fibula",
+      "section": "Thigh"
+    },
+    {
+      "muscle": "Biceps femoris (short head)",
+      "origin": "Lateral lip of linea aspera",
+      "insertion": "Head of fibula",
+      "section": "Thigh"
+    },
+    {
+      "muscle": "Semimembranosus",
+      "origin": "Ischial tuberosity, sacrotuberous ligament",
+      "insertion": "Medial tibial condyle",
+      "section": "Thigh"
+    },
+    {
+      "muscle": "Semitendinosus",
+      "origin": "Ischial tuberosity, sacrotuberous ligament",
+      "insertion": "Medial of the tibial tuberosity via pes anserinus",
+      "section": "Thigh"
+    },
+    {
+      "muscle": "Popliteus",
+      "origin": "Lateral femoral condyle",
+      "insertion": "Posterior tibial surface",
+      "section": "Thigh"
+    },
+    {
+      "muscle": "Psoas major",
+      "origin": "Lateral surface of T12-L4 vertebral bodies",
+      "insertion": "Lesser trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Illiacus",
+      "origin": "Iliac fossa",
+      "insertion": "Lesser trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Sartorius",
+      "origin": "Anterior superior iliac spine",
+      "insertion": "Pes anserinus",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gluteus maximus: Upper portion",
+      "origin": "Sacrum, posterior iliac crest, thoraco- lumbar fascia",
+      "insertion": "Iliotibial tract",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gluteus maxium: Lower portion",
+      "origin": "Sacrum, thoracolumbar fascia, sacrotu- berous ligament",
+      "insertion": "Gluteal tuberosity",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gluteus medius",
+      "origin": "Superior gluteal surface of ilium",
+      "insertion": "Greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gluteus minimus",
+      "origin": "Inferior gluteal surface of ilium",
+      "insertion": "Greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Tensor fascia latae",
+      "origin": "Anterior superior iliac spine",
+      "insertion": "Iliotibial tract",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Piriformis",
+      "origin": "Anterior surface of sacrum",
+      "insertion": "Greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gemellus superior",
+      "origin": "Ischial spine",
+      "insertion": "Medial greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Obturator internus",
+      "origin": "Inner surface of obturator membrane",
+      "insertion": "Medial greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gemellus inferior",
+      "origin": "Ischial tuberosity",
+      "insertion": "Medial greater trochanter",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Obturator externus",
+      "origin": "Outer surface of obturator membrane",
+      "insertion": "Trochanteric fossa",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Quadratus femoris",
+      "origin": "Ischial tuberosity",
+      "insertion": "Intertrochanteric crest",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Pectineus",
+      "origin": "Pubic body",
+      "insertion": "Proximal linea aspera",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Adductor longus",
+      "origin": "Superior pubic ramus",
+      "insertion": "Medial lip of linea aspera",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Adductor brevis",
+      "origin": "Inferior pubic ramus",
+      "insertion": "Medial lip of linea aspera",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Adductor magnus: Anterior portion",
+      "origin": "Inferior pubic ramus & ischial ramus",
+      "insertion": "Adductor tubercle of femur",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Adductor magnus: Posterior portion",
+      "origin": "Ischial ramus & ischial tuberosity",
+      "insertion": "Medial lip of linea aspera",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Gracilis",
+      "origin": "Inferior pubic ramus",
+      "insertion": "Pes anserinus",
+      "section": "Hip"
+    },
+    {
+      "muscle": "Rectus femoris",
+      "origin": "Anterior inferior iliac spine & acetabu- lar roof",
+      "insertion": "Tibial tuberosity via pes anserinus",
+      "section": "Thigh",
+      "subsection": "Anterior upper leg (thigh) muscles"
+    },
+    {
+      "muscle": "Biceps femoris: long head",
+      "origin": "Ischial tuberosity & sacrotuberous ligament",
+      "insertion": "Head of fibula",
+      "section": "Thigh",
+      "subsection": "Posterior upper leg (thigh) muscles"
+    },
+    {
+      "muscle": "Rectus abdominis",
+      "origin": "Ribs 5-7, xiphoid process",
+      "insertion": "Pubic ramus",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "External oblique",
+      "origin": "Posterolateral ribs 5-12",
+      "insertion": "Iliac crest, linea albea",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Internal oblique",
+      "origin": "Iliac crest, thoracolumbar fascia",
+      "insertion": "Linea alba, inferior ribs",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Transversus abdominis",
+      "origin": "Ribs 7-12, thoracolumbar fascia, iliac crest",
+      "insertion": "Linea alba",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Quadratus lumborum",
+      "origin": "Upper lumbar transverse processes, 12th rib",
+      "insertion": "Iliac crest",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Intertransversarii",
+      "origin": "Lumbar to cervical transverse processes",
+      "insertion": "Lumbar to cervical transverse processes of adjacent superior vertebrae",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Interspinalis",
+      "origin": "Lumbar to cervical spinous processes",
+      "insertion": "Lumbar to cervical spinous processes of adja- cent superior vertebrae",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Rotatores",
+      "origin": "Lumbar to cervical transverse processes",
+      "insertion": "Lumbar to cervical spinous processes",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Multifidus",
+      "origin": "Sacrum, lower lumbar to lower cervical",
+      "insertion": "Spinous processes of vertebrae 2-5 superior to origin",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Semispinalis",
+      "origin": "Lower thoracic to lower cervical transverse",
+      "insertion": "Upper thoracic spinous processes to occipital bone",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Spinalis",
+      "origin": "Upper lumbar and lower thoracic spinous processes",
+      "insertion": "Upper thoracic spinous processes",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Longissimus",
+      "origin": "Lumbar to lower cervical transverse",
+      "insertion": "Thoracic spinous processes and lower 9 ribs to mastoid process",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Iliocostalis",
+      "origin": "Iliac crest to upper ribs",
+      "insertion": "Lower ribs to lower cervical transverse processes",
+      "section": "Trunk"
+    },
+    {
+      "muscle": "Upper trapezius",
+      "origin": "Occipital bone, C1-C7 spinous processes",
+      "insertion": "Lateral clavicle, acromion",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Middle trapezius",
+      "origin": "T1-T4 spinous processes",
+      "insertion": "Scapular spine",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Lower trapezius",
+      "origin": "T5-T12 spinous processes",
+      "insertion": "Medial scapular spine",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Rhomboid major",
+      "origin": "T1-T4 spinous processes",
+      "insertion": "Medial border of scapula above scapular spine",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Rhomboid minor",
+      "origin": "C6-C7 spinous processes",
+      "insertion": "Medial border of scapula below scapular spine",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Levator scapulae",
+      "origin": "C1-C4 transverse processes",
+      "insertion": "Superior angle of scapula",
+      "section": "Shoulder",
+      "subsection": "Posterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Sternocleidomastoid",
+      "origin": "Manubrium, medial clavicle",
+      "insertion": "Lateral clavicle, acromion",
+      "section": "Shoulder",
+      "subsection": "Anterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Subclavius",
+      "origin": "Superior surface of 1st rib",
+      "insertion": "Inferior/lateral surface of clavicle",
+      "section": "Shoulder",
+      "subsection": "Anterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Pectoralis minor",
+      "origin": "Anterior surface of ribs 3-5",
+      "insertion": "Coracoid process of scapula",
+      "section": "Shoulder",
+      "subsection": "Anterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Serratus anterior: superior portion",
+      "origin": "Lateral surface of ribs 5-9",
+      "insertion": "Medial border scapula, inferior angle",
+      "section": "Shoulder",
+      "subsection": "Anterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Serratus anterior: inferior portion",
+      "origin": "Lateral surface of ribs 5-9",
+      "insertion": "Medial border of scapula, inferior angle",
+      "section": "Shoulder",
+      "subsection": "Anterior shoulder girdle muscles"
+    },
+    {
+      "muscle": "Anterior deltoid",
+      "origin": "Lateral clavicle",
+      "insertion": "Deltoid tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Middle deltoid",
+      "origin": "Acromion",
+      "insertion": "Deltoid tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Posterior deltoid",
+      "origin": "Scapular spine",
+      "insertion": "Deltoid tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Coracobrachialis",
+      "origin": "Coracoid process of scapula",
+      "insertion": "Medial humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Teres major",
+      "origin": "Inferior angle of scapula",
+      "insertion": "Medial border of bicipital groove",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Pectoralis major: clavicular portion",
+      "origin": "Medial clavicle",
+      "insertion": "Lateral border of bicipital groove",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Pectoralis major: sternal portion",
+      "origin": "Sternum & costal cartilages of ribs 2-6",
+      "insertion": "Lateral border of bicipital groove",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Latissimus dorsi",
+      "origin": "T7-T12 spinous processes, thoraco- lumbar fascia, posterior iliac crest, ribs 9- 12, inferior angle of scapula",
+      "insertion": "Medial border of bicipital groove",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Suprspinatus",
+      "origin": "Supraspinous fossa",
+      "insertion": "Greater tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Infraspinatus",
+      "origin": "Infraspinous foss",
+      "insertion": "Greater tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Teres minor",
+      "origin": "Lateral border of scapula",
+      "insertion": "Greater tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Subscapularis",
+      "origin": "Subscapular fossa of scapula",
+      "insertion": "Lesser tuberosity of humerus",
+      "section": "Shoulder"
+    },
+    {
+      "muscle": "Triceps brachii: long head",
+      "origin": "Infraglenoid tubercle of the scapula",
+      "insertion": "Olecranon",
+      "section": "Upper Arm",
+      "subsection": "Posterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Triceps brachii: medial head",
+      "origin": "Distal posterior surface of humerus",
+      "insertion": "Olecranon",
+      "section": "Upper Arm",
+      "subsection": "Posterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Triceps brachii: lateral head",
+      "origin": "Proximal posterior surface of humerus",
+      "insertion": "Olecranon",
+      "section": "Upper Arm",
+      "subsection": "Posterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Anconeus",
+      "origin": "Lateral epicondyle of humerus",
+      "insertion": "Olecranon",
+      "section": "Upper Arm",
+      "subsection": "Posterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Coracobrachialis",
+      "origin": "Coracoid process of the scapula",
+      "insertion": "Medial humerus",
+      "section": "Upper Arm",
+      "subsection": "Anterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Biceps brachii: long head",
+      "origin": "Supraglenoid tubercle of the scapula",
+      "insertion": "Radial tuberosity",
+      "section": "Upper Arm",
+      "subsection": "Anterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Biceps brachii: short head",
+      "origin": "Coracoid process of the scapula",
+      "insertion": "Radial tuberosity",
+      "section": "Upper Arm",
+      "subsection": "Anterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Brachialis",
+      "origin": "Distal anterior humerus",
+      "insertion": "Ulnar tuberosity",
+      "section": "Upper Arm",
+      "subsection": "Anterior brachium (upper arm) muscles"
+    },
+    {
+      "muscle": "Brachioradialis",
+      "origin": "Lateral supracondylar ridge of humerus",
+      "insertion": "Styloid process of radius",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Extensor carpi radialis longus",
+      "origin": "Lateral supracondylar ridge of humerus",
+      "insertion": "Base of 2nd metacarpal",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Extensor carpi radialis brevis",
+      "origin": "Lateral epicondyle of humerus",
+      "insertion": "Base of 3rd metacarpal",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Supinator",
+      "origin": "Lateral epicondyle of humerus, supinator crest of ulna",
+      "insertion": "Lateral radius",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Extensor digitorum",
+      "origin": "Lateral epicondyle of humerus",
+      "insertion": "Middle/distal phalanges 2-5",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Extensor digiti minimi",
+      "origin": "Lateral epicondyle of humerus",
+      "insertion": "5th middle/distal phalange",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Extensor carpi ulnaris",
+      "origin": "Lateral epicondyle of humerus, posterior ulna",
+      "insertion": "Base of 5th metacarpal",
+      "section": "Forearm",
+      "subsection": "Posterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Pronator teres",
+      "origin": "Medial epicondyle of humerus, coronoid process of ulna",
+      "insertion": "Lateral surface of radius",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Flexor digitorum superficialis",
+      "origin": "Medial epicondyle of humerus, coronoid process of ulna",
+      "insertion": "Side of middle phalanges 2-5",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Flexor carpi radialis",
+      "origin": "Medial epicondyle of humerus",
+      "insertion": "Base of 2nd metacarpal",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Flexor carpi ulnaris",
+      "origin": "Medial epicondyle of humerus, olecranon",
+      "insertion": "Pisiform, hook of hamate",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Palmaris longus",
+      "origin": "Medial epicondyle of humerus",
+      "insertion": "Palmar aponeurosis",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Flexor digitorum profundus",
+      "origin": "Proximal anterior ulna, interosse- ous membrane",
+      "insertion": "Distal phalanges 2-5",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Flexor pollicis longus",
+      "origin": "Anterior radius, interosseous membrane",
+      "insertion": "Distal 1st phalanx",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Pronator quadratus",
+      "origin": "Distal anterior surface of ulna",
+      "insertion": "Distal anterior surface of radius",
+      "section": "Forearm",
+      "subsection": "Anterior antebrachium (forearm) muscles"
+    },
+    {
+      "muscle": "Abductor pollicis brevis",
+      "origin": "Flexor retinaculum, scaphoid, trapezium",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Adductor pollicis: transverse head",
+      "origin": "3rd metacarpal",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Adductor pollicis: oblique head",
+      "origin": "Base of 2nd metacarpal, capitate",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Flexor pollicis brevis",
+      "origin": "Flexor retinaculum, capitate, trapezium",
+      "insertion": "Base of 1st proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Opponens pollicis",
+      "origin": "Trapezium",
+      "insertion": "1st metacarpal",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Abductor digiti minimi",
+      "origin": "Pisiform",
+      "insertion": "Base of 5th proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Flexor digiti minimi",
+      "origin": "Hook of hamate, flexor retinaculum",
+      "insertion": "Base of 5th proximal phalanx",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Opponens digiti minimi",
+      "origin": "Hook of hamate",
+      "insertion": "5th metacarpal",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Palmaris brevis*",
+      "origin": "Palmar aponeurosis",
+      "insertion": "Skin of hypothenar eminence",
+      "section": "Hand"
+    },
+    {
+      "muscle": "Sternocleidomastoid",
+      "origin": "Manubrium, medial clavicle",
+      "insertion": "Mastoid process, superior nuchal line",
+      "section": "Neck/Head",
+      "subsection": "Anterior/lateral neck muscles"
+    },
+    {
+      "muscle": "Scalenus anterior",
+      "origin": "C3-C6 transverse processes",
+      "insertion": "1st rib",
+      "section": "Neck/Head",
+      "subsection": "Anterior/lateral neck muscles"
+    },
+    {
+      "muscle": "Scalenus medius",
+      "origin": "C2-C7 transverse processes",
+      "insertion": "1st rib",
+      "section": "Neck/Head",
+      "subsection": "Anterior/lateral neck muscles"
+    },
+    {
+      "muscle": "Scalenus posterior",
+      "origin": "C5-C6 transverse processes",
+      "insertion": "2nd rib",
+      "section": "Neck/Head",
+      "subsection": "Anterior/lateral neck muscles"
+    },
+    {
+      "muscle": "Platysma",
+      "origin": "Superior fascia of deltoid/pectoral regions",
+      "insertion": "Inferior border of mandible",
+      "section": "Neck/Head",
+      "subsection": "Anterior/lateral neck muscles"
+    },
+    {
+      "muscle": "Rectus capitis posterior, major",
+      "origin": "Spinous process of the axis",
+      "insertion": "Inferior nuchal line",
+      "section": "Neck/Head",
+      "subsection": "Suboccipital muscles (posterior skull)"
+    },
+    {
+      "muscle": "Rectus capitis posterior, minor",
+      "origin": "Posterior arch of atlas",
+      "insertion": "Inferior nuchal line",
+      "section": "Neck/Head",
+      "subsection": "Suboccipital muscles (posterior skull)"
+    },
+    {
+      "muscle": "Obliquus capitis, superior",
+      "origin": "Transverse process of atlas",
+      "insertion": "Occipital bone",
+      "section": "Neck/Head",
+      "subsection": "Suboccipital muscles (posterior skull)"
+    },
+    {
+      "muscle": "Obliquus capitis, inferior",
+      "origin": "Spinous process of the axis",
+      "insertion": "Transverse process of the atlas",
+      "section": "Neck/Head",
+      "subsection": "Suboccipital muscles (posterior skull)"
+    },
+    {
+      "muscle": "Vastus medialis",
+      "origin": "Medial lip of linea aspera",
+      "insertion": "Tibial tuberosity via patellar tendon",
+      "section": "Thigh",
+      "subsection": "Anterior upper leg (thigh) muscles"
+    },
+    {
+      "muscle": "Vastus lateralis",
+      "origin": "Lateral lip of linea aspera",
+      "insertion": "Tibial tuberosity via patellar tendon",
+      "section": "Thigh",
+      "subsection": "Anterior upper leg (thigh) muscles"
+    },
+    {
+      "muscle": "Vastus intermedius",
+      "origin": "Anterior femur",
+      "insertion": "Tibial tuberosity via patellar tendon",
+      "section": "Thigh",
+      "subsection": "Anterior upper leg (thigh) muscles"
+    }
+  ]
+}

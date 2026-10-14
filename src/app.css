@@ -1,0 +1,5 @@
+/* Main CSS file - imports Tailwind CSS v4 and custom styles.
+   Class scan is the web app only; non-UI trees (downloads, docs, api, scripts) stay out of Tailwind source. */
+@import "tailwindcss" source(".");
+@import "./styles/globals.css";
+

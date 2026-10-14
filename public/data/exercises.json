@@ -1,0 +1,4238 @@
+{
+  "cervical_exercises": [
+    {
+      "id": "e__chin_tuck",
+      "name": "Chin Tuck",
+      "target": "Deep Neck Flexors (DNF)",
+      "images": [
+        "images/exercises/fig_13_8_chin_tuck.jpg"
+      ],
+      "videos": [],
+      "description": "Primary activation drill for the deep neck flexors. Create a gentle chin retraction as if making a double chin without flexing or extending the neck.",
+      "execution": [
+        "Position: supine, then progress to seated and standing",
+        "Glide the chin straight back (no head tilt)",
+        "Hold 10 seconds, relax 5 seconds",
+        "2-3 sets x 10 reps"
+      ],
+      "cues": [
+        "Think \"head slides back\" not \"head tips down\"",
+        "Keep the throat and jaw relaxed"
+      ],
+      "common_errors": [
+        "Cervical flexion instead of retraction",
+        "Excess upper trap tension"
+      ],
+      "progressions": [
+        "Supine -> Seated -> Standing -> Light manual resistance"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__forward_head_posture",
+        "p__cervical_rotation_restriction",
+        "p__upper_crossed_syndrome",
+        "p__cervical_sidebending_restriction"
+      ]
+    },
+    {
+      "id": "e__suboccipital_release",
+      "name": "Suboccipital Release",
+      "target": "Suboccipital muscles",
+      "images": [
+        "images/exercises/fig_13_7_chin_tuck_lacrosse.jpg"
+      ],
+      "videos": [],
+      "description": "Self-myofascial release for the suboccipital muscles at the base of the skull. Helpful for tension headaches and forward head posture.",
+      "execution": [
+        "Supine with a tennis or lacrosse ball at the base of the skull",
+        "Apply moderate pressure and make small \"yes\" and \"no\" motions",
+        "Hold 60-90 seconds on tender points",
+        "Perform 2-3 times per day"
+      ],
+      "cues": [
+        "Firm but tolerable pressure (6-7/10)",
+        "Slow, calm breathing"
+      ],
+      "common_errors": [
+        "Too much pressure causing sharp pain",
+        "Ball positioned too high on the skull"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__forward_head_posture",
+        "p__cervical_rotation_restriction",
+        "p__cervical_sidebending_restriction"
+      ],
+      "progressions": [
+        "Larger ball -> Lacrosse ball -> Add head movement -> Longer holds"
+      ]
+    },
+    {
+      "id": "e__cervical_rotation",
+      "name": "Cervical Rotation Mobility",
+      "target": "Cervical rotators",
+      "images": [],
+      "videos": [],
+      "description": "Controlled cervical rotation to improve neck mobility.",
+      "execution": [
+        "Sit or stand tall with shoulders relaxed",
+        "Slowly rotate the head to one side",
+        "Pause briefly at end range",
+        "Return to center and repeat to the other side",
+        "Perform 2-3 sets of 5-8 reps each direction"
+      ],
+      "cues": [
+        "Keep chin level",
+        "Avoid shoulder shrugging"
+      ],
+      "common_errors": [
+        "Trunk rotation",
+        "Speeding through range"
+      ],
+      "progressions": [
+        "Add gentle overpressure"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__cervical_rotation_restriction",
+        "p__forward_head_posture",
+        "p__upper_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__cervical_sidebend",
+      "name": "Cervical Sidebend Mobility",
+      "target": "Lateral neck musculature",
+      "images": [],
+      "videos": [],
+      "description": "Controlled side-bending to improve neck mobility.",
+      "execution": [
+        "Sit or stand tall with shoulders relaxed",
+        "Side-bend the head toward one shoulder",
+        "Pause briefly at end range",
+        "Return to center and repeat on the other side",
+        "Perform 2-3 sets of 5-8 reps each direction"
+      ],
+      "cues": [
+        "Keep nose facing forward",
+        "Avoid shoulder elevation"
+      ],
+      "common_errors": [
+        "Rotation during sidebend",
+        "Shrugging"
+      ],
+      "progressions": [
+        "Add gentle overpressure"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__cervical_sidebending_restriction",
+        "p__forward_head_posture",
+        "p__upper_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__psh_head_movement",
+      "name": "Postural Stability Hold (PSH) with Head Movement",
+      "target": "Deep neck flexors (DNF), cervical proprioception",
+      "images": [],
+      "videos": [],
+      "description": "Wall-based postural stability hold emphasizing a stacked cervical position (chin gently retracted) while adding controlled head movements. Goal: maintain cranio-cervical control without rib flare or shoulder elevation.",
+      "execution": [
+        "Stand with back against a wall: sacrum, mid-back, and head lightly in contact (as tolerated).",
+        "Set a gentle chin retraction (no neck flexion).",
+        "Maintain relaxed jaw and steady nasal breathing.",
+        "Perform small head movements: rotate left/right 10–20° OR nod 'yes' in a very small range.",
+        "Keep ribs down and shoulders relaxed throughout.",
+        "2–3 sets of 20–40 seconds (or 6–10 controlled reps per direction)."
+      ],
+      "cues": [
+        "Think: 'glide back' not 'look down'",
+        "Small range, slow tempo",
+        "No rib flare, no shrug",
+        "Move the head, not the whole trunk"
+      ],
+      "common_errors": [
+        "Turning the torso instead of the head",
+        "Rib flare with lumbar extension",
+        "Upper trap elevation / shoulder shrug",
+        "Neck jutting forward during rotation"
+      ],
+      "progressions": [
+        "Isometric hold only (no movement) -> add slow nods -> add slow rotation",
+        "Increase time under tension",
+        "Add light tactile cue (towel behind occiput) to maintain alignment"
+      ],
+      "reference": "Corrective Exercise Toolkit (pattern-based drill)",
+      "pattern_ids": [
+        "p__forward_head_posture",
+        "p__upper_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__cervical_rotation_towel",
+      "name": "Cervical Rotation with Towel",
+      "target": "Cervical rotation mobility + motor control",
+      "images": [],
+      "videos": [],
+      "description": "Assisted cervical rotation using a towel to guide rotation while limiting side-bend. Useful when rotation is restricted or asymmetrical.",
+      "execution": [
+        "Sit tall. Loop a towel around the back of your head (occiput).",
+        "Hold towel ends in front, keeping tension light.",
+        "Rotate head slowly toward the limited side while maintaining a neutral chin position.",
+        "Use the towel to assist slightly at end range (no forcing).",
+        "Pause 1–2 seconds, return to center.",
+        "2–3 sets x 6–10 reps each side."
+      ],
+      "cues": [
+        "Rotate around a vertical axis (avoid side-bending)",
+        "Keep jaw relaxed",
+        "Light assistance only"
+      ],
+      "common_errors": [
+        "Cranking into pain",
+        "Side-bending or neck extension substitution",
+        "Shoulders elevating during the pull"
+      ],
+      "progressions": [
+        "Active rotation only -> towel-assisted -> add isometric hold at end range (3–5 sec)"
+      ],
+      "reference": "Corrective Exercise Toolkit (mobility + control)",
+      "pattern_ids": [
+        "p__cervical_rotation_restriction",
+        "p__forward_head_posture"
+      ]
+    },
+    {
+      "id": "e__dnf_activation",
+      "name": "Deep Neck Flexor (DNF) Activation",
+      "target": "Flexores profundos del cuello",
+      "images": [
+        "images/exercises/fig_13_11_dnf_activation.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise deep neck flexor activation to complement chin tucks (Falla, Jull).",
+      "execution": [
+        "Supine with a small towel under the occiput",
+        "Gently retract the chin",
+        "Add a small nod (craniocervical flexion)",
+        "Hold 10 seconds, repeat"
+      ],
+      "cues": [
+        "Small, precise movement",
+        "Light pressure into the towel",
+        "Keep the head on the floor"
+      ],
+      "common_errors": [
+        "Lifting the head",
+        "Overusing SCM",
+        "Excess tension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__forward_head_posture",
+        "p__cervical_sidebending_restriction"
+      ],
+      "progressions": [
+        "Chin tuck only -> Head lift -> Longer holds -> Add arm movement"
+      ]
+    },
+    {
+      "id": "e__upper_trap_levator_stretch",
+      "name": "Upper Trapezius and Levator Scapulae Stretch",
+      "target": "Upper trapezius, levator scapulae",
+      "images": [
+        "images/exercises/fig_13_12_upper_trap_stretch.jpg",
+        "images/exercises/fig_13_12_levator_stretch.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise stretches for upper trapezius and levator scapulae (Kendall).",
+      "execution": [
+        "Seated, bring ear toward shoulder",
+        "Upper trap: look toward the opposite knee",
+        "Levator: look toward the armpit",
+        "Hold 30-60 seconds per side"
+      ],
+      "cues": [
+        "Keep the opposite shoulder down",
+        "Gentle stretch, no pain",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Shoulder hiking",
+        "Forcing the stretch",
+        "Breath holding"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__forward_head_posture",
+        "p__cervical_sidebending_restriction"
+      ],
+      "progressions": [
+        "Short holds -> Longer holds -> Add contract-relax -> Seated/standing"
+      ]
+    }
+  ],
+  "shoulder_exercises": [
+    {
+      "id": "e__scapular_squeeze",
+      "name": "Scapular Squeeze",
+      "target": "Rhomboids, middle trapezius",
+      "images": [],
+      "videos": [],
+      "description": "Basic activation drill for scapular retractors. A foundational corrective for rounded shoulders.",
+      "execution": [
+        "Seated or standing with arms at your sides",
+        "Pull the shoulder blades back and down",
+        "Hold 5-10 seconds, release slowly",
+        "3 sets x 12-15 reps"
+      ],
+      "cues": [
+        "Imagine holding a pencil between the shoulder blades",
+        "Keep shoulders down, no shrugging"
+      ],
+      "common_errors": [
+        "Shoulder elevation (upper trap dominance)",
+        "Compensatory lumbar extension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis",
+        "p__upper_crossed_syndrome",
+        "p__rotator_cuff_weakness"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement",
+        "c__rotator_cuff_tendinopathy"
+      ],
+      "progressions": [
+        "Seated -> Standing -> Add band resistance -> Holds"
+      ]
+    },
+    {
+      "id": "e__ytw_series",
+      "name": "Y-T-W-I Series",
+      "target": "Lower trapezius, rhomboids, rotator cuff",
+      "images": [],
+      "videos": [],
+      "description": "Prone sequence to strengthen the posterior shoulder and scapular musculature.",
+      "execution": [
+        "Prone on a bench or stability ball",
+        "Y: Arms diagonal overhead (about 135 deg)",
+        "T: Arms straight out to the sides (90 deg)",
+        "W: Elbows flexed with external rotation",
+        "I: Arms by the sides with external rotation",
+        "2-3 sets x 10-12 each position"
+      ],
+      "cues": [
+        "Thumbs up",
+        "Scapulae retracted and depressed",
+        "Move slowly and under control"
+      ],
+      "common_errors": [
+        "Using momentum",
+        "Shrugging",
+        "Excessive cervical extension"
+      ],
+      "progressions": [
+        "No load -> Light load (1-3 lb) -> Moderate load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis",
+        "p__upper_crossed_syndrome",
+        "p__thoracic_kyphosis",
+        "p__rotator_cuff_weakness",
+        "p__limited_shoulder_flexion"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement",
+        "c__rotator_cuff_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__face_pull",
+      "name": "Face Pull",
+      "target": "Mid/lower trapezius, external rotators",
+      "images": [],
+      "videos": [],
+      "description": "Horizontal pull with external rotation. Excellent for rounded shoulders and scapular dyskinesis.",
+      "execution": [
+        "Cable or band set at face height",
+        "Pull toward the face while separating the hands",
+        "Externally rotate at the end of the pull",
+        "Finish with full scapular retraction",
+        "3 sets x 15 reps"
+      ],
+      "cues": [
+        "Elbows high and back",
+        "Separate the hands at the end",
+        "Squeeze the shoulder blades together"
+      ],
+      "common_errors": [
+        "Pulling down instead of toward the face",
+        "Missing external rotation",
+        "Too much load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis",
+        "p__upper_crossed_syndrome",
+        "p__rotator_cuff_weakness"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement",
+        "c__rotator_cuff_tendinopathy"
+      ],
+      "progressions": [
+        "Light band -> Cable -> Add external rotation -> Tempo"
+      ]
+    },
+    {
+      "id": "e__serratus_push_up",
+      "name": "Scapular Push-Up",
+      "target": "Serratus anterior",
+      "images": [],
+      "videos": [],
+      "description": "Serratus anterior activation drill. Key for scapular stability and reducing winging.",
+      "execution": [
+        "Plank or push-up position (wall version for beginners)",
+        "Keep elbows straight and push the floor away to protract",
+        "Allow the shoulder blades to come together",
+        "Range of motion about 3-4 inches",
+        "3 sets x 15-20 reps"
+      ],
+      "cues": [
+        "Push the floor away",
+        "Stay long through the neck",
+        "Move only at the shoulder blades"
+      ],
+      "common_errors": [
+        "Bending elbows (turns into a push-up)",
+        "Lumbar sag"
+      ],
+      "progressions": [
+        "Wall -> Knees -> Plank -> Traditional push-up -> With load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__scapular_dyskinesis",
+        "p__rotator_cuff_weakness"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement",
+        "c__rotator_cuff_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__wall_slide",
+      "name": "Wall Slide",
+      "target": "Scapular control, shoulder mobility",
+      "images": [],
+      "videos": [],
+      "description": "Mobility and motor-control drill for the shoulder complex. Trains proper scapular upward rotation.",
+      "execution": [
+        "Back against a wall, feet about 6 inches forward",
+        "Arms in a \"W\" position against the wall",
+        "Slide the arms up while keeping contact",
+        "Lower under control",
+        "3 sets x 10 reps"
+      ],
+      "cues": [
+        "Keep the low back neutral",
+        "Forearms stay on the wall",
+        "Slow, controlled motion"
+      ],
+      "common_errors": [
+        "Losing low-back contact",
+        "Arms coming off the wall",
+        "Excessive arching"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__scapular_dyskinesis",
+        "p__upper_crossed_syndrome",
+        "p__thoracic_kyphosis",
+        "p__limited_shoulder_flexion"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement"
+      ],
+      "progressions": [
+        "Supine wall slide -> Standing wall slide -> Add band -> Add lift-off"
+      ]
+    },
+    {
+      "id": "e__external_rotation_band",
+      "name": "Band External Rotation",
+      "target": "Rotator cuff (infraspinatus, teres minor)",
+      "images": [],
+      "videos": [],
+      "description": "External rotation drill with a band for rotator cuff activation.",
+      "execution": [
+        "Stand with elbow at 90 deg and tucked to the side",
+        "Hold band with neutral wrist",
+        "Rotate the forearm outward without moving the elbow",
+        "Pause briefly and return with control",
+        "Perform 2-3 sets x 12-15 reps"
+      ],
+      "cues": [
+        "Elbow stays pinned",
+        "Shoulder down and back",
+        "Slow tempo"
+      ],
+      "common_errors": [
+        "Elbow drifting away",
+        "Trunk rotation"
+      ],
+      "progressions": [
+        "Light band -> Heavier band -> 90/90 position"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rotator_cuff_weakness",
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis"
+      ],
+      "condition_ids": [
+        "c__rotator_cuff_tendinopathy",
+        "c__shoulder_impingement"
+      ]
+    },
+    {
+      "id": "e__shoulder_press",
+      "name": "Shoulder Press",
+      "target": "Deltoids, triceps, upper back",
+      "images": [],
+      "videos": [],
+      "description": "Overhead pressing movement for shoulder strength and control.",
+      "execution": [
+        "Stand or sit with dumbbells at shoulder height",
+        "Brace the core and press overhead",
+        "Keep ribs down and elbows under wrists",
+        "Lower under control to the start",
+        "Perform 3 sets x 8-12 reps"
+      ],
+      "cues": [
+        "Neutral spine",
+        "No rib flare",
+        "Press in a straight line"
+      ],
+      "common_errors": [
+        "Lumbar extension",
+        "Forward head"
+      ],
+      "progressions": [
+        "Seated -> Standing -> Single-arm"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_shoulder_flexion"
+      ]
+    },
+    {
+      "id": "e__push_up",
+      "name": "Push-Up",
+      "target": "Chest, shoulders, triceps, core",
+      "images": [],
+      "videos": [],
+      "description": "Standard push-up to develop upper body pushing strength and core stability.",
+      "execution": [
+        "Start in a plank with hands under shoulders",
+        "Lower chest toward the floor with control",
+        "Keep elbows at a comfortable angle",
+        "Press back to the start without sagging",
+        "Perform 2-3 sets x 8-15 reps"
+      ],
+      "cues": [
+        "Maintain a straight line head to heels",
+        "Ribs down and core braced"
+      ],
+      "common_errors": [
+        "Sagging hips",
+        "Flaring elbows",
+        "Short range"
+      ],
+      "progressions": [
+        "Incline -> Floor -> Decline -> Loaded"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__wall_elbow_walk_band",
+      "name": "Wall Elbow Walk with Band",
+      "target": "Serratus anterior, lower trapezius, scapular stabilizers",
+      "images": [
+        "images/exercises/fig_12_15_wall_elbow_walk.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise wall drill to activate scapular upward rotation with band tension (Kibler et al.).",
+      "execution": [
+        "Stand facing a wall with forearms on the wall",
+        "Band around the wrists",
+        "Slide forearms up while keeping pressure on the wall",
+        "Maintain band tension throughout"
+      ],
+      "cues": [
+        "Press into the wall",
+        "Separate the wrists",
+        "Scapulae down and out"
+      ],
+      "common_errors": [
+        "Losing wall contact",
+        "Shoulder elevation",
+        "Lumbar arching"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis",
+        "p__limited_shoulder_flexion"
+      ],
+      "progressions": [
+        "Light band -> Heavier band -> Longer range -> Add hold"
+      ]
+    },
+    {
+      "id": "e__y_raise_swiss_ball",
+      "name": "Y Raise on Swiss Ball",
+      "target": "Lower trapezius, serratus anterior",
+      "images": [
+        "images/exercises/fig_12_18_y_raise_swiss_ball.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise Y-raise to target lower traps and serratus (Kibler et al.).",
+      "execution": [
+        "Prone on a Swiss ball with chest supported",
+        "Arms hanging toward the floor",
+        "Raise arms into a Y with thumbs up",
+        "Keep scapulae depressed",
+        "Lower under control"
+      ],
+      "cues": [
+        "Thumbs to the ceiling",
+        "Scapulae to back pockets",
+        "Controlled motion"
+      ],
+      "common_errors": [
+        "Shoulder elevation",
+        "Cervical extension",
+        "Lumbar overextension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis"
+      ],
+      "progressions": [
+        "Prone Y on floor -> Swiss ball -> Add load -> Tempo"
+      ]
+    },
+    {
+      "id": "e__sphinx_reach",
+      "name": "Sphinx with Reach",
+      "target": "Serratus anterior, scapular stabilizers",
+      "images": [
+        "images/exercises/fig_12_19_sphinx_reach.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise serratus activation in thoracic extension using a sphinx position (Kibler et al.).",
+      "execution": [
+        "Prone on forearms (sphinx)",
+        "Reach one arm forward",
+        "Keep the torso stable",
+        "Alternate arms"
+      ],
+      "cues": [
+        "Reach long",
+        "No trunk rotation",
+        "Maintain thoracic extension"
+      ],
+      "common_errors": [
+        "Trunk rotation",
+        "Losing sphinx posture",
+        "Neck tension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__loss_of_lumbar_extension",
+        "p__thoracic_rotation_restriction"
+      ],
+      "progressions": [
+        "Small reach -> Full reach -> Add thoracic rotation -> Add hold"
+      ]
+    },
+    {
+      "id": "e__scapular_activation",
+      "name": "Scapular Activation",
+      "target": "Scapular muscles, serratus anterior",
+      "images": [
+        "images/exercises/fig_12_20_scapular_activation.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise drill for scapular control through isolated scapular motions (Kibler et al.).",
+      "execution": [
+        "Quadruped or standing",
+        "Isolate scapular movement only",
+        "Protract, retract, elevate, depress",
+        "Focus on quality and control"
+      ],
+      "cues": [
+        "Move only the shoulder blades",
+        "No arm movement",
+        "Slow and precise"
+      ],
+      "common_errors": [
+        "Compensating with the spine",
+        "Global movement instead of scapular",
+        "Rushing"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Isometric scap set -> Small movement -> Full ROM -> Add band"
+      ]
+    }
+  ],
+  "core_exercises": [
+    {
+      "id": "e__dead_bug",
+      "name": "Dead Bug",
+      "target": "Transverse abdominis, core stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Foundational anti-extension core drill. Teaches neutral spine control while moving the limbs.",
+      "execution": [
+        "Supine, hips and knees at 90 deg, arms to the ceiling",
+        "Extend opposite arm and leg together",
+        "Keep the low back flat on the floor",
+        "Alternate sides with control",
+        "3 sets x 10 reps per side"
+      ],
+      "cues": [
+        "Low back stays glued to the floor",
+        "Exhale as you extend",
+        "Move slowly"
+      ],
+      "common_errors": [
+        "Lumbar arching",
+        "Breath holding",
+        "Rushing the reps"
+      ],
+      "progressions": [
+        "Arms only -> Legs only -> Alternating -> Bilateral"
+      ],
+      "reference": "Stuart McGill (popularized)",
+      "pattern_ids": [
+        "p__lumbar_hyperlordosis",
+        "p__anterior_pelvic_tilt",
+        "p__hip_flexor_tightness",
+        "p__hamstring_dominance",
+        "p__squat_compensation",
+        "p__goblet_squat_pattern",
+        "p__lower_crossed_syndrome"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "id": "e__plank",
+      "name": "Plank",
+      "target": "Full core, stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Isometric anti-extension hold to build core endurance.",
+      "execution": [
+        "Prone on forearms and toes",
+        "Body in a straight line from head to heels",
+        "Slight posterior pelvic tilt",
+        "Hold 30-60 seconds, 3-4 sets"
+      ],
+      "cues": [
+        "Squeeze glutes and quads",
+        "Push the floor away",
+        "Chin tucked"
+      ],
+      "common_errors": [
+        "Hips sagging (lumbar extension)",
+        "Hips too high",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Knees -> Toes -> Elevated feet -> Single leg"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__lumbar_hyperlordosis",
+        "p__anterior_pelvic_tilt"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "name": "Bird Dog",
+      "target": "Spinal extensors, glutes, stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Quadruped stability drill for coordination and anti-rotation control.",
+      "execution": [
+        "Quadruped with a neutral spine",
+        "Extend opposite arm and leg together",
+        "Hold 3-5 seconds, return to start",
+        "Avoid pelvic or trunk rotation",
+        "3 sets x 10 per side"
+      ],
+      "cues": [
+        "Long reach, not high lift",
+        "Keep hips square",
+        "Steady breathing"
+      ],
+      "common_errors": [
+        "Pelvic rotation",
+        "Lumbar extension",
+        "Loss of balance"
+      ],
+      "progressions": [
+        "Arm only -> Leg only -> Alternating -> Paused -> With movement"
+      ],
+      "reference": "Stuart McGill (popularized)",
+      "id": "e__bird_dog",
+      "pattern_ids": [
+        "p__posterior_pelvic_tilt",
+        "p__gluteal_amnesia"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "name": "Pallof Press",
+      "target": "Anti-rotation, obliques",
+      "images": [],
+      "videos": [],
+      "description": "Anti-rotation core exercise with lateral resistance. Builds rotational stability.",
+      "execution": [
+        "Standing or half-kneeling, band/cable at chest height",
+        "Stand perpendicular to the resistance",
+        "Press hands forward while resisting rotation",
+        "Hold 2-3 seconds, return",
+        "3 sets x 10-12 per side"
+      ],
+      "cues": [
+        "Torso stays square",
+        "Do not rotate or lean",
+        "Brace the core"
+      ],
+      "common_errors": [
+        "Allowing rotation",
+        "Side bending",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Half-kneeling -> Standing -> Split stance -> Single leg"
+      ],
+      "reference": "John Pallof",
+      "id": "e__pallof_press",
+      "pattern_ids": [
+        "p__lower_crossed_syndrome"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "id": "e__side_plank",
+      "name": "Side Plank",
+      "target": "Obliques, quadratus lumborum, lateral stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Anti-lateral flexion hold to strengthen the lateral core.",
+      "execution": [
+        "Side-lying on forearm and edge of the foot",
+        "Lift hips to form a straight line",
+        "Hold 30-45 seconds per side",
+        "3 sets per side"
+      ],
+      "cues": [
+        "Drive the hip up",
+        "Keep ribs stacked over pelvis",
+        "Body stays long"
+      ],
+      "common_errors": [
+        "Hips sagging",
+        "Trunk rotation",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Knees -> Feet -> Top leg elevated -> With hip movement"
+      ],
+      "reference": "Stuart McGill (popularized)",
+      "pattern_ids": [
+        "p__lumbar_hyperlordosis",
+        "p__anterior_pelvic_tilt",
+        "p__lateral_pelvic_tilt",
+        "p__lower_crossed_syndrome"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "id": "e__posterior_pelvic_tilt_drill",
+      "name": "Posterior Pelvic Tilt Drill",
+      "target": "Deep core, pelvic control",
+      "images": [],
+      "videos": [],
+      "description": "Supine drill to learn and control posterior pelvic tilt.",
+      "execution": [
+        "Lie supine with knees bent and feet flat",
+        "Gently flatten the low back into the floor",
+        "Hold the tilt for 3-5 seconds",
+        "Relax to neutral and repeat",
+        "Perform 2-3 sets x 8-12 reps"
+      ],
+      "cues": [
+        "Exhale to engage",
+        "Avoid pushing through feet"
+      ],
+      "common_errors": [
+        "Using glute bridge",
+        "Rib flare"
+      ],
+      "progressions": [
+        "Add heel slides -> Dead bug"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__anterior_pelvic_tilt",
+        "p__lumbar_hyperlordosis",
+        "p__lower_crossed_syndrome",
+        "p__hip_flexor_tightness"
+      ]
+    },
+    {
+      "id": "e__plank_roll",
+      "name": "Plank Roll",
+      "target": "Trunk stability and scapular control",
+      "description": "Anti-rotation plank variation that challenges trunk stability while controlling scapular position.",
+      "execution": [
+        "Begin in a stable plank position",
+        "Rotate slowly while keeping the trunk and pelvis controlled",
+        "Return to the starting position and repeat on the other side"
+      ],
+      "cues": [
+        "Maintain a neutral spine and steady scapular position",
+        "Rotate slowly without shifting the hips",
+        "Keep ribs down and breathe steadily"
+      ],
+      "progressions": [
+        "Add band resistance",
+        "Increase time under tension",
+        "Use a narrower base of support"
+      ],
+      "common_errors": [
+        "Shifting the hips while rotating",
+        "Losing a neutral trunk position"
+      ],
+      "reference": "Anti-rotation plank; core stability. McGill SM. Low Back Disorders. Human Kinetics.",
+      "pattern_ids": [
+        "p__scapular_dyskinesis"
+      ]
+    },
+    {
+      "id": "e__pelvic_alignment_correction",
+      "name": "Pelvic Alignment Correction",
+      "target": "Pelvic alignment, core, lumbopelvic stability",
+      "images": [
+        "images/exercises/fig_11_5_pelvic_alignment.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise drill to find and maintain neutral pelvic alignment.",
+      "execution": [
+        "Supine with knees bent",
+        "Find neutral pelvis between anterior and posterior tilt",
+        "Maintain alignment while moving the limbs",
+        "Progress to more challenging positions"
+      ],
+      "cues": [
+        "Keep a natural space under the low back",
+        "Do not flatten or over-arch",
+        "Light core engagement"
+      ],
+      "common_errors": [
+        "Losing neutral pelvis when legs move",
+        "Breath holding",
+        "Excess tension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Supine pelvic tilt -> Seated -> Standing alignment -> Add breathing"
+      ]
+    },
+    {
+      "id": "e__trunk_stability_roll",
+      "name": "Trunk Stability Roll",
+      "target": "Estabilizadores del tronco, core",
+      "images": [
+        "images/exercises/fig_11_6_trunk_stability_roll_a.jpg",
+        "images/exercises/fig_11_6_trunk_stability_roll_b.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise trunk control drill to improve segmental rolling and core coordination (DNS/Cook).",
+      "execution": [
+        "Supine with arms extended",
+        "Roll to one side using the trunk only",
+        "Avoid using arm or leg momentum",
+        "Return with control"
+      ],
+      "cues": [
+        "Initiate from the core",
+        "Segment-by-segment control",
+        "Smooth motion"
+      ],
+      "common_errors": [
+        "Using limb momentum",
+        "Jerky movement",
+        "Loss of control"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Assisted roll -> Full roll -> Add pause -> Add light load"
+      ]
+    },
+    {
+      "id": "e__modified_side_plank_band",
+      "name": "Modified Side Plank with Band",
+      "target": "Obliques, gluteus medius, hip abductors",
+      "images": [
+        "images/exercises/fig_12_4_side_plank_band_a.jpg",
+        "images/exercises/fig_12_4_side_plank_band_b.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise side plank variation with banded hip abduction.",
+      "execution": [
+        "Side-lying with band at the knees",
+        "Support on forearm and knees",
+        "Lift hips while abducting the top knee",
+        "Hold 15-30 seconds"
+      ],
+      "cues": [
+        "Drive hips up",
+        "Keep tension on the band",
+        "No trunk rotation"
+      ],
+      "common_errors": [
+        "Hips sagging",
+        "Band slack",
+        "Torso rotation"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__lateral_pelvic_tilt"
+      ],
+      "progressions": [
+        "Side plank from knees -> Band resistance -> Full side plank -> Longer holds"
+      ]
+    }
+  ],
+  "hip_glute_exercises": [
+    {
+      "id": "e__glute_bridge",
+      "name": "Glute Bridge",
+      "target": "Gluteus maximus, hamstrings",
+      "images": [],
+      "videos": [],
+      "description": "Foundational glute activation drill. A base movement for hip thrust variations and APT correction.",
+      "execution": [
+        "Supine with knees bent and feet flat near the glutes",
+        "Drive through the heels to lift the hips into a straight line",
+        "Squeeze the glutes at the top",
+        "Hold 2-3 seconds, lower under control",
+        "3 sets x 12-15 reps"
+      ],
+      "cues": [
+        "Drive through the heels",
+        "Squeeze the glutes at the top",
+        "Keep the low back neutral"
+      ],
+      "common_errors": [
+        "Excess lumbar extension",
+        "Pushing through the toes",
+        "Poor glute activation"
+      ],
+      "progressions": [
+        "Bilateral -> Single leg -> Elevated feet -> With load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus",
+        "p__lumbar_hyperlordosis",
+        "p__anterior_pelvic_tilt",
+        "p__hip_flexor_tightness",
+        "p__gluteal_amnesia",
+        "p__hamstring_dominance",
+        "p__squat_compensation",
+        "p__lower_crossed_syndrome"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain",
+        "c__it_band_syndrome"
+      ]
+    },
+    {
+      "id": "e__clamshell",
+      "name": "Clamshell",
+      "target": "Gluteus medius, hip external rotators",
+      "images": [],
+      "videos": [],
+      "description": "Gluteus medius activation drill. Key for knee valgus control and pelvic stability.",
+      "execution": [
+        "Side-lying with hips and knees flexed 45-90 deg",
+        "Keep feet together and open the top knee",
+        "Avoid pelvic rotation",
+        "3 sets x 15-20 per side"
+      ],
+      "cues": [
+        "Open like a clamshell",
+        "Keep the pelvis stacked",
+        "Feel the lateral glute"
+      ],
+      "common_errors": [
+        "Posterior pelvic roll",
+        "Excess range with loss of form",
+        "Using momentum"
+      ],
+      "progressions": [
+        "No band -> Band -> Pause at top -> Pulses"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus",
+        "p__lateral_pelvic_tilt",
+        "p__gluteal_amnesia",
+        "p__hip_external_rotation_restriction",
+        "p__hamstring_dominance"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain",
+        "c__it_band_syndrome"
+      ]
+    },
+    {
+      "id": "e__hip_hitch",
+      "name": "Hip Hitch (Pelvic Drop Correction)",
+      "target": "Gluteus medius, frontal plane pelvic control",
+      "images": [],
+      "videos": [],
+      "description": "Standing single-leg exercise where the pelvis is allowed to drop on the non-stance side and then actively corrected by the stance-leg hip abductors. Widely used in rehabilitation for hip drop and knee valgus control.",
+      "execution": [
+        "Stand on one leg on a step or floor, other foot free",
+        "Allow the pelvis to drop slightly on the non-stance side",
+        "Actively lift the pelvis back to level using the stance-leg gluteus medius",
+        "Hold 2–3 seconds at top, then control the drop",
+        "2–3 sets x 10–15 reps per side"
+      ],
+      "cues": [
+        "Keep the stance knee aligned over the foot",
+        "Lift from the lateral hip, not the trunk",
+        "Avoid trunk lean to the stance side"
+      ],
+      "common_errors": [
+        "Trunk lean instead of pelvic correction",
+        "Hiking the shoulder or rotating the pelvis",
+        "Letting the stance knee drift into valgus"
+      ],
+      "progressions": [
+        "Step height: lower -> higher",
+        "Add light band around knees",
+        "Eyes closed or unstable surface"
+      ],
+      "reference": "Clinical rehabilitation; EMG meta-analysis (gluteus medius loading).",
+      "pattern_ids": [
+        "p__lateral_pelvic_tilt"
+      ]
+    },
+    {
+      "id": "e__monster_walk",
+      "name": "Monster Walk",
+      "target": "Gluteus medius, gluteus minimus",
+      "images": [
+        "images/exercises/fig_12_11_monster_walk.jpg"
+      ],
+      "videos": [],
+      "description": "Band-resisted lateral walk to strengthen hip abductors in a loaded stance.",
+      "execution": [
+        "Band around knees or ankles",
+        "Partial squat, step laterally/diagonally",
+        "Keep knees out and resist valgus",
+        "3 sets x 10 steps each direction"
+      ],
+      "cues": [
+        "Knees out",
+        "Constant band tension",
+        "Controlled steps"
+      ],
+      "common_errors": [
+        "Knee collapse",
+        "Losing squat position",
+        "Steps too large"
+      ],
+      "progressions": [
+        "Band at knees -> Ankles -> More tension -> More depth"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus",
+        "p__lateral_pelvic_tilt",
+        "p__gluteal_amnesia"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain",
+        "c__it_band_syndrome"
+      ]
+    },
+    {
+      "id": "e__hip_flexor_stretch",
+      "name": "Half-Kneeling Hip Flexor Stretch",
+      "target": "Iliopsoas, rectus femoris",
+      "images": [],
+      "videos": [],
+      "description": "Primary hip flexor stretch. Essential for anterior pelvic tilt correction.",
+      "execution": [
+        "Half-kneeling position with the back leg being stretched",
+        "Squeeze the glute of the back leg",
+        "Posteriorly tilt the pelvis",
+        "Shift forward until a stretch is felt",
+        "Hold 45-60 seconds, 3 sets"
+      ],
+      "cues": [
+        "Glute on, ribs down",
+        "Tuck the pelvis, do not arch",
+        "Keep the torso tall"
+      ],
+      "common_errors": [
+        "Lumbar extension",
+        "No glute activation",
+        "Leaning forward"
+      ],
+      "progressions": [
+        "Basic -> Arms overhead -> Rotation -> PNF contract-relax"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__lumbar_hyperlordosis",
+        "p__anterior_pelvic_tilt",
+        "p__posterior_pelvic_tilt",
+        "p__hip_flexor_tightness",
+        "p__squat_compensation",
+        "p__goblet_squat_pattern",
+        "p__lower_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__single_leg_rdl",
+      "name": "Single Leg RDL",
+      "target": "Glutes, hamstrings, stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Unilateral hip hinge to build strength, balance, and hip control.",
+      "execution": [
+        "Stand on one leg with a soft knee",
+        "Hinge from the hip as the free leg reaches back",
+        "Keep a neutral spine and square hips",
+        "Return by squeezing the glute",
+        "3 sets x 8-10 per side"
+      ],
+      "cues": [
+        "Hinge from the hip, not the low back",
+        "Hip, knee, and torso stay aligned",
+        "Drive the floor with the stance foot"
+      ],
+      "common_errors": [
+        "Lumbar flexion",
+        "Pelvic rotation",
+        "Locked knee"
+      ],
+      "progressions": [
+        "Bodyweight -> Contralateral load -> Ipsilateral load -> Barbell"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__sldl",
+      "name": "Single-Leg Deadlift (SLDL)",
+      "target": "Glutes, hamstrings, hip stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Unilateral hip hinge to build posterior chain strength and balance.",
+      "execution": [
+        "Stand on one leg with a soft knee and neutral spine",
+        "Hinge at the hip as the free leg reaches back",
+        "Keep hips square and shoulders level",
+        "Return by driving through the stance foot and squeezing the glute",
+        "3 sets x 6-10 reps per side"
+      ],
+      "cues": [
+        "Hinge from the hip, not the low back",
+        "Maintain a long spine",
+        "Control the descent"
+      ],
+      "common_errors": [
+        "Lumbar flexion",
+        "Pelvic rotation",
+        "Locking the knee"
+      ],
+      "progressions": [
+        "Bodyweight -> Contralateral load -> Ipsilateral load -> Tempo reps"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__side_lying_hip_abduction",
+      "name": "Side-Lying Hip Abduction",
+      "target": "Gluteus medius",
+      "images": [],
+      "videos": [],
+      "description": "Glute med strengthening drill to improve pelvic stability.",
+      "execution": [
+        "Lie on your side with legs straight",
+        "Keep the top leg slightly behind the body",
+        "Lift the top leg to hip height without rotating",
+        "Lower with control",
+        "Perform 2-3 sets x 12-15 reps per side"
+      ],
+      "cues": [
+        "Keep pelvis stacked",
+        "Toes slightly down",
+        "Slow tempo"
+      ],
+      "common_errors": [
+        "Hip hiking",
+        "Rolling backward"
+      ],
+      "progressions": [
+        "Add mini band -> Hold at top"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__lateral_pelvic_tilt",
+        "p__knee_valgus"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain",
+        "c__it_band_syndrome"
+      ]
+    },
+    {
+      "id": "e__hip_flexor_strength",
+      "name": "Hip Flexor Strengthening",
+      "target": "Iliopsoas, rectus femoris",
+      "images": [],
+      "videos": [],
+      "description": "Hip flexor strengthening drill for improved hip control.",
+      "execution": [
+        "Sit tall on a bench or on the floor",
+        "Lift one knee toward the chest with control",
+        "Pause briefly at the top",
+        "Lower slowly without leaning back",
+        "Perform 2-3 sets x 10-12 reps per side"
+      ],
+      "cues": [
+        "Tall posture",
+        "No trunk sway",
+        "Control the lowering"
+      ],
+      "common_errors": [
+        "Leaning back",
+        "Using momentum"
+      ],
+      "progressions": [
+        "Add ankle weight -> Isometric holds"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__posterior_pelvic_tilt",
+        "p__hip_flexor_tightness",
+        "p__lower_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__reverse_goblet_lunge_band",
+      "name": "Reverse Goblet Lunge with Band",
+      "target": "Hip and trunk control",
+      "description": "Reverse lunge with a goblet hold and band resistance to reinforce trunk stability and hip control.",
+      "execution": [
+        "Hold a weight in a goblet position and maintain band tension",
+        "Step backward into a controlled lunge",
+        "Return to standing and repeat on the other side"
+      ],
+      "cues": [
+        "Keep torso tall and ribs stacked over pelvis",
+        "Step back under control and keep front knee tracking",
+        "Maintain band tension through the full range"
+      ],
+      "progressions": [
+        "Increase load",
+        "Add tempo or pause at the bottom",
+        "Use a narrower stance"
+      ],
+      "common_errors": [
+        "Losing band tension",
+        "Allowing the front knee to drift out of alignment"
+      ],
+      "reference": "Lunge with anterior load and band; trunk and hip control. Cook G. Movement: Functional Movement Systems. 2011."
+    },
+    {
+      "id": "e__single_leg_hip_thrust",
+      "name": "Single-Leg Hip Thrust",
+      "target": "Gluteus maximus, hamstrings",
+      "images": [
+        "images/exercises/fig_13_30_single_leg_hip_thrust.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise single-leg hip thrust for advanced glute activation.",
+      "execution": [
+        "Supine with one knee to the chest",
+        "Working foot on the floor",
+        "Drive through the heel to lift the hips",
+        "Squeeze the glute at the top, lower under control"
+      ],
+      "cues": [
+        "Pelvis stays level",
+        "No hip rotation",
+        "Strong glute squeeze"
+      ],
+      "common_errors": [
+        "Pelvic rotation",
+        "Using momentum",
+        "Short range"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus",
+        "p__posterior_pelvic_tilt",
+        "p__lateral_pelvic_tilt",
+        "p__gluteal_amnesia",
+        "p__hamstring_dominance"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain",
+        "c__it_band_syndrome"
+      ],
+      "progressions": [
+        "Double-leg -> Single-leg -> Elevated -> Loaded"
+      ]
+    },
+    {
+      "id": "e__lateral_step_band",
+      "name": "Lateral Step with Mini Band",
+      "target": "Gluteus medius, hip abductors",
+      "images": [
+        "images/exercises/fig_12_10_lateral_step_band.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise lateral steps with mini band for hip abductor activation.",
+      "execution": [
+        "Band around ankles or knees",
+        "Athletic stance with slight knee bend",
+        "Step laterally while maintaining tension",
+        "Do not bring feet fully together"
+      ],
+      "cues": [
+        "Knees out",
+        "Controlled steps",
+        "No foot drag"
+      ],
+      "common_errors": [
+        "Losing band tension",
+        "Knees collapsing inward",
+        "Steps too large"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus",
+        "p__lateral_pelvic_tilt"
+      ],
+      "condition_ids": [
+        "c__it_band_syndrome"
+      ],
+      "progressions": [
+        "Light band -> Heavier band -> Longer steps -> Add tempo"
+      ]
+    },
+    {
+      "id": "e__standing_fire_hydrant",
+      "name": "Standing Fire Hydrant with Mini Band",
+      "target": "Gluteus medius, hip external rotators",
+      "images": [],
+      "videos": [],
+      "description": "Corrective exercise standing hip abductor drill with band resistance.",
+      "execution": [
+        "Stand with a band around the knees",
+        "Balance on one leg",
+        "Abduct and externally rotate the free leg",
+        "Keep the pelvis stable"
+      ],
+      "cues": [
+        "No pelvic rotation",
+        "Move from the hip",
+        "Core engaged"
+      ],
+      "common_errors": [
+        "Leaning toward the stance leg",
+        "Pelvic rotation",
+        "Loss of balance"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Bodyweight -> Band -> Add hold -> Add reach"
+      ]
+    }
+  ],
+  "lower_leg_exercises": [
+    {
+      "id": "e__ankle_dorsiflexion_mob",
+      "name": "Ankle Dorsiflexion Mobilization (Band)",
+      "target": "Ankle mobility, anterior capsule",
+      "images": [],
+      "videos": [],
+      "description": "Joint mobilization to improve ankle dorsiflexion. Essential for deep squat mechanics.",
+      "execution": [
+        "Band around the ankle, anchored behind",
+        "Assume a lunge and drive the knee over the toes",
+        "Allow the band to glide the talus backward",
+        "15-20 reps with progressive range",
+        "3 sets per ankle"
+      ],
+      "cues": [
+        "Heel stays down",
+        "Knee tracks over the second toe",
+        "Maintain the arch"
+      ],
+      "common_errors": [
+        "Heel lifting",
+        "Arch collapse (pronation)",
+        "Band too loose"
+      ],
+      "progressions": [
+        "Static -> Dynamic -> More distance -> Squat position"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__squat_compensation",
+        "p__goblet_squat_pattern"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__achilles_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__calf_stretch",
+      "name": "Calf Stretch (Gastrocnemius and Soleus)",
+      "target": "Gastrocnemius, soleus",
+      "images": [],
+      "videos": [],
+      "description": "Two-position calf stretch for gastrocnemius and soleus.",
+      "execution": [
+        "Gastrocnemius: back leg straight, lean toward wall",
+        "Soleus: back knee bent in the same position",
+        "Keep heel down and arch active",
+        "3 sets x 45-60 seconds each"
+      ],
+      "cues": [
+        "Heel down, foot straight",
+        "Feel the stretch in the calf",
+        "Breathe slowly"
+      ],
+      "common_errors": [
+        "Foot pronation",
+        "Foot turned out",
+        "Losing heel contact"
+      ],
+      "progressions": [
+        "Wall -> Step -> Loaded -> PNF"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation",
+        "p__squat_compensation",
+        "p__goblet_squat_pattern"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__achilles_tendinopathy",
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__short_foot",
+      "name": "Short Foot Exercise",
+      "target": "Foot intrinsics, longitudinal arch",
+      "images": [],
+      "videos": [],
+      "description": "Foot intrinsic activation to build arch control and reduce pronation.",
+      "execution": [
+        "Seated or standing, barefoot",
+        "Shorten the foot by drawing the ball toward the heel",
+        "Lift the medial arch without curling the toes",
+        "Hold 5-10 seconds, relax",
+        "3 sets x 15-20 reps"
+      ],
+      "cues": [
+        "Make the foot shorter",
+        "Toes stay long and relaxed",
+        "Lift the arch"
+      ],
+      "common_errors": [
+        "Toe gripping",
+        "No arch lift",
+        "Excess tension"
+      ],
+      "progressions": [
+        "Seated -> Standing -> Single leg -> During gait"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__achilles_tendinopathy",
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__single_leg_heel_raise",
+      "name": "Single Leg Heel Raise",
+      "target": "Posterior tibialis, gastrocnemius, soleus",
+      "images": [],
+      "videos": [],
+      "description": "Single-leg calf strength exercise; also a functional test for posterior tibialis.",
+      "execution": [
+        "Stand on one leg (light wall support if needed)",
+        "Rise onto the ball of the foot",
+        "Lower under control (eccentric focus)",
+        "3 sets x 15-25 reps",
+        "If you cannot reach 25, weakness is likely"
+      ],
+      "cues": [
+        "Reach full height",
+        "Keep the ankle aligned",
+        "Control the lowering phase"
+      ],
+      "common_errors": [
+        "Partial height",
+        "Pronation during the lift",
+        "Excess hand support"
+      ],
+      "progressions": [
+        "With support -> No support -> From a step -> With load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__achilles_tendinopathy",
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__eccentric_calf_raises",
+      "name": "Eccentric Calf Raises",
+      "target": "Gastrocnemius, soleus",
+      "images": [],
+      "videos": [],
+      "description": "Eccentric-focused calf raises to build tendon capacity and control.",
+      "execution": [
+        "Stand on a step with the forefoot and heels free",
+        "Rise up with both feet",
+        "Shift weight to one leg and lower slowly for 3-5 seconds",
+        "Use both feet to return to the top",
+        "Perform 2-3 sets x 6-10 reps per side"
+      ],
+      "cues": [
+        "Slow lowering phase",
+        "Keep knee straight for gastroc, bent for soleus",
+        "Control the ankle"
+      ],
+      "common_errors": [
+        "Bouncing at the bottom",
+        "Rushing the eccentric",
+        "Losing balance"
+      ],
+      "progressions": [
+        "Bodyweight -> Add load -> Increase tempo control"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__achilles_tendinopathy",
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__tibialis_strengthening",
+      "name": "Tibialis Strengthening",
+      "target": "Tibialis anterior (primary)",
+      "images": [],
+      "videos": [],
+      "description": "Anterior tibialis strengthening to improve dorsiflexion control.",
+      "execution": [
+        "Sit with legs extended and heels on the floor",
+        "Loop a band around the forefoot",
+        "Pull toes toward the shin against resistance",
+        "Pause briefly at the top",
+        "Perform 2-3 sets x 12-15 reps"
+      ],
+      "cues": [
+        "Keep heel down",
+        "Move through the ankle only",
+        "Control the return"
+      ],
+      "common_errors": [
+        "Using the hip flexors",
+        "Fast, uncontrolled reps"
+      ],
+      "progressions": [
+        "Light band -> Heavier band -> Isometric holds"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__shin_splints",
+        "c__plantar_fasciitis"
+      ]
+    },
+    {
+      "id": "e__single_leg_balance",
+      "name": "Single-Leg Balance",
+      "target": "Foot/ankle stabilizers, hip stabilizers",
+      "images": [],
+      "videos": [],
+      "description": "Single-leg balance drill to improve proprioception and stability.",
+      "execution": [
+        "Stand tall on one leg with a soft knee",
+        "Hold balance for 20-30 seconds",
+        "Maintain a level pelvis and quiet foot",
+        "Repeat 2-3 times per side"
+      ],
+      "cues": [
+        "Stay tall",
+        "Foot tripod on the floor",
+        "Avoid hip drop"
+      ],
+      "common_errors": [
+        "Locked knee",
+        "Excess trunk sway"
+      ],
+      "progressions": [
+        "Eyes closed -> Unstable surface -> Reach tasks"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__overpronation",
+        "p__knee_valgus",
+        "p__lateral_pelvic_tilt"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain"
+      ]
+    },
+    {
+      "id": "e__gastroc_soleus_stretch",
+      "name": "Gastrocnemius/Soleus Stretch",
+      "target": "Gastrocnemius, soleus",
+      "images": [],
+      "videos": [],
+      "description": "Wall calf stretch targeting both gastrocnemius and soleus.",
+      "execution": [
+        "Stand facing a wall in a split stance",
+        "Keep the back heel down and knee straight to target gastroc",
+        "Hold 30-45 seconds",
+        "Slightly bend the back knee to target soleus",
+        "Hold 30-45 seconds per side"
+      ],
+      "cues": [
+        "Heel stays down",
+        "Keep the foot pointing forward",
+        "Tall posture"
+      ],
+      "common_errors": [
+        "Turning the foot out",
+        "Bouncing into the stretch"
+      ],
+      "progressions": [
+        "Longer holds -> Add contract-relax"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__achilles_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__posterior_tibialis_activation",
+      "name": "Posterior Tibialis Activation",
+      "target": "Tibial posterior, arco del pie",
+      "images": [],
+      "videos": [],
+      "description": "Corrective exercise posterior tibialis activation to support the arch and reduce pronation.",
+      "execution": [
+        "Seated or standing",
+        "Without moving the foot, attempt to shorten the arch",
+        "Slightly invert the heel to activate posterior tibialis",
+        "Hold 10 seconds, repeat"
+      ],
+      "cues": [
+        "Lift the arch without curling toes",
+        "Subtle heel inversion",
+        "Toes relaxed"
+      ],
+      "common_errors": [
+        "Toe curling to create the arch",
+        "Visible foot movement",
+        "Calf tension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__shin_splints"
+      ],
+      "progressions": [
+        "Isometric -> Band resistance -> Single-leg stance -> Dynamic"
+      ]
+    }
+  ],
+  "knee_exercises": [
+    {
+      "id": "e__terminal_knee_extension",
+      "name": "Terminal Knee Extension (TKE)",
+      "target": "Vastus medialis oblique (VMO), quadriceps",
+      "images": [],
+      "videos": [],
+      "description": "Closed-chain quad activation drill emphasizing the VMO. Common in knee rehab and patellofemoral pain.",
+      "execution": [
+        "Band behind the knee, anchored in front at knee height",
+        "Start with slight knee bend, extend fully against the band",
+        "Squeeze the quad at full extension",
+        "3 sets x 15-20 reps"
+      ],
+      "cues": [
+        "Finish with full extension",
+        "Squeeze at the top",
+        "Avoid hyperextension"
+      ],
+      "common_errors": [
+        "Not reaching full extension",
+        "Knee valgus",
+        "Hip compensation"
+      ],
+      "progressions": [
+        "Light band -> Heavy band -> Add slight squat -> Single leg"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__step_down",
+      "name": "Lateral Step Down",
+      "target": "Gluteus medius, quadriceps, valgus control",
+      "images": [],
+      "videos": [],
+      "description": "Unilateral control drill for knee valgus and lower limb alignment.",
+      "execution": [
+        "Stand on a step/box (4-8 inches)",
+        "Lower the free leg laterally with control",
+        "Keep the stance knee from collapsing inward",
+        "Tap the heel to the floor, return to start",
+        "3 sets x 10 reps per side"
+      ],
+      "cues": [
+        "Knee over second toe",
+        "Slow, controlled eccentric",
+        "Keep pelvis level"
+      ],
+      "common_errors": [
+        "Knee valgus",
+        "Contralateral hip drop",
+        "Using momentum"
+      ],
+      "progressions": [
+        "Low step -> Higher step -> Slower tempo -> With load -> Eyes closed"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus"
+      ],
+      "condition_ids": [
+        "c__patellofemoral_pain"
+      ]
+    },
+    {
+      "id": "e__wall_sit",
+      "name": "Wall Sit",
+      "target": "Quadriceps, muscular endurance",
+      "images": [],
+      "videos": [],
+      "description": "Closed-chain isometric for quadriceps endurance.",
+      "execution": [
+        "Back against the wall, knees at about 90 deg",
+        "Feet shoulder-width apart",
+        "Hold 30-60 seconds",
+        "3-4 sets"
+      ],
+      "cues": [
+        "Knees at 90 deg",
+        "Back flat to the wall",
+        "Breathe normally"
+      ],
+      "common_errors": [
+        "Knees drifting over toes",
+        "Pelvis not neutral",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Angle >90 deg -> 90 deg -> <90 deg -> Single leg -> With load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    }
+  ],
+  "thoracic_exercises": [
+    {
+      "id": "e__thoracic_extension_foam_roller",
+      "name": "Thoracic Extension on Foam Roller",
+      "target": "Thoracic extension mobility",
+      "images": [],
+      "videos": [],
+      "description": "Passive thoracic extension mobilization. Foundational for reducing kyphosis and forward head posture.",
+      "execution": [
+        "Supine with a foam roller perpendicular under the shoulder blades",
+        "Hands behind the head supporting the neck",
+        "Extend over the roller and hold for 5 deep breaths",
+        "Move the roller 2-3 inches and repeat",
+        "Work from T1 to T12"
+      ],
+      "cues": [
+        "Breathe slowly into the rib cage",
+        "Extend through the thoracic spine, not the neck",
+        "Stay relaxed"
+      ],
+      "common_errors": [
+        "Extending the neck instead of the thoracic spine",
+        "Rolling too low into the lumbar spine",
+        "Rushing the movement"
+      ],
+      "progressions": [
+        "Static holds -> Add arm movement -> Add rotations"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis",
+        "p__forward_head_posture",
+        "p__upper_crossed_syndrome",
+        "p__thoracic_kyphosis",
+        "p__shoulder_gird",
+        "p__limited_shoulder_flexion",
+        "p__loss_of_lumbar_extension"
+      ],
+      "condition_ids": [
+        "c__shoulder_impingement",
+        "c__rotator_cuff_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__cat_cow",
+      "name": "Cat-Cow",
+      "target": "Global spinal mobility",
+      "images": [],
+      "videos": [],
+      "description": "Dynamic spinal mobility drill to improve segmental control and awareness.",
+      "execution": [
+        "Quadruped with hands under shoulders and knees under hips",
+        "COW: Inhale and extend the spine, gaze slightly up",
+        "CAT: Exhale and flex the spine, tuck the chin",
+        "Move slowly through the entire spine",
+        "3 sets x 10 reps"
+      ],
+      "cues": [
+        "Move from cervical to lumbar",
+        "Coordinate breath with movement",
+        "Slow and controlled"
+      ],
+      "common_errors": [
+        "Only moving the low back",
+        "Moving too fast",
+        "Poor breathing coordination"
+      ],
+      "progressions": [
+        "Basic -> Thoracic emphasis -> Add rotations -> Quadruped rocks"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__cervical_rotation_restriction",
+        "p__thoracic_kyphosis",
+        "p__thoracic_rotation_restriction",
+        "p__lumbar_hyperlordosis",
+        "p__posterior_pelvic_tilt",
+        "p__loss_of_lumbar_extension"
+      ]
+    },
+    {
+      "id": "e__thread_the_needle",
+      "name": "Thread the Needle",
+      "target": "Thoracic rotation, scapular mobility",
+      "images": [],
+      "videos": [],
+      "description": "Quadruped thoracic rotation drill to improve rotational mobility.",
+      "execution": [
+        "Quadruped with one hand on the floor and the other behind the head",
+        "Rotate the elbow up (thoracic opening)",
+        "Thread the arm under the body to rotate down",
+        "3 sets x 10 reps per side"
+      ],
+      "cues": [
+        "Rotate from the rib cage, not the arm",
+        "Follow the elbow with your eyes",
+        "Keep hips stable"
+      ],
+      "common_errors": [
+        "Pelvic rotation",
+        "Arm-only movement",
+        "Losing quadruped position"
+      ],
+      "progressions": [
+        "No load -> Pause at top -> More range -> Light load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__cervical_rotation_restriction",
+        "p__thoracic_kyphosis",
+        "p__thoracic_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__open_book",
+      "name": "Open Book Stretch",
+      "target": "Thoracic rotation, pec opening",
+      "images": [],
+      "videos": [],
+      "description": "Side-lying thoracic rotation to open the chest and improve upper-back mobility.",
+      "execution": [
+        "Side-lying with hips and knees at 90 deg, arms extended forward",
+        "Rotate the top arm open like a book",
+        "Follow the hand with the eyes, keep knees stacked",
+        "3 sets x 10 reps per side"
+      ],
+      "cues": [
+        "Knees stay together",
+        "Exhale as you open",
+        "Move slowly"
+      ],
+      "common_errors": [
+        "Hip rotation",
+        "Forcing range",
+        "Rushing"
+      ],
+      "progressions": [
+        "Passive -> Active -> Pause at end -> Foam roller between knees"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__thoracic_kyphosis",
+        "p__thoracic_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__prone_press_up",
+      "name": "Prone Press-Up",
+      "target": "Lumbar and thoracic extension",
+      "images": [],
+      "videos": [],
+      "description": "Prone press-up to restore spinal extension mobility.",
+      "execution": [
+        "Lie prone with hands under shoulders",
+        "Press the chest up while keeping hips on the floor",
+        "Pause briefly at end range",
+        "Lower with control",
+        "Perform 2-3 sets x 8-10 reps"
+      ],
+      "cues": [
+        "Keep pelvis down",
+        "Move through the spine"
+      ],
+      "common_errors": [
+        "Hips lifting",
+        "Shrugging shoulders"
+      ],
+      "progressions": [
+        "Increase range -> Add pauses"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__loss_of_lumbar_extension"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "id": "e__tspine_foam_roll",
+      "name": "T-Spine Foam Roll",
+      "target": "Thoracic spine, paraspinal muscles",
+      "images": [
+        "images/exercises/fig_13_17_tspine_foam_roll.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise thoracic mobilization with a foam roller.",
+      "execution": [
+        "Supine on a roller perpendicular to the spine",
+        "Place roller at mid-thoracic level",
+        "Arms crossed or behind the head",
+        "Extend over the roller segment by segment"
+      ],
+      "cues": [
+        "Keep pelvis on the floor",
+        "Extend thoracic, not lumbar",
+        "Move one segment at a time"
+      ],
+      "common_errors": [
+        "Extending from the low back",
+        "Moving too fast",
+        "Roller too low"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__upper_crossed_syndrome",
+        "p__thoracic_kyphosis",
+        "p__limited_shoulder_flexion",
+        "p__thoracic_rotation_restriction"
+      ],
+      "progressions": [
+        "Short range -> Full range -> Add extensions -> Add reach"
+      ]
+    },
+    {
+      "id": "e__tspine_rotation",
+      "name": "T-Spine Rotation",
+      "target": "Thoracic spine rotators",
+      "images": [
+        "images/exercises/fig_13_18_tspine_rotation.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise thoracic rotation drill to improve rotational mobility.",
+      "execution": [
+        "Quadruped or side-lying",
+        "Lock lumbar spine and hips",
+        "Rotate thorax, reaching the hand to the ceiling",
+        "Follow the hand with the eyes"
+      ],
+      "cues": [
+        "Rotate from the thoracic spine",
+        "Keep hips still",
+        "Exhale during rotation"
+      ],
+      "common_errors": [
+        "Rotating from the low back",
+        "Short range",
+        "Loss of base stability"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__thoracic_rotation_restriction",
+        "p__cervical_rotation_restriction",
+        "p__thoracic_kyphosis"
+      ],
+      "progressions": [
+        "Small range -> Full range -> Add breath hold -> Add resistance band"
+      ]
+    }
+  ],
+  "smr_mobilization": [
+    {
+      "id": "e__tfl_it_band_smr",
+      "name": "TFL/IT Band Foam Rolling",
+      "target": "Tensor fasciae latae, iliotibial band",
+      "images": [],
+      "videos": [],
+      "description": "SMR for the TFL/IT band. Helpful for knee valgus, hip drop, and IT band syndrome.",
+      "execution": [
+        "Side-lying on a foam roller along the lateral thigh",
+        "Top leg crosses in front for support",
+        "Roll from just below the hip to above the knee",
+        "Pause 20-30 seconds on tender points",
+        "2-3 minutes per side"
+      ],
+      "cues": [
+        "Tolerable pressure (6-7/10)",
+        "Slow breathing",
+        "Avoid rolling directly on the hip bone or knee"
+      ],
+      "common_errors": [
+        "Too much pressure causing sharp pain",
+        "Rolling too fast",
+        "Excess body tension"
+      ],
+      "progressions": [
+        "Top leg support -> Both legs on roller for more intensity"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus"
+      ],
+      "condition_ids": [
+        "c__it_band_syndrome"
+      ]
+    },
+    {
+      "id": "e__adductor_smr",
+      "name": "Adductor Foam Rolling",
+      "target": "Adductors (gracilis, adductor longus/brevis/magnus)",
+      "images": [],
+      "videos": [],
+      "description": "SMR for the adductors. Useful for limited hip abduction and valgus patterns.",
+      "execution": [
+        "Prone with roller perpendicular to the body",
+        "One leg abducted with the inner thigh on the roller",
+        "Roll from the groin to the inner knee",
+        "Pause 20-30 seconds on tender points",
+        "2 minutes per side"
+      ],
+      "cues": [
+        "Brace the core",
+        "Do not force the groin",
+        "Breathe steadily"
+      ],
+      "common_errors": [
+        "Rolling too close to the groin",
+        "Low-back compensation"
+      ],
+      "progressions": [
+        "Less body weight -> More body weight -> Lacrosse ball for specific points"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__knee_valgus"
+      ]
+    },
+    {
+      "id": "e__pec_minor_smr",
+      "name": "Pec Minor Lacrosse Ball Release",
+      "target": "Pectoralis minor",
+      "images": [],
+      "videos": [],
+      "description": "Targeted release for the pec minor. Key for rounded shoulders and scapular dyskinesis.",
+      "execution": [
+        "Stand facing a wall, ball under the clavicle and lateral to the sternum",
+        "Lean into the wall for pressure",
+        "Hold 60-90 seconds on tender points",
+        "Option: move the arm slowly while maintaining pressure",
+        "2-3 points per side"
+      ],
+      "cues": [
+        "Firm but tolerable pressure",
+        "Relax the shoulder",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Too medial (near the sternum)",
+        "Neck tension",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Static -> Add arm motion -> Increase pressure"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__upper_crossed_syndrome",
+        "p__limited_shoulder_flexion"
+      ]
+    },
+    {
+      "id": "e__lat_smr",
+      "name": "Lat Foam Rolling",
+      "target": "Latissimus dorsi",
+      "images": [],
+      "videos": [],
+      "description": "Lat release to improve shoulder flexion and thoracic extension.",
+      "execution": [
+        "Side-lying with roller under the armpit/side",
+        "Bottom arm extended overhead",
+        "Roll from the armpit to mid-side",
+        "Pause 20-30 seconds on tender points",
+        "2 minutes per side"
+      ],
+      "cues": [
+        "Keep the arm relaxed overhead",
+        "Avoid the lower ribs",
+        "Breathe slowly"
+      ],
+      "common_errors": [
+        "Rolling too low (floating ribs)",
+        "Tensing the arm"
+      ],
+      "progressions": [
+        "Foam roller -> Lacrosse ball for more pressure"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_shoulder_flexion"
+      ]
+    },
+    {
+      "id": "e__quad_smr",
+      "name": "Quad Foam Rolling",
+      "target": "Quadriceps (rectus femoris, vasti)",
+      "images": [],
+      "videos": [],
+      "description": "Quadriceps SMR for APT, knee pain, and limited knee flexion.",
+      "execution": [
+        "Prone with roller under the front of the thighs",
+        "Forearms on the floor for support",
+        "Roll from above the knees to the hip",
+        "Pause 20-30 seconds on tender points",
+        "2-3 minutes"
+      ],
+      "cues": [
+        "Core engaged",
+        "Avoid lumbar sag",
+        "Tolerable pressure"
+      ],
+      "common_errors": [
+        "Excess lumbar extension",
+        "Rolling too fast",
+        "Staying only on the rectus femoris"
+      ],
+      "progressions": [
+        "Both legs -> Single leg -> Lacrosse ball"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "condition_ids": [
+        "c__patellofemoral_pain"
+      ]
+    }
+  ],
+  "compound_movements": [
+    {
+      "id": "e__goblet_squat",
+      "name": "Goblet Squat",
+      "target": "Quadriceps, glutes, core",
+      "images": [],
+      "videos": [],
+      "description": "Loaded squat holding a kettlebell or dumbbell at the chest to reinforce upright posture and depth.",
+      "execution": [
+        "Hold a kettlebell or dumbbell at chest height",
+        "Stand with feet shoulder-width apart",
+        "Sit hips down and back while keeping the chest tall",
+        "Keep knees tracking over the feet",
+        "Drive through midfoot to stand, 3 sets x 8-12 reps"
+      ],
+      "cues": [
+        "Elbows inside the knees at the bottom",
+        "Stay tall through the torso",
+        "Knees track over toes"
+      ],
+      "common_errors": [
+        "Heels lifting",
+        "Knees collapsing inward",
+        "Excess forward lean"
+      ],
+      "progressions": [
+        "Bodyweight squat -> Goblet squat -> Front squat"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__squat_compensation",
+        "p__goblet_squat_pattern",
+        "p__knee_valgus",
+        "p__anterior_pelvic_tilt",
+        "p__lumbar_hyperlordosis",
+        "p__hip_external_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__goblet_squat_hold",
+      "name": "Goblet Squat Hold",
+      "target": "Hip mobility, deep squat, core control",
+      "images": [],
+      "videos": [],
+      "description": "Deep goblet squat isometric to improve hip mobility and dorsiflexion while reinforcing upright squat posture.",
+      "execution": [
+        "Hold a kettlebell/dumbbell at the chest (goblet position)",
+        "Descend to the deepest controlled squat",
+        "Keep heels down and torso tall",
+        "Use elbows to press knees out",
+        "Hold 30-60 seconds x 3-5 sets"
+      ],
+      "cues": [
+        "Elbows push knees out",
+        "Tall chest",
+        "Heels heavy",
+        "Calm breathing"
+      ],
+      "common_errors": [
+        "Heels lifting",
+        "Lumbar rounding",
+        "Losing the goblet position"
+      ],
+      "progressions": [
+        "Box squat hold -> Goblet hold -> Overhead hold"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__squat_compensation",
+        "p__goblet_squat_pattern"
+      ]
+    },
+    {
+      "id": "e__squat_to_box",
+      "name": "Squat to Box",
+      "target": "Hip hinge control, lumbopelvic stability, squat pattern re-education",
+      "images": [],
+      "videos": [],
+      "description": "Constraint-based squat using a box or bench to control depth and reinforce proper lumbopelvic mechanics. The box acts as external feedback to limit excessive lumbar motion, improve hip contribution, and reduce anterior chain dominance during the squat pattern.",
+      "execution": [
+        "Stand facing away from a box or bench set at knee height or slightly above.",
+        "Feet shoulder-width apart, toes slightly turned out as needed.",
+        "Set ribs down and pelvis neutral; brace lightly before initiating the movement.",
+        "Sit the hips back and down toward the box, maintaining a neutral spine.",
+        "Lightly touch the box without fully relaxing.",
+        "Drive through mid-foot and heels to stand, extending hips first.",
+        "2–4 sets of 6–10 controlled repetitions."
+      ],
+      "cues": [
+        "Hips back and down, not straight down",
+        "Stay stacked: ribs over pelvis",
+        "Control the descent, don't drop onto the box",
+        "Stand up by pushing the floor away"
+      ],
+      "common_errors": [
+        "Relaxing completely on the box (losing tension)",
+        "Lumbar flexion or excessive posterior pelvic tilt at the bottom",
+        "Anterior knee dominance with minimal hip contribution",
+        "Rib flare or lumbar extension during ascent"
+      ],
+      "progressions": [
+        "Higher box -> lower box",
+        "Pause 2–3 seconds on the box while maintaining tension",
+        "Goblet-loaded squat to box",
+        "Remove box and progress to free squat when control is consistent"
+      ],
+      "reference": "Corrective Exercise Toolkit (constraint-based squat patterning)",
+      "pattern_ids": [
+        "p__poor_lumbopelvic_control",
+        "p__anterior_chain_dominance",
+        "p__hamstring_dominance",
+        "p__anterior_pelvic_tilt"
+      ]
+    },
+    {
+      "id": "e__ball_wall_push_hip_hinge",
+      "name": "Ball Wall Push with Hip Hinge",
+      "target": "Hip hinge patterning + serratus/shoulder stability + trunk stack",
+      "images": [],
+      "videos": [],
+      "description": "Press a ball into a wall to create shoulder stability while practicing a clean hip hinge. Great for teaching 'hips back' without rib flare or lumbar extension.",
+      "execution": [
+        "Place a ball (soft medicine ball or playground ball) between forearms/hands and the wall at chest height.",
+        "Set ribs down and pelvis neutral; lightly brace.",
+        "Press the ball into the wall (steady pressure) without shrugging.",
+        "Perform a hip hinge: send hips back, slight knee bend, keep spine neutral.",
+        "Return to standing by driving hips forward (glutes) while keeping pressure on the ball.",
+        "2–4 sets x 6–10 reps with slow tempo."
+      ],
+      "cues": [
+        "Hips back, chest stays 'stacked'",
+        "Keep pressure on the ball but shoulders down",
+        "Shins mostly vertical",
+        "No rib flare at the bottom"
+      ],
+      "common_errors": [
+        "Turning it into a squat (knees forward, hips not back)",
+        "Lumbar extension / rib flare during hinge",
+        "Losing ball pressure or shrugging",
+        "Neck jutting forward"
+      ],
+      "progressions": [
+        "Short-range hinge -> deeper hinge",
+        "Add 2–3 sec pause at end range",
+        "Increase ball pressure slightly",
+        "Progress to loaded hinge patterns when control is consistent"
+      ],
+      "reference": "Corrective Exercise Toolkit (constraint-based hinge)",
+      "pattern_ids": [
+        "p__thoracic_kyphosis",
+        "p__rounded_shoulders",
+        "p__limited_shoulder_flexion",
+        "p__poor_lumbopelvic_control",
+        "p__anterior_chain_dominance"
+      ]
+    },
+    {
+      "id": "e__incline_push_up",
+      "name": "Incline Push-Up",
+      "target": "Chest, triceps, serratus anterior, core anti-extension",
+      "images": [],
+      "videos": [],
+      "description": "Push-up regression that reduces load while training the horizontal push pattern.",
+      "execution": [
+        "Hands on an elevated surface (bench, box, bar)",
+        "Body in a straight line from heels to head",
+        "Lower the chest to the surface (elbows 20-45 deg)",
+        "Press to full extension with scapular protraction",
+        "3-4 sets x 8-15 reps"
+      ],
+      "cues": [
+        "Maintain a solid plank line",
+        "Finish with scapular protraction",
+        "Controlled eccentric",
+        "Full range of motion"
+      ],
+      "common_errors": [
+        "Hips sagging",
+        "Scapular winging",
+        "Partial range",
+        "Elbows flaring >45 deg"
+      ],
+      "progressions": [
+        "More upright -> More horizontal -> Floor push-up"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__half_kneeling_press",
+      "name": "Half-Kneeling Press",
+      "target": "Deltoids, core anti-extension and anti-rotation, glute stability",
+      "images": [],
+      "videos": [],
+      "description": "Half-kneeling overhead press to reduce lumbar compensation and reinforce core control.",
+      "execution": [
+        "Half-kneeling with the press-side knee down",
+        "Dumbbell/kettlebell in rack position",
+        "Press vertically while keeping the torso tall",
+        "Glute engaged and ribs down",
+        "3-4 sets x 6-10 reps per side"
+      ],
+      "cues": [
+        "Squeeze the glute on the down knee",
+        "Press straight up",
+        "No rib flare"
+      ],
+      "common_errors": [
+        "Lumbar extension",
+        "Leaning toward the press side",
+        "Pressing at an angle"
+      ],
+      "progressions": [
+        "Tall kneeling -> Half kneeling -> Standing press"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__landmine_press",
+      "name": "Landmine Press",
+      "target": "Deltoids (anterior emphasis), upper chest, serratus, core",
+      "images": [],
+      "videos": [],
+      "description": "Angled press with a landmine or corner anchor. Friendly on shoulder mobility with a natural arc.",
+      "execution": [
+        "Bar anchored in a landmine or corner",
+        "Grip the bar end in an athletic stance",
+        "Press up and slightly forward along the arc",
+        "Control the return",
+        "3-4 sets x 8-12 reps"
+      ],
+      "cues": [
+        "Brace the core",
+        "Follow the arc",
+        "Finish with full lockout"
+      ],
+      "common_errors": [
+        "Pressing only forward",
+        "Losing core position",
+        "Partial range"
+      ],
+      "progressions": [
+        "Kneeling -> Half-kneeling -> Standing -> Single arm"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__overhead_squat",
+      "name": "Overhead Squat",
+      "target": "Full-body squat pattern with shoulder stability",
+      "images": [],
+      "videos": [],
+      "description": "Squat pattern with arms overhead to challenge mobility and stability.",
+      "execution": [
+        "Stand with feet shoulder-width apart",
+        "Raise arms overhead with elbows extended",
+        "Squat to depth with control",
+        "Keep heels down and torso upright",
+        "Perform 2-3 sets x 6-10 reps"
+      ],
+      "cues": [
+        "Arms stay by ears",
+        "Knees track over toes",
+        "Ribs down"
+      ],
+      "common_errors": [
+        "Forward lean",
+        "Heels lifting"
+      ],
+      "progressions": [
+        "Bodyweight -> Add dowel -> Light load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__squat_compensation",
+        "p__knee_valgus",
+        "p__limited_shoulder_flexion",
+        "p__thoracic_kyphosis"
+      ]
+    },
+    {
+      "id": "e__hip_hinge_drill",
+      "name": "Dowel Hip Hinge",
+      "target": "Hips, glutes, hamstrings, movement pattern",
+      "images": [
+        "images/exercises/fig_11_8_hip_hinge_a.jpg",
+        "images/exercises/fig_11_8_hip_hinge_b.jpg"
+      ],
+      "videos": [],
+      "description": "Hip hinge pattern to teach lumbopelvic dissociation (McGill, Cook).",
+      "execution": [
+        "Standing, feet shoulder-width apart",
+        "Push hips back with a neutral spine",
+        "Knees slightly bent",
+        "Stop when hamstrings tension is felt"
+      ],
+      "cues": [
+        "Hips back, chest up",
+        "Spine stays long",
+        "Weight through the heels"
+      ],
+      "common_errors": [
+        "Lumbar flexion",
+        "Knees drifting forward",
+        "Loss of neutral spine"
+      ],
+      "reference": "McGill SM. Low Back Disorders. Human Kinetics. Cook G. Movement: Functional Movement Systems. 2011.",
+      "pattern_ids": [
+        "p__hamstring_dominance",
+        "p__loss_of_lumbar_extension"
+      ],
+      "progressions": [
+        "Dowel hinge -> Bodyweight -> Load -> Tempo"
+      ]
+    }
+  ],
+  "breathing_exercises": [
+    {
+      "id": "e__90_90_breathing",
+      "name": "90-90 Breathing",
+      "target": "Diaphragm, deep core, ZOA (Zone of Apposition)",
+      "images": [],
+      "videos": [],
+      "description": "Foundational breathing drill to position the diaphragm and activate deep core. Core corrective for APT and dysfunctional breathing patterns.",
+      "execution": [
+        "Supine with hips and knees at 90 deg, feet on wall",
+        "Low back gently flat to the floor (posterior pelvic tilt)",
+        "Inhale through the nose for 4 seconds, expand the ribs laterally",
+        "Exhale through the mouth for 8 seconds (as if through a straw)",
+        "Pause 3 seconds before the next inhale",
+        "3-5 sets x 5 breathing cycles"
+      ],
+      "cues": [
+        "Ribs expand sideways, not up",
+        "Exhale fully until the abs engage",
+        "Keep the pelvis tucked",
+        "Relax the neck and shoulders"
+      ],
+      "common_errors": [
+        "Chest breathing",
+        "Incomplete exhale",
+        "Losing pelvic position",
+        "Neck tension"
+      ],
+      "progressions": [
+        "Basic 90-90 -> Balloon exhale -> Arms overhead -> Quadruped"
+      ],
+      "reference": "Postural Restoration Institute (PRI)",
+      "pattern_ids": [
+        "p__lumbar_hyperlordosis",
+        "p__lower_crossed_syndrome"
+      ]
+    },
+    {
+      "id": "e__diaphragmatic_breathing",
+      "name": "Diaphragmatic Breathing / Bear Down",
+      "target": "Diafragma, core",
+      "images": [],
+      "videos": [],
+      "description": "Corrective exercise diaphragmatic breathing to reinforce core stability (McGill, DNS).",
+      "execution": [
+        "Supine with knees bent",
+        "Hands on abdomen and chest",
+        "Inhale to expand the abdomen 360 deg",
+        "Exhale while maintaining gentle core tension"
+      ],
+      "cues": [
+        "Expand sideways, not just forward",
+        "Chest stays quiet",
+        "Create intra-abdominal pressure"
+      ],
+      "common_errors": [
+        "Chest-dominant breathing",
+        "Incomplete exhale",
+        "Excess bracing"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Supine 90-90 -> Seated -> Standing -> Add bracing"
+      ]
+    }
+  ],
+  "hip_mobility_exercises": [
+    {
+      "id": "e__hip_hinge_rdl",
+      "name": "Hip Hinge / RDL (Bilateral Romanian Deadlift)",
+      "target": "Hip hinge pattern, glutes, hamstrings",
+      "images": [],
+      "videos": [],
+      "description": "Fundamental hinge pattern for hip mechanics. Builds skill for deadlifts and other hinge-based lifts.",
+      "execution": [
+        "Stand with feet hip-width apart",
+        "Push the hips back with a soft knee bend",
+        "Maintain a neutral spine throughout",
+        "Lower until you feel a hamstring stretch",
+        "Return by driving the hips forward and squeezing glutes",
+        "3 sets x 10-12 reps"
+      ],
+      "cues": [
+        "Hips back, chest up",
+        "Weight through midfoot/heel",
+        "Spine stays long"
+      ],
+      "common_errors": [
+        "Rounding the low back",
+        "Turning it into a squat",
+        "Overextending at the top"
+      ],
+      "progressions": [
+        "Dowel on back -> Bodyweight -> KB/DB -> Barbell"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__posterior_pelvic_tilt",
+        "p__lower_crossed_syndrome"
+      ],
+      "condition_ids": [
+        "c__lumbar_flexion_intolerance"
+      ]
+    },
+    {
+      "id": "e__hip_thrust",
+      "name": "Hip Thrust",
+      "target": "Gluteus maximus (emphasis), hamstrings",
+      "images": [],
+      "videos": [],
+      "description": "High-output glute exercise with large ROM and loading potential. Ideal for glute strength and hip extension power.",
+      "execution": [
+        "Upper back on a bench, feet flat",
+        "Drive hips up to full extension",
+        "Hold a strong glute squeeze for 2 seconds",
+        "Lower under control",
+        "3-4 sets x 10-15 reps"
+      ],
+      "cues": [
+        "Ribs down, chin tucked",
+        "Drive through the heels",
+        "Finish with full hip extension"
+      ],
+      "common_errors": [
+        "Lumbar extension at the top",
+        "Pushing through the toes",
+        "Not reaching full extension"
+      ],
+      "progressions": [
+        "Glute bridge -> Bodyweight hip thrust -> Loaded -> Band + load"
+      ],
+      "reference": "Bret Contreras (popularized)",
+      "pattern_ids": [
+        "p__hip_flexor_tightness",
+        "p__gluteal_amnesia",
+        "p__hamstring_dominance"
+      ]
+    },
+    {
+      "id": "e__quadruped_rock_back",
+      "name": "Quadruped Rock Back",
+      "target": "Hip flexion mobility, lumbopelvic control",
+      "images": [],
+      "videos": [],
+      "description": "Hip flexion mobility drill that separates hip from lumbar motion. Great for squat depth and hinge mechanics.",
+      "execution": [
+        "Quadruped with hands under shoulders, knees under hips",
+        "Keep spine neutral",
+        "Rock hips back toward heels",
+        "Stop before pelvic tuck (butt wink)",
+        "3 sets x 10-15 reps"
+      ],
+      "cues": [
+        "Flat back throughout",
+        "Hips move, spine stays neutral",
+        "Breathe through the motion"
+      ],
+      "common_errors": [
+        "Lumbar flexion at end range",
+        "Forcing range",
+        "Losing neutral spine"
+      ],
+      "progressions": [
+        "Basic -> Add pause -> Add rotation -> Deep squat"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__thoracic_rotation_restriction",
+        "p__hip_flexor_tightness"
+      ]
+    },
+    {
+      "id": "e__90_90_hip_stretch",
+      "name": "90-90 Hip Stretch",
+      "target": "Hip rotators, piriformis, capsule",
+      "images": [],
+      "videos": [],
+      "description": "Multiplanar hip stretch for internal and external rotation control.",
+      "execution": [
+        "Seated with front leg at 90 deg external rotation",
+        "Back leg at 90 deg internal rotation",
+        "Stay tall and hinge toward the front leg",
+        "Switch sides by rotating over the hips",
+        "3 sets x 30-45 seconds per side"
+      ],
+      "cues": [
+        "Tall posture",
+        "Feel the front hip stretch",
+        "Back hip trains internal rotation"
+      ],
+      "common_errors": [
+        "Torso collapse",
+        "Forcing range without control",
+        "Knee discomfort (adjust angle)"
+      ],
+      "progressions": [
+        "Static -> Add hinge -> Transitions -> Loaded"
+      ],
+      "reference": "Dr. Andreo Spina (FRC)",
+      "pattern_ids": [
+        "p__hip_external_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__hip_cars",
+      "name": "Hip CARS (Controlled Articular Rotations)",
+      "target": "Hip joint mobility, motor control",
+      "images": [],
+      "videos": [],
+      "description": "Controlled articular rotations to build active hip ROM and joint control.",
+      "execution": [
+        "Quadruped or standing with support",
+        "Lift knee toward chest (flexion)",
+        "Open outward (abduction + external rotation)",
+        "Extend backward",
+        "Close inward (adduction + internal rotation)",
+        "Slow, controlled full circle",
+        "5-10 reps each direction per hip"
+      ],
+      "cues": [
+        "Isolate the hip; avoid lumbar motion",
+        "Max range without compensation",
+        "Slow and controlled"
+      ],
+      "common_errors": [
+        "Lumbar compensation",
+        "Rushing the circle",
+        "Loss of control at end range"
+      ],
+      "progressions": [
+        "With support -> No support -> Add resistance -> Larger range"
+      ],
+      "reference": "Dr. Andreo Spina (FRC)",
+      "pattern_ids": [
+        "p__hip_external_rotation_restriction",
+        "p__squat_compensation"
+      ]
+    },
+    {
+      "id": "e__piriformis_stretch",
+      "name": "Piriformis Stretch",
+      "target": "Piriformis, deep external rotators",
+      "images": [],
+      "videos": [],
+      "description": "Targeted stretch for piriformis and deep external rotators.",
+      "execution": [
+        "Supine figure-4 position (ankle over opposite knee)",
+        "Draw the base knee toward the chest",
+        "Gently press the crossed knee outward",
+        "Hold 45-60 seconds per side",
+        "Repeat 2-3 times"
+      ],
+      "cues": [
+        "Relax and breathe",
+        "Feel the deep glute stretch",
+        "No forcing"
+      ],
+      "common_errors": [
+        "Forcing the knee",
+        "Lifting head/shoulders",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Supine -> Seated figure-4 -> Pigeon pose"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__hip_external_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__active_hamstring_stretch",
+      "name": "Active Hamstring Stretch",
+      "target": "Hamstrings, neural mobility",
+      "images": [],
+      "videos": [],
+      "description": "Active hamstring stretch using reciprocal quad activation for functional range.",
+      "execution": [
+        "Supine with one leg extended on the floor",
+        "Actively raise the other leg with the knee straight",
+        "Keep ankle dorsiflexed",
+        "Hold 2-3 seconds at the top, lower slowly",
+        "3 sets x 10-12 reps per leg"
+      ],
+      "cues": [
+        "Contract the quad to keep the knee straight",
+        "Pelvis stays heavy on the floor",
+        "Move slowly through the range"
+      ],
+      "common_errors": [
+        "Knee bending",
+        "Pelvis lifting",
+        "Using momentum"
+      ],
+      "progressions": [
+        "Active -> Assisted with band -> PNF contract-relax -> Straight leg lowering"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__posterior_pelvic_tilt"
+      ]
+    },
+    {
+      "id": "e__hamstring_contract_relax",
+      "name": "Hamstrings Contract-Relax Stretch",
+      "target": "Hamstrings (PNF contract-relax)",
+      "images": [],
+      "videos": [],
+      "description": "PNF-style hamstring mobility drill. Emphasize submaximal contraction and full relaxation between cycles. Avoid posterior pelvic tuck collapse.",
+      "execution": [
+        "Position: supine with one leg raised (use strap/towel behind the foot if needed).",
+        "Move to the first mild stretch barrier (no pain).",
+        "Gently push the heel down into the strap (hamstring contraction) 6–10 seconds at ~50–70% effort.",
+        "Relax completely 2–3 seconds.",
+        "Increase hip flexion slightly to a new mild barrier.",
+        "Repeat 3–4 cycles per side."
+      ],
+      "cues": [
+        "Submax effort; no shaking",
+        "Exhale and soften between cycles",
+        "Keep pelvis as neutral as possible (don't crank into posterior tilt)"
+      ],
+      "common_errors": [
+        "Over-contraction",
+        "Not relaxing between cycles",
+        "Forcing end range and losing pelvic control",
+        "Foot turning out to 'cheat' range"
+      ],
+      "progressions": [
+        "Strap-assisted -> partner-assisted (gentle) -> add isometric hold at new range (5–10 sec)"
+      ],
+      "reference": "PNF contract-relax. Knott M, Voss DE. Proprioceptive Neuromuscular Facilitation: Patterns and Techniques. Harper & Row. Kabat, Knott, Voss.",
+      "pattern_ids": [
+        "p__hamstring_dominance",
+        "p__posterior_pelvic_tilt"
+      ]
+    },
+    {
+      "id": "e__hip_flexor_contract_relax",
+      "name": "Hip Flexors Contract-Relax Stretch",
+      "target": "Hip flexors, psoas",
+      "images": [
+        "images/exercises/fig_13_28_hip_flexor_contract_relax.jpg"
+      ],
+      "videos": [],
+      "description": "PNF stretch for hip flexors (Knott, Voss).",
+      "execution": [
+        "Half-kneeling position",
+        "Isometric hip flexor contraction for 6-10 seconds",
+        "Relax and move deeper into the stretch",
+        "Repeat 3-4 cycles"
+      ],
+      "cues": [
+        "Submaximal effort (50-70%)",
+        "Fully relax between contractions",
+        "Keep pelvis neutral"
+      ],
+      "common_errors": [
+        "Over-contraction",
+        "Not relaxing between cycles",
+        "Anterior pelvic tilt"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__anterior_pelvic_tilt",
+        "p__hip_flexor_tightness",
+        "p__lower_crossed_syndrome"
+      ],
+      "progressions": [
+        "Light contraction -> Longer contractions -> Add reach -> Add band"
+      ]
+    }
+  ],
+  "shoulder_mobility_exercises": [
+    {
+      "id": "e__wall_angels",
+      "name": "Wall Angels",
+      "target": "Thoracic mobility, scapular control, shoulder flexion",
+      "images": [],
+      "videos": [],
+      "description": "Wall-supported shoulder mobility drill to improve thoracic extension and scapular mechanics.",
+      "execution": [
+        "Stand with back, head, and hips against a wall",
+        "Keep ribs down and low back gently neutral",
+        "Place arms in a goal-post position against the wall",
+        "Slide arms upward while keeping elbows and wrists on the wall",
+        "Return to start with control for 8-12 reps"
+      ],
+      "cues": [
+        "Do not flare the ribs",
+        "Keep the chin slightly tucked",
+        "Move slowly and stay within pain-free range"
+      ],
+      "common_errors": [
+        "Lumbar extension",
+        "Wrists or elbows leaving the wall",
+        "Shrugging the shoulders"
+      ],
+      "progressions": [
+        "Reduce range -> Full range -> Add foam roller behind mid-back"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__upper_crossed_syndrome",
+        "p__limited_shoulder_flexion",
+        "p__thoracic_kyphosis"
+      ]
+    },
+    {
+      "id": "e__doorway_pec_stretch",
+      "name": "Doorway Pec Stretch",
+      "target": "Pectoral mayor y menor",
+      "images": [],
+      "videos": [],
+      "description": "Classic pec stretch to reduce rounded shoulders. Arm angle changes bias different fibers.",
+      "execution": [
+        "Stand in a doorway with forearm on the frame",
+        "Elbow at 90 deg, shoulder at 90 deg abduction (mid pec)",
+        "Step forward until a stretch is felt",
+        "Adjust arm angle lower or higher for different fibers",
+        "Hold 45-60 seconds per position per side"
+      ],
+      "cues": [
+        "Keep ribs down",
+        "Do not arch the low back",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Lumbar extension",
+        "Shrugging the shoulder",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Bilateral -> Unilateral -> Add thoracic rotation"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__upper_crossed_syndrome",
+        "p__shoulder_gird"
+      ]
+    },
+    {
+      "id": "e__sleeper_stretch",
+      "name": "Sleeper Stretch",
+      "target": "Posterior shoulder capsule, internal rotation",
+      "images": [],
+      "videos": [],
+      "description": "Posterior shoulder capsule stretch. Key for overhead athletes with GIRD.",
+      "execution": [
+        "Side-lying on the shoulder being stretched",
+        "Shoulder and elbow at 90 deg, forearm vertical",
+        "Use the opposite hand to gently press the forearm toward the floor",
+        "Hold 30-45 seconds, 3-4 sets"
+      ],
+      "cues": [
+        "Gentle, progressive pressure",
+        "Scapula stays pinned to the floor",
+        "No sharp pain"
+      ],
+      "common_errors": [
+        "Excess pressure",
+        "Scapula lifting",
+        "Forcing into pain"
+      ],
+      "progressions": [
+        "Basic sleeper -> Cross-body stretch -> Add mobilization"
+      ],
+      "reference": "Kevin Wilk (popularized)",
+      "pattern_ids": [
+        "p__shoulder_gird"
+      ]
+    },
+    {
+      "id": "e__shoulder_ir_90_stretch",
+      "name": "90/90 Shoulder Internal Rotation Stretch",
+      "target": "Posterior shoulder capsule, internal rotation",
+      "images": [],
+      "videos": [],
+      "description": "Controlled internal rotation stretch in the 90/90 position to improve IR range.",
+      "execution": [
+        "Lie supine with shoulder abducted to 90 deg and elbow flexed to 90 deg",
+        "Keep the scapula stable against the floor",
+        "Slowly rotate the forearm toward the floor into internal rotation",
+        "Stop at a mild stretch and hold 30-45 seconds",
+        "Repeat 2-3 sets per side"
+      ],
+      "cues": [
+        "Move slowly and stay below pain",
+        "Do not let the shoulder roll forward",
+        "Breathe steadily"
+      ],
+      "common_errors": [
+        "Forcing into pain",
+        "Scapula lifting off the floor",
+        "Elbow drifting out of position"
+      ],
+      "progressions": [
+        "Static hold -> Light contract-relax -> Add towel roll under arm"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__shoulder_gird"
+      ]
+    },
+    {
+      "id": "e__cross_body_stretch",
+      "name": "Cross-Body Shoulder Stretch",
+      "target": "Posterior capsule, posterior deltoid",
+      "images": [],
+      "videos": [],
+      "description": "Gentle posterior shoulder stretch. A safer alternative to the sleeper stretch for some clients.",
+      "execution": [
+        "Bring the arm horizontally across the body",
+        "Use the opposite hand to draw the arm toward the chest",
+        "Keep the shoulder down",
+        "Hold 30-45 seconds per side"
+      ],
+      "cues": [
+        "Shoulder stays relaxed and down",
+        "Breathe slowly",
+        "Feel the stretch in the back of the shoulder"
+      ],
+      "common_errors": [
+        "Shoulder hiking toward the ear",
+        "Torso rotation",
+        "Forcing the range"
+      ],
+      "progressions": [
+        "Basic -> Against a wall -> Add rotation"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__shoulder_gird"
+      ]
+    },
+    {
+      "id": "e__banded_pull_apart",
+      "name": "Banded Pull-Apart",
+      "target": "Mid/lower trapezius, rhomboids, external rotators",
+      "images": [],
+      "videos": [],
+      "description": "Scapular retractor and external rotator activation. Great pre-press warm-up.",
+      "execution": [
+        "Hold a band with arms straight in front",
+        "Pull the band apart by moving the arms to the sides",
+        "Squeeze the shoulder blades together at the end",
+        "Control the return",
+        "3-4 sets x 15-20 reps"
+      ],
+      "cues": [
+        "Arms stay straight",
+        "Scapulae squeeze at end range",
+        "Smooth tempo"
+      ],
+      "common_errors": [
+        "Bending the elbows",
+        "Shrugging",
+        "Using momentum"
+      ],
+      "progressions": [
+        "Light band -> Medium -> Heavy -> Pause -> Overhead pull-apart"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__rotator_cuff_weakness"
+      ]
+    },
+    {
+      "id": "e__prone_cobra",
+      "name": "Prone Cobra",
+      "target": "Cervical extensors, thoracic extensors, mid/lower trapezius",
+      "images": [],
+      "videos": [],
+      "description": "Global extension drill to counter kyphotic posture. Strengthens the upper posterior chain.",
+      "execution": [
+        "Prone with arms at the sides",
+        "Lift the chest with thoracic extension",
+        "Externally rotate the arms (thumbs up)",
+        "Retract scapulae and tuck the chin",
+        "Hold 10-15 seconds, 3 sets x 5-8 reps"
+      ],
+      "cues": [
+        "Extend from the thoracic spine, not the lumbar",
+        "Thumbs to the ceiling",
+        "Chin tucked"
+      ],
+      "common_errors": [
+        "Lumbar overextension",
+        "Looking up (cervical extension)",
+        "No external rotation"
+      ],
+      "progressions": [
+        "No hold -> With hold -> Arms in Y -> Light load"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__downward_dog",
+      "name": "Downward Dog",
+      "target": "Shoulders, hamstrings, calves",
+      "images": [
+        "images/exercises/fig_12_17_downward_dog.jpg"
+      ],
+      "videos": [],
+      "description": "Yoga-derived position for posterior chain length and shoulder opening.",
+      "execution": [
+        "From quadruped, lift hips up and back",
+        "Form an inverted V shape",
+        "Press hands into the floor",
+        "Heels reach toward the floor (not required to touch)"
+      ],
+      "cues": [
+        "Long spine, ribs down",
+        "Push the floor away",
+        "Relax the neck"
+      ],
+      "common_errors": [
+        "Rounding the back",
+        "Locked knees",
+        "Neck tension"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Short holds -> Longer holds -> Add calf pedal -> Flow"
+      ]
+    },
+    {
+      "id": "e__chest_opener",
+      "name": "Chest Opener",
+      "target": "Pectorales menor y mayor",
+      "images": [
+        "images/exercises/fig_13_16_chest_opener.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise chest opener to reduce rounded shoulders using gravity-assisted stretch.",
+      "execution": [
+        "Supine on a foam roller lengthwise",
+        "Arms at different angles (90, 135, 180 deg)",
+        "Let the arms fall toward the floor",
+        "Hold 60-90 seconds per position"
+      ],
+      "cues": [
+        "Fully relax",
+        "Let gravity do the work",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Tensing the shoulders",
+        "Too short a hold",
+        "Lumbar arching"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders"
+      ],
+      "progressions": [
+        "Short holds -> Longer holds -> Add breathing emphasis -> Add rotation"
+      ]
+    }
+  ],
+  "ankle_mobility_exercises": [
+    {
+      "id": "e__ankle_cars",
+      "name": "Ankle CARS (Controlled Articular Rotations)",
+      "target": "Ankle joint mobility",
+      "images": [],
+      "videos": [],
+      "description": "Controlled articular rotations to restore ankle mobility and control in all directions.",
+      "execution": [
+        "Seated with the leg supported or crossed",
+        "Draw slow, full circles with the foot",
+        "Maximize range without moving the knee",
+        "10 circles each direction per ankle"
+      ],
+      "cues": [
+        "Move only at the ankle",
+        "Slow and controlled",
+        "Largest circle you can control"
+      ],
+      "common_errors": [
+        "Knee or hip compensation",
+        "Tiny circles",
+        "Moving too fast"
+      ],
+      "progressions": [
+        "Seated -> Standing -> Add resistance"
+      ],
+      "reference": "Dr. Andreo Spina (FRC)",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__toe_yoga",
+      "name": "Toe Yoga",
+      "target": "Toe motor control, foot intrinsics",
+      "images": [],
+      "videos": [],
+      "description": "Toe dissociation drill to improve intrinsic foot control and arch function.",
+      "execution": [
+        "Barefoot, seated or standing",
+        "Lift the big toe while keeping the other toes down",
+        "Then lift the four toes while keeping the big toe down",
+        "Alternate with control",
+        "2-3 sets x 10-15 reps each pattern"
+      ],
+      "cues": [
+        "Isolate toe movement",
+        "No ankle movement",
+        "Be patient—it takes practice"
+      ],
+      "common_errors": [
+        "Moving the whole foot",
+        "Rushing",
+        "Tensing the entire body"
+      ],
+      "progressions": [
+        "Seated -> Standing -> Single leg -> During gait"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__overpronation"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis",
+        "c__shin_splints"
+      ]
+    },
+    {
+      "id": "e__big_toe_stretch",
+      "name": "Big Toe Stretch",
+      "target": "Hallux extension mobility (1st MTP), plantar fascia line",
+      "images": [],
+      "videos": [],
+      "description": "Mobility drill to improve big toe extension for gait and push-off. Useful when limited hallux extension contributes to compensatory pronation or reduced ankle mechanics.",
+      "execution": [
+        "Stand facing a wall or use a step. Place the big toe on the wall/step so it extends upward while the ball of the foot stays down.",
+        "Keep knee tracking over the 2nd toe and arch gently active.",
+        "Lean forward slightly to increase stretch at the big toe base.",
+        "Hold 20–40 seconds, 2–3 rounds per side."
+      ],
+      "cues": [
+        "Pressure through the ball of the foot, not collapsing the arch",
+        "Mild stretch, no sharp joint pain",
+        "Knee tracks over mid-foot"
+      ],
+      "common_errors": [
+        "Arch collapse / overpronation during the stretch",
+        "Rolling the ankle outward/inward to cheat",
+        "Forcing into painful joint end range"
+      ],
+      "progressions": [
+        "Short holds -> longer holds",
+        "Add gentle oscillations at end range",
+        "Progress to toe-off drills once ROM improves"
+      ],
+      "reference": "Corrective Exercise Toolkit (foot/ankle mobility)",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__overpronation"
+      ]
+    },
+    {
+      "id": "e__foot_inversion_stretch",
+      "name": "Foot Inversion Stretch",
+      "target": "Lateral ankle/foot structures, inversion mobility/control",
+      "images": [],
+      "videos": [],
+      "description": "Controlled inversion bias stretch to restore balanced foot motion when the system is stuck in pronation-dominant mechanics. Keep it gentle and controlled.",
+      "execution": [
+        "Seated: cross one ankle over the opposite knee.",
+        "Stabilize the lower leg with one hand.",
+        "With the other hand, gently guide the forefoot toward inversion (sole turns slightly inward).",
+        "Hold 15–30 seconds, 2–3 rounds per side.",
+        "Option: add very small oscillations near end range if pain-free."
+      ],
+      "cues": [
+        "Gentle, slow, no pinching",
+        "Move the foot, not the whole leg",
+        "Stay in a tolerable stretch zone"
+      ],
+      "common_errors": [
+        "Cranking into pain",
+        "Twisting the knee/hip instead of isolating the foot",
+        "Numbness/tingling (stop and reassess)"
+      ],
+      "progressions": [
+        "Static hold -> small oscillations -> integrate into short-foot + controlled pronation/supination drills"
+      ],
+      "reference": "Corrective Exercise Toolkit (foot mechanics)",
+      "pattern_ids": [
+        "p__overpronation",
+        "p__limited_ankle_dorsiflexion"
+      ]
+    },
+    {
+      "id": "e__wall_ankle_mob",
+      "name": "Wall Ankle Mobilization",
+      "target": "Ankle, dorsiflexors",
+      "images": [
+        "images/exercises/fig_13_35_wall_ankle_mob.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise wall ankle mobilization for dorsiflexion.",
+      "execution": [
+        "Foot about 4 inches from the wall",
+        "Drive knee toward the wall without lifting the heel",
+        "Repeat 10-15 reps each side"
+      ],
+      "cues": [
+        "Heel stays down",
+        "Knee tracks over the middle toe",
+        "Control the movement"
+      ],
+      "common_errors": [
+        "Heel lifting",
+        "Knee collapsing inward",
+        "Arch collapse"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion",
+        "p__squat_compensation"
+      ],
+      "progressions": [
+        "Short range -> Full range -> Add pause -> Add load"
+      ]
+    }
+  ],
+  "core_advanced_exercises": [
+    {
+      "id": "e__bear_position",
+      "name": "Bear Position / Crawl",
+      "target": "Integrated core, dynamic stabilization, coordination",
+      "images": [],
+      "videos": [],
+      "description": "Quadruped hover that challenges core stability and contralateral coordination. Base for crawling patterns.",
+      "execution": [
+        "Quadruped, then lift knees 2-3 inches off the floor",
+        "Maintain a neutral spine and braced core",
+        "For crawling, move opposite hand and foot together",
+        "Use small, controlled steps",
+        "3 sets x 20-30 seconds static or 10 steps each direction"
+      ],
+      "cues": [
+        "Knees hover just off the floor",
+        "Back stays flat",
+        "Quiet, controlled steps"
+      ],
+      "common_errors": [
+        "Hips too high",
+        "Losing neutral spine",
+        "Steps too large",
+        "Breath holding"
+      ],
+      "progressions": [
+        "Static hold -> Forward crawl -> Backward -> Lateral -> Add obstacles"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__scapular_dyskinesis"
+      ]
+    },
+    {
+      "id": "e__hard_style_plank",
+      "name": "Hard Style Plank",
+      "target": "Full core, glutes, quadriceps, lats",
+      "images": [
+        "images/exercises/fig_12_3_hard_style_plank.jpg"
+      ],
+      "videos": [],
+      "description": "High-tension plank variation to create full-body stiffness.",
+      "execution": [
+        "Forearm plank position",
+        "Squeeze glutes as hard as possible",
+        "Drive elbows toward the feet without moving",
+        "Brace quads and lats",
+        "Hold 10-20 seconds at max tension"
+      ],
+      "cues": [
+        "Total body tension",
+        "Brace as if you are about to be hit",
+        "Stay long through the spine"
+      ],
+      "common_errors": [
+        "Partial tension",
+        "Breath holding",
+        "Losing alignment"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Knees plank -> Standard -> Hard style bracing -> Weighted"
+      ]
+    }
+  ],
+  "additional_smr": [
+    {
+      "id": "e__glute_piriformis_smr",
+      "name": "Glute/Piriformis Foam Rolling",
+      "target": "Gluteus maximus, piriformis, external rotators",
+      "images": [],
+      "videos": [],
+      "description": "SMR for glutes and piriformis to reduce hip tension and prep for mobility work.",
+      "execution": [
+        "Sit on a foam roller and cross one ankle over the opposite knee (figure-4)",
+        "Lean toward the working glute",
+        "Roll slowly over the glute max",
+        "For piriformis, roll slightly deeper and more lateral",
+        "Pause 20-30 seconds on tender spots",
+        "2 minutes per side"
+      ],
+      "cues": [
+        "Tolerable pressure (6-7/10)",
+        "Lean into the working side",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Rolling too fast",
+        "Too much pressure causing tension",
+        "Not leaning enough"
+      ],
+      "progressions": [
+        "Foam roller -> Lacrosse ball for precision"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__hip_external_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__upper_trap_levator_smr",
+      "name": "Upper Trap/Levator SMR (Ball)",
+      "target": "Upper trapezius, levator scapulae",
+      "images": [],
+      "videos": [],
+      "description": "Ball release for upper trap and levator scapulae. Useful for chronic neck tension and FHP.",
+      "execution": [
+        "Stand against a wall with a ball on the upper trap",
+        "Lean into the wall to apply pressure",
+        "Move the ball toward the neck for levator",
+        "Hold 60-90 seconds on tender points",
+        "Optional: slowly raise/lower the arm"
+      ],
+      "cues": [
+        "Moderate pressure, not excessive",
+        "Relax the working-side shoulder",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Too much pressure on the neck",
+        "Shoulder tension",
+        "Ball too close to the cervical spine"
+      ],
+      "progressions": [
+        "Static -> Add arm motion -> Add cervical rotation"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__cervical_rotation_restriction"
+      ]
+    },
+    {
+      "id": "e__plantar_fascia_smr",
+      "name": "Plantar Fascia Ball Rolling",
+      "target": "Plantar fascia, foot intrinsics",
+      "images": [],
+      "videos": [],
+      "description": "Plantar fascia release with a ball. Helpful for plantar fasciitis and foot stiffness.",
+      "execution": [
+        "Standing or seated with a ball under the foot",
+        "Roll from heel to the ball of the foot",
+        "Apply moderate pressure with body weight",
+        "Pause 20-30 seconds on tender spots",
+        "2-3 minutes per foot"
+      ],
+      "cues": [
+        "Tolerable pressure, no sharp pain",
+        "Cover the entire sole",
+        "Spend extra time on the medial arch if needed"
+      ],
+      "common_errors": [
+        "Too much pressure causing pain",
+        "Rolling without pausing on tender points",
+        "Ignoring the heel area"
+      ],
+      "progressions": [
+        "Soft ball -> Hard ball -> Frozen ball"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__hamstring_smr",
+      "name": "Hamstring Foam Rolling",
+      "target": "Hamstrings (biceps femoris, semitendinosus, semimembranosus)",
+      "images": [],
+      "videos": [],
+      "description": "Hamstring SMR to reduce posterior chain stiffness and prep for mobility work.",
+      "execution": [
+        "Sit on a foam roller with hands behind for support",
+        "Roll from below the glutes to above the knees",
+        "Rotate the leg slightly in and out to target different fibers",
+        "Pause on tender spots",
+        "2-3 minutes per leg"
+      ],
+      "cues": [
+        "Lift glutes for more pressure",
+        "Rotate to cover all fibers",
+        "Breathe slowly"
+      ],
+      "common_errors": [
+        "Too little pressure",
+        "Rolling too fast",
+        "Skipping rotation"
+      ],
+      "progressions": [
+        "Both legs -> Single leg -> Lacrosse ball"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__anterior_pelvic_tilt"
+      ]
+    },
+    {
+      "id": "e__thoracic_spine_smr",
+      "name": "Thoracic Spine Foam Rolling",
+      "target": "Thoracic paraspinals, segmental mobility",
+      "images": [],
+      "videos": [],
+      "description": "Thoracic SMR targeting paraspinals. Different from extension work; focus is soft-tissue release.",
+      "execution": [
+        "Supine with foam roller perpendicular under the shoulder blades",
+        "Arms crossed or behind the head",
+        "Roll slowly from T1 to T12",
+        "Pause on stiff segments",
+        "2-3 minutes"
+      ],
+      "cues": [
+        "Keep hips slightly elevated",
+        "Avoid lumbar and cervical spine",
+        "Breathe into stiff areas"
+      ],
+      "common_errors": [
+        "Rolling over the lumbar spine",
+        "Cervical hyperextension",
+        "Rushing"
+      ],
+      "progressions": [
+        "Soft roller -> Hard roller -> Double lacrosse balls"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": []
+    },
+    {
+      "id": "e__posterior_shoulder_ball",
+      "name": "Posterior Shoulder Ball Release",
+      "target": "Posterior shoulder capsule and rotator cuff",
+      "images": [],
+      "videos": [],
+      "description": "Soft tissue release for the posterior shoulder using a ball.",
+      "execution": [
+        "Stand against a wall with a ball at the back of the shoulder",
+        "Slowly roll over tender spots",
+        "Hold pressure 20-30 seconds per spot",
+        "Breathe slowly and stay relaxed",
+        "Repeat 1-2 minutes per side"
+      ],
+      "cues": [
+        "Avoid the neck",
+        "Moderate pressure"
+      ],
+      "common_errors": [
+        "Too much pressure",
+        "Rolling too fast"
+      ],
+      "progressions": [
+        "Larger ball -> Smaller ball"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__shoulder_gird",
+        "p__rounded_shoulders",
+        "p__scapular_dyskinesis"
+      ],
+      "condition_ids": [
+        "c__rotator_cuff_tendinopathy"
+      ]
+    },
+    {
+      "id": "e__pec_ball_roll",
+      "name": "Pectoralis Ball Roll",
+      "target": "Pectoralis minor and major, pec fascia",
+      "images": [
+        "images/exercises/fig_13_15_pec_ball_roll.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise pec release with a ball for localized myofascial work.",
+      "execution": [
+        "Stand against a wall with a lacrosse ball on the pec",
+        "Find tender points and hold pressure 60-90 seconds",
+        "Add slow arm movement while maintaining pressure"
+      ],
+      "cues": [
+        "Tolerable pressure (6-7/10)",
+        "Relax the shoulder",
+        "Breathe slowly"
+      ],
+      "common_errors": [
+        "Excessive pressure",
+        "Not enough time on points",
+        "No arm movement"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__rounded_shoulders",
+        "p__upper_crossed_syndrome"
+      ],
+      "progressions": [
+        "Larger ball -> Lacrosse ball -> Longer holds -> Add arm movement"
+      ]
+    },
+    {
+      "id": "e__tfl_ball_roll",
+      "name": "TFL Ball Roll",
+      "target": "Tensor fasciae latae",
+      "images": [
+        "images/exercises/fig_13_29_tfl_ball_roll.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise TFL release with a lacrosse ball.",
+      "execution": [
+        "Side-lying with the ball on the TFL",
+        "TFL is just below the anterolateral iliac crest",
+        "Hold pressure on tender points",
+        "60-90 seconds per side"
+      ],
+      "cues": [
+        "Find the spot just below the hip bone",
+        "Tolerable pressure",
+        "Slow breathing"
+      ],
+      "common_errors": [
+        "Too far back (glute)",
+        "Excess pressure",
+        "Not enough time"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [],
+      "progressions": [
+        "Larger ball -> Lacrosse ball -> Longer holds -> Add movement"
+      ]
+    },
+    {
+      "id": "e__plantar_fascia_roll",
+      "name": "Plantar Fascia Ball Roll",
+      "target": "Plantar fascia",
+      "images": [
+        "images/exercises/fig_13_33_plantar_fascia_roll.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise plantar fascia roll with a small ball.",
+      "execution": [
+        "Standing or seated with a small ball under the foot",
+        "Roll from heel to forefoot",
+        "Apply moderate pressure on tender points",
+        "2-3 minutes per foot"
+      ],
+      "cues": [
+        "Cover the whole sole",
+        "Pause on tender spots",
+        "Flex toes over the ball"
+      ],
+      "common_errors": [
+        "Only rolling without pressure",
+        "Ignoring sensitive areas",
+        "Too short a duration"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion"
+      ],
+      "condition_ids": [
+        "c__plantar_fasciitis"
+      ],
+      "progressions": [
+        "Light pressure -> Firm pressure -> Longer duration -> Add toe extension"
+      ]
+    },
+    {
+      "id": "e__calf_ball_roll",
+      "name": "Calf Ball Roll",
+      "target": "Gastrocnemius, soleus",
+      "images": [
+        "images/exercises/fig_13_34_calf_ball_roll.jpg"
+      ],
+      "videos": [],
+      "description": "Corrective exercise calf release with a lacrosse ball.",
+      "execution": [
+        "Seated with calf on the ball",
+        "Cross the other leg to add pressure",
+        "Roll from Achilles to knee",
+        "Pause on tender spots"
+      ],
+      "cues": [
+        "Rotate to cover medial and lateral calf",
+        "Move the ankle over tender points",
+        "Tolerable pressure"
+      ],
+      "common_errors": [
+        "Missing parts of the calf",
+        "Too little pressure",
+        "Rushing"
+      ],
+      "reference": "ExRx.net",
+      "pattern_ids": [
+        "p__limited_ankle_dorsiflexion"
+      ],
+      "condition_ids": [
+        "c__achilles_tendinopathy"
+      ],
+      "progressions": [
+        "Light pressure -> Firm pressure -> Longer duration -> Add ankle pumps"
+      ]
+    }
+  ],
+  "elbow_forearm_exercises": [
+    {
+      "id": "e__wrist_extensor_isometric",
+      "name": "Wrist Extensor Isometric Hold",
+      "target": "Wrist Extensors",
+      "images": [],
+      "videos": [],
+      "description": "Isometric loading for wrist extensors to reduce pain and build tolerance.",
+      "execution": [
+        "Support forearm on a table with palm down",
+        "Extend the wrist into a neutral position against light resistance",
+        "Hold 30-45 seconds without pain flare",
+        "3-5 holds with 60 seconds rest"
+      ],
+      "cues": [
+        "Keep the elbow relaxed and forearm supported",
+        "Match load to pain tolerance"
+      ],
+      "common_errors": [
+        "Excessive wrist extension",
+        "Shrugging or gripping too hard"
+      ],
+      "progressions": [
+        "Increase load",
+        "Increase hold duration",
+        "Transition to eccentric loading"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__pain_with_grip",
+        "p__elbow_valgus_control"
+      ]
+    },
+    {
+      "id": "e__wrist_extensor_eccentric",
+      "name": "Wrist Extensor Eccentrics",
+      "target": "Wrist Extensors",
+      "images": [],
+      "videos": [],
+      "description": "Eccentric loading for wrist extensors to promote tendon adaptation.",
+      "execution": [
+        "Support forearm with palm down and hold a light dumbbell",
+        "Use the opposite hand to assist into wrist extension",
+        "Slowly lower into wrist flexion over 3-5 seconds",
+        "2-3 sets of 8-12 reps"
+      ],
+      "cues": [
+        "Control the lowering phase",
+        "Use minimal pain as a guide"
+      ],
+      "common_errors": [
+        "Fast lowering",
+        "Using the shoulder to lift"
+      ],
+      "progressions": [
+        "Increase load",
+        "Add concentric phase"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__pain_with_grip",
+        "p__elbow_valgus_control"
+      ]
+    },
+    {
+      "id": "e__forearm_extensor_stretch",
+      "name": "Forearm Extensor Stretch",
+      "target": "Wrist Extensors",
+      "images": [],
+      "videos": [],
+      "description": "Gentle stretch to reduce extensor tone and improve wrist flexion range.",
+      "execution": [
+        "Extend the elbow with palm down",
+        "Use the opposite hand to flex the wrist",
+        "Hold 20-30 seconds",
+        "2-3 repetitions"
+      ],
+      "cues": [
+        "Keep the shoulder relaxed",
+        "Avoid painful stretch intensity"
+      ],
+      "common_errors": [
+        "Overstretching",
+        "Bending the elbow"
+      ],
+      "progressions": [
+        "Increase hold duration"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_wrist_flexion"
+      ]
+    },
+    {
+      "id": "e__forearm_extensor_smr",
+      "name": "Forearm Extensor Soft Tissue Release",
+      "target": "Forearm Extensors",
+      "images": [],
+      "videos": [],
+      "description": "SMR to reduce extensor tightness and improve tissue mobility.",
+      "execution": [
+        "Place a ball under the extensor mass on the forearm",
+        "Apply gentle pressure while moving the wrist",
+        "Slowly scan tender areas",
+        "30-60 seconds per side"
+      ],
+      "cues": [
+        "Use tolerable pressure",
+        "Keep breathing relaxed"
+      ],
+      "common_errors": [
+        "Excess pressure",
+        "Rushing through the area"
+      ],
+      "progressions": [
+        "Increase time",
+        "Add gentle wrist motion"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_wrist_flexion"
+      ]
+    },
+    {
+      "id": "e__wrist_flexor_isometric",
+      "name": "Wrist Flexor Isometric Hold",
+      "target": "Wrist Flexors",
+      "images": [],
+      "videos": [],
+      "description": "Isometric loading for wrist flexors to reduce pain and build tolerance.",
+      "execution": [
+        "Support forearm on a table with palm up",
+        "Flex the wrist into a neutral position against light resistance",
+        "Hold 30-45 seconds without pain flare",
+        "3-5 holds with 60 seconds rest"
+      ],
+      "cues": [
+        "Keep the forearm supported",
+        "Match load to pain tolerance"
+      ],
+      "common_errors": [
+        "Excessive wrist flexion",
+        "Over-gripping"
+      ],
+      "progressions": [
+        "Increase load",
+        "Increase hold duration",
+        "Transition to eccentric loading"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__pain_with_grip",
+        "p__elbow_valgus_control"
+      ]
+    },
+    {
+      "id": "e__wrist_flexor_eccentric",
+      "name": "Wrist Flexor Eccentrics",
+      "target": "Wrist Flexors",
+      "images": [],
+      "videos": [],
+      "description": "Eccentric loading for wrist flexors to promote tendon adaptation.",
+      "execution": [
+        "Support forearm with palm up and hold a light dumbbell",
+        "Use the opposite hand to assist into wrist flexion",
+        "Slowly lower into wrist extension over 3-5 seconds",
+        "2-3 sets of 8-12 reps"
+      ],
+      "cues": [
+        "Control the lowering phase",
+        "Keep elbow stable"
+      ],
+      "common_errors": [
+        "Fast lowering",
+        "Using the shoulder to lift"
+      ],
+      "progressions": [
+        "Increase load",
+        "Add concentric phase"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__pain_with_grip",
+        "p__elbow_valgus_control"
+      ]
+    },
+    {
+      "id": "e__forearm_flexor_stretch",
+      "name": "Forearm Flexor Stretch",
+      "target": "Wrist Flexors",
+      "images": [],
+      "videos": [],
+      "description": "Gentle stretch to reduce flexor tone and improve wrist extension range.",
+      "execution": [
+        "Extend the elbow with palm up",
+        "Use the opposite hand to extend the wrist",
+        "Hold 20-30 seconds",
+        "2-3 repetitions"
+      ],
+      "cues": [
+        "Keep the shoulder relaxed",
+        "Avoid painful stretch intensity"
+      ],
+      "common_errors": [
+        "Overstretching",
+        "Bending the elbow"
+      ],
+      "progressions": [
+        "Increase hold duration"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_wrist_extension"
+      ]
+    },
+    {
+      "id": "e__forearm_flexor_smr",
+      "name": "Forearm Flexor Soft Tissue Release",
+      "target": "Forearm Flexors",
+      "images": [],
+      "videos": [],
+      "description": "SMR to reduce flexor tightness and improve tissue mobility.",
+      "execution": [
+        "Place a ball under the flexor mass on the forearm",
+        "Apply gentle pressure while moving the wrist",
+        "Slowly scan tender areas",
+        "30-60 seconds per side"
+      ],
+      "cues": [
+        "Use tolerable pressure",
+        "Keep breathing relaxed"
+      ],
+      "common_errors": [
+        "Excess pressure",
+        "Rushing through the area"
+      ],
+      "progressions": [
+        "Increase time",
+        "Add gentle wrist motion"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_wrist_extension"
+      ]
+    },
+    {
+      "id": "e__forearm_pronation_supination_arom",
+      "name": "Forearm Pronation/Supination AROM",
+      "target": "Forearm Rotators",
+      "images": [],
+      "videos": [],
+      "description": "Active range of motion drill to restore forearm rotation control.",
+      "execution": [
+        "Sit with elbow at 90 degrees and forearm supported",
+        "Rotate palm up to full supination, then palm down to full pronation",
+        "Move slowly through available range",
+        "2-3 sets of 8-12 reps"
+      ],
+      "cues": [
+        "Keep the elbow fixed",
+        "Move only through pain-free range"
+      ],
+      "common_errors": [
+        "Shoulder rotation substitution",
+        "Rushing through end ranges"
+      ],
+      "progressions": [
+        "Add light resistance",
+        "Increase range gradually"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_wrist_extension",
+        "p__limited_wrist_flexion",
+        "p__limited_forearm_pronation",
+        "p__limited_forearm_supination",
+        "p__elbow_valgus_control"
+      ]
+    },
+    {
+      "id": "e__forearm_pronation_stretch",
+      "name": "Forearm Pronation Stretch",
+      "target": "Forearm Supinators",
+      "images": [],
+      "videos": [],
+      "description": "Gentle stretch to improve pronation range by lengthening supinators.",
+      "execution": [
+        "Elbow at 90 degrees, forearm supported",
+        "Use the opposite hand to rotate the forearm into pronation",
+        "Hold 20-30 seconds",
+        "2-3 repetitions"
+      ],
+      "cues": [
+        "Avoid forcing end range",
+        "Keep the shoulder relaxed"
+      ],
+      "common_errors": [
+        "Overpressure at end range",
+        "Shoulder rotation compensation"
+      ],
+      "progressions": [
+        "Increase hold duration"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_forearm_pronation"
+      ]
+    },
+    {
+      "id": "e__forearm_supination_stretch",
+      "name": "Forearm Supination Stretch",
+      "target": "Forearm Pronators",
+      "images": [],
+      "videos": [],
+      "description": "Gentle stretch to improve supination range by lengthening pronators.",
+      "execution": [
+        "Elbow at 90 degrees, forearm supported",
+        "Use the opposite hand to rotate the forearm into supination",
+        "Hold 20-30 seconds",
+        "2-3 repetitions"
+      ],
+      "cues": [
+        "Move slowly into range",
+        "Avoid pain-provoking force"
+      ],
+      "common_errors": [
+        "Excessive elbow movement",
+        "Shoulder compensation"
+      ],
+      "progressions": [
+        "Increase hold duration"
+      ],
+      "reference": "",
+      "pattern_ids": [
+        "p__limited_forearm_supination"
+      ]
+    }
+  ]
+}
