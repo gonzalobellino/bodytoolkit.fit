@@ -1522,16 +1522,16 @@ export function PhotoAnalysis({ onBack }: PhotoAnalysisProps) {
                     </div>
                   </>
                 ) : (
-	                  <>
-	                    <canvas
-	                      ref={canvasRef}
-	                      onPointerDown={handlePointerDown}
-	                      onPointerMove={handlePointerMove}
-	                      onPointerUp={handlePointerUp}
-	                      onPointerLeave={handlePointerLeave}
-	                      className={`w-full h-full ${shouldCaptureTouch ? 'touch-none' : 'touch-pan-y'}`}
-	                      style={{ cursor: 'crosshair' }}
-	                    />
+                  <>
+                    <canvas
+                      ref={canvasRef}
+                      onPointerDown={handlePointerDown}
+                      onPointerMove={handlePointerMove}
+                      onPointerUp={handlePointerUp}
+                      onPointerLeave={handlePointerLeave}
+                      className={`w-full h-full ${shouldCaptureTouch ? 'touch-none' : 'touch-pan-y'}`}
+                      style={{ cursor: 'crosshair' }}
+                    />
 
                     <div className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 z-10 pointer-events-auto">
                       <div className="flex items-center gap-1 bg-white/90 backdrop-blur border border-slate-200 rounded-lg shadow-sm p-1">

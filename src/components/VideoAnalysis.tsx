@@ -3078,28 +3078,28 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
 
                     {/* Toolbars container - groups KeypointToolbar and ZoomToolbar */}
                     <div className="absolute bottom-4 right-4 z-10 pointer-events-auto flex flex-col items-end gap-2">
-	                      <div className="flex items-center gap-4">
-	                      {/* Keypoint Toolbar — visible whenever AI is active; keypoint-specific controls appear on selection */}
-	                      {aiAnalysisEnabled && (videoUrl !== null || cameraActive) && (
-	                        <div className="hidden sm:block">
-	                          <KeypointToolbar
-	                            selectedKeypoint={selectedKeypoint}
-	                            keypointDragMode={keypointDragMode}
-	                            onDragModeChange={setKeypointDragMode}
-	                            trailEnabled={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.enabled ?? false) : false}
-	                            trailColor={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.color ?? globalTrailConfig.color) : globalTrailConfig.color}
-	                            onTrailToggle={() => selectedKeypoint !== null && handleToggleTrailForKeypoint(selectedKeypoint)}
-	                            onTrailColorChange={(color) => selectedKeypoint !== null && handleChangeTrailColor(selectedKeypoint, color)}
-	                            showCenterOfMass={showCenterOfMass}
-	                            showBalancePoint={showBalancePoint}
-	                            onCenterOfMassChange={setShowCenterOfMass}
-	                            onBalancePointChange={setShowBalancePoint}
-	                            onClose={handleCloseKeypointMenu}
-	                            onResetKeypoint={selectedKeypoint !== null ? () => handleResetKeypointOffset(selectedKeypoint) : undefined}
-	                          />
-	                        </div>
-	                      )}
-	                      {/* Zoom Toolbar */}
+                      <div className="flex items-center gap-4">
+                      {/* Keypoint Toolbar — visible whenever AI is active; keypoint-specific controls appear on selection */}
+                      {aiAnalysisEnabled && (videoUrl !== null || cameraActive) && (
+                        <div className="hidden sm:block">
+                          <KeypointToolbar
+                            selectedKeypoint={selectedKeypoint}
+                            keypointDragMode={keypointDragMode}
+                            onDragModeChange={setKeypointDragMode}
+                            trailEnabled={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.enabled ?? false) : false}
+                            trailColor={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.color ?? globalTrailConfig.color) : globalTrailConfig.color}
+                            onTrailToggle={() => selectedKeypoint !== null && handleToggleTrailForKeypoint(selectedKeypoint)}
+                            onTrailColorChange={(color) => selectedKeypoint !== null && handleChangeTrailColor(selectedKeypoint, color)}
+                            showCenterOfMass={showCenterOfMass}
+                            showBalancePoint={showBalancePoint}
+                            onCenterOfMassChange={setShowCenterOfMass}
+                            onBalancePointChange={setShowBalancePoint}
+                            onClose={handleCloseKeypointMenu}
+                            onResetKeypoint={selectedKeypoint !== null ? () => handleResetKeypointOffset(selectedKeypoint) : undefined}
+                          />
+                        </div>
+                      )}
+                      {/* Zoom Toolbar */}
                       <div className={`bg-white/90 backdrop-blur border border-slate-200 rounded-lg shadow-sm p-1 ${isFullscreen && videoUrl && !cameraActive ? 'flex flex-col items-stretch gap-1 min-w-[320px]' : 'flex items-center gap-1'}`}>
                         {isFullscreen && videoUrl && !cameraActive && (
                           <div className="px-1 pt-1">
@@ -3207,14 +3207,14 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
                         )}
                         </div>
                       </div>
-	                    </div>
-	                    </div>
+                    </div>
+                    </div>
 	
-	                    {/* Floating tools (3-state): hidden → icons → expanded.
-	                       Mobile/tablet only (lg:hidden). Desktop uses the sidebar instead. */}
-	                    {!cameraActive && (
-	                      <div className={`lg:hidden absolute left-2 ${isFullscreen ? 'top-14' : 'top-4'} z-20 pointer-events-none`}>
-	                        {mobileToolbarMode === 'hidden' ? (
+                    {/* Floating tools (3-state): hidden → icons → expanded.
+                       Mobile/tablet only (lg:hidden). Desktop uses the sidebar instead. */}
+                    {!cameraActive && (
+                      <div className={`lg:hidden absolute left-2 ${isFullscreen ? 'top-14' : 'top-4'} z-20 pointer-events-none`}>
+                        {mobileToolbarMode === 'hidden' ? (
                           <button
                             type="button"
                             onClick={cycleMobileToolbarMode}
@@ -3511,295 +3511,295 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
                           </Button>
                         </div>
 
-	                        <div className="flex items-center gap-2">
-	                          <Sheet open={toolsDrawerOpen} onOpenChange={setToolsDrawerOpen}>
-	                            <SheetTrigger asChild>
-	                              <Button variant="outline" size="sm" className="h-8 px-3">
-	                                Tools
-	                              </Button>
-	                            </SheetTrigger>
-	                            <SheetContent side="bottom" className="max-h-[80vh] rounded-t-lg flex flex-col overflow-hidden">
-	                              <SheetHeader className="pb-2">
-	                                <div className="flex items-center justify-between gap-2">
-	                                  <SheetTitle>Tools</SheetTitle>
-	                                  <SheetClose asChild>
-	                                    <Button variant="ghost" size="sm" className="h-8 px-2">
-	                                      Close
-	                                    </Button>
-	                                  </SheetClose>
-	                                </div>
-	                              </SheetHeader>
+                        <div className="flex items-center gap-2">
+                          <Sheet open={toolsDrawerOpen} onOpenChange={setToolsDrawerOpen}>
+                            <SheetTrigger asChild>
+                              <Button variant="outline" size="sm" className="h-8 px-3">
+                                Tools
+                              </Button>
+                            </SheetTrigger>
+                            <SheetContent side="bottom" className="max-h-[80vh] rounded-t-lg flex flex-col overflow-hidden">
+                              <SheetHeader className="pb-2">
+                                <div className="flex items-center justify-between gap-2">
+                                  <SheetTitle>Tools</SheetTitle>
+                                  <SheetClose asChild>
+                                    <Button variant="ghost" size="sm" className="h-8 px-2">
+                                      Close
+                                    </Button>
+                                  </SheetClose>
+                                </div>
+                              </SheetHeader>
 	
-	                              <div className="px-4 pb-4 space-y-4 overflow-y-auto flex-1">
-	                                <div className="grid grid-cols-2 gap-2">
-	                                  <Button variant="outline" size="sm" onClick={jumpToStart} className="h-9">
-	                                    Start
-	                                  </Button>
-	                                  <Button variant="outline" size="sm" onClick={jumpToEnd} className="h-9">
-	                                    End
-	                                  </Button>
-	                                  <Button
-	                                    variant="outline"
-	                                    size="sm"
-	                                    onClick={toggleMute}
-	                                    className="h-9"
-	                                    title={isMuted ? 'Unmute' : 'Mute'}
-	                                  >
-	                                    {isMuted ? 'Unmute' : 'Mute'}
-	                                  </Button>
-	                                  <Button variant="outline" size="sm" onClick={resetVideo} className="h-9">
-	                                    New
-	                                  </Button>
-	                                </div>
+                              <div className="px-4 pb-4 space-y-4 overflow-y-auto flex-1">
+                                <div className="grid grid-cols-2 gap-2">
+                                  <Button variant="outline" size="sm" onClick={jumpToStart} className="h-9">
+                                    Start
+                                  </Button>
+                                  <Button variant="outline" size="sm" onClick={jumpToEnd} className="h-9">
+                                    End
+                                  </Button>
+                                  <Button
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={toggleMute}
+                                    className="h-9"
+                                    title={isMuted ? 'Unmute' : 'Mute'}
+                                  >
+                                    {isMuted ? 'Unmute' : 'Mute'}
+                                  </Button>
+                                  <Button variant="outline" size="sm" onClick={resetVideo} className="h-9">
+                                    New
+                                  </Button>
+                                </div>
 	
-	                                <div className="space-y-1">
-	                                  <Label className="text-xs text-slate-500">Speed</Label>
-	                                  <Select
-	                                    value={String(playbackRate)}
-	                                    onValueChange={(value) => setSpeed(Number(value))}
-	                                  >
-	                                    <SelectTrigger size="sm" className="h-9">
-	                                      <SelectValue />
-	                                    </SelectTrigger>
-	                                    <SelectContent>
-	                                      {speeds.map((s) => (
-	                                        <SelectItem key={s} value={String(s)}>
-	                                          {s}×
-	                                        </SelectItem>
-	                                      ))}
-	                                    </SelectContent>
-	                                  </Select>
-	                                </div>
+                                <div className="space-y-1">
+                                  <Label className="text-xs text-slate-500">Speed</Label>
+                                  <Select
+                                    value={String(playbackRate)}
+                                    onValueChange={(value) => setSpeed(Number(value))}
+                                  >
+                                    <SelectTrigger size="sm" className="h-9">
+                                      <SelectValue />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                      {speeds.map((s) => (
+                                        <SelectItem key={s} value={String(s)}>
+                                          {s}×
+                                        </SelectItem>
+                                      ))}
+                                    </SelectContent>
+                                  </Select>
+                                </div>
 	
-	                                <div className="space-y-2">
-	                                  <Label className="text-xs text-slate-500">Loop</Label>
-	                                  <div className="grid grid-cols-4 gap-2">
-	                                    <Button variant="outline" size="sm" onClick={setLoopStart} className="h-9">
-	                                      A
-	                                    </Button>
-	                                    <Button variant="outline" size="sm" onClick={setLoopEnd} className="h-9">
-	                                      B
-	                                    </Button>
-	                                    <Button
-	                                      variant={isLooping ? 'default' : 'outline'}
-	                                      size="sm"
-	                                      onClick={() => setIsLooping(!isLooping)}
-	                                      className="h-9"
-	                                      disabled={loopPoints.start === null || loopPoints.end === null}
-	                                    >
-	                                      Loop
-	                                    </Button>
-	                                    <Button
-	                                      variant="outline"
-	                                      size="sm"
-	                                      onClick={clearLoop}
-	                                      className="h-9"
-	                                      disabled={loopPoints.start === null && loopPoints.end === null}
-	                                    >
-	                                      Clear
-	                                    </Button>
-	                                  </div>
-	                                </div>
+                                <div className="space-y-2">
+                                  <Label className="text-xs text-slate-500">Loop</Label>
+                                  <div className="grid grid-cols-4 gap-2">
+                                    <Button variant="outline" size="sm" onClick={setLoopStart} className="h-9">
+                                      A
+                                    </Button>
+                                    <Button variant="outline" size="sm" onClick={setLoopEnd} className="h-9">
+                                      B
+                                    </Button>
+                                    <Button
+                                      variant={isLooping ? 'default' : 'outline'}
+                                      size="sm"
+                                      onClick={() => setIsLooping(!isLooping)}
+                                      className="h-9"
+                                      disabled={loopPoints.start === null || loopPoints.end === null}
+                                    >
+                                      Loop
+                                    </Button>
+                                    <Button
+                                      variant="outline"
+                                      size="sm"
+                                      onClick={clearLoop}
+                                      className="h-9"
+                                      disabled={loopPoints.start === null && loopPoints.end === null}
+                                    >
+                                      Clear
+                                    </Button>
+                                  </div>
+                                </div>
 	
-	                                <div className="space-y-2">
-	                                  <div className="flex items-center justify-between">
-	                                    <Label className="text-xs text-slate-500">Markers</Label>
-	                                    <Button variant="outline" size="sm" onClick={addMarker} className="h-8">
-	                                      Add
-	                                    </Button>
-	                                  </div>
-	                                  {markers.length === 0 ? (
-	                                    <div className="text-xs text-slate-500">No markers yet.</div>
-	                                  ) : (
-	                                    <div className="flex flex-wrap gap-2">
-	                                      {[...markers]
-	                                        .sort((a, b) => a.time - b.time)
-	                                        .map((marker) => (
-	                                          <div
-	                                            key={marker.id}
-	                                            className="flex items-center gap-2 px-2 py-1 bg-slate-50 rounded-lg"
-	                                          >
-	                                            <div
-	                                              className="w-2 h-2 rounded-full"
-	                                              style={{ backgroundColor: marker.color }}
-	                                            />
-	                                            <button
-	                                              onClick={() => jumpToMarker(marker.time)}
-	                                              className="text-xs text-slate-700 tabular-nums"
-	                                            >
-	                                              {formatTime(marker.time)}
-	                                            </button>
-	                                            <button
-	                                              onClick={() => deleteMarker(marker.id)}
-	                                              className="text-red-500 hover:text-red-600"
-	                                              title="Delete marker"
-	                                            >
-	                                              <X className="w-3 h-3" />
-	                                            </button>
-	                                          </div>
-	                                        ))}
-	                                    </div>
-	                                  )}
-	                                </div>
+                                <div className="space-y-2">
+                                  <div className="flex items-center justify-between">
+                                    <Label className="text-xs text-slate-500">Markers</Label>
+                                    <Button variant="outline" size="sm" onClick={addMarker} className="h-8">
+                                      Add
+                                    </Button>
+                                  </div>
+                                  {markers.length === 0 ? (
+                                    <div className="text-xs text-slate-500">No markers yet.</div>
+                                  ) : (
+                                    <div className="flex flex-wrap gap-2">
+                                      {[...markers]
+                                        .sort((a, b) => a.time - b.time)
+                                        .map((marker) => (
+                                          <div
+                                            key={marker.id}
+                                            className="flex items-center gap-2 px-2 py-1 bg-slate-50 rounded-lg"
+                                          >
+                                            <div
+                                              className="w-2 h-2 rounded-full"
+                                              style={{ backgroundColor: marker.color }}
+                                            />
+                                            <button
+                                              onClick={() => jumpToMarker(marker.time)}
+                                              className="text-xs text-slate-700 tabular-nums"
+                                            >
+                                              {formatTime(marker.time)}
+                                            </button>
+                                            <button
+                                              onClick={() => deleteMarker(marker.id)}
+                                              className="text-red-500 hover:text-red-600"
+                                              title="Delete marker"
+                                            >
+                                              <X className="w-3 h-3" />
+                                            </button>
+                                          </div>
+                                        ))}
+                                    </div>
+                                  )}
+                                </div>
 	
-	                                <div className="grid grid-cols-2 gap-2">
-	                                  <Button variant="outline" size="sm" onClick={handleExport} className="h-9">
-	                                    Export
-	                                  </Button>
-	                                  <Button variant="outline" size="sm" onClick={handleShare} className="h-9">
-	                                    Share
-	                                  </Button>
-	                                </div>
-	                              </div>
-	                            </SheetContent>
-	                          </Sheet>
+                                <div className="grid grid-cols-2 gap-2">
+                                  <Button variant="outline" size="sm" onClick={handleExport} className="h-9">
+                                    Export
+                                  </Button>
+                                  <Button variant="outline" size="sm" onClick={handleShare} className="h-9">
+                                    Share
+                                  </Button>
+                                </div>
+                              </div>
+                            </SheetContent>
+                          </Sheet>
 
-	                          <Sheet open={aiDrawerOpen} onOpenChange={setAiDrawerOpen}>
-	                            <SheetTrigger asChild>
-	                              <Button
-	                                variant="outline"
-	                                size="sm"
-	                                className="relative h-8 px-3 bg-amber-50 border-amber-200 text-amber-900 hover:bg-amber-100"
-	                                title="AI Analysis"
-	                              >
-	                                <Brain className="w-4 h-4 mr-2" />
-	                                AI
-	                                <span className="absolute -top-1 -right-1 pointer-events-none">
-	                                  <PremiumBadge variant="icon-only" />
-	                                </span>
-	                              </Button>
-	                            </SheetTrigger>
-	                            <SheetContent side="bottom" className="max-h-[80vh] rounded-t-lg flex flex-col overflow-hidden">
-	                              <SheetHeader className="pb-2">
-	                                <div className="flex items-center justify-between gap-2">
-	                                  <SheetTitle>AI Analysis</SheetTitle>
-	                                  <SheetClose asChild>
-	                                    <Button variant="ghost" size="sm" className="h-8 px-2">
-	                                      Close
-	                                    </Button>
-	                                  </SheetClose>
-	                                </div>
-	                              </SheetHeader>
+                          <Sheet open={aiDrawerOpen} onOpenChange={setAiDrawerOpen}>
+                            <SheetTrigger asChild>
+                              <Button
+                                variant="outline"
+                                size="sm"
+                                className="relative h-8 px-3 bg-amber-50 border-amber-200 text-amber-900 hover:bg-amber-100"
+                                title="AI Analysis"
+                              >
+                                <Brain className="w-4 h-4 mr-2" />
+                                AI
+                                <span className="absolute -top-1 -right-1 pointer-events-none">
+                                  <PremiumBadge variant="icon-only" />
+                                </span>
+                              </Button>
+                            </SheetTrigger>
+                            <SheetContent side="bottom" className="max-h-[80vh] rounded-t-lg flex flex-col overflow-hidden">
+                              <SheetHeader className="pb-2">
+                                <div className="flex items-center justify-between gap-2">
+                                  <SheetTitle>AI Analysis</SheetTitle>
+                                  <SheetClose asChild>
+                                    <Button variant="ghost" size="sm" className="h-8 px-2">
+                                      Close
+                                    </Button>
+                                  </SheetClose>
+                                </div>
+                              </SheetHeader>
 
-	                              <div className="px-4 pb-4 space-y-4 overflow-y-auto flex-1">
-	                                <div className="flex items-center justify-between gap-3">
-	                                  <div className="min-w-0">
-	                                    <div className="text-sm font-medium text-slate-900">Enable AI</div>
-	                                    <div className="text-xs text-slate-500 truncate">Pose detection overlays</div>
-	                                  </div>
-	                                  <div className="relative flex items-center">
-	                                    <Switch checked={aiAnalysisEnabled} onCheckedChange={handleToggleAiAnalysis} />
-	                                    <span className="absolute -top-1 -right-1 pointer-events-none">
-	                                      <PremiumBadge variant="icon-only" />
-	                                    </span>
-	                                  </div>
-	                                </div>
+                              <div className="px-4 pb-4 space-y-4 overflow-y-auto flex-1">
+                                <div className="flex items-center justify-between gap-3">
+                                  <div className="min-w-0">
+                                    <div className="text-sm font-medium text-slate-900">Enable AI</div>
+                                    <div className="text-xs text-slate-500 truncate">Pose detection overlays</div>
+                                  </div>
+                                  <div className="relative flex items-center">
+                                    <Switch checked={aiAnalysisEnabled} onCheckedChange={handleToggleAiAnalysis} />
+                                    <span className="absolute -top-1 -right-1 pointer-events-none">
+                                      <PremiumBadge variant="icon-only" />
+                                    </span>
+                                  </div>
+                                </div>
 
-	                                <div className="space-y-2">
-	                                  <Label className="text-xs text-slate-500">Model</Label>
-	                                  <div className="grid grid-cols-2 gap-2">
-	                                    <Button
-	                                      variant={modelType === 'blazepose' ? 'default' : 'outline'}
-	                                      size="sm"
-	                                      className="h-9"
-	                                      disabled={!aiAnalysisEnabled}
-	                                      onClick={() => handleSelectModelType('blazepose')}
-	                                    >
-	                                      BlazePose
-	                                    </Button>
-	                                    <Button
-	                                      variant={modelType === 'movenet' ? 'default' : 'outline'}
-	                                      size="sm"
-	                                      className="h-9"
-	                                      disabled={!aiAnalysisEnabled}
-	                                      onClick={() => handleSelectModelType('movenet')}
-	                                    >
-	                                      MoveNet
-	                                    </Button>
-	                                  </div>
-	                                </div>
+                                <div className="space-y-2">
+                                  <Label className="text-xs text-slate-500">Model</Label>
+                                  <div className="grid grid-cols-2 gap-2">
+                                    <Button
+                                      variant={modelType === 'blazepose' ? 'default' : 'outline'}
+                                      size="sm"
+                                      className="h-9"
+                                      disabled={!aiAnalysisEnabled}
+                                      onClick={() => handleSelectModelType('blazepose')}
+                                    >
+                                      BlazePose
+                                    </Button>
+                                    <Button
+                                      variant={modelType === 'movenet' ? 'default' : 'outline'}
+                                      size="sm"
+                                      className="h-9"
+                                      disabled={!aiAnalysisEnabled}
+                                      onClick={() => handleSelectModelType('movenet')}
+                                    >
+                                      MoveNet
+                                    </Button>
+                                  </div>
+                                </div>
 
-	                                <div className="space-y-3">
-	                                  <Label className="text-xs text-slate-500">Keypoints</Label>
+                                <div className="space-y-3">
+                                  <Label className="text-xs text-slate-500">Keypoints</Label>
 
-	                                  <div className="flex items-center justify-between gap-3">
-	                                    <div className="text-sm text-slate-900">Drag mode</div>
-	                                    <Switch checked={keypointDragMode} onCheckedChange={setKeypointDragMode} disabled={!aiAnalysisEnabled} />
-	                                  </div>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="text-sm text-slate-900">Drag mode</div>
+                                    <Switch checked={keypointDragMode} onCheckedChange={setKeypointDragMode} disabled={!aiAnalysisEnabled} />
+                                  </div>
 
-	                                  <div className="flex items-center justify-between gap-3">
-	                                    <div className="text-sm text-slate-900">Trail</div>
-	                                    <Switch
-	                                      checked={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.enabled ?? false) : false}
-	                                      onCheckedChange={() => selectedKeypoint !== null && handleToggleTrailForKeypoint(selectedKeypoint)}
-	                                      disabled={!aiAnalysisEnabled || selectedKeypoint === null}
-	                                    />
-	                                  </div>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="text-sm text-slate-900">Trail</div>
+                                    <Switch
+                                      checked={selectedKeypoint !== null ? (trailConfigs[selectedKeypoint]?.enabled ?? false) : false}
+                                      onCheckedChange={() => selectedKeypoint !== null && handleToggleTrailForKeypoint(selectedKeypoint)}
+                                      disabled={!aiAnalysisEnabled || selectedKeypoint === null}
+                                    />
+                                  </div>
 
-	                                  {selectedKeypoint !== null && (trailConfigs[selectedKeypoint]?.enabled ?? false) && (
-	                                    <div className="flex flex-wrap gap-2">
-	                                      {['#ffff00', '#00ff00', '#ff00ff', '#00ffff', '#ff0000', '#0000ff'].map((color) => (
-	                                        <button
-	                                          key={color}
-	                                          type="button"
-	                                          onClick={() => handleChangeTrailColor(selectedKeypoint, color)}
-	                                          className={`h-8 w-8 rounded-md border ${
-	                                            (trailConfigs[selectedKeypoint]?.color ?? globalTrailConfig.color) === color
-	                                              ? 'border-slate-900'
-	                                              : 'border-slate-200'
-	                                          }`}
-	                                          style={{ backgroundColor: color }}
-	                                          title={color}
-	                                        />
-	                                      ))}
-	                                    </div>
-	                                  )}
+                                  {selectedKeypoint !== null && (trailConfigs[selectedKeypoint]?.enabled ?? false) && (
+                                    <div className="flex flex-wrap gap-2">
+                                      {['#ffff00', '#00ff00', '#ff00ff', '#00ffff', '#ff0000', '#0000ff'].map((color) => (
+                                        <button
+                                          key={color}
+                                          type="button"
+                                          onClick={() => handleChangeTrailColor(selectedKeypoint, color)}
+                                          className={`h-8 w-8 rounded-md border ${
+                                            (trailConfigs[selectedKeypoint]?.color ?? globalTrailConfig.color) === color
+                                              ? 'border-slate-900'
+                                              : 'border-slate-200'
+                                          }`}
+                                          style={{ backgroundColor: color }}
+                                          title={color}
+                                        />
+                                      ))}
+                                    </div>
+                                  )}
 
-	                                  <div className="flex items-center justify-between gap-3">
-	                                    <div className="text-sm text-slate-900">COM</div>
-	                                    <Switch checked={showCenterOfMass} onCheckedChange={setShowCenterOfMass} disabled={!aiAnalysisEnabled} />
-	                                  </div>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="text-sm text-slate-900">COM</div>
+                                    <Switch checked={showCenterOfMass} onCheckedChange={setShowCenterOfMass} disabled={!aiAnalysisEnabled} />
+                                  </div>
 
-	                                  <div className="flex items-center justify-between gap-3">
-	                                    <div className="text-sm text-slate-900">BOS</div>
-	                                    <Switch checked={showBalancePoint} onCheckedChange={setShowBalancePoint} disabled={!aiAnalysisEnabled} />
-	                                  </div>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="text-sm text-slate-900">BOS</div>
+                                    <Switch checked={showBalancePoint} onCheckedChange={setShowBalancePoint} disabled={!aiAnalysisEnabled} />
+                                  </div>
 
-	                                  <div className="flex items-center justify-between gap-3">
-	                                    <div className="text-sm text-slate-900">Joint Angles</div>
-	                                    <Switch checked={showJointAngles} onCheckedChange={setShowJointAngles} disabled={!aiAnalysisEnabled} />
-	                                  </div>
+                                  <div className="flex items-center justify-between gap-3">
+                                    <div className="text-sm text-slate-900">Joint Angles</div>
+                                    <Switch checked={showJointAngles} onCheckedChange={setShowJointAngles} disabled={!aiAnalysisEnabled} />
+                                  </div>
 
-	                                  {selectedKeypoint !== null ? (
-	                                    <div className="grid grid-cols-2 gap-2">
-	                                      <Button
-	                                        variant="outline"
-	                                        size="sm"
-	                                        className="h-9"
-	                                        disabled={!aiAnalysisEnabled}
-	                                        onClick={() => handleResetKeypointOffset(selectedKeypoint)}
-	                                      >
-	                                        Reset keypoint
-	                                      </Button>
-	                                      <Button
-	                                        variant="outline"
-	                                        size="sm"
-	                                        className="h-9"
-	                                        onClick={() => setSelectedKeypoint(null)}
-	                                      >
-	                                        Deselect
-	                                      </Button>
-	                                    </div>
-	                                  ) : (
-	                                    <div className="text-xs text-slate-500">
-	                                      Select a keypoint on the video to enable trails and reset.
-	                                    </div>
-	                                  )}
-	                                </div>
-	                              </div>
-	                            </SheetContent>
-	                          </Sheet>
-	                        </div>
+                                  {selectedKeypoint !== null ? (
+                                    <div className="grid grid-cols-2 gap-2">
+                                      <Button
+                                        variant="outline"
+                                        size="sm"
+                                        className="h-9"
+                                        disabled={!aiAnalysisEnabled}
+                                        onClick={() => handleResetKeypointOffset(selectedKeypoint)}
+                                      >
+                                        Reset keypoint
+                                      </Button>
+                                      <Button
+                                        variant="outline"
+                                        size="sm"
+                                        className="h-9"
+                                        onClick={() => setSelectedKeypoint(null)}
+                                      >
+                                        Deselect
+                                      </Button>
+                                    </div>
+                                  ) : (
+                                    <div className="text-xs text-slate-500">
+                                      Select a keypoint on the video to enable trails and reset.
+                                    </div>
+                                  )}
+                                </div>
+                              </div>
+                            </SheetContent>
+                          </Sheet>
+                        </div>
                       </div>
                     </div>
 
@@ -3922,8 +3922,8 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
                       </div>
 
 	
-	                  </>
-	                )}
+                  </>
+                )}
 
                 {showTuningPanel && !isFullscreen && (
                   <div className="hidden sm:block bg-white rounded-xl border border-slate-200 p-4 space-y-4">
