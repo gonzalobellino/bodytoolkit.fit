@@ -1,23 +1,24 @@
 # Data Specification - Corrective Exercise Toolkit
 
 ## Overview
-All business data in the application is stored in JSON files located in `app/public/data/`. This specification defines the structure, relationships, and validation rules for all data types.
+All business data in the application is stored in JSON files located in `public/data/`. Quiz question text is not stored in JSON; `src/utils/quizQuestionGenerator.ts` builds it from those catalogs. This specification defines the structure, relationships, and validation rules for all data types.
 
 ## Data File Locations
 
-All data files are located in `app/public/data/`:
+All data files are located in `public/data/`:
 - `patterns.json` - Movement dysfunction patterns
 - `assessments.json` - Assessment protocols and tests
 - `exercises.json` - Exercise library (grouped by category)
 - `conditions.json` - Pathological conditions
 - `clinical-cases.json` - Clinical case studies
-- `quizQuestions.json` - Quiz question bank (grouped by topic)
-- `quizTopics.json` - Quiz metadata
+- `quizTopics.json` - Quiz topic metadata (question text is generated, not stored)
 - `glossary.json` - Glossary terms
 - `client-questionnaire.json` - Client intake questionnaire
 - `physical-activity-readiness.json` - PAR-Q questionnaire
 - `lefs.json` - Lower Extremity Functional Scale
 - `uefi.json` - Upper Extremity Functional Index
+- `muscleCharts.json` - Muscle anatomy used by quiz generation
+- `movement-analysis-*.json` - Send-by-link movement analysis forms
 
 ## ID Naming Convention
 
@@ -407,8 +408,8 @@ interface ClinicalCase {
 
 ### 6. Quiz Question
 
-**File**: `quizQuestions.json`  
-**Type**: `QuizQuestionsByTopic` (object with topic IDs as keys)  
+**File**: none. `src/utils/quizQuestionGenerator.ts` builds questions at runtime from patterns, assessments, exercises, and muscle charts. `loadQuizQuestions()` in `src/utils/dataLoader.ts` returns `{}` and is kept only for compatibility.  
+**Type**: `QuizQuestionsByTopic` (in-memory shape, not a JSON file)  
 **Purpose**: Quiz questions organized by topic
 
 #### Schema
@@ -417,7 +418,8 @@ interface QuizQuestion {
   id: string;                    // Required: Unique ID
   question: string;              // Required: Question text
   options: string[];            // Required: Array of answer options
-  correct: number;              // Required: Index of correct answer (0-based)
+  type?: QuizQuestionType;       // Optional: Generated question category
+  correct: number | number[];   // Required: One or more 0-based answer indices
   explanation: string;         // Required: Explanation of correct answer
 }
 
@@ -427,9 +429,9 @@ interface QuizQuestionsByTopic {
 ```
 
 #### Validation Rules
-- `correct` must be a valid index in `options` array
+- Every index in `correct` must be valid for `options`
 - `options` must have at least 2 options
-- All topic IDs must exist in `quizTopics.json`
+- Topic ids used by the generator come from `quizTopics.json` and from the catalogs, not from a question bank file
 
 #### Example
 ```json
@@ -460,17 +462,21 @@ interface QuizQuestionsByTopic {
 #### Schema
 ```typescript
 interface QuizTopic {
-  id: string;                   // Required: Topic ID (matches key in quizQuestions)
+  id: string;                   // Required: Topic ID
   title: string;                // Required: Topic title
-  questions: number;            // Required: Number of questions
+  questionCount: number;        // Required: Requested number of generated questions
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';  // Required
   timeEstimate: string;         // Required: e.g., "10-15 min"
+  knowledgeBase: string;        // Required: Generator source, e.g. "patterns.json"
+  questionTypes: QuizQuestionType[]; // Required: Generator categories
 }
 ```
 
 #### Validation Rules
-- `id` must match a key in `quizQuestions.json`
-- `questions` should match actual question count
+- `id` identifies the topic in `quizTopics.json`
+- `questionCount` is passed to the generator and shown in the UI
+- `knowledgeBase` must name a source handled by `generateQuizQuestions()`
+- `questionTypes` must be nonempty and contain only supported `QuizQuestionType` values
 
 ### 8. Glossary
 
@@ -591,6 +597,8 @@ When editing data, verify:
 - [ ] JSON is valid (syntax check)
 - [ ] TypeScript types match JSON structure
 
+`npm run check:data` enforces catalog shape, ID uniqueness, reference existence, quiz topic metadata, and bilingual form text in CI. It reports existing exercise-to-pattern asymmetry without failing until the catalog is curated.
+
 ## Data Loading
 
 ### Loading Functions
@@ -601,7 +609,7 @@ All data is loaded via `src/utils/dataLoader.ts`:
 - `loadExercises()` → `ExercisesByCategory`
 - `loadConditions()` → `Condition[]`
 - `loadClinicalCases()` → `ClinicalCase[]`
-- `loadQuizQuestions()` → `QuizQuestionsByTopic`
+- `loadQuizQuestions()` → `{}` (deprecated; questions come from `quizQuestionGenerator.ts`)
 - `loadQuizTopics()` → `QuizTopic[]`
 - `loadGlossary()` → `GlossaryTerm`
 - `loadAllQuestionnaires()` → `Record<string, Questionnaire>`
@@ -664,5 +672,5 @@ All data is loaded via `src/utils/dataLoader.ts`:
 - TypeScript types: `src/types/index.ts`
 - Data loader: `src/utils/dataLoader.ts`
 - Architecture spec: `docs/ARCHITECTURE_SPEC.md`
-- Cursor rules: `.cursorrules`
+- Cursor rules: `.cursor/rules/`
 

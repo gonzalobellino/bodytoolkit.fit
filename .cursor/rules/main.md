@@ -1,23 +1,8 @@
 # Cursor Rules for Corrective Exercise Toolkit
 
-## Project Overview
-- **Type**: Progressive Web App (PWA) for Corrective Exercise Toolkit
-- **Stack**: React 19 + TypeScript + Tailwind CSS v4
-- **Architecture**: Fully client-side, data-driven from JSON files
-- **Primary Entry**: `src/App.tsx` with modular React components
-- **IMPORTANT**: React 19 is required for security. Never downgrade to React 18.
+## Architecture
 
-## Repository Structure
-- `src/` - React TypeScript source code
-  - `components/` - React components (HomePage, LearnSection, PracticeSection, FieldToolsSection, etc.)
-  - `hooks/` - Custom React hooks (useVideoPlayer, useVideoRecording, useCanvasDrawing)
-  - `types/` - TypeScript type definitions
-  - `utils/` - Utility functions (dataLoader.ts)
-- `public/data/` - JSON data files (patterns, assessments, exercises, conditions, etc.)
-- `dist/` - Built production files
-- `conf/certs/` - SSL certs for dev HTTPS (optional)
-- `docs/` - Documentation and specifications
-- `rules/` - Legacy copilot rules (reference only)
+Do not restate stack, repo layout, or the service worker here. The normative description is [`docs/ARCHITECTURE_SPEC.md`](../../docs/ARCHITECTURE_SPEC.md). Browser analysis and catalog logic are client-side; `api/` contains serverless email handlers. React 19 is required. Never downgrade to React 18.
 
 ## Security Requirements
 
@@ -38,7 +23,7 @@
 ## Core Development Principles
 
 ### 1. Separation of Concerns
-- **Data Layer**: All business data lives in JSON files in `app/public/data/`
+- **Data Layer**: All business data lives in JSON files in `public/data/`
 - **Logic Layer**: Business logic in reusable modules/services/hooks
 - **Presentation Layer**: React components only render data and handle user interactions
 - **NEVER** define business data directly in components or view code
@@ -162,7 +147,7 @@
 
 ### Before Implementing
 1. **Check Existing Architecture**: Review similar features in the codebase
-2. **Review Type Definitions**: Ensure types exist in `app/src/types/index.ts`
+2. **Review Type Definitions**: Ensure types exist in `src/types/index.ts`
 3. **Plan Data Structure**: Determine if new JSON files or fields are needed
 4. **Consider Reusability**: Can existing components/hooks be reused?
 

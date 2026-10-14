@@ -5,7 +5,7 @@ Thank you for your interest in the Corrective Exercise Toolkit.
 ## Spec-driven workflow
 
 1. Read the relevant spec in [`docs/`](docs/README.md) before changing behavior.
-2. For new features or UX changes, update the spec (or add a short ADR under `docs/adr/`) in the same pull request when practical.
+2. For behavior changes, update the relevant spec in the same pull request. Add an ADR under `docs/adr/` for a lasting architectural decision.
 3. Keep user-facing UI copy in **English** unless the spec defines bilingual form content.
 
 ## Development
@@ -14,6 +14,8 @@ Thank you for your interest in the Corrective Exercise Toolkit.
 npm install
 npm run dev
 npm run build
+npm run check:specs
+npm run check:data
 npm run lint
 ```
 

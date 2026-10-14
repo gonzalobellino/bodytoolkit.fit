@@ -919,7 +919,13 @@
     {
       "id": "e__plank_roll",
       "name": "Plank Roll",
+      "target": "Trunk stability and scapular control",
       "description": "Anti-rotation plank variation that challenges trunk stability while controlling scapular position.",
+      "execution": [
+        "Begin in a stable plank position",
+        "Rotate slowly while keeping the trunk and pelvis controlled",
+        "Return to the starting position and repeat on the other side"
+      ],
       "cues": [
         "Maintain a neutral spine and steady scapular position",
         "Rotate slowly without shifting the hips",
@@ -929,6 +935,10 @@
         "Add band resistance",
         "Increase time under tension",
         "Use a narrower base of support"
+      ],
+      "common_errors": [
+        "Shifting the hips while rotating",
+        "Losing a neutral trunk position"
       ],
       "reference": "Anti-rotation plank; core stability. McGill SM. Low Back Disorders. Human Kinetics.",
       "pattern_ids": [
@@ -1359,7 +1369,13 @@
     {
       "id": "e__reverse_goblet_lunge_band",
       "name": "Reverse Goblet Lunge with Band",
+      "target": "Hip and trunk control",
       "description": "Reverse lunge with a goblet hold and band resistance to reinforce trunk stability and hip control.",
+      "execution": [
+        "Hold a weight in a goblet position and maintain band tension",
+        "Step backward into a controlled lunge",
+        "Return to standing and repeat on the other side"
+      ],
       "cues": [
         "Keep torso tall and ribs stacked over pelvis",
         "Step back under control and keep front knee tracking",
@@ -1369,6 +1385,10 @@
         "Increase load",
         "Add tempo or pause at the bottom",
         "Use a narrower stance"
+      ],
+      "common_errors": [
+        "Losing band tension",
+        "Allowing the front knee to drift out of alignment"
       ],
       "reference": "Lunge with anterior load and band; trunk and hip control. Cook G. Movement: Functional Movement Systems. 2011."
     },

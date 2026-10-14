@@ -10,7 +10,9 @@
     "dev": "vite",
     "build": "vite build && node scripts/generate-all-pages.js",
     "preview": "vite preview",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint . --ext .ts,.tsx",
+    "check:specs": "node scripts/check-spec-paths.mjs",
+    "check:data": "node scripts/check-data.mjs"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.3",

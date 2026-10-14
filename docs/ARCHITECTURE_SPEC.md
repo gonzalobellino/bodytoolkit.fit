@@ -1,7 +1,7 @@
 # Architecture Specification - Corrective Exercise Toolkit
 
 ## Overview
-The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 19, TypeScript, and Tailwind CSS. **Core product logic runs in the browser** (video/photo analysis, pose models, catalog UI). Content ships as static JSON under `public/data/`. Optional **Vercel serverless functions** in `api/` send email (Resend) for contact and form notifications — no app database.
+The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 19, TypeScript, and Tailwind CSS. Video, photo, pose, catalogs, and UI state run in the browser. Content ships as static JSON under `public/data/`. There is no database. Vercel serverless functions in `api/` handle email through Resend (contact, notify-me, and form results).
 
 **SECURITY CRITICAL**: React 19 is mandatory due to serious security vulnerabilities in React 18. Never downgrade to React 18.
 
@@ -10,7 +10,7 @@ The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 
 ### Core Technologies
 - **React 19.2.0**: UI library (REQUIRED - React 18 has serious security vulnerabilities)
 - **TypeScript 5.0+**: Type safety
-- **Vite 6.3.5**: Build tool and dev server
+- **Vite 6.4.3**: Build tool and dev server
 - **Tailwind CSS v4**: Styling
 - **Radix UI**: Accessible component primitives
 - **Lucide React**: Icon library
@@ -54,7 +54,7 @@ corrective-toolkit/
 ├── src/
 │   ├── App.tsx                 # Main app component, routing logic
 │   ├── main.tsx                # React entry point
-│   ├── index.css               # Global styles
+│   ├── app.css                 # Global styles
 │   ├── components/             # React components
 │   │   ├── HomePage.tsx
 │   │   ├── LearnSection.tsx
@@ -97,7 +97,6 @@ corrective-toolkit/
 │   │   ├── exercises.json
 │   │   ├── conditions.json
 │   │   ├── clinical-cases.json
-│   │   ├── quizQuestions.json
 │   │   ├── quizTopics.json
 │   │   ├── glossary.json
 │   │   ├── client-questionnaire.json
@@ -262,7 +261,7 @@ App
 - **React Plugin**: SWC for fast compilation
 - **Path Aliases**: `@` alias for `src/` directory
 - **HTTPS**: Configured for camera access via `conf/certs/` (umbrel.local certs)
-- **Code Splitting**: Manual chunks for vendor libraries
+- **Code Splitting**: Manual chunks for app sections; vendor modules are not split manually
 - **Public Directory**: `public/` served at root
 
 #### Development Server
@@ -286,9 +285,9 @@ App
 - Theme colors
 
 #### Service Worker
-- Not currently implemented
-- Can be added for offline support
-- Would cache JSON data and assets
+- Implemented. `src/main.tsx` registers `/service-worker.js`.
+- `vite-plugin-pwa` generates that worker with Workbox (`generateSW` in `vite.config.ts`), including in dev (`devOptions.enabled`).
+- The production file is `dist/service-worker.js`. `public/service-worker.js` is a handwritten worker in the repo; the plugin output is what the production build emits under the same name.
 
 ## Data Flow Patterns
 
@@ -344,10 +343,10 @@ User Clicks Navigation
 
 ## Security Considerations
 
-### Client-Side Only
-- No backend, no server-side security concerns
-- All data is public (JSON files)
-- No authentication needed
+### Browser logic and serverless email
+- There is no database. Analysis and catalog logic stay in the browser.
+- `api/` runs server-side email handlers (Resend). It does not store clients, videos, or catalog data.
+- Catalog JSON is public. There is no authentication.
 
 ### Input Validation
 - Form validation via react-hook-form
@@ -396,9 +395,12 @@ npm run build  # from project root
 - **PWA**: Can be installed on devices
 
 ### Environment
-- No environment variables currently
-- Could add for API endpoints (if backend added)
-- Could add for feature flags
+- The serverless email handlers require `RESEND_API_KEY`.
+- Contact and notify-me also require `NOTIFY_ME_TO_EMAIL`; form results optionally use it for BCC.
+- Form results optionally use `RESEND_FROM_EMAIL`; see `api/send-form-results.js`.
+- The client reads optional `VITE_PREMIUM_PAYMENTS_ENABLED`, `VITE_SHOW_TPI_LEVEL1_BADGE`, and `VITE_SHOW_TPI_LEVEL2_BADGE` feature settings from `src/config/env.ts`.
+- The client reads optional `VITE_CONTACT_EMAIL` for mailto links.
+- A static-only host can serve the app, but the email forms require the Vercel functions or equivalent endpoints.
 
 ## Future Considerations
 
@@ -406,8 +408,8 @@ npm run build  # from project root
 1. **State Management**: Consider Zustand if state becomes complex
 2. **Routing**: Consider React Router if navigation becomes complex
 3. **Testing**: Add unit and integration tests
-4. **Service Worker**: Add for offline support
-5. **Backend**: Add if user data storage needed
+4. **Offline Coverage**: Verify and extend existing service worker behavior where needed
+5. **Persistent Storage**: Add only if user data storage becomes a product requirement
 6. **Authentication**: If user accounts needed
 7. **API Integration**: If external data sources needed
 

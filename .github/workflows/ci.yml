@@ -20,6 +20,8 @@ jobs:
           node-version: '20'
           cache: npm
       - run: npm ci
+      - run: npm run check:specs
+      - run: npm run check:data
       - run: npm run build
       # npm run lint is not a CI gate yet.
 
