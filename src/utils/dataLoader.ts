@@ -14,6 +14,7 @@ import type {
   Questionnaire,
   FunctionalScale
 } from '../types';
+import { isFunctionalScale, isQuestionnaire } from './formGuards';
 
 export interface MuscleChart {
   muscle: string;
@@ -33,9 +34,6 @@ export interface MuscleChartsData {
   };
   all_muscles: MuscleChart[];
 }
-
-const isRecord = (value: unknown): value is Record<string, unknown> =>
-  typeof value === 'object' && value !== null;
 
 /**
  * Loads patterns from JSON file
@@ -243,9 +241,8 @@ export async function loadAllQuestionnaires(): Promise<Record<string, Questionna
     questionnaireFiles.map(async ({ file, key }) => {
       try {
         const data = await loadDataFile(file);
-        if (isRecord(data) && data.type === 'form') {
-          questionnaires[key] = { ...(data as Questionnaire), id: key };
-        }
+        if (isQuestionnaire(data)) questionnaires[key] = { ...data, id: key };
+        else console.warn(`Invalid questionnaire ${file}`);
       } catch (error) {
         console.warn(`Failed to load questionnaire ${file}:`, error);
       }
@@ -269,11 +266,10 @@ export async function loadAllFunctionalScales(): Promise<Record<string, Function
     scaleFiles.map(async (file) => {
       try {
         const data = await loadDataFile(file);
-        if (isRecord(data) && (!data.type || data.type === 'scale')) {
-          const abbr = typeof data.abbreviation === 'string' ? data.abbreviation : '';
-          const key = (abbr ? abbr.toLowerCase() : file);
-          scales[key] = { ...(data as FunctionalScale), id: key, type: 'scale' };
-        }
+        if (isFunctionalScale(data)) {
+          const key = data.abbreviation ? data.abbreviation.toLowerCase() : file;
+          scales[key] = { ...data, id: key };
+        } else console.warn(`Invalid functional scale ${file}`);
       } catch (error) {
         console.warn(`Failed to load functional scale ${file}:`, error);
       }

@@ -1,10 +1,14 @@
 # Catalog links and TypeScript audit
 
-Branch: `analysis/data-links-typescript-errors`. Baseline: `main` at merge commit `b8095dd` (PR #11). This is an audit, not a change to product behavior or a clinical endorsement of any association.
+Branch: `analysis/data-links-typescript-errors`. Initial baseline: `main` at merge commit `b8095dd` (PR #11). The branch was updated after PR #3. This audit proposes catalog changes for user validation; no clinical catalog data is changed in this branch.
+
+## Resolution
+
+The 13 one-way links remain in the catalog pending user validation. The proposed mechanical resolution is to add the missing reverse link to `patterns.exercise_ids` for each row while preserving every existing `exercises.pattern_ids` link. This proposal does not judge clinical suitability. `npm run check:data` continues to report these links without failing. All 20 listed TypeScript diagnostics were corrected, and `npm run typecheck` is now a CI gate.
 
 ## 13 exercise-to-pattern links without reverse links
 
-`npm run check:data` reports these because an exercise lists a pattern in `pattern_ids`, while that pattern does not list the exercise in `exercise_ids`. The app's pattern and exercise detail views navigate using `pattern.exercise_ids`, so the missing reverse link can hide an exercise from the pattern view. Review each association for clinical relevance before adding the reverse link or removing the forward link.
+The audit found these when an exercise listed a pattern in `pattern_ids`, while that pattern did not list the exercise in `exercise_ids`. The app's pattern and exercise detail views navigate using `pattern.exercise_ids`, so a missing reverse link could hide an exercise from the pattern view. The table lists the exact associations for user review.
 
 | # | Exercise | Pattern missing the exercise | Review focus |
 |---|----------|------------------------------|--------------|
@@ -22,7 +26,7 @@ Branch: `analysis/data-links-typescript-errors`. Baseline: `main` at merge commi
 | 12 | `e__foot_inversion_stretch` | `p__overpronation` | Description directly mentions pronation-dominant mechanics; confirm inclusion. |
 | 13 | `e__foot_inversion_stretch` | `p__limited_ankle_dorsiflexion` | Check whether ankle dorsiflexion is an intended target. |
 
-The six exercise records are in `public/data/exercises.json`; the reverse lists are in `public/data/patterns.json`. Suggested disposition for each row: **add reverse link**, **remove forward link**, or **document an intentional one-way relationship and revise the symmetry rule** in `docs/DATA_SPEC.md`. Avoid an automatic bulk edit.
+The six exercise records are in `public/data/exercises.json`; the reverse lists are in `public/data/patterns.json`. **Proposed, not applied:** add the reverse link for all 13 rows, with no removal of exercise-side links. The other two links on `e__ball_wall_push_hip_hinge` already have reverse links. Per `.cursor/rules/main.md`, changes to these clinical associations require explicit user validation before editing the JSON.
 
 ## 20 TypeScript errors
 
@@ -51,10 +55,10 @@ Reproduced with `npx tsc --noEmit --pretty false` after PR #11. The production b
 | 19 | `src/utils/dataLoader.ts:247` | TS2352 | Cast from fetched JSON to `Questionnaire`; share a runtime guard with #4. |
 | 20 | `src/utils/dataLoader.ts:275` | TS2352 | Cast from fetched JSON to `FunctionalScale`; share a runtime guard with #5. |
 
-## Suggested implementation order
+## Implemented TypeScript fixes
 
-1. Add reusable form and scale guards, then use them in both loading paths (#4, #5, #19, #20). These errors represent the largest data-trust gap.
-2. Align nullable ref contracts (#7, #8, #10, #15–18); the hooks already check `.current` before use.
-3. Fix the route and homepage props (#1, #2, #6), then the `unknown` render condition (#3).
-4. Update the calendar customization for `react-day-picker` v9 (#11–13) and resolve the CSS property and share feature checks (#9, #14).
-5. Run `npx tsc --noEmit` as a CI gate only after the error count reaches zero; update `docs/ARCHITECTURE_SPEC.md` in the same change.
+1. Shared runtime guards now validate questionnaire and scale structure in both loading paths (#4, #5, #19, #20).
+2. Nullable DOM ref contracts match React initialization (#7, #8, #10, #15–18).
+3. The form route has a `FormLang`, both home renders receive glossary data, and optional assessment data is tested before rendering (#1–3, #6).
+4. Calendar icons use the supported `Chevron` component, chart CSS variables have an explicit style type, and share capability uses a function check (#9, #11–14).
+5. Strict TypeScript checking is part of CI. Existing application-wide ESLint errors remain outside this audit's scope.

@@ -132,6 +132,7 @@ corrective-toolkit/
 - **Async Functions**: Each data type has its own loader function
 - **Error Handling**: Returns empty arrays/objects on error
 - **Type Safety**: Functions return typed data matching TypeScript interfaces
+- **Form Validation**: Questionnaire and scale JSON is checked at runtime by `utils/formGuards.ts` before either the application catalog or a shared client link uses it. Invalid form data is rejected and shown as unavailable on client links.
 - **Parallel Loading**: `loadAllData()` loads all data in parallel using `Promise.all()`
 
 #### Data Flow
@@ -276,6 +277,7 @@ App
 - **Optimization**: Minification, tree-shaking
 - **Code Splitting**: Automatic + manual chunks
 - **Static Assets**: Copied to dist
+- **CI Type Check**: `npm run typecheck` runs strict TypeScript checking before the production build.
 
 ### 9. PWA Features
 
@@ -299,7 +301,7 @@ App.tsx (mount)
     → Promise.all([loadPatterns(), loadAssessments(), ...])
       → fetch('/data/*.json')
         → JSON.parse()
-          → TypeScript validation
+        → runtime validation for questionnaires and scales
             → setData()
               → Pass to components via props
 ```
@@ -352,7 +354,7 @@ User Clicks Navigation
 ### Input Validation
 - Form validation via react-hook-form
 - TypeScript type checking
-- JSON schema validation (implicit via types)
+- Runtime shape guards for questionnaire and scale JSON; build-time catalog validation via `npm run check:data`
 
 ### Camera Access
 - Requires HTTPS or localhost
