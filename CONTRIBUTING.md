@@ -19,6 +19,8 @@ npm run lint
 
 ## Commits and pull requests
 
+- Do not push to `main`. Open a branch, then a pull request.
+- Merge only after the repository owner explicitly authorizes that merge.
 - Use clear, English commit messages focused on **why**.
 - One logical change per PR when possible.
 - Do not commit secrets or local cert private keys (see [`conf/certs/README.md`](conf/certs/README.md)).
