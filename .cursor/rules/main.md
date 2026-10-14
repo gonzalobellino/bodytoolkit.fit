@@ -115,6 +115,12 @@ Do not restate stack, repo layout, or the service worker here. The normative des
 
 ## Data Integrity Rules
 
+### Clinical data requires user validation
+
+- Do not add, remove, or change clinical data without the user's explicit validation of the specific proposed changes. This includes exercise-to-pattern links, assessment relationships, indications, descriptions, protocols, and clinical claims in `public/data/`.
+- First document the proposed change and its rationale for the user to review. A request to investigate or fix a data issue is not validation of a particular clinical edit.
+- Keep unvalidated clinical edits out of commits and pull requests. Code and documentation changes that do not alter clinical data may proceed separately.
+
 ### When Editing JSON Data Files
 1. **Taxonomy Enforcement**:
    - `patterns.json`: Only movement patterns/findings

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { FormLang, Questionnaire, FunctionalScale } from '../types';
 import { getText } from '../utils/formI18n';
+import { isFunctionalScale, isQuestionnaire } from '../utils/formGuards';
 import { FormQuestionnaire, formatFormAnswer, buildQuestionnaireSummary } from './Questionnaires';
 
 const FILE_MAP: Record<string, string> = {
@@ -93,13 +94,15 @@ export function ClientFormView({ formId, formType, lang, coachEmail, coachName =
     }
     const file = FILE_MAP[formId];
     fetch(`/data/${file}.json`)
-      .then(r => r.json())
+      .then(r => {
+        if (!r.ok) throw new Error('Form unavailable');
+        return r.json();
+      })
       .then((data: unknown) => {
-        const d = data as Record<string, unknown>;
-        if (formType === 'questionnaire' && d.type === 'form') {
-          setQuestionnaire({ ...(d as Questionnaire), id: formId });
-        } else if (formType === 'scale') {
-          setScale({ ...(d as FunctionalScale), id: formId, type: 'scale' });
+        if (formType === 'questionnaire' && isQuestionnaire(data)) {
+          setQuestionnaire({ ...data, id: formId });
+        } else if (formType === 'scale' && isFunctionalScale(data)) {
+          setScale({ ...data, id: formId });
         } else {
           setLoadState('not_found');
           return;

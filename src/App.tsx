@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, lazy, Suspense } from 'react';
 import { loadAllData } from './utils/dataLoader';
 import { PremiumProvider } from './contexts/PremiumContext';
-import type { Pattern, Assessment, ExercisesByCategory, Condition, GlossaryTerms, QuizQuestionsByTopic, QuizTopic, Questionnaire, FunctionalScale } from './types';
+import type { Pattern, Assessment, ExercisesByCategory, Condition, GlossaryTerms, QuizQuestionsByTopic, QuizTopic, Questionnaire, FunctionalScale, FormLang } from './types';
 
 // Lazy load components for code splitting
 const HomePage = lazy(() => import('./components/HomePage').then(m => ({ default: m.HomePage })));
@@ -66,7 +66,7 @@ export default function App() {
     const queryStr = hash.includes('?') ? hash.slice(hash.indexOf('?') + 1) : '';
     const params = new URLSearchParams(queryStr);
     const formType = params.get('t') ?? 'questionnaire';
-    const lang = params.get('lang') === 'es' ? 'es' : 'en';
+    const lang: FormLang = params.get('lang') === 'es' ? 'es' : 'en';
     const cParam = params.get('c') ?? '';
     try {
       const decoded = decodeURIComponent(atob(cParam));
@@ -270,6 +270,7 @@ export default function App() {
                 assessments={data.assessments}
                 exercises={data.exercises}
                 conditions={data.conditions}
+                glossary={data.glossary}
               />
               <Footer onNavigate={handleNavigate} />
             </div>

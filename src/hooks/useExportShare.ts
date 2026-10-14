@@ -2,7 +2,7 @@ import { useCallback, RefObject } from 'react';
 import { createWatermarkedCanvas } from '../utils/watermark';
 
 export interface UseExportShareOptions {
-  canvasRef: RefObject<HTMLCanvasElement>;
+  canvasRef: RefObject<HTMLCanvasElement | null>;
   title?: string;
   filenamePrefix?: string;
 }

@@ -287,7 +287,7 @@ export function AssessmentViewer({ shareId }: AssessmentViewerProps) {
             )}
 
             {/* Assessment Data */}
-            {assessment.data && (
+            {assessment.data != null && (
               <Card>
                 <CardHeader>
                   <CardTitle className="text-base">Assessment Details</CardTitle>

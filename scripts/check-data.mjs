@@ -162,6 +162,7 @@ const patternById = new Map(patterns.filter(isObject).map((item) => [item.id, it
 const asymmetry = exercises.filter(isObject).flatMap((exercise) => (exercise.pattern_ids ?? [])
   .filter((id) => patternById.has(id) && !patternById.get(id).exercise_ids?.includes(exercise.id))
   .map((id) => `${exercise.id} -> ${id}`));
+if (asymmetry.length) errors.push(`${asymmetry.length} exercise-to-pattern links lack reverse links:\n${asymmetry.join('\n')}`);
 
 if (errors.length) {
   console.error(errors.join('\n'));
@@ -169,4 +170,3 @@ if (errors.length) {
 } else {
   console.log(`data ok (${patterns.length} patterns, ${assessments.length} assessments, ${exercises.length} exercises, ${conditions.length} conditions, ${topics.length} quiz topics, ${formFiles.length} forms/scales)`);
 }
-if (asymmetry.length) console.warn(`${asymmetry.length} existing exercise-to-pattern links lack reverse links (tracked for catalog curation):\n${asymmetry.join('\n')}`);

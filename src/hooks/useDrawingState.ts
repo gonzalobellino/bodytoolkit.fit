@@ -73,10 +73,10 @@ export interface DrawingState {
   animationFrameRef: React.MutableRefObject<number | null>;
   
   // DOM Refs
-  canvasRef: React.RefObject<HTMLCanvasElement>;
-  containerRef: React.RefObject<HTMLDivElement>;
-  fullscreenRef: React.RefObject<HTMLDivElement>;
-  fileInputRef: React.RefObject<HTMLInputElement>;
+  canvasRef: React.RefObject<HTMLCanvasElement | null>;
+  containerRef: React.RefObject<HTMLDivElement | null>;
+  fullscreenRef: React.RefObject<HTMLDivElement | null>;
+  fileInputRef: React.RefObject<HTMLInputElement | null>;
   
   // Utility functions
   clearDrawings: () => void;

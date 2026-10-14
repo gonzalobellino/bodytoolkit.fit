@@ -66,7 +66,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
   const totalConditions = conditions.length;
   const totalGlossary = Object.keys(glossary ?? {}).length;
   const overviewCards: Array<{
-    id: 'patterns' | 'exercises' | 'assessments' | 'conditions';
+    id: 'patterns' | 'exercises' | 'assessments' | 'conditions' | 'glossary';
     label: string;
     value: number;
     description: string;

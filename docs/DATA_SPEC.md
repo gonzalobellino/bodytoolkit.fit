@@ -597,7 +597,7 @@ When editing data, verify:
 - [ ] JSON is valid (syntax check)
 - [ ] TypeScript types match JSON structure
 
-`npm run check:data` enforces catalog shape, ID uniqueness, reference existence, quiz topic metadata, and bilingual form text in CI. It reports existing exercise-to-pattern asymmetry without failing until the catalog is curated.
+`npm run check:data` enforces catalog shape, ID uniqueness, reference existence, quiz topic metadata, bilingual form text, and exercise-to-pattern reverse links in CI. A pattern may list an exercise without a reverse `pattern_ids` entry because that field is optional; every exercise-side link must have a matching pattern-side entry. Changes to clinical associations require explicit user validation under `.cursor/rules/main.md`.
 
 ## Data Loading
 

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, RefObject } from 'react';
 
 export interface UseFullscreenOptions {
-  elementRef: RefObject<HTMLElement>;
+  elementRef: RefObject<HTMLElement | null>;
   isFullscreen: boolean;
   setIsFullscreen: (fullscreen: boolean) => void;
 }
@@ -13,7 +13,6 @@ export interface FullscreenHandlers {
 
 export function useFullscreen({
   elementRef,
-  isFullscreen,
   setIsFullscreen,
 }: UseFullscreenOptions): FullscreenHandlers {
   

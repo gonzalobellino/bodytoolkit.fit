@@ -98,7 +98,7 @@ export function ShareAssessment({ open, onOpenChange, assessment }: ShareAssessm
   const shareViaWebShare = async () => {
     if (!shareData?.url || !assessment) return;
     
-    if (navigator.share) {
+    if (typeof navigator.share === 'function') {
       try {
         await navigator.share({
           title: `Assessment: ${assessment.name}`,
@@ -295,7 +295,7 @@ export function ShareAssessment({ open, onOpenChange, assessment }: ShareAssessm
                     <Mail className="w-4 h-4" />
                     Email
                   </Button>
-                  {navigator.share && (
+                  {typeof navigator.share === 'function' && (
                     <Button
                       variant="outline"
                       className="flex-1 gap-2"
