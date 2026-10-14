@@ -1557,6 +1557,7 @@
   {
     "id": "a__ober_test_assessment",
     "name": "Ober Test",
+    "category": "Mobility Assessment",
     "target": "Assess TFL and IT band tightness",
     "images": [],
     "videos": [],
@@ -1603,6 +1604,7 @@
   {
     "id": "a__faber_test_assessment",
     "name": "FABER/Patrick Test",
+    "category": "Mobility Assessment",
     "target": "Assess hip pathology, SI joint, and hip flexor restrictions",
     "images": [],
     "videos": [],
@@ -1650,6 +1652,7 @@
   {
     "id": "a__apley_scratch_test_assessment",
     "name": "Apley Scratch Test",
+    "category": "Mobility Assessment",
     "target": "Assess combined shoulder ROM",
     "images": [],
     "videos": [],
@@ -1696,6 +1699,7 @@
   {
     "id": "a__y_balance_test_assessment",
     "name": "Y-Balance Test / Star Excursion",
+    "category": "Balance Assessment",
     "target": "Assess dynamic balance, neuromuscular control, and asymmetries",
     "images": [],
     "videos": [],

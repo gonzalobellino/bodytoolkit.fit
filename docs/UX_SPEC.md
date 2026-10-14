@@ -125,11 +125,20 @@ This specification is based on the Figma design system. For visual reference, se
 - **Timeline**: Slider with markers and loop range indicator
 - **Keyboard Shortcuts**: Space (play/pause), Arrow keys (frame-by-frame), M (marker), Ctrl+Z (undo)
 
+#### Observable layout behavior
+
+- With no media loaded, the upload area remains visible and usable.
+- With video loaded outside fullscreen, scrolling over the video reaches the controls below it.
+- In fullscreen, the analysis fills the viewport; leaving fullscreen restores normal page scrolling and resets zoom/pan.
+- The floating toolbar places Play/Still before Select, zoom controls, Fullscreen, and New (when present).
+- The canvas only suppresses touch scrolling in fullscreen. See `.cursor/rules/video-photo-layout.md` and `.cursor/rules/floating-toolbar-video.md` for implementation constraints.
+
 ### Photo Analysis Component
 - **Image Upload**: Drag-and-drop or file picker
 - **Drawing Tools**: Similar to video analysis
 - **Grid Overlay**: Optional grid for alignment
 - **Export Options**: Download annotated image
+- With an image loaded outside fullscreen, touch scrolling over the image reaches controls below it. Fullscreen fills the viewport and restores normal scrolling on exit.
 
 ### Questionnaires Component
 - **Form Sections**: Collapsible sections with titles

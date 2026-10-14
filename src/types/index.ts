@@ -17,7 +17,13 @@ export interface Pattern {
     level?: string;
     summary?: string;
     pubmed_links?: string[];
-    sources?: string[];
+    sources?: Array<{
+      title: string;
+      url: string;
+      type: string;
+      doi?: string;
+      doi_url?: string;
+    }>;
   };
   common_compensations: string[];
   correctives?: string[];

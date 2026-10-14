@@ -2,7 +2,7 @@
 
 ## Architecture
 
-Do not restate stack, repo layout, or the service worker here. The normative description is [`docs/ARCHITECTURE_SPEC.md`](../../docs/ARCHITECTURE_SPEC.md). There is no application backend. React 19 is required. Never downgrade to React 18.
+Do not restate stack, repo layout, or the service worker here. The normative description is [`docs/ARCHITECTURE_SPEC.md`](../../docs/ARCHITECTURE_SPEC.md). Browser analysis and catalog logic are client-side; `api/` contains serverless email handlers. React 19 is required. Never downgrade to React 18.
 
 ## Security Requirements
 

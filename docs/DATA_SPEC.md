@@ -17,6 +17,8 @@ All data files are located in `public/data/`:
 - `physical-activity-readiness.json` - PAR-Q questionnaire
 - `lefs.json` - Lower Extremity Functional Scale
 - `uefi.json` - Upper Extremity Functional Index
+- `muscleCharts.json` - Muscle anatomy used by quiz generation
+- `movement-analysis-*.json` - Send-by-link movement analysis forms
 
 ## ID Naming Convention
 
@@ -416,7 +418,8 @@ interface QuizQuestion {
   id: string;                    // Required: Unique ID
   question: string;              // Required: Question text
   options: string[];            // Required: Array of answer options
-  correct: number;              // Required: Index of correct answer (0-based)
+  type?: QuizQuestionType;       // Optional: Generated question category
+  correct: number | number[];   // Required: One or more 0-based answer indices
   explanation: string;         // Required: Explanation of correct answer
 }
 
@@ -426,7 +429,7 @@ interface QuizQuestionsByTopic {
 ```
 
 #### Validation Rules
-- `correct` must be a valid index in `options` array
+- Every index in `correct` must be valid for `options`
 - `options` must have at least 2 options
 - Topic ids used by the generator come from `quizTopics.json` and from the catalogs, not from a question bank file
 
@@ -461,15 +464,19 @@ interface QuizQuestionsByTopic {
 interface QuizTopic {
   id: string;                   // Required: Topic ID
   title: string;                // Required: Topic title
-  questions: number;            // Required: Number of questions
+  questionCount: number;        // Required: Requested number of generated questions
   difficulty: 'Beginner' | 'Intermediate' | 'Advanced';  // Required
   timeEstimate: string;         // Required: e.g., "10-15 min"
+  knowledgeBase: string;        // Required: Generator source, e.g. "patterns.json"
+  questionTypes: QuizQuestionType[]; // Required: Generator categories
 }
 ```
 
 #### Validation Rules
 - `id` identifies the topic in `quizTopics.json`
-- `questions` is the metadata count shown in the UI, not a row count in a question file
+- `questionCount` is passed to the generator and shown in the UI
+- `knowledgeBase` must name a source handled by `generateQuizQuestions()`
+- `questionTypes` must be nonempty and contain only supported `QuizQuestionType` values
 
 ### 8. Glossary
 
@@ -589,6 +596,8 @@ When editing data, verify:
 - [ ] Bidirectional relationships are symmetric (if both sides defined)
 - [ ] JSON is valid (syntax check)
 - [ ] TypeScript types match JSON structure
+
+`npm run check:data` enforces catalog shape, ID uniqueness, reference existence, quiz topic metadata, and bilingual form text in CI. It reports existing exercise-to-pattern asymmetry without failing until the catalog is curated.
 
 ## Data Loading
 
