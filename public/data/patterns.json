@@ -153,7 +153,8 @@
       "e__wall_angels",
       "e__doorway_pec_stretch",
       "e__banded_pull_apart",
-      "e__posterior_shoulder_ball"
+      "e__posterior_shoulder_ball",
+      "e__ball_wall_push_hip_hinge"
     ],
     "assessment_ids": [
       "a__shoulder_press_assessment",
@@ -316,7 +317,9 @@
       "e__cervical_rotation",
       "e__cervical_sidebend",
       "e__thoracic_extension_foam_roller",
-      "e__upper_trap_levator_stretch"
+      "e__upper_trap_levator_stretch",
+      "e__psh_head_movement",
+      "e__cervical_rotation_towel"
     ],
     "assessment_ids": [
       "a__wall_test_fhp_assessment",
@@ -399,7 +402,8 @@
       "e__suboccipital_release",
       "e__cat_cow",
       "e__thread_the_needle",
-      "e__upper_trap_levator_smr"
+      "e__upper_trap_levator_smr",
+      "e__cervical_rotation_towel"
     ],
     "assessment_ids": [
       "a__cervical_rotation_assessment",
@@ -473,7 +477,8 @@
       "e__thoracic_extension_foam_roller",
       "e__pec_minor_smr",
       "e__wall_angels",
-      "e__doorway_pec_stretch"
+      "e__doorway_pec_stretch",
+      "e__psh_head_movement"
     ],
     "assessment_ids": [
       "a__ccft_assessment",
@@ -553,7 +558,8 @@
       "e__cat_cow",
       "e__thread_the_needle",
       "e__open_book",
-      "e__overhead_squat"
+      "e__overhead_squat",
+      "e__ball_wall_push_hip_hinge"
     ],
     "assessment_ids": [
       "a__thoracic_flexicurve_assessment",
@@ -712,7 +718,8 @@
       "e__thoracic_extension_foam_roller",
       "e__pec_minor_smr",
       "e__overhead_squat",
-      "e__wall_angels"
+      "e__wall_angels",
+      "e__ball_wall_push_hip_hinge"
     ],
     "assessment_ids": [
       "a__shoulder_press_assessment",
@@ -999,7 +1006,8 @@
       "e__bird_dog",
       "e__hip_flexor_stretch",
       "e__hip_hinge_rdl",
-      "e__single_leg_hip_thrust"
+      "e__single_leg_hip_thrust",
+      "e__hamstring_contract_relax"
     ],
     "assessment_ids": [
       "a__postural_assessment",
@@ -1294,7 +1302,9 @@
       "e__eccentric_calf_raises",
       "e__tibialis_strengthening",
       "e__ankle_cars",
-      "e__plantar_fascia_roll"
+      "e__plantar_fascia_roll",
+      "e__big_toe_stretch",
+      "e__foot_inversion_stretch"
     ],
     "assessment_ids": [
       "a__knee_to_wall_assessment",
@@ -1371,7 +1381,9 @@
       "e__tibialis_strengthening",
       "e__gastroc_soleus_stretch",
       "e__ankle_cars",
-      "e__posterior_tibialis_activation"
+      "e__posterior_tibialis_activation",
+      "e__big_toe_stretch",
+      "e__foot_inversion_stretch"
     ],
     "assessment_ids": [
       "a__navicular_drop_assessment",
@@ -1574,7 +1586,8 @@
       "e__dead_bug",
       "e__clamshell",
       "e__hip_thrust",
-      "e__squat_to_box"
+      "e__squat_to_box",
+      "e__hamstring_contract_relax"
     ],
     "assessment_ids": [
       "a__prone_hip_extension_assessment",

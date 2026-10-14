@@ -1,14 +1,14 @@
 # Catalog links and TypeScript audit
 
-Branch: `analysis/data-links-typescript-errors`. Initial baseline: `main` at merge commit `b8095dd` (PR #11). The branch was updated after PR #3. This audit proposes catalog changes for user validation; no clinical catalog data is changed in this branch.
+Branch: `analysis/data-links-typescript-errors`. Initial baseline: `main` at merge commit `b8095dd` (PR #11). The branch was updated after PR #3. The user validated adding the 13 reverse links described below on 2026-10-14, after the agent clarified that they make the exercises visible from the pattern view. No exercise-side link was removed.
 
 ## Resolution
 
-The 13 one-way links remain in the catalog pending user validation. The proposed mechanical resolution is to add the missing reverse link to `patterns.exercise_ids` for each row while preserving every existing `exercises.pattern_ids` link. This proposal does not judge clinical suitability. `npm run check:data` continues to report these links without failing. All 20 listed TypeScript diagnostics were corrected, and `npm run typecheck` is now a CI gate.
+All 13 one-way links now have the matching entry in `patterns.exercise_ids`, while every existing `exercises.pattern_ids` link remains intact. `npm run check:data` now fails on any new exercise-to-pattern asymmetry. All 20 listed TypeScript diagnostics were corrected, and `npm run typecheck` is now a CI gate.
 
 ## 13 exercise-to-pattern links without reverse links
 
-The audit found these when an exercise listed a pattern in `pattern_ids`, while that pattern did not list the exercise in `exercise_ids`. The app's pattern and exercise detail views navigate using `pattern.exercise_ids`, so a missing reverse link could hide an exercise from the pattern view. The table lists the exact associations for user review.
+The audit found these when an exercise listed a pattern in `pattern_ids`, while that pattern did not list the exercise in `exercise_ids`. The app's pattern and exercise detail views navigate using `pattern.exercise_ids`, so a missing reverse link could hide an exercise from the pattern view. The table preserves the original review notes for traceability.
 
 | # | Exercise | Pattern missing the exercise | Review focus |
 |---|----------|------------------------------|--------------|
@@ -26,7 +26,7 @@ The audit found these when an exercise listed a pattern in `pattern_ids`, while 
 | 12 | `e__foot_inversion_stretch` | `p__overpronation` | Description directly mentions pronation-dominant mechanics; confirm inclusion. |
 | 13 | `e__foot_inversion_stretch` | `p__limited_ankle_dorsiflexion` | Check whether ankle dorsiflexion is an intended target. |
 
-The six exercise records are in `public/data/exercises.json`; the reverse lists are in `public/data/patterns.json`. **Proposed, not applied:** add the reverse link for all 13 rows, with no removal of exercise-side links. The other two links on `e__ball_wall_push_hip_hinge` already have reverse links. Per `.cursor/rules/main.md`, changes to these clinical associations require explicit user validation before editing the JSON.
+The six exercise records are in `public/data/exercises.json`; the reverse lists are in `public/data/patterns.json`. The validated change adds the reverse link for all 13 rows, with no removal of exercise-side links. The other two links on `e__ball_wall_push_hip_hinge` already had reverse links and remain unchanged. This is a catalog relationship correction, not a claim that every exercise is appropriate for every person with the pattern.
 
 ## 20 TypeScript errors
 
