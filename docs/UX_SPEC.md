@@ -145,11 +145,17 @@ This specification is based on the Figma design system. For visual reference, se
 - **Question Types**: Text, Yes/No, Textarea, Checkbox, Date, Body Map
 - **Progress Indicator**: Show completion status
 - **Save/Submit**: Clear action buttons
+- **Send to Client**: Generate a form link clients can open on other devices and a QR code in
+  the browser. Submissions email the coach address in the link.
+- **Share**: Use the device share sheet for a completed summary and PDF when supported;
+  otherwise copy the summary.
 
 ### Functional Scales Component
 - **Scale Display**: Question list with radio options
 - **Score Calculation**: Real-time score display
 - **Results Interpretation**: Show score range and meaning
+- **Send to Client and Share**: Use the same link, QR, and completed result sharing flows as
+  questionnaires.
 
 ## Responsive Design
 

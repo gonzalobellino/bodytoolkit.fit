@@ -401,6 +401,8 @@ npm run build  # from project root
 - The serverless email handlers require `RESEND_API_KEY`.
 - Contact and notify-me also require `NOTIFY_ME_TO_EMAIL`. Form results are sent only to the
   `coachEmail` entered in the "Results will be sent here" field when creating a client form link.
+- Client form links and their QR codes are generated in the browser. The app does not offer
+  sharing of assessment records, so assessment data is not loaded from a shared link.
 - Form results optionally use `RESEND_FROM_EMAIL`; see `api/send-form-results.js`.
 - The client reads optional `VITE_PREMIUM_PAYMENTS_ENABLED`, `VITE_SHOW_TPI_LEVEL1_BADGE`, and `VITE_SHOW_TPI_LEVEL2_BADGE` feature settings from `src/config/env.ts`.
 - The client reads optional `VITE_CONTACT_EMAIL` for mailto links.

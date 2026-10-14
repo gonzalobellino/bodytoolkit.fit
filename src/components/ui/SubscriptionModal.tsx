@@ -35,7 +35,6 @@ export function SubscriptionModal({ open, onOpenChange, featureName }: Subscript
       'AI Analysis',
       'Gait Analysis',
       'Symmetry Analysis',
-      'Assessment Sharing',
       'Movement Comparison Database',
       'Progress Tracking',
       'Client Database',
