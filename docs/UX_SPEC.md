@@ -3,7 +3,6 @@
 ## Design System Reference
 This specification is based on the Figma design system. For visual reference, see:
 - Figma Design: https://www.figma.com/design/YY2vs80jSI2VMKS8DzlPek/Dise%C3%B1o-de-App-de-Movimiento
-- Design files: `app/prototype_figma/`
 
 ## Design Principles
 

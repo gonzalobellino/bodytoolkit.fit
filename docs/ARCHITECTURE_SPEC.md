@@ -1,7 +1,7 @@
 # Architecture Specification - Corrective Exercise Toolkit
 
 ## Overview
-The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 19, TypeScript, and Tailwind CSS. **Core product logic runs in the browser** (video/photo analysis, pose models, catalog UI). Content ships as static JSON under `public/data/`. Optional **Vercel serverless functions** in `api/` send email (Resend) for contact and form notifications — no app database.
+The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 19, TypeScript, and Tailwind CSS. **There is no application backend**: video, photo, pose, catalogs, and UI state run in the browser. Content ships as static JSON under `public/data/`. There is no database. Files in `api/` are not a backend; they only send email through Resend on Vercel (contact, notify-me, and form results).
 
 **SECURITY CRITICAL**: React 19 is mandatory due to serious security vulnerabilities in React 18. Never downgrade to React 18.
 
@@ -10,7 +10,7 @@ The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 
 ### Core Technologies
 - **React 19.2.0**: UI library (REQUIRED - React 18 has serious security vulnerabilities)
 - **TypeScript 5.0+**: Type safety
-- **Vite 6.3.5**: Build tool and dev server
+- **Vite 6.4.3**: Build tool and dev server
 - **Tailwind CSS v4**: Styling
 - **Radix UI**: Accessible component primitives
 - **Lucide React**: Icon library
@@ -97,7 +97,6 @@ corrective-toolkit/
 │   │   ├── exercises.json
 │   │   ├── conditions.json
 │   │   ├── clinical-cases.json
-│   │   ├── quizQuestions.json
 │   │   ├── quizTopics.json
 │   │   ├── glossary.json
 │   │   ├── client-questionnaire.json
@@ -286,9 +285,9 @@ App
 - Theme colors
 
 #### Service Worker
-- Not currently implemented
-- Can be added for offline support
-- Would cache JSON data and assets
+- Implemented. `src/main.tsx` registers `/service-worker.js`.
+- `vite-plugin-pwa` generates that worker with Workbox (`generateSW` in `vite.config.ts`), including in dev (`devOptions.enabled`).
+- The production file is `dist/service-worker.js`. `public/service-worker.js` is a handwritten worker in the repo; the plugin output is what the production build emits under the same name.
 
 ## Data Flow Patterns
 
@@ -345,9 +344,9 @@ User Clicks Navigation
 ## Security Considerations
 
 ### Client-Side Only
-- No backend, no server-side security concerns
-- All data is public (JSON files)
-- No authentication needed
+- No application backend and no database. Product logic stays in the browser.
+- `api/` only sends email (Resend). It does not store clients, videos, or catalog data.
+- Catalog JSON is public. There is no authentication.
 
 ### Input Validation
 - Form validation via react-hook-form

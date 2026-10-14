@@ -200,36 +200,6 @@ All screens using pose estimation should display:
 
 ---
 
-## Implementation Order
+## Status
 
-1. **Joint Angles Overlay** - Low complexity, high visible value
-2. **Gait Patterns** - Medium complexity, high clinical value  
-3. **Compensation Alerts** - Medium complexity, high training value
-4. **Unify Screens** - Medium complexity, better UX
-5. **ArUco Calibration** - Medium-high complexity, enables spatial metrics
-
----
-
-## Files to Create/Modify
-
-### Priority 1 - Joint Angles
-- [ ] `src/components/AngleOverlay.tsx` - New component
-- [ ] `src/components/VideoAnalysis.tsx` - Add toggle + integration
-
-### Priority 2 - Gait Patterns
-- [ ] `src/hooks/useGaitAnalysis.ts` - Expand detection logic
-- [ ] `src/components/GaitAnalysis.tsx` - Add pattern UI
-
-### Priority 3 - Compensation Alerts
-- [ ] `src/hooks/useCompensationDetection.ts` - New hook
-- [ ] `src/components/CompensationAlerts.tsx` - New component
-
-### Priority 4 - Unify Screens
-- [ ] `src/components/MovementAnalysis.tsx` - New unified component
-- [ ] Delete or deprecate `SymmetryAnalysis.tsx`
-- [ ] Update routing
-
-### Priority 5 - ArUco
-- [ ] `src/components/CalibrationPage.tsx` - New page
-- [ ] `src/hooks/useArucoCalibration.ts` - Detection hook
-- [ ] `src/utils/arucoDetection.ts` - ArUco utilities
+This document is history. The features above shipped. Do not treat the old "files to create" list as open work. The code lives under `src/` (`PoseOverlay.tsx`, `VideoAnalysis.tsx`, `useGaitAnalysis.ts`, `GaitAnalysis.tsx`, `useCompensationDetection.ts`, `CompensationAlerts.tsx`, `MovementAnalysis.tsx`, `CalibrationPage.tsx`, `useArucoCalibration.ts`).

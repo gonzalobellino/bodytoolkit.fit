@@ -1,6 +1,6 @@
 # Spec-driven quality review
 
-Reviewed against `main` plus the local security bump on branch `analysis/spec-driven-quality`. This note is an assessment, not a new specification.
+Reviewed against `main` before the fixes on branch `analysis/spec-driven-quality`. The action plan from that review is applied on this branch. The findings below describe the state before those edits. This note is an assessment, not a specification.
 
 ## Verdict
 
