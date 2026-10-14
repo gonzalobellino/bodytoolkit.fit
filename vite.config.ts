@@ -9,7 +9,7 @@ import fs from 'fs';
 // The camera API requires a secure context (HTTPS or localhost)
 // For development, we use SSL certificates from conf/certs
 // Host/access filtering delegated to Vercel in production
-const certPath = path.resolve(__dirname, 'conf/certs');
+const certPath = path.resolve(import.meta.dirname, 'conf/certs');
 const httpsConfig = (() => {
   try {
     const cert = path.join(certPath, 'umbrel.local.crt');
@@ -29,6 +29,17 @@ const httpsConfig = (() => {
 
 export default defineConfig({
   plugins: [
+    {
+      // pose-detection imports a named export from MediaPipe's global script.
+      // Rolldown needs that export declared explicitly for production bundles.
+      name: 'mediapipe-pose-global-export',
+      enforce: 'pre',
+      apply: 'build',
+      transform(code, id) {
+        if (!id.endsWith('/@mediapipe/pose/pose.js')) return;
+        return `${code}\nexport const Pose = globalThis.Pose;`;
+      },
+    },
     react(),
     tailwindcss(),
     VitePWA({
@@ -116,21 +127,17 @@ export default defineConfig({
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@': path.resolve(import.meta.dirname, './src'),
     },
     dedupe: ['react', 'react-dom'],
-  },
-  esbuild: {
-    drop: ['debugger'],
-    pure: ['console.log', 'console.debug', 'console.info', 'console.warn'],
   },
   build: {
     target: 'esnext',
     outDir: 'dist',
-    commonjsOptions: {
-      include: [/node_modules/],
-    },
-    rollupOptions: {
+    rolldownOptions: {
+      treeshake: {
+        manualPureFunctions: ['console.log', 'console.debug', 'console.info', 'console.warn'],
+      },
       output: {
         // No manual chunks for node_modules: avoids multiple React instances (useLayoutEffect error in production).
         // Only split app routes for lazy-loading.

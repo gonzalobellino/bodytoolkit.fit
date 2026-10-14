@@ -10,7 +10,7 @@ The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 
 ### Core Technologies
 - **React 19.2.0**: UI library (REQUIRED - React 18 has serious security vulnerabilities)
 - **TypeScript 5.0+**: Type safety
-- **Vite 6.4.3**: Build tool and dev server
+- **Vite 8.3.4**: Build tool and dev server
 - **Tailwind CSS v4**: Styling
 - **Radix UI**: Accessible component primitives
 - **Lucide React**: Icon library
@@ -263,6 +263,7 @@ App
 - **HTTPS**: Configured for camera access via `conf/certs/` (umbrel.local certs)
 - **Code Splitting**: Manual chunks for app sections; vendor modules are not split manually
 - **Public Directory**: `public/` served at root
+- **MediaPipe Interop**: Vite 8's Rolldown build needs a named `Pose` export from MediaPipe's global script. The build-only transform exposes that existing global for `@tensorflow-models/pose-detection`.
 
 #### Development Server
 - **Port**: 5173
