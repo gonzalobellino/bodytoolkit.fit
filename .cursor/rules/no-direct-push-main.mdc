@@ -1,0 +1,13 @@
+---
+description: Never push or merge to main without an authorized pull request
+alwaysApply: true
+---
+
+# No direct pushes to main
+
+Every change to this repository goes through a branch, a pull request, and a merge.
+
+- Do not push to `main`.
+- Do not merge a pull request unless the user explicitly authorizes that merge.
+- Open the pull request and stop. Report the URL.
+- Force-push to `main` is not allowed.
