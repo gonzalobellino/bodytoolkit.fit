@@ -8,7 +8,7 @@ import { cn } from "./utils";
 function ResizablePanelGroup({
   className,
   ...props
-}: React.ComponentProps<typeof ResizablePrimitive.PanelGroup>) {
+}: React.ComponentProps<typeof ResizablePrimitive.PanelGroup>): React.JSX.Element {
   return (
     <ResizablePrimitive.PanelGroup
       data-slot="resizable-panel-group"
@@ -23,7 +23,7 @@ function ResizablePanelGroup({
 
 function ResizablePanel({
   ...props
-}: React.ComponentProps<typeof ResizablePrimitive.Panel>) {
+}: React.ComponentProps<typeof ResizablePrimitive.Panel>): React.JSX.Element {
   return <ResizablePrimitive.Panel data-slot="resizable-panel" {...props} />;
 }
 
@@ -33,7 +33,7 @@ function ResizableHandle({
   ...props
 }: React.ComponentProps<typeof ResizablePrimitive.PanelResizeHandle> & {
   withHandle?: boolean;
-}) {
+}): React.JSX.Element {
   return (
     <ResizablePrimitive.PanelResizeHandle
       data-slot="resizable-handle"

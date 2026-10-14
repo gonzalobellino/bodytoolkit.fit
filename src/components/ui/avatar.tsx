@@ -7,7 +7,7 @@ import { cn } from "./utils";
 function Avatar({
   className,
   ...props
-}: React.ComponentProps<typeof AvatarPrimitive.Root>) {
+}: React.ComponentProps<typeof AvatarPrimitive.Root>): React.JSX.Element {
   return (
     <AvatarPrimitive.Root
       data-slot="avatar"
@@ -23,7 +23,7 @@ function Avatar({
 function AvatarImage({
   className,
   ...props
-}: React.ComponentProps<typeof AvatarPrimitive.Image>) {
+}: React.ComponentProps<typeof AvatarPrimitive.Image>): React.JSX.Element {
   return (
     <AvatarPrimitive.Image
       data-slot="avatar-image"
@@ -36,7 +36,7 @@ function AvatarImage({
 function AvatarFallback({
   className,
   ...props
-}: React.ComponentProps<typeof AvatarPrimitive.Fallback>) {
+}: React.ComponentProps<typeof AvatarPrimitive.Fallback>): React.JSX.Element {
   return (
     <AvatarPrimitive.Fallback
       data-slot="avatar-fallback"

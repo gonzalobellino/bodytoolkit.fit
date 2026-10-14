@@ -10,7 +10,7 @@ interface CalibrationDetectStepProps {
   onBack?: () => void;
 }
 
-export function CalibrationDetectStep({ onCalibrated, onBack }: CalibrationDetectStepProps) {
+export function CalibrationDetectStep({ onCalibrated, onBack }: CalibrationDetectStepProps): React.JSX.Element {
   const videoRef = useRef<HTMLVideoElement>(null);
   const overlayCanvasRef = useRef<HTMLCanvasElement>(null);
   const detectionIntervalRef = useRef<number | null>(null);
@@ -157,7 +157,7 @@ export function CalibrationDetectStep({ onCalibrated, onBack }: CalibrationDetec
     let animationFrameId: number | null = null;
     let isRunning = true;
 
-    const drawOverlay = () => {
+    const drawOverlay = (): void => {
       if (!isRunning || !video || !canvas) {
         return;
       }

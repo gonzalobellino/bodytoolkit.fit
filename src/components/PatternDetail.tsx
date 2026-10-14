@@ -12,7 +12,7 @@ interface PatternDetailProps {
   sectionLabel?: string;
 }
 
-export function PatternDetail({ pattern, onBack, allExercises, allAssessments, onNavigateToExercise, onNavigateToAssessment, sectionLabel = 'Movement Patterns' }: PatternDetailProps) {
+export function PatternDetail({ pattern, onBack, allExercises, allAssessments, onNavigateToExercise, onNavigateToAssessment, sectionLabel = 'Movement Patterns' }: PatternDetailProps): React.JSX.Element {
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);

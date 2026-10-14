@@ -5,7 +5,12 @@ import {
   type VideoPlaybackNotice,
 } from '../utils/videoPlayback';
 
-export function useVideoPlaybackNotice() {
+export function useVideoPlaybackNotice(): {
+  notice: VideoPlaybackNotice | null;
+  inspectFile: (file: File) => void;
+  inspectVideo: (video: HTMLVideoElement | null, commit?: boolean) => void;
+  reset: () => void;
+} {
   const hevcRef = useRef(false);
   const decodedRef = useRef(false);
   const requestRef = useRef(0);

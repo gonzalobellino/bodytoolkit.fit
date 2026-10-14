@@ -17,7 +17,7 @@ interface SendFormToClientProps {
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export function SendFormToClient({ open, onOpenChange, formId, formType, formName }: SendFormToClientProps) {
+export function SendFormToClient({ open, onOpenChange, formId, formType, formName }: SendFormToClientProps): React.JSX.Element {
   const [coachEmail, setCoachEmail] = useState('');
   const [coachName, setCoachName] = useState('');
   const [clientFirstName, setClientFirstName] = useState('');
@@ -30,7 +30,7 @@ export function SendFormToClient({ open, onOpenChange, formId, formType, formNam
 
   const isValidEmail = EMAIL_RE.test(coachEmail);
 
-  const generateUrl = () => {
+  const generateUrl = (): void => {
     if (!isValidEmail) return;
     const payload: { e: string; n: string; fn?: string; ln?: string; em?: string } = {
       e: coachEmail,
@@ -47,7 +47,7 @@ export function SendFormToClient({ open, onOpenChange, formId, formType, formNam
     setGeneratedUrl(url);
   };
 
-  const copyLink = async () => {
+  const copyLink = async (): Promise<void> => {
     if (!generatedUrl) return;
     try {
       await navigator.clipboard.writeText(generatedUrl);
@@ -58,7 +58,7 @@ export function SendFormToClient({ open, onOpenChange, formId, formType, formNam
     }
   };
 
-  const shareLink = async () => {
+  const shareLink = async (): Promise<void> => {
     if (!generatedUrl || !navigator.share) return;
     const shareTitle = formName;
     const shareText =
@@ -76,7 +76,7 @@ export function SendFormToClient({ open, onOpenChange, formId, formType, formNam
     }
   };
 
-  const downloadQR = () => {
+  const downloadQR = (): void => {
     const canvas = qrRef.current;
     if (!canvas) return;
     const link = document.createElement('a');
@@ -85,7 +85,7 @@ export function SendFormToClient({ open, onOpenChange, formId, formType, formNam
     link.click();
   };
 
-  const handleClose = () => {
+  const handleClose = (): void => {
     setCoachEmail('');
     setCoachName('');
     setClientFirstName('');

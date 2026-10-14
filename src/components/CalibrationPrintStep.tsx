@@ -8,7 +8,7 @@ interface CalibrationPrintStepProps {
   onNext: () => void;
 }
 
-export function CalibrationPrintStep({ onNext }: CalibrationPrintStepProps) {
+export function CalibrationPrintStep({ onNext }: CalibrationPrintStepProps): React.JSX.Element {
   const pdfUrl = '/data/aruco_ids_0_1_100mm.pdf';
 
   return (

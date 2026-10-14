@@ -120,7 +120,7 @@ function formatObsLabel(joint: string, side: string, view: string): string {
   return `${s} ${j} — ${v}`;
 }
 
-export function VisualAssessment({ onBack }: VisualAssessmentProps) {
+export function VisualAssessment({ onBack }: VisualAssessmentProps): React.JSX.Element {
   const [view, setView] = useState<AssessmentView>('front');
   const [selectedJoint, setSelectedJoint] = useState<string | null>(null);
   const [side, setSide] = useState<string>('midline');
@@ -140,7 +140,7 @@ export function VisualAssessment({ onBack }: VisualAssessmentProps) {
     }
   }, [view]);
 
-  const handleJointClick = (joint: string, jointSide: string) => {
+  const handleJointClick = (joint: string, jointSide: string): void => {
     const rawSide = jointSide || 'midline';
 
     if (selectedJoint === joint && side === rawSide) {
@@ -158,7 +158,7 @@ export function VisualAssessment({ onBack }: VisualAssessmentProps) {
     setNotes('');
   };
 
-  const handleObservationToggle = (option: string) => {
+  const handleObservationToggle = (option: string): void => {
     setSelectedObservations(prev =>
       prev.includes(option)
         ? prev.filter(o => o !== option)
@@ -166,7 +166,7 @@ export function VisualAssessment({ onBack }: VisualAssessmentProps) {
     );
   };
 
-  const handleSave = () => {
+  const handleSave = (): void => {
     if (!selectedJoint) return;
 
     const record: Observation = {
@@ -186,7 +186,7 @@ export function VisualAssessment({ onBack }: VisualAssessmentProps) {
     setNotes('');
   };
 
-  const handleExportCSV = () => {
+  const handleExportCSV = (): void => {
     const rows: string[][] = [
       ['timestamp', 'label', 'view', 'joint', 'side', 'observations', 'pain_level', 'notes']
     ];
@@ -219,13 +219,13 @@ export function VisualAssessment({ onBack }: VisualAssessmentProps) {
     URL.revokeObjectURL(url);
   };
 
-  const getImageSrc = () => {
+  const getImageSrc = (): "/images/silueta_back.jpg" | "/images/silueta_sagital.jpg" | "/images/silueta_front.jpg" => {
     if (view === 'back') return '/images/silueta_back.jpg';
     if (view === 'sagittal') return '/images/silueta_sagital.jpg';
     return '/images/silueta_front.jpg';
   };
 
-  const getVisibleJoints = () => {
+  const getVisibleJoints = (): string[] => {
     const positions = jointPositions[view];
     return Object.keys(positions);
   };

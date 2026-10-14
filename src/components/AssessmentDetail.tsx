@@ -10,7 +10,7 @@ interface AssessmentDetailProps {
   sectionLabel?: string;
 }
 
-export function AssessmentDetail({ assessment, onBack, allPatterns, onNavigateToPattern, sectionLabel = 'Assessments' }: AssessmentDetailProps) {
+export function AssessmentDetail({ assessment, onBack, allPatterns, onNavigateToPattern, sectionLabel = 'Assessments' }: AssessmentDetailProps): React.JSX.Element {
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);

@@ -18,7 +18,7 @@ export function useFullscreen({
   
   // Listen for fullscreen changes (e.g., user pressing Escape)
   useEffect(() => {
-    const handleFullscreenChange = () => {
+    const handleFullscreenChange = (): void => {
       setIsFullscreen(Boolean(document.fullscreenElement));
     };
     

@@ -29,7 +29,7 @@ interface HomePageProps {
   glossary: GlossaryTerms;
 }
 
-export function HomePage({ onNavigate, patterns, assessments, exercises, conditions, glossary }: HomePageProps) {
+export function HomePage({ onNavigate, patterns, assessments, exercises, conditions, glossary }: HomePageProps): React.JSX.Element {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [isSearchFocused, setIsSearchFocused] = useState(false);
@@ -217,7 +217,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
 
   // Close search dropdown when clicking outside
   useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
+    function handleClickOutside(event: MouseEvent): void {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
         setIsSearchFocused(false);
       }
@@ -226,7 +226,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleResultClick = (result: SearchResult) => {
+  const handleResultClick = (result: SearchResult): void => {
     // Navigate to the appropriate tab in Learn section, opening the selected item
     const tabMap: Record<SearchResult['type'], LearnTab> = {
       pattern: 'patterns',
@@ -239,7 +239,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     onNavigate('learn', tabMap[result.type], result.id);
   };
 
-  const getResultIcon = (type: SearchResult['type']) => {
+  const getResultIcon = (type: SearchResult['type']): React.JSX.Element => {
     switch (type) {
       case 'pattern': return <Footprints className="w-4 h-4 text-blue-500" />;
       case 'assessment': return <FileText className="w-4 h-4 text-indigo-500" />;
@@ -248,7 +248,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     }
   };
 
-  const getResultTypeLabel = (type: SearchResult['type']) => {
+  const getResultTypeLabel = (type: SearchResult['type']): string => {
     const labels: Record<SearchResult['type'], string> = {
       pattern: 'Pattern',
       assessment: 'Assessment',
@@ -258,7 +258,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     return labels[type];
   };
 
-  const handleSectionNavigate = (section: SectionKey) => {
+  const handleSectionNavigate = (section: SectionKey): void => {
     const navMap: Record<SectionKey, MainSection> = {
       learn: 'learn',
       practice: 'practice',
@@ -267,7 +267,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     onNavigate(navMap[section]);
   };
 
-  const clampIndex = (value: number, max: number) => Math.max(0, Math.min(value, max));
+  const clampIndex = (value: number, max: number): number => Math.max(0, Math.min(value, max));
 
   const handleSwipe = (
     touchRef: React.RefObject<number | null>,
@@ -275,7 +275,7 @@ export function HomePage({ onNavigate, patterns, assessments, exercises, conditi
     currentIndex: number,
     maxIndex: number,
     setter: React.Dispatch<React.SetStateAction<number>>
-  ) => {
+  ): void => {
     const threshold = 40;
     if (Math.abs(deltaX) < threshold) return;
     if (deltaX > 0) {

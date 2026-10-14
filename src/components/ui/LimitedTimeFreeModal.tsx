@@ -18,7 +18,7 @@ export function LimitedTimeFreeModal({
   onOpenChange,
   featureName,
   onGetStarted,
-}: LimitedTimeFreeModalProps) {
+}: LimitedTimeFreeModalProps): React.JSX.Element {
   const [email, setEmail] = useState('');
   const [error, setError] = useState<string | null>(null);
 
@@ -29,7 +29,7 @@ export function LimitedTimeFreeModal({
     }
   }, [open]);
 
-  const handleGetStarted = (e: React.FormEvent) => {
+  const handleGetStarted = (e: React.FormEvent): void => {
     e.preventDefault();
     setError(null);
     const trimmed = email.trim().toLowerCase();

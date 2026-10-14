@@ -9,7 +9,7 @@ interface ContactPageProps {
   onBack: () => void;
 }
 
-export function ContactPage({ onBack }: ContactPageProps) {
+export function ContactPage({ onBack }: ContactPageProps): React.JSX.Element {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -18,7 +18,7 @@ export function ContactPage({ onBack }: ContactPageProps) {
   const [subject, setSubject] = useState('General Inquiry');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent): Promise<void> => {
     e.preventDefault();
     setError(null);
     setLoading(true);

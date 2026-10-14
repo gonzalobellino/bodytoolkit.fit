@@ -17,7 +17,7 @@ export function PlumbLineButton({
   toolbarExpanded,
   buttonClass,
   labelClass,
-}: PlumbLineButtonProps) {
+}: PlumbLineButtonProps): React.JSX.Element {
   return (
     <Button
       variant={selectedTool === 'plumbline' ? 'default' : 'ghost'}

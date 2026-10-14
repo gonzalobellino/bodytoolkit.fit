@@ -18,7 +18,7 @@ interface SubscriptionModalProps {
   featureName?: string;
 }
 
-export function SubscriptionModal({ open, onOpenChange, featureName }: SubscriptionModalProps) {
+export function SubscriptionModal({ open, onOpenChange, featureName }: SubscriptionModalProps): React.JSX.Element {
   const [notifyEmail, setNotifyEmail] = useState('');
   const [notifyLoading, setNotifyLoading] = useState(false);
   const [notifySubmitted, setNotifySubmitted] = useState(false);
@@ -44,7 +44,7 @@ export function SubscriptionModal({ open, onOpenChange, featureName }: Subscript
   const { activateTier } = usePremium();
   const [loading, setLoading] = useState<string | null>(null);
 
-  const handleSubscribe = async (plan: PricingPlan = PRICING_PLAN) => {
+  const handleSubscribe = async (plan: PricingPlan = PRICING_PLAN): Promise<void> => {
     setLoading(plan.id);
     
     try {
@@ -83,7 +83,7 @@ export function SubscriptionModal({ open, onOpenChange, featureName }: Subscript
     }
   };
 
-  const handleNotifySubmit = async (e: React.FormEvent) => {
+  const handleNotifySubmit = async (e: React.FormEvent): Promise<void> => {
     e.preventDefault();
     setNotifyError(null);
     if (!notifyEmail.trim()) {

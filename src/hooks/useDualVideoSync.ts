@@ -9,7 +9,17 @@ interface UseDualVideoSyncOptions {
 /** Only exposes control functions — video state (currentTime, duration, isPlaying)
  *  is tracked directly in the component via onTimeUpdate / onPlay / etc. handlers,
  *  which avoids the event-listener timing bug caused by conditionally rendered videos. */
-export function useDualVideoSync({ video1Ref, video2Ref, locked }: UseDualVideoSyncOptions) {
+export function useDualVideoSync({ video1Ref, video2Ref, locked }: UseDualVideoSyncOptions): {
+  playbackRate: number;
+  playBoth: () => void;
+  pauseBoth: () => void;
+  playSingle: (num: 1 | 2) => void;
+  pauseSingle: (num: 1 | 2) => void;
+  seek: (time: number, videoNum: 1 | 2) => void;
+  setSpeed: (rate: number) => void;
+  step: (direction: number, frameRate?: number, videoNum?: 1 | 2) => void;
+  formatTime: (seconds: number) => string;
+} {
   const [playbackRate, setPlaybackRate] = useState(1);
 
   const playBoth = useCallback(() => {
@@ -49,7 +59,7 @@ export function useDualVideoSync({ video1Ref, video2Ref, locked }: UseDualVideoS
   /** Step one frame. When locked both videos step; otherwise only the given video. */
   const step = useCallback((direction: number, frameRate = 30, videoNum: 1 | 2 = 1) => {
     const stepSize = direction / frameRate;
-    const apply = (v: HTMLVideoElement | null) => {
+    const apply = (v: HTMLVideoElement | null): void => {
       if (!v) return;
       v.pause();
       v.currentTime = Math.max(0, v.currentTime + stepSize);

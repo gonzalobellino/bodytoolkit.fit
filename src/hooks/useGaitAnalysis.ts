@@ -82,7 +82,17 @@ const KP = {
   RIGHT_WRIST: 10,
 };
 
-export function useGaitAnalysis() {
+export function useGaitAnalysis(): {
+  phases: GaitPhase[];
+  metrics: GaitMetrics | null;
+  compensations: GaitCompensation[];
+  isAnalyzing: boolean;
+  patternStatus: GaitPatternStatus | null;
+  processKeypoints: (keypoints: Keypoint[], timestamp: number) => void;
+  startAnalysis: () => void;
+  stopAnalysis: () => void;
+  resetAnalysis: () => void;
+} {
   const [phases, setPhases] = useState<GaitPhase[]>([]);
   const [metrics, setMetrics] = useState<GaitMetrics | null>(null);
   const [compensations, setCompensations] = useState<GaitCompensation[]>([]);
@@ -126,7 +136,7 @@ export function useGaitAnalysis() {
   const analyzePatterns = useCallback((keypoints: Keypoint[], timestamp: number): GaitPatternStatus => {
     // Scale pixel-based thresholds by estimated body height.
     const bodyHeight = estimateBodyHeight(keypoints) ?? BASE_BODY_HEIGHT_PX;
-    const px = (ratio: number) => ratio * bodyHeight;
+    const px = (ratio: number): number => ratio * bodyHeight;
 
     const leftHip = getKeypointByIndex(keypoints, KP.LEFT_HIP);
     const rightHip = getKeypointByIndex(keypoints, KP.RIGHT_HIP);

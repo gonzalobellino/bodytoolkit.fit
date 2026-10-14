@@ -104,12 +104,12 @@ const FALLBACK_PRESETS: PosePresetFile = {
   ],
 };
 
-export function usePosePresets(featureId?: string, movementId?: string) {
+export function usePosePresets(featureId?: string, movementId?: string): { presets: PosePreset[]; defaultPresetId: string; } {
   const [presetFile, setPresetFile] = useState<PosePresetFile>(FALLBACK_PRESETS);
 
   useEffect(() => {
     let active = true;
-    async function loadPresets() {
+    async function loadPresets(): Promise<void> {
       try {
         const response = await fetch('/data/pose-presets.json');
         if (!response.ok) {

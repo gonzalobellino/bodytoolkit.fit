@@ -44,7 +44,7 @@ interface MovementComparisonProps {
   onBack: () => void;
 }
 
-export function MovementComparison({ onBack }: MovementComparisonProps) {
+export function MovementComparison({ onBack }: MovementComparisonProps): React.JSX.Element {
   const { notice: videoPlaybackNotice, inspectFile: inspectVideoFile, inspectVideo: inspectVideoElement } = useVideoPlaybackNotice();
   const { hasFeature } = usePremium();
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
@@ -141,20 +141,20 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
   };
   const KEYPOINT_THRESHOLD = tuningParams?.scoreThreshold ?? 0.3;
 
-  const getKeypoint = (keypoints: Keypoint[], names: string[]) => {
+  const getKeypoint = (keypoints: Keypoint[], names: string[]): Keypoint | null => {
     const kp = names
       .map(name => findKeypoint(keypoints, name))
       .find(candidate => candidate && candidate.score >= KEYPOINT_THRESHOLD);
     return kp ?? null;
   };
 
-  const averageAngles = (values: Array<number | null>) => {
+  const averageAngles = (values: Array<number | null>): number | null => {
     const filtered = values.filter((value): value is number => value !== null);
     if (filtered.length === 0) return null;
     return filtered.reduce((sum, value) => sum + value, 0) / filtered.length;
   };
 
-  const getJointAngle = (keypoints: Keypoint[], joint: string, side: 'left' | 'right') => {
+  const getJointAngle = (keypoints: Keypoint[], joint: string, side: 'left' | 'right'): number | null => {
     const hip = getKeypoint(keypoints, [`${side}_hip`, `hip_${side}`]);
     const shoulder = getKeypoint(keypoints, [`${side}_shoulder`, `shoulder_${side}`]);
     const elbow = getKeypoint(keypoints, [`${side}_elbow`, `elbow_${side}`]);
@@ -186,7 +186,7 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     return null;
   };
 
-  const getMeasuredValue = (keypoints: Keypoint[], joint: string, movement: string) => {
+  const getMeasuredValue = (keypoints: Keypoint[], joint: string, movement: string): number | null => {
     if (movement !== 'flexion' && movement !== 'dorsiflexion') {
       return null;
     }
@@ -243,7 +243,7 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     };
   }, [videoUrl]);
   
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const file = e.target.files?.[0];
     if (file) {
       inspectVideoFile(file);
@@ -252,20 +252,20 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     }
   };
   
-  const handleTimeUpdate = () => {
+  const handleTimeUpdate = (): void => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
     }
   };
   
-  const handleLoadedMetadata = () => {
+  const handleLoadedMetadata = (): void => {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
       inspectVideoElement(videoRef.current);
     }
   };
   
-  const togglePlayPause = () => {
+  const togglePlayPause = (): void => {
     if (videoRef.current) {
       if (isPlaying) {
         videoRef.current.pause();
@@ -276,13 +276,13 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     }
   };
   
-  const formatTime = (time: number) => {
+  const formatTime = (time: number): string => {
     const mins = Math.floor(time / 60);
     const secs = Math.floor(time % 60);
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
   
-  const getStatusColor = (status: string) => {
+  const getStatusColor = (status: string): "text-emerald-600" | "text-blue-600" | "text-orange-600" | "text-slate-600" => {
     switch (status) {
       case 'within_normal': return 'text-emerald-600';
       case 'above_normal': return 'text-blue-600';
@@ -291,7 +291,7 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     }
   };
   
-  const getStatusLabel = (status: string) => {
+  const getStatusLabel = (status: string): string => {
     switch (status) {
       case 'within_normal': return 'Normal';
       case 'above_normal': return 'Above Average';
@@ -300,7 +300,7 @@ export function MovementComparison({ onBack }: MovementComparisonProps) {
     }
   };
   
-  const getPercentileColor = (percentile: number) => {
+  const getPercentileColor = (percentile: number): "[&>div]:bg-emerald-500" | "[&>div]:bg-blue-500" | "[&>div]:bg-yellow-500" | "[&>div]:bg-red-500" => {
     if (percentile >= 75) return '[&>div]:bg-emerald-500';
     if (percentile >= 50) return '[&>div]:bg-blue-500';
     if (percentile >= 25) return '[&>div]:bg-yellow-500';

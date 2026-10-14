@@ -10,7 +10,7 @@ interface ExerciseDetailProps {
   sectionLabel?: string;
 }
 
-export function ExerciseDetail({ exercise, onBack, allPatterns, onNavigateToPattern, sectionLabel = 'Exercise Library' }: ExerciseDetailProps) {
+export function ExerciseDetail({ exercise, onBack, allPatterns, onNavigateToPattern, sectionLabel = 'Exercise Library' }: ExerciseDetailProps): React.JSX.Element {
   // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);

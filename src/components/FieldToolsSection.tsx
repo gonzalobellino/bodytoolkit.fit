@@ -119,7 +119,7 @@ const tools: Tool[] = [
   },
 ];
 
-export function FieldToolsSection({ onBack, questionnaires, functionalScales }: FieldToolsSectionProps) {
+export function FieldToolsSection({ onBack, questionnaires, functionalScales }: FieldToolsSectionProps): React.JSX.Element {
   const [currentView, setCurrentView] = useState<ToolView>('list');
   const { hasFeature } = usePremium();
 
@@ -206,7 +206,7 @@ export function FieldToolsSection({ onBack, questionnaires, functionalScales }: 
             const isPremiumFeature = tool.premium && !tool.comingSoon;
             const hasAccess = isPremiumFeature ? hasFeature('dualVideoSync') : true;
             
-            const handleClick = () => {
+            const handleClick = (): void => {
               if (tool.comingSoon) return;
               
               if (isPremiumFeature && !hasAccess) {

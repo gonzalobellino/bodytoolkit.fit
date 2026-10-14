@@ -29,7 +29,7 @@ const DEFAULT_SETTINGS: CalibrationSettings = {
 // Dynamic import for js-aruco2 (heavy library)
 let AR: typeof import('js-aruco2').AR | null = null;
 
-async function loadArucoLibrary() {
+async function loadArucoLibrary(): Promise<typeof import('js-aruco2').AR> {
   if (!AR) {
     const aruco = await import('js-aruco2');
     AR = aruco.AR;
@@ -37,7 +37,17 @@ async function loadArucoLibrary() {
   return AR;
 }
 
-export function useArucoCalibration(settings: Partial<CalibrationSettings> = {}) {
+export function useArucoCalibration(settings: Partial<CalibrationSettings> = {}): {
+  calibration: CalibrationResult;
+  isDetecting: boolean;
+  error: string | null;
+  detectMarkers: (source: HTMLVideoElement | HTMLImageElement | HTMLCanvasElement) => Promise<CalibrationResult | null>;
+  pixelsToCm: (pixels: number) => number | null;
+  pixelsToVelocity: (pixelsPerFrame: number, fps?: number) => number | null;
+  setManualCalibration: (patientHeightCm: number, bodyHeightPx: number) => void;
+  resetCalibration: () => void;
+  initDetector: () => Promise<boolean>;
+} {
   const config = { ...DEFAULT_SETTINGS, ...settings };
   
   const [calibration, setCalibration] = useState<CalibrationResult>({
@@ -137,7 +147,7 @@ export function useArucoCalibration(settings: Partial<CalibrationSettings> = {})
 
       if (marker1 && marker2) {
         // Calculate center of each marker
-        const getCenter = (corners: { x: number; y: number }[]) => ({
+        const getCenter = (corners: { x: number; y: number }[]): { x: number; y: number; } => ({
           x: corners.reduce((sum, c) => sum + c.x, 0) / corners.length,
           y: corners.reduce((sum, c) => sum + c.y, 0) / corners.length,
         });

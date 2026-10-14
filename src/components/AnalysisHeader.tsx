@@ -24,7 +24,7 @@ export function AnalysisHeader({
   isFullscreen = false,
   maxWidth = 'default',
   rightContent,
-}: AnalysisHeaderProps) {
+}: AnalysisHeaderProps): React.JSX.Element | null {
   const maxWidthClass = maxWidth === 'wide' ? 'max-w-[1800px]' : 'max-w-7xl';
   
   if (isFullscreen) return null;

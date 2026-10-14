@@ -49,7 +49,17 @@ export function usePoseDetection({
   modelType = 'movenet',
   threshold = 0.25,
   tuning,
-}: UsePoseDetectionOptions) {
+}: UsePoseDetectionOptions): {
+  isLoading: boolean;
+  isReady: boolean;
+  error: string | null;
+  currentPose: Pose | null;
+  keypoints: Keypoint[];
+  keypoints3D: (Keypoint & { z?: number; })[];
+  cameraOrientation: CameraOrientationResult;
+  debugInfo: { source: "keypoints" | "keypoints3D" | "none"; rawCount: number; rawMinX: number; rawMaxX: number; rawMinY: number; rawMaxY: number; qualityScore?: number; missingCriticalKeypoints?: string[]; };
+  detectPose: (options?: { force?: boolean; }) => Promise<Pose | null>;
+} {
   // TODO: Tune threshold, smoothing, and stability filters per sport/context.
   // TODO: Add sport presets (golf/swim/grappling) that adjust the parameters below.
   // TODO: Verify sport-specific analysis features default to BlazePose where extra keypoints help.
@@ -111,7 +121,7 @@ export function usePoseDetection({
 
   // Validate pose completeness (now effectiveThreshold is defined)
   const validatePoseCompleteness = useCallback((keypoints: Keypoint[]): {
-    isValid: boolean;
+   isValid: boolean;
     missingKeypoints: string[];
     confidence: number;
   } => {
@@ -194,7 +204,7 @@ export function usePoseDetection({
 
     let cancelled = false;
 
-    async function loadDetector() {
+    async function loadDetector(): Promise<void> {
       setIsLoading(true);
       setError(null);
 
@@ -465,7 +475,7 @@ export function usePoseDetection({
     let timeUpdateThrottleTimer: number | null = null;
 
     // Detection function with throttling (for playback)
-    const detect = async () => {
+    const detect = async (): Promise<void> => {
       if (!video || isDetectingRef.current) {
         // Continue loop if playing, even if detection is in progress
         if (video && !video.paused && !video.ended) {
@@ -499,7 +509,7 @@ export function usePoseDetection({
     };
 
     // Handle time updates during scrubbing (when paused)
-    const handleTimeUpdate = () => {
+    const handleTimeUpdate = (): void => {
       if (!video || isDetectingRef.current) return;
 
       // Only handle timeupdate when paused (scrubbing)
@@ -529,7 +539,7 @@ export function usePoseDetection({
       }, 50); // Debounce timeupdate by 50ms
     };
 
-    const handlePlay = () => {
+    const handlePlay = (): void => {
       lastProcessedTime = -1; // Reset to force detection on play
       if (timeUpdateThrottleTimer) {
         clearTimeout(timeUpdateThrottleTimer);
@@ -540,7 +550,7 @@ export function usePoseDetection({
       }
     };
 
-    const handlePause = () => {
+    const handlePause = (): void => {
       // Don't stop detection - we want to detect during scrubbing when paused
       // Just stop the animation frame loop
       if (animationFrameRef.current) {
@@ -549,7 +559,7 @@ export function usePoseDetection({
       }
     };
 
-    const handleEmptied = () => {
+    const handleEmptied = (): void => {
       // Fires when src is cleared (video deleted). Reset smoothing so stale keypoints
       // from the old video never bleed into the next loaded video.
       previousKeypointsRef.current = null;
@@ -557,7 +567,7 @@ export function usePoseDetection({
       lastProcessedTime = -1;
     };
 
-    const handleSeeked = () => {
+    const handleSeeked = (): void => {
       // Force detection immediately on seek.
       // Reset both smoothing refs so the time-jump guard in smoothKeypoints
       // can correctly detect that the next detection is for a new position.

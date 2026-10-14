@@ -10,7 +10,28 @@ interface UseVideoPlayerOptions {
   frameRate?: number;
 }
 
-export function useVideoPlayer({ videoRef, frameRate = 30 }: UseVideoPlayerOptions) {
+export function useVideoPlayer({ videoRef, frameRate = 30 }: UseVideoPlayerOptions): {
+  isPlaying: boolean;
+  currentTime: number;
+  duration: number;
+  playbackRate: number;
+  markers: Marker[];
+  loopEnabled: boolean;
+  loopStart: number | null;
+  loopEnd: number | null;
+  play: () => void;
+  pause: () => void;
+  step: (direction: number) => void;
+  jumpToStart: () => void;
+  jumpToEnd: () => void;
+  seek: (time: number) => void;
+  setSpeed: (rate: number) => void;
+  addMarker: () => void;
+  deleteMarker: (id: number) => void;
+  jumpToMarker: (time: number) => void;
+  toggleLoop: () => void;
+  formatTime: (seconds: number) => string;
+} {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -31,7 +52,7 @@ export function useVideoPlayer({ videoRef, frameRate = 30 }: UseVideoPlayerOptio
   const startRenderLoop = useCallback(() => {
     if (renderLoopRef.current !== null) return;
     
-    const render = () => {
+    const render = (): void => {
       const video = videoRef.current;
       if (video && !video.paused) {
         renderLoopRef.current = requestAnimationFrame(render);
@@ -53,24 +74,24 @@ export function useVideoPlayer({ videoRef, frameRate = 30 }: UseVideoPlayerOptio
     const video = videoRef.current;
     if (!video) return;
 
-    const handleLoadedMetadata = () => {
+    const handleLoadedMetadata = (): void => {
       setDuration(video.duration ?? 0);
       setCurrentTime(video.currentTime ?? 0);
     };
 
-    const handleTimeUpdate = () => {
+    const handleTimeUpdate = (): void => {
       updateTime();
       if (loopEnabled && loopEnd !== null && video.currentTime >= loopEnd) {
         video.currentTime = loopStart ?? 0;
       }
     };
 
-    const handlePlay = () => {
+    const handlePlay = (): void => {
       setIsPlaying(true);
       startRenderLoop();
     };
 
-    const handlePause = () => {
+    const handlePause = (): void => {
       setIsPlaying(false);
       stopRenderLoop();
     };

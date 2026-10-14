@@ -25,12 +25,12 @@ interface SamplePoint {
   pelvis?: { x: number; y: number };
 }
 
-const getMidpoint = (a?: Keypoint | null, b?: Keypoint | null) => {
+const getMidpoint = (a?: Keypoint | null, b?: Keypoint | null): { x: number; y: number; } | null => {
   if (!a || !b) return null;
   return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 };
 };
 
-const getRotationAngle = (left?: Keypoint | null, right?: Keypoint | null) => {
+const getRotationAngle = (left?: Keypoint | null, right?: Keypoint | null): number | null => {
   if (!left || !right) return null;
   const dx = right.x - left.x;
   const dy = right.y - left.y;
@@ -41,7 +41,7 @@ const getRotationAngle = (left?: Keypoint | null, right?: Keypoint | null) => {
   return angle;
 };
 
-const computeStdDev = (values: number[]) => {
+const computeStdDev = (values: number[]): number => {
   if (!values.length) return 0;
   const mean = values.reduce((sum, value) => sum + value, 0) / values.length;
   const variance = values.reduce((sum, value) => sum + Math.pow(value - mean, 2), 0) / values.length;
@@ -57,8 +57,8 @@ const estimateBodyHeight = (keypoints: {
   rightKnee: Keypoint | null;
   leftAnkle: Keypoint | null;
   rightAnkle: Keypoint | null;
-}) => {
-  const segmentLength = (a?: Keypoint | null, b?: Keypoint | null) => {
+}): number | null => {
+  const segmentLength = (a?: Keypoint | null, b?: Keypoint | null): number | null => {
     if (!a || !b) return null;
     return Math.hypot(a.x - b.x, a.y - b.y);
   };
@@ -87,7 +87,7 @@ const estimateBodyHeight = (keypoints: {
   return Math.abs(bottomY - topY);
 };
 
-export function usePoseMetrics({ keypoints, timeSec, windowSec = 1.5 }: PoseMetricsOptions) {
+export function usePoseMetrics({ keypoints, timeSec, windowSec = 1.5 }: PoseMetricsOptions): { metrics: PoseMetrics; markSwingStart: () => void; markImpact: () => void; clearSwingMarkers: () => void; } {
   const historyRef = useRef<SamplePoint[]>([]);
   const lastTimeRef = useRef<number | null>(null);
   const [markers, setMarkers] = useState<{ swingStartTime?: number; impactTime?: number }>({});
@@ -118,7 +118,7 @@ export function usePoseMetrics({ keypoints, timeSec, windowSec = 1.5 }: PoseMetr
   useEffect(() => { markersRef.current = markers; }, [markers]);
 
   const keypointMap = useMemo(() => {
-    const get = (names: string[]) => {
+    const get = (names: string[]): Keypoint | null => {
       for (const name of names) {
         const kp = findKeypoint(keypoints, name);
         if (kp) return kp;

@@ -7,7 +7,7 @@ interface CalibrationPlaceStepProps {
   onNext: () => void;
 }
 
-export function CalibrationPlaceStep({ onNext }: CalibrationPlaceStepProps) {
+export function CalibrationPlaceStep({ onNext }: CalibrationPlaceStepProps): React.JSX.Element {
   return (
     <Card>
       <CardHeader className="pb-2">

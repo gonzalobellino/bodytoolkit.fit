@@ -44,7 +44,7 @@ import {
 } from 'lucide-react';
 
 // ArUco marker icon (SVG inline, replicates the look of an ArUco sticker)
-const ArucoIcon = ({ className }: { className?: string }) => (
+const ArucoIcon = ({ className }: { className?: string }): React.JSX.Element => (
   <svg viewBox="0 0 12 12" className={className} xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <rect width="12" height="12" fill="black" />
     {/* White inner cells — pattern from ArUco 4x4 ID #0 */}
@@ -172,7 +172,7 @@ const cycleColor = (current: string): string => {
 };
 
 // Sound effects hook
-function useCountdownSounds() {
+function useCountdownSounds(): { playCountdownTick: () => void; playRecordStart: () => void; playRecordEnd: () => void; } {
   const audioContextRef = useRef<AudioContext | null>(null);
   
   const getAudioContext = useCallback(() => {
@@ -222,7 +222,7 @@ const videoScrubberClassName =
 const videoScrubberRestClassName =
   'w-full [&_[data-slot=slider-track]]:h-1 [&_[data-slot=slider-thumb]]:size-2';
 
-export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
+export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps): React.JSX.Element {
   useEnsurePageScroll(true);
   // Premium check
   const { hasFeature, activateTier } = usePremium();
@@ -599,7 +599,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   }, []);
 
   // Handle AI Analysis toggle
-  const handleToggleAiAnalysis = () => {
+  const handleToggleAiAnalysis = (): void => {
     if (!hasFeature('aiPoseDetection')) {
       openPremiumGate('AI Analysis', true);
       return;
@@ -623,7 +623,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   }, [pendingAiEnable, hasFeature]);
   
   // Handle Dual Video click
-  const handleDualVideoClick = () => {
+  const handleDualVideoClick = (): void => {
     if (!hasFeature('dualVideoSync')) {
       openPremiumGate('Dual Video Analysis');
       return;
@@ -823,7 +823,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   useEffect(() => {
     if (selectedKeypoint === null || keypointDragMode) return;
 
-    const handleClickOutside = (e: MouseEvent) => {
+    const handleClickOutside = (e: MouseEvent): void => {
       const target = e.target as HTMLElement;
       // Don't close if clicking on keypoint toolbar or its children
       if (target.closest('.keypoint-menu') || target.closest('[data-keypoint-toolbar]')) {
@@ -1188,7 +1188,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
         ctx.stroke();
         ctx.restore();
 
-        const labelFromArc = (arc: ReturnType<typeof getArcData>, value: number, radius: number) => {
+        const labelFromArc = (arc: ReturnType<typeof getArcData>, value: number, radius: number): void => {
           if (arc.arcAngle < 0.5) return;
           drawAngleText(
             ctx,
@@ -1327,7 +1327,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   }, [renderCanvas]);
 
   useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
+    const onKeyDown = (e: KeyboardEvent): void => {
       if (e.key !== 'Delete' && e.key !== 'Backspace') return;
       const target = e.target as HTMLElement | null;
       if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || (target as HTMLElement).isContentEditable)) {
@@ -1389,7 +1389,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
         return;
       }
 
-      const mapPoint = (p: Point) => {
+      const mapPoint = (p: Point): void => {
         const normX = prev.drawWidth ? (p.x - prev.offsetX) / prev.drawWidth : 0;
         const normY = prev.drawHeight ? (p.y - prev.offsetY) / prev.drawHeight : 0;
         p.x = normX * next.drawWidth + next.offsetX;
@@ -1424,7 +1424,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     setPanOffset(prev => (prev.x === 0 && prev.y === 0 ? prev : { x: 0, y: 0 }));
     lastVideoMetricsRef.current = null;
 
-    const updateSize = () => {
+    const updateSize = (): void => {
       const el = containerRef.current;
       if (el) {
         const rect = el.getBoundingClientRect();
@@ -2019,7 +2019,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     }
   }, [cameraActive, syncPlaybackState, videoUrl]);
 
-  const handleTimeUpdate = () => {
+  const handleTimeUpdate = (): void => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
       
@@ -2031,7 +2031,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     }
   };
 
-  const handleLoadedMetadata = () => {
+  const handleLoadedMetadata = (): void => {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
       setCurrentTime(videoRef.current.currentTime);
@@ -2042,7 +2042,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     }
   };
 
-  const handleSeek = (value: number[]) => {
+  const handleSeek = (value: number[]): void => {
     if (videoRef.current) {
       videoRef.current.currentTime = value[0];
       setCurrentTime(value[0]);
@@ -2078,14 +2078,14 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     }
   }, [currentTime]);
   
-  const setSpeed = (speed: number) => {
+  const setSpeed = (speed: number): void => {
     if (videoRef.current) {
       videoRef.current.playbackRate = speed;
       setPlaybackRate(speed);
     }
   };
 
-  const toggleMute = () => {
+  const toggleMute = (): void => {
     if (videoRef.current) {
       videoRef.current.muted = !isMuted;
       setIsMuted(!isMuted);
@@ -2113,11 +2113,11 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
     setMarkers([...markers, newMarker]);
   }, [currentTime, selectedColor, markers]);
   
-  const deleteMarker = (id: string) => {
+  const deleteMarker = (id: string): void => {
     setMarkers(markers.filter(m => m.id !== id));
   };
   
-  const jumpToMarker = (time: number) => {
+  const jumpToMarker = (time: number): void => {
     if (videoRef.current) {
       videoRef.current.currentTime = time;
       setCurrentTime(time);
@@ -2133,27 +2133,27 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   }, []);
 
   // Loop controls
-  const setLoopStart = () => {
+  const setLoopStart = (): void => {
     setLoopPoints({ ...loopPoints, start: currentTime });
   };
 
-  const setLoopEnd = () => {
+  const setLoopEnd = (): void => {
     setLoopPoints({ ...loopPoints, end: currentTime });
   };
 
-  const clearLoop = () => {
+  const clearLoop = (): void => {
     setLoopPoints({ start: null, end: null });
     setIsLooping(false);
   };
 
-  const clearDrawings = () => {
+  const clearDrawings = (): void => {
     drawingsRef.current = [];
     pendingPointsRef.current = [];
     forceRender();
     scheduleRender();
   };
 
-  const formatTime = (seconds: number) => {
+  const formatTime = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
     const ms = Math.floor((seconds % 1) * 100);
@@ -2181,7 +2181,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   }, []);
 
   // Export current frame
-  const handleExport = async () => {
+  const handleExport = async (): Promise<void> => {
     if (!videoUrl) return;
 
     const exportCanvas = await buildWatermarkedFrame();
@@ -2194,7 +2194,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
   };
 
   // Share using Web Share API
-  const handleShare = async () => {
+  const handleShare = async (): Promise<void> => {
     try {
       const exportCanvas = await buildWatermarkedFrame();
       if (!exportCanvas) {
@@ -2238,7 +2238,7 @@ export function VideoAnalysis({ onBack, onSwitchToDual }: VideoAnalysisProps) {
 
   // Keyboard shortcuts
   useEffect(() => {
-    const handleKeyPress = (e: KeyboardEvent) => {
+    const handleKeyPress = (e: KeyboardEvent): void => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
       
       if (e.key === ' ') {

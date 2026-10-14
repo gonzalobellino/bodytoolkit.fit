@@ -7,7 +7,7 @@ interface FooterProps {
   onNavigate: (section: MainSection, learnTab?: LearnTab, learnItemId?: string) => void;
 }
 
-export function Footer({ onNavigate }: FooterProps) {
+export function Footer({ onNavigate }: FooterProps): React.JSX.Element {
   const [disclaimerExpanded, setDisclaimerExpanded] = useState(false);
   return (
     <footer className="bg-slate-900 text-slate-300 border-t border-slate-800">

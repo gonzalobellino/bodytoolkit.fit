@@ -40,7 +40,7 @@ export function CompensationAlerts({
   currentCompensations, 
   onDismiss,
   compact = false 
-}: CompensationAlertsProps) {
+}: CompensationAlertsProps): React.JSX.Element | null {
   if (currentCompensations.length === 0) return null;
 
   // Group by type and take highest severity for each
@@ -126,7 +126,7 @@ export function CompensationAlertOverlay({
   currentCompensations 
 }: { 
   currentCompensations: CompensationAlert[] 
-}) {
+}): React.JSX.Element | null {
   if (currentCompensations.length === 0) return null;
 
   // Only show severe and moderate alerts

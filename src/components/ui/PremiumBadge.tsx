@@ -8,7 +8,7 @@ interface PremiumBadgeProps {
   variant?: 'default' | 'small' | 'icon-only';
 }
 
-export function PremiumBadge({ className, variant = 'default' }: PremiumBadgeProps) {
+export function PremiumBadge({ className, variant = 'default' }: PremiumBadgeProps): React.JSX.Element {
   if (variant === 'icon-only') {
     return (
       <Crown className={cn('w-3.5 h-3.5 text-yellow-500', className)} />

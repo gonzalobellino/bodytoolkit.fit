@@ -7,7 +7,17 @@ interface UseCameraOptions {
   onCapture?: (image: HTMLImageElement) => void;
 }
 
-export function useCamera({ videoRef, onCapture }: UseCameraOptions) {
+export function useCamera({ videoRef, onCapture }: UseCameraOptions): {
+  stream: MediaStream | null;
+  cameraFacing: CameraFacing;
+  status: string;
+  isReady: boolean;
+  startPreview: () => Promise<void>;
+  stopPreview: () => void;
+  capturePhoto: () => void;
+  switchCamera: (facing: CameraFacing) => void;
+  setStatus: React.Dispatch<React.SetStateAction<string>>;
+} {
   const [stream, setStream] = useState<MediaStream | null>(null);
   const [cameraFacing, setCameraFacing] = useState<CameraFacing>('environment');
   const [status, setStatus] = useState<string>('Camera idle.');

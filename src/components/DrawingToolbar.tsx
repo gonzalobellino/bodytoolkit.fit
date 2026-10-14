@@ -45,7 +45,7 @@ export interface DrawingToolbarProps {
 }
 
 // Angle icon SVG
-const AngleIcon = ({ className }: { className?: string }) => (
+const AngleIcon = ({ className }: { className?: string }): React.JSX.Element => (
   <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor">
     <path d="M20 20L4 20L4 4" strokeWidth="2" strokeLinecap="round" />
     <path d="M4 20L16 8" strokeWidth="2" strokeLinecap="round" />
@@ -68,7 +68,7 @@ export function DrawingToolbar({
   extraSections,
   footerSections,
   className = '',
-}: DrawingToolbarProps) {
+}: DrawingToolbarProps): React.JSX.Element {
   const baseClass = `bg-white rounded-xl border border-slate-200 p-2 flex flex-col gap-2 sticky top-16 sm:top-20 transition-all duration-200`;
   const sizeClass = toolbarExpanded ? 'w-[140px]' : 'w-12';
   const disabledClass = disabled ? 'opacity-60 pointer-events-none' : '';

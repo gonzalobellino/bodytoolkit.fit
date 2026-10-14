@@ -12,7 +12,15 @@ export function useVideoRecording({
   onRecorded,
   duration = 8000,
   useCountdown = true,
-}: UseVideoRecordingOptions) {
+}: UseVideoRecordingOptions): {
+  recordingActive: boolean;
+  countdown: number;
+  countdownActive: boolean;
+  status: string;
+  startRecording: () => Promise<void>;
+  stopRecording: () => void;
+  setStatus: React.Dispatch<React.SetStateAction<string>>;
+} {
   const [recordingActive, setRecordingActive] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const [countdownActive, setCountdownActive] = useState(false);
@@ -157,7 +165,7 @@ export function useVideoRecording({
         recorderRef.current = null;
       };
 
-      const doRecord = () => {
+      const doRecord = (): void => {
         recorder.start();
         recorderRef.current = recorder;
         setRecordingActive(true);

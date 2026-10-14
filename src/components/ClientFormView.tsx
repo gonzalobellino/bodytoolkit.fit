@@ -77,7 +77,7 @@ interface ClientFormViewProps {
 
 type SubmitState = 'idle' | 'sending' | 'sent' | 'error';
 
-export function ClientFormView({ formId, formType, lang, coachEmail, coachName = '', clientPrefill }: ClientFormViewProps) {
+export function ClientFormView({ formId, formType, lang, coachEmail, coachName = '', clientPrefill }: ClientFormViewProps): React.JSX.Element {
   const [loadState, setLoadState] = useState<'loading' | 'ready' | 'not_found'>('loading');
   const [questionnaire, setQuestionnaire] = useState<Questionnaire | null>(null);
   const [scale, setScale] = useState<FunctionalScale | null>(null);
@@ -212,7 +212,7 @@ export function ClientFormView({ formId, formType, lang, coachEmail, coachName =
     return '';
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (): Promise<void> => {
     if (submitState === 'sending') return;
     setSubmitState('sending');
     setErrorMsg('');
@@ -374,7 +374,7 @@ interface ScaleFormProps {
   onClientDetailsChange: (d: { firstName: string; lastName: string; email: string }) => void;
 }
 
-function ScaleForm({ scale, answers, onAnswer, onSubmit, isSubmitting, lang, ui, clientDetails, onClientDetailsChange }: ScaleFormProps) {
+function ScaleForm({ scale, answers, onAnswer, onSubmit, isSubmitting, lang, ui, clientDetails, onClientDetailsChange }: ScaleFormProps): React.JSX.Element {
   const scaleDone = scale.questions.every((_, i) => answers[`q${i}`] !== undefined);
   const clientDone = clientDetails.firstName.trim() !== '' && clientDetails.lastName.trim() !== '' && clientDetails.email.trim() !== '';
   const allAnswered = scaleDone && clientDone;

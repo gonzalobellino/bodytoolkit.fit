@@ -10,7 +10,7 @@ interface QuizModeProps {
   onRestart?: () => void;
 }
 
-export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart }: QuizModeProps) {
+export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart }: QuizModeProps): React.JSX.Element {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | number[] | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -41,7 +41,7 @@ export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart 
     }
   }, [selectedAnswer, currentQuestion.correct, isMultiSelect]);
 
-  const handleAnswerSelect = (index: number) => {
+  const handleAnswerSelect = (index: number): void => {
     if (showExplanation) return;
     
     if (isMultiSelect) {
@@ -61,7 +61,7 @@ export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart 
     }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (): void => {
     if (selectedAnswer === null || (isMultiSelect && (selectedAnswer as number[]).length === 0)) return;
     setShowExplanation(true);
     if (isCorrect) {
@@ -69,7 +69,7 @@ export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart 
     }
   };
 
-  const handleNext = () => {
+  const handleNext = (): void => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(currentIndex + 1);
       setSelectedAnswer(null);
@@ -80,7 +80,7 @@ export function QuizMode({ questions, topicTitle, onComplete, onExit, onRestart 
     }
   };
 
-  const handleRestart = () => {
+  const handleRestart = (): void => {
     setCurrentIndex(0);
     setSelectedAnswer(null);
     setShowExplanation(false);

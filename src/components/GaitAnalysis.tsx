@@ -40,7 +40,7 @@ import { usePosePresets, type PoseTuningParams } from '../hooks/usePosePresets';
 import { useArucoCalibration } from '../hooks/useArucoCalibration';
 import { usePoseMetrics } from '../hooks/usePoseMetrics';
 
-const ArucoIcon = ({ className }: { className?: string }) => (
+const ArucoIcon = ({ className }: { className?: string }): React.JSX.Element => (
   <svg viewBox="0 0 12 12" className={className} xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <rect width="12" height="12" fill="black" />
     <rect x="4" y="2" width="2" height="2" fill="white" />
@@ -55,7 +55,7 @@ interface GaitAnalysisProps {
   onBack: () => void;
 }
 
-export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
+export function GaitAnalysis({ onBack }: GaitAnalysisProps): React.JSX.Element {
   const { notice: videoPlaybackNotice, inspectFile: inspectVideoFile, inspectVideo: inspectVideoElement } = useVideoPlaybackNotice();
   const { hasFeature } = usePremium();
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
@@ -140,13 +140,13 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
   } = useArucoCalibration();
 
   const [patientHeight, setPatientHeight] = useState<number | ''>('');
-  const handleApplyPatientHeight = () => {
+  const handleApplyPatientHeight = (): void => {
     if (patientHeight && poseMetrics.bodyHeight) {
       setManualCalibration(patientHeight, poseMetrics.bodyHeight);
     }
   };
 
-  const formatMetric = (value: number | undefined, decimals: number, suffix = '') => {
+  const formatMetric = (value: number | undefined, decimals: number, suffix = ''): string => {
     return value !== undefined ? `${value.toFixed(decimals)}${suffix}` : '--';
   };
 
@@ -155,7 +155,7 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     decimals: number,
     pixelUnit: string,
     centimeterUnit: string
-  ) => {
+  ): string => {
     if (value === undefined) return '--';
     if (calibration.isCalibrated && pixelsToCm) {
       const centimeters = pixelsToCm(value);
@@ -190,7 +190,7 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     };
   }, [videoUrl]);
   
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const file = e.target.files?.[0];
     if (file) {
       inspectVideoFile(file);
@@ -200,20 +200,20 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     }
   };
   
-  const handleTimeUpdate = () => {
+  const handleTimeUpdate = (): void => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
     }
   };
   
-  const handleLoadedMetadata = () => {
+  const handleLoadedMetadata = (): void => {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
       inspectVideoElement(videoRef.current);
     }
   };
   
-  const togglePlayPause = () => {
+  const togglePlayPause = (): void => {
     if (videoRef.current) {
       if (isPlaying) {
         videoRef.current.pause();
@@ -224,7 +224,7 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     }
   };
   
-  const handleStartAnalysis = () => {
+  const handleStartAnalysis = (): void => {
     if (!hasFeature('gaitAnalysis')) {
       setShowSubscriptionModal(true);
       return;
@@ -237,7 +237,7 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     }
   };
   
-  const handleStopAnalysis = () => {
+  const handleStopAnalysis = (): void => {
     stopAnalysis();
     if (videoRef.current) {
       videoRef.current.pause();
@@ -245,13 +245,13 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     }
   };
   
-  const formatTime = (time: number) => {
+  const formatTime = (time: number): string => {
     const mins = Math.floor(time / 60);
     const secs = Math.floor(time % 60);
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
   
-  const getCompensationColor = (severity: string) => {
+  const getCompensationColor = (severity: string): "bg-red-500" | "bg-orange-500" | "bg-yellow-500" | "bg-slate-500" => {
     switch (severity) {
       case 'severe': return 'bg-red-500';
       case 'moderate': return 'bg-orange-500';
@@ -260,7 +260,7 @@ export function GaitAnalysis({ onBack }: GaitAnalysisProps) {
     }
   };
   
-  const getCompensationLabel = (type: string) => {
+  const getCompensationLabel = (type: string): string => {
     switch (type) {
       case 'trendelenburg': return 'Trendelenburg Sign';
       case 'hip_drop': return 'Hip Drop';

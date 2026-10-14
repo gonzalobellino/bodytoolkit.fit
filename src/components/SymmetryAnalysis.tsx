@@ -37,7 +37,7 @@ import { VideoPlaybackBanner } from './VideoPlaybackBanner';
 import { usePosePresets, type PoseTuningParams } from '../hooks/usePosePresets';
 import { usePoseMetrics } from '../hooks/usePoseMetrics';
 
-const ArucoIcon = ({ className }: { className?: string }) => (
+const ArucoIcon = ({ className }: { className?: string }): React.JSX.Element => (
   <svg viewBox="0 0 12 12" className={className} xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
     <rect width="12" height="12" fill="black" />
     <rect x="4" y="2" width="2" height="2" fill="white" />
@@ -52,7 +52,7 @@ interface SymmetryAnalysisProps {
   onBack: () => void;
 }
 
-export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
+export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps): React.JSX.Element {
   const { notice: videoPlaybackNotice, inspectFile: inspectVideoFile, inspectVideo: inspectVideoElement } = useVideoPlaybackNotice();
   const { hasFeature } = usePremium();
   const [showSubscriptionModal, setShowSubscriptionModal] = useState(false);
@@ -143,13 +143,13 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
   } = useArucoCalibration();
 
   const [patientHeight, setPatientHeight] = useState<number | ''>('');
-  const handleApplyPatientHeight = () => {
+  const handleApplyPatientHeight = (): void => {
     if (patientHeight && poseMetrics.bodyHeight) {
       setManualCalibration(patientHeight, poseMetrics.bodyHeight);
     }
   };
 
-  const formatMetric = (value: number | undefined, decimals: number, suffix = '') => {
+  const formatMetric = (value: number | undefined, decimals: number, suffix = ''): string => {
     return value !== undefined ? `${value.toFixed(decimals)}${suffix}` : '--';
   };
 
@@ -158,7 +158,7 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
     decimals: number,
     pixelUnit: string,
     centimeterUnit: string
-  ) => {
+  ): string => {
     if (value === undefined) return '--';
     if (calibration.isCalibrated && pixelsToCm) {
       const centimeters = pixelsToCm(value);
@@ -184,7 +184,7 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
     };
   }, [videoUrl]);
   
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const file = e.target.files?.[0];
     if (file) {
       inspectVideoFile(file);
@@ -193,20 +193,20 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
     }
   };
   
-  const handleTimeUpdate = () => {
+  const handleTimeUpdate = (): void => {
     if (videoRef.current) {
       setCurrentTime(videoRef.current.currentTime);
     }
   };
   
-  const handleLoadedMetadata = () => {
+  const handleLoadedMetadata = (): void => {
     if (videoRef.current) {
       setDuration(videoRef.current.duration);
       inspectVideoElement(videoRef.current);
     }
   };
   
-  const togglePlayPause = () => {
+  const togglePlayPause = (): void => {
     if (videoRef.current) {
       if (isPlaying) {
         videoRef.current.pause();
@@ -217,7 +217,7 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
     }
   };
   
-  const captureFrame = (side: 'left' | 'right') => {
+  const captureFrame = (side: 'left' | 'right'): void => {
     if (!videoRef.current) return;
     
     const video = videoRef.current;
@@ -233,19 +233,19 @@ export function SymmetryAnalysis({ onBack }: SymmetryAnalysisProps) {
     }
   };
   
-  const formatTime = (time: number) => {
+  const formatTime = (time: number): string => {
     const mins = Math.floor(time / 60);
     const secs = Math.floor(time % 60);
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   };
   
-  const getScoreColor = (score: number) => {
+  const getScoreColor = (score: number): "text-yellow-600" | "text-red-600" | "text-emerald-600" => {
     if (score >= 90) return 'text-emerald-600';
     if (score >= 75) return 'text-yellow-600';
     return 'text-red-600';
   };
   
-  const getScoreBarColor = (score: number) => {
+  const getScoreBarColor = (score: number): "[&>div]:bg-emerald-500" | "[&>div]:bg-yellow-500" | "[&>div]:bg-red-500" => {
     if (score >= 90) return '[&>div]:bg-emerald-500';
     if (score >= 75) return '[&>div]:bg-yellow-500';
     return '[&>div]:bg-red-500';

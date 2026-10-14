@@ -10,7 +10,7 @@ type WatermarkOptions = {
 const defaultLogoSrc = '/images/logo.svg';
 let logoPromise: Promise<HTMLImageElement | null> | null = null;
 
-const loadLogo = (src: string) => {
+const loadLogo = (src: string): Promise<HTMLImageElement | null> => {
   if (!logoPromise) {
     logoPromise = new Promise((resolve) => {
       const img = new Image();
@@ -27,7 +27,7 @@ export const drawWatermark = async (
   width: number,
   height: number,
   options: WatermarkOptions = {}
-) => {
+): Promise<void> => {
   const text = options.text ?? 'CES Toolkit';
   const logoSrc = options.logoSrc ?? defaultLogoSrc;
   const textColor = options.textColor ?? '#0f172a';
@@ -73,7 +73,7 @@ export const drawWatermark = async (
 export const createWatermarkedCanvas = async (
   baseCanvas: HTMLCanvasElement,
   options?: WatermarkOptions
-) => {
+): Promise<HTMLCanvasElement | null> => {
   const exportCanvas = document.createElement('canvas');
   exportCanvas.width = baseCanvas.width;
   exportCanvas.height = baseCanvas.height;
