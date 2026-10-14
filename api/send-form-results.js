@@ -19,8 +19,6 @@ export default async function handler(req, res) {
     console.error('send-form-results: missing RESEND_API_KEY');
     return res.status(500).json({ error: 'Email service not configured' });
   }
-  const bccEmail = process.env.NOTIFY_ME_TO_EMAIL?.trim() || null;
-
   let body;
   try {
     body = typeof req.body === 'string' ? JSON.parse(req.body) : req.body || {};
@@ -63,7 +61,6 @@ export default async function handler(req, res) {
       subject: `[Body Toolkit] Client assessment: ${formName}`,
       html,
     };
-    if (bccEmail) payload.bcc = [bccEmail];
     const { data, error } = await resend.emails.send(payload);
 
     if (error) {
