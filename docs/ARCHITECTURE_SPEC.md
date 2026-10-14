@@ -46,6 +46,10 @@ The Corrective Exercise Toolkit is a Progressive Web App (PWA) built with React 
 - **Charts**: Recharts
 - **PDF Generation**: jsPDF
 - **Date Picker**: react-day-picker
+- **Pose analysis**: TensorFlow.js 4.22.0. `package.json` overrides its unused
+  `argparse` dependency to 2.0.1 because the declared 1.x dependency pulls in
+  vulnerable `sprintf-js`. Keep the override scoped to TensorFlow.js and recheck
+  it when updating TensorFlow.js.
 
 ## Project Structure
 
